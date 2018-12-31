@@ -1,4 +1,4 @@
-publishDir = "docs"
+publishDir = "public"
 # Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
 #
