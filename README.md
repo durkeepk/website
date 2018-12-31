@@ -1,2 +1,2 @@
-# durkeepk.github.io
-My personal website
+# durkeepk/website
+Files for my personal website
