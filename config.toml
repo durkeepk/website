@@ -10,7 +10,7 @@ publishDir = "docs"
 baseurl = "/"
 
 # Title of your site
-title = "Patrick Durkee loser"
+title = "Patrick Durkee"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
