@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patrick Durkee DOES THIS WORk on Patrick Durkee DOES THIS WORk</title>
-    <link>/website//</link>
+    <link>/website/</link>
     <description>Recent content in Patrick Durkee DOES THIS WORk on Patrick Durkee DOES THIS WORk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>satRdays: an introduction</title>
-      <link>/website//post/satrdays/firstpost/introducing/</link>
+      <link>/website/post/satrdays/firstpost/introducing/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/website//post/satrdays/firstpost/introducing/</guid>
+      <guid>/website/post/satrdays/firstpost/introducing/</guid>
       <description>
 
 
@@ -27,10 +27,10 @@
     
     <item>
       <title>Hello, world?</title>
-      <link>/website//post/first_post/</link>
+      <link>/website/post/first_post/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>/website//post/first_post/</guid>
+      <guid>/website/post/first_post/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve never blogged before nor have I had any strong inclinations to do so, but I recently convinced myself it might be a &amp;ldquo;fun&amp;rdquo; way to spend some of my free time while still bettering myself academically. So, I made this website and I&amp;rsquo;m going to give academic-blogging a go. I&amp;rsquo;m not entirely sure what I&amp;rsquo;ll blog about, but I have some general ideas.&lt;/p&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>Example Page</title>
-      <link>/website//tutorial/example/</link>
+      <link>/website/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
       
-      <guid>/website//tutorial/example/</guid>
+      <guid>/website/tutorial/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -71,29 +71,29 @@
     
     <item>
       <title>Privacy Policy</title>
-      <link>/website//privacy/</link>
+      <link>/website/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>/website//privacy/</guid>
+      <guid>/website/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Formidability assessment mechanisms: Examining their speed and automaticity</title>
-      <link>/website//publication/efam/</link>
+      <link>/website/publication/efam/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
       
-      <guid>/website//publication/efam/</guid>
+      <guid>/website/publication/efam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Talk</title>
-      <link>/website//talk/example/</link>
+      <link>/website/talk/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
       
-      <guid>/website//talk/example/</guid>
+      <guid>/website/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
 
@@ -114,10 +114,10 @@
     
     <item>
       <title>Human Status Criteria</title>
-      <link>/website//project/human-status-criteria/</link>
+      <link>/website/project/human-status-criteria/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//project/human-status-criteria/</guid>
+      <guid>/website/project/human-status-criteria/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -132,10 +132,10 @@
     
     <item>
       <title>Internal Project</title>
-      <link>/website//project/internal-project/</link>
+      <link>/website/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//project/internal-project/</guid>
+      <guid>/website/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -150,10 +150,10 @@
     
     <item>
       <title>Slides</title>
-      <link>/website//slides/example-slides/</link>
+      <link>/website/slides/example-slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/website//slides/example-slides/</guid>
+      <guid>/website/slides/example-slides/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;

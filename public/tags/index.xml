@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Patrick Durkee DOES THIS WORk</title>
-    <link>/website//tags/</link>
+    <link>/website/tags/</link>
     <description>Recent content in Tags on Patrick Durkee DOES THIS WORk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/website//tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/website/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Learning</title>
-      <link>/website//tags/deep-learning/</link>
+      <link>/website/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//tags/deep-learning/</guid>
+      <guid>/website/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Status</title>
-      <link>/website//tags/status/</link>
+      <link>/website/tags/status/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//tags/status/</guid>
+      <guid>/website/tags/status/</guid>
       <description></description>
     </item>
     
     <item>
       <title>first</title>
-      <link>/website//tags/first/</link>
+      <link>/website/tags/first/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>/website//tags/first/</guid>
+      <guid>/website/tags/first/</guid>
       <description></description>
     </item>
     
     <item>
       <title>satRdays</title>
-      <link>/website//tags/satrdays/</link>
+      <link>/website/tags/satrdays/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/website//tags/satrdays/</guid>
+      <guid>/website/tags/satrdays/</guid>
       <description></description>
     </item>
     

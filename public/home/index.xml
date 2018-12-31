@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Patrick Durkee DOES THIS WORk</title>
-    <link>/website//home/</link>
+    <link>/website/home/</link>
     <description>Recent content in Homes on Patrick Durkee DOES THIS WORk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/website//home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/website/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/website//home/hero_carousel/</link>
+      <link>/website/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/hero_carousel/</guid>
+      <guid>/website/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/website//home/hero/</link>
+      <link>/website/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/hero/</guid>
+      <guid>/website/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
     </item>
     
     <item>
       <title></title>
-      <link>/website//home/about/</link>
+      <link>/website/home/about/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>/website//home/about/</guid>
+      <guid>/website/home/about/</guid>
       <description>About Me I&amp;rsquo;m a psychologist [the researching kind]. I completed my M.A. in Experimental Psychology at California State University, Fullerton. I joined the Buss Lab and started my doctoral training in IDEP at UT Austin in Fall 2017. My general research interests revolve around evolutionary psychology and individual differences. In my spare time, I play music and do outdoorsy stuff.</description>
     </item>
     
     <item>
       <title>Skills</title>
-      <link>/website//home/skills/</link>
+      <link>/website/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/skills/</guid>
+      <guid>/website/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>/website//home/experience/</link>
+      <link>/website/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/website//home/experience/</guid>
+      <guid>/website/home/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/website//home/publications_selected/</link>
+      <link>/website/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/publications_selected/</guid>
+      <guid>/website/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/website//home/publications/</link>
+      <link>/website/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/publications/</guid>
+      <guid>/website/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Talks</title>
-      <link>/website//home/talks_selected/</link>
+      <link>/website/home/talks_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/talks_selected/</guid>
+      <guid>/website/home/talks_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/website//home/talks/</link>
+      <link>/website/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/talks/</guid>
+      <guid>/website/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/website//home/projects/</link>
+      <link>/website/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/projects/</guid>
+      <guid>/website/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>/website//home/posts/</link>
+      <link>/website/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/posts/</guid>
+      <guid>/website/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/website//home/teaching/</link>
+      <link>/website/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/teaching/</guid>
+      <guid>/website/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X:
  CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
@@ -124,19 +124,19 @@ I am a teaching instructor for the following courses at University X:
     
     <item>
       <title>Tags</title>
-      <link>/website//home/tags/</link>
+      <link>/website/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/tags/</guid>
+      <guid>/website/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/website//home/contact/</link>
+      <link>/website/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/website//home/contact/</guid>
+      <guid>/website/home/contact/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Patrick Durkee DOES THIS WORk</title>
-    <link>/website//categories/</link>
+    <link>/website/categories/</link>
     <description>Recent content in Categories on Patrick Durkee DOES THIS WORk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     
-	<atom:link href="/website//categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/website/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>satRdays</title>
-      <link>/website//categories/satrdays/</link>
+      <link>/website/categories/satrdays/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/website//categories/satrdays/</guid>
+      <guid>/website/categories/satrdays/</guid>
       <description></description>
     </item>
     
