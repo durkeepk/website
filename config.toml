@@ -1,4 +1,4 @@
-publishDir = "docs"
+publishDir = "public"
 
 # Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
@@ -8,7 +8,7 @@ publishDir = "docs"
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://durkeepk.github.io/website//"
 
 # Title of your site
 title = "Patrick Durkee DOES THIS WORk"

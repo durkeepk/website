@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Status on Patrick Durkee</title>
-    <link>/tags/status/</link>
-    <description>Recent content in Status on Patrick Durkee</description>
+    <title>Status on Patrick Durkee DOES THIS WORk</title>
+    <link>/website//tags/status/</link>
+    <description>Recent content in Status on Patrick Durkee DOES THIS WORk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/tags/status/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/website//tags/status/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Human Status Criteria</title>
-      <link>/project/human-status-criteria/</link>
+      <link>/website//project/human-status-criteria/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/project/human-status-criteria/</guid>
+      <guid>/website//project/human-status-criteria/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
