@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/website/post/satrdays/firstpost/introducing/</loc>
+      <loc>/post/satrdays/firstpost/introducing/</loc>
       <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/website/post/first_post/</loc>
+      <loc>/post/first_post/</loc>
       <lastmod>2019-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>/website/tutorial/example/</loc>
+      <loc>/tutorial/example/</loc>
       <lastmod>2018-09-09T00:00:00-07:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>/website/tutorial/</loc>
+      <loc>/tutorial/</loc>
       <lastmod>2018-09-09T00:00:00-07:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>/website/privacy/</loc>
+      <loc>/privacy/</loc>
       <lastmod>2018-06-28T00:00:00-07:00</lastmod>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
     
-      <loc>/website/publication/efam/</loc>
+      <loc>/publication/efam/</loc>
       <lastmod>2018-03-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -52,7 +52,7 @@
     
     <url>
     
-      <loc>/website/talk/example/</loc>
+      <loc>/talk/example/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
     
-      <loc>/website/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/website/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -76,7 +76,7 @@
     
     <url>
     
-      <loc>/website/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -84,7 +84,7 @@
     
     <url>
     
-      <loc>/website/project/human-status-criteria/</loc>
+      <loc>/project/human-status-criteria/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
     </url>
     
@@ -92,7 +92,7 @@
     
     <url>
     
-      <loc>/website/project/internal-project/</loc>
+      <loc>/project/internal-project/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
     </url>
     
@@ -100,7 +100,7 @@
     
     <url>
     
-      <loc>/website/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2018-03-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -109,7 +109,7 @@
     
     <url>
     
-      <loc>/website/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -117,7 +117,7 @@
     
     <url>
     
-      <loc>/website/tags/deep-learning/</loc>
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -126,7 +126,7 @@
     
     <url>
     
-      <loc>/website/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -135,7 +135,7 @@
     
     <url>
     
-      <loc>/website/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -144,7 +144,7 @@
     
     <url>
     
-      <loc>/website/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2018-03-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -153,7 +153,7 @@
     
     <url>
     
-      <loc>/website/slides/</loc>
+      <loc>/slides/</loc>
       <priority>0</priority>
     </url>
     
@@ -161,14 +161,14 @@
     
     <url>
     
-      <loc>/website/slides/example-slides/</loc>
+      <loc>/slides/example-slides/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/website/tags/status/</loc>
+      <loc>/tags/status/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -177,7 +177,7 @@
     
     <url>
     
-      <loc>/website/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -186,7 +186,7 @@
     
     <url>
     
-      <loc>/website/tags/first/</loc>
+      <loc>/tags/first/</loc>
       <lastmod>2019-01-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -195,7 +195,7 @@
     
     <url>
     
-      <loc>/website/tags/satrdays/</loc>
+      <loc>/tags/satrdays/</loc>
       <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -204,7 +204,7 @@
     
     <url>
     
-      <loc>/website/categories/satrdays/</loc>
+      <loc>/categories/satrdays/</loc>
       <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
