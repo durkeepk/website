@@ -24,6 +24,9 @@ summary = "My first ever blog post on my first ever blog."
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
+    # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Center"
 
 
 +++
