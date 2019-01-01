@@ -17,6 +17,6 @@ I'm planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a
 
 The main motivation for starting this series is to contribute to the community that helped me---and continues to help me---learn R. Great resources for learning R are already scattered across the internet, but I figure one more voice couldn't hurt. 
 
-For this one, I'll just list some of my favorite resources for learning R.
+For this one, I'll just list and describe some of my favorite resources for learning R.
 
 
