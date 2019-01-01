@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Internal Project"
+title = "Emotions and Hierarchy Negotiation"
 
 # Date this page was created.
 date = 2019-01-01T00:00:00
