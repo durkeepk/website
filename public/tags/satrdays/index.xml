@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/satrdays/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>satRdays: an introduction</title>
       <link>/post/satrdays/firstpost/introducing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/satrdays/firstpost/introducing/</guid>
       <description>I’m planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a function, an analysis, a feature) and writing a breif overview/tutorial of it. This will be the first of the series.

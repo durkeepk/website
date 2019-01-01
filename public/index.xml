@@ -11,6 +11,21 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>satRdays: an introduction</title>
+      <link>/post/satrdays/firstpost/introducing/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/satrdays/firstpost/introducing/</guid>
+      <description>
+
+
+&lt;p&gt;I’m planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a function, an analysis, a feature) and writing a breif overview/tutorial of it. This will be the first of the series.&lt;/p&gt;
+&lt;p&gt;The main motivation for starting this series is to contribute to the community that helped me—and continues to help me—learn R. Great resources for learning R are already scattered across the internet, but I figure one more voice couldn’t hurt.&lt;/p&gt;
+&lt;p&gt;For this one, I’ll just list and describe some of my favorite resources for learning R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello, world?</title>
       <link>/post/first_post/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
@@ -31,21 +46,6 @@
 &lt;p&gt;I probably don&amp;rsquo;t need this, but just in case&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;The views and opinions expressed anywhere throughout my blog and writings are my own and do not necessarily reflect the official policy or position of any institutions or persons that I am affiliated with. Any content provided is of my own opinion, and are not intended to malign any religion, ethic group, club, organization, company, individual or anyone or anything.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>satRdays: an introduction</title>
-      <link>/post/satrdays/firstpost/introducing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/satrdays/firstpost/introducing/</guid>
-      <description>
-
-
-&lt;p&gt;I’m planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a function, an analysis, a feature) and writing a breif overview/tutorial of it. This will be the first of the series.&lt;/p&gt;
-&lt;p&gt;The main motivation for starting this series is to contribute to the community that helped me—and continues to help me—learn R. Great resources for learning R are already scattered across the internet, but I figure one more voice couldn’t hurt.&lt;/p&gt;
-&lt;p&gt;For this one, I’ll just list and describe some of my favorite resources for learning R.&lt;/p&gt;
 </description>
     </item>
     
