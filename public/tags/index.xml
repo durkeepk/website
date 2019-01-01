@@ -7,24 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      <title>Emotions</title>
+      <link>/tags/emotions/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/tags/emotions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual Differences</title>
+      <link>/tags/individual-differences/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>/tags/individual-differences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Status</title>
       <link>/tags/status/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
       <guid>/tags/status/</guid>
       <description></description>

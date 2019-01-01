@@ -2,10 +2,10 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = 2016-04-20T00:00:00
+date = 2019-01-01T00:00:00
 
 title = "Projects"
-subtitle = ""
+subtitle = "Information about current research programs"
 
 # Order that this section will appear in.
 weight = 40
@@ -42,7 +42,7 @@ filter_default = 0
 
 [[filter]]
   name = "Individual Differences"
-  tag = "Deep Learning"
+  tag = "Individual Differences"
 
 [[filter]]
   name = "Status"

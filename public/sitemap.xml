@@ -12,7 +12,31 @@
     
     <url>
     
+      <loc>/project/differential-mechanism-functioning-and-individual-differences/</loc>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/post/first_post/</loc>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/human-status-criteria/</loc>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/emotions-and-hierarchy-negotiation/</loc>
       <lastmod>2019-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -84,22 +108,6 @@
     
     <url>
     
-      <loc>/project/human-status-criteria/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/internal-project/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication_types/2/</loc>
       <lastmod>2018-03-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
@@ -117,8 +125,17 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <loc>/tags/emotions/</loc>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/individual-differences/</loc>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -136,7 +153,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -169,7 +186,7 @@
     <url>
     
       <loc>/tags/status/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -178,7 +195,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <lastmod>2019-01-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -195,7 +212,7 @@
     
     <url>
     
-      <loc>/tags/satrdays/</loc>
+      <loc>/categories/satrdays/</loc>
       <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -204,7 +221,7 @@
     
     <url>
     
-      <loc>/categories/satrdays/</loc>
+      <loc>/tags/satrdays/</loc>
       <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

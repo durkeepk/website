@@ -30,5 +30,5 @@ weight = 5
 
 # About Me
 
-I'm a psychologist [the researching kind]. I completed my M.A. in Experimental Psychology at California State University, Fullerton. I joined the Buss Lab and started my doctoral training in IDEP at UT Austin in Fall 2017. My general research interests revolve around evolutionary psychology and individual differences. In my spare time, I play music and do outdoorsy stuff.
+I'm a doctoral student studying individual differences and evolutionary psychology in the Buss Lab at UT Austin. I spend most of my time thinking about and researching the psychological underpinnings of human social status and hierarchy negotiation. In my spare time, I play music and do outdoorsy stuff.
 

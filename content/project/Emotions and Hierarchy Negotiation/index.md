@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Human Status Criteria"
+title = "Internal Project"
 
 # Date this page was created.
 date = 2019-01-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "A project page for the Human Status Criteria Project."
+summary = "Project page for my research program on emotions and hierarchy negotiation"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Status"]
+tags = ["Status", "Emotions"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,4 +44,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-More info coming soon.
+Project summary coming soon.
