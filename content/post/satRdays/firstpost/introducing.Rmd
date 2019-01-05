@@ -8,11 +8,12 @@ tags: ["satRdays"]
 
 I'm planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a function, an analysis, a feature) and writing a brief overview/tutorial of it. This will be the first of the series.
 
-The main motivation for starting this series is to contribute to the community that helped me---and continues to help me---learn R. So many amazing resources for learning R are already scattered across the internet, but I figure one more voice couldn't hurt. 
+The main motivations for starting this series are to force myself to learn more R and begin contributing to the community that helped me---and continues to help me---learn R. There are already so many amazing resources for learning R scattered across the interwebs that this will likely go unnoticed. But if even one person learns something about R from my haphazard explanations and dry humor, then it would be worth it.
+
 
 ****
 
-For this first one, I'll just list and describe some of my favorite resources for learning R (R-esources?). Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn't even played around with html). When I found out I had to learn R for my stats course, I felt justifiably terrified. Luckily, the internet exists. I've grown fairly ~~competent~~ confident in R over the years since my first graduate stats course---and a little less scared---thanks to the plethora of amazing resources freely available for R. This list will probably seem pretty basic and mundane to most R users, but maybe it would be helpful to someone just starting out.
+For this first satRday, I'll just list and describe some of my favorite resources for learning R (R-esources?). Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn't even played around with html). When I found out I had to learn R for my stats course, I felt justifiably terrified. Luckily, the internet exists. I've grown fairly ~~competent~~ confident in R over the years since my first graduate stats course---and a little less scared---thanks to the plethora of amazing resources freely available for R. This list will probably seem pretty basic and mundane to most R users, but maybe it would be helpful to someone just starting out.
 
 - [Google](https://www.google.com): When I first started using R, I had to google basically every little thing I wanted to do (how do I change a variable name again?)---and then I had to google every error message that inevitably arose as I tried to run what I had copy/pasted from my previous google. But after a couple years of careful searching and copy/pasting and editing and carrying out my own projects in R, *I still google nearly everything*. Being competent in R is being good at googling (for me at least). You could stop here and just start googling and you'll find out about all the below resources all by yourself. You don't need me any more.
 
