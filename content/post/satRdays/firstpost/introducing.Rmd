@@ -19,6 +19,7 @@ For this first satRday, I'll just list and describe some of my favorite resource
 
 ![Setting dove free gif](https://tenor.com/view/adam-scott-dove-free-hand-gif-5519059)
 
+
 - [Stack Overflow](https://stackoverflow.com)/[Stack Exchange](https://stackexchange.com): I just googled the difference between these two sites, and I still couldn't tell you what the distinctive purpose of each would be. But I know they are massively helpful communities for a broad range of topics. More often than not, when I google an R question or error message, the first link that comes up is from one of these communities. One of the most important lessons I've learned in my 2+ years of scanning stack overflow/exchange is that no problem in R is unique or special: someone will always have experienced it before---and most of the time, someone will have already figured out how to overcome it.
 
 - [James Curley's 'learnR' repository](https://github.com/jalapic/learnR): If I suffered some sort of acute amnesia that caused me to forget how to R (but I somehow retained my stubborn desire to become an academic), I would start here. This repository has everything needed to become competent in R and even lays out a weekly plan to get through the material. It starts off with the basics and by the end of it you'll be making your own packages and pushing them to [Github](https://github.com) (if you don't know what Github is, maybe this course is for you!). Plus, you'll be introduced to a bunch of other great R resources as you make your way through the materials.
