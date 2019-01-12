@@ -7,8 +7,699 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>satRdays: a snarky correlation function</title>
+      <link>/post/satrdays/snarkycorrelations/snarkycorrelations/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/satrdays/snarkycorrelations/snarkycorrelations/</guid>
+      <description>
+
+
+&lt;p&gt;There are a lot of ways to do correlations in R (I use &lt;code&gt;corr.test&lt;/code&gt; most of the time), but I just found out about the function, &lt;code&gt;correlation&lt;/code&gt;, from the &lt;code&gt;psycho&lt;/code&gt; package and it might be my new favorite. I give a quick tutorial of it here (see the &lt;a href=&#34;https://neuropsychology.github.io/psycho.R/2018/05/20/correlation.html&#34;&gt;The Psycho Blog&lt;/a&gt; for the developers’ tutorial).&lt;/p&gt;
+&lt;div id=&#34;tutorial&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tutorial&lt;/h2&gt;
+&lt;p&gt;If you’re following along, you’ll need to install the package from github:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;devtools&amp;quot;)
+devtools::install_github(&amp;quot;neuropsychology/psycho.R&amp;quot;) # installs newest version
+library(psycho)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now let’s see it in action using the &lt;code&gt;mtcars&lt;/code&gt; dataset, which contains data on fuel consumption for various car models made in 1974 (super exciting, I know).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(mtcars) # this dataset is preloaded in R&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Imagine we have a &lt;del&gt;hunch&lt;/del&gt; hypothesis that car weight (&lt;code&gt;wt&lt;/code&gt;) will be negatively associated with fuel efficiency (&lt;code&gt;mpg&lt;/code&gt;). The &lt;code&gt;correlation&lt;/code&gt; package prints out the results in a manuscript-ready format.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;psycho::correlation(mtcars[, c(&amp;#39;mpg&amp;#39;, &amp;#39;wt&amp;#39;)])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Pearson Full correlation (p value correction: holm):
+## 
+##    - mpg / wt:   Results of the Pearson correlation showed a significant large, and negative association between mpg and wt (r(30) = -0.87, p &amp;lt; .001***).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;correlation&lt;/code&gt; package also makes it easy to create formatted correlation matrices—complete with cute little significance stars. Let’s look at the correlations between a few more totally-theory-driven metrics.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cors &amp;lt;- psycho::correlation(mtcars[, c(&amp;#39;mpg&amp;#39;, &amp;#39;cyl&amp;#39;, &amp;#39;hp&amp;#39;,&amp;#39;wt&amp;#39;, &amp;#39;disp&amp;#39;)])
+cortable &amp;lt;- summary(cors)
+# if you want to save it to excel run this
+# write.csv(cortable, &amp;quot;correlationtable.csv&amp;quot;) 
+# cortable
+knitr::kable(cortable) # you don&amp;#39;t need this: the `kable` function just makes it pretty for html rendering&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;cyl&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;hp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;wt&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;mpg&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;cyl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;hp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.83***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;wt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;disp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.9***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.89***&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We can also quickly make a nice little plot of the correlations to share with collaborators:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cors)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/satRdays/snarkycorrelations/snarkycorrelations_files/figure-html/plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;alpha-correction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Alpha correction&lt;/h3&gt;
+&lt;p&gt;You may have noticed earlier that &lt;code&gt;correlation&lt;/code&gt; package automatically applies p-value corrections to the correlations. The default is Holm’s method, but you can specify others by setting the &lt;code&gt;adjust =&lt;/code&gt; argument to ‘bonferroni’, ‘fdr’, or ‘none’. It doesn’t change much, in this case.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;boncors &amp;lt;- psycho::correlation(mtcars[, c(&amp;#39;mpg&amp;#39;, &amp;#39;cyl&amp;#39;, &amp;#39;hp&amp;#39;,&amp;#39;wt&amp;#39;, &amp;#39;disp&amp;#39;)],
+                            adjust = &amp;#39;bonferroni&amp;#39;)
+boncortable &amp;lt;- summary(boncors)
+knitr::kable(boncortable) &lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;cyl&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;hp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;wt&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;mpg&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;cyl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;hp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.83***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;wt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;disp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.9***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.89***&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-snarky-part&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The ‘snarky’ part&lt;/h3&gt;
+&lt;p&gt;So all that is pretty cool, but the main reason I like the &lt;code&gt;correlation&lt;/code&gt; package is because it trolls you if you get too carried away with correlations.&lt;/p&gt;
+&lt;p&gt;Let’s imagine we were just fishing around for some significant correlations (i.e., totally normal science stuff) so we just ran all possible pairwise correlations in the &lt;code&gt;mtcars&lt;/code&gt; dataset&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;; we wouldn’t want any pesky alpha corrections getting in the way of discovering an intersting correlation, so let’s make sure we set that &lt;code&gt;adjust&lt;/code&gt; argument to ‘none’.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;allcors &amp;lt;- psycho::correlation(mtcars, adjust = &amp;#39;none&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in psycho::correlation(mtcars, adjust = &amp;quot;none&amp;quot;): We&amp;#39;ve detected that you are running a lot (&amp;gt; 10) of correlation tests without adjusting the p values. To help you in your p-fishing, we&amp;#39;ve added some interesting variables: You never know, you might find something significant!
+## To deactivate this, change the &amp;#39;i_am_cheating&amp;#39; argument to TRUE.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;allcorstable &amp;lt;- summary(allcors)
+knitr::kable(allcorstable) &lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;cyl&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;disp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;hp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;drat&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;wt&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;qsec&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;vs&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;am&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;gear&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;carb&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Local_Air_Density&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Reincarnation_Cycle&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Communism_Level&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Alien_Mothership_Distance&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Schopenhauers_Optimism&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;mpg&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;cyl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;disp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.9***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;hp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.83***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;drat&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.68***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.7***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.45**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;wt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.89***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;qsec&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.42*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.59***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.43*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;vs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.81***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.72***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.44*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.55***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.74***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;am&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.6***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.52**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.59***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.24&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.69***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.23&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;gear&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.48**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.49**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.56***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.13&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.7***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.58***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;carb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.55**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.53**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.39*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.75***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.43*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.57***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.06&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.27&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Local_Air_Density&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.86***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.92***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.99***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.88***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.67***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.52**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.74***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.52**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.47**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.5**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Reincarnation_Cycle&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.08&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.04&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.15&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.02&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.08&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.15&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.06&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.12&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Communism_Level&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.27&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.27&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.49**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.51**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.5**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.31&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.12&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.61***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.72***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.43*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.35&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Alien_Mothership_Distance&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.33&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.25&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.15&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.23&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.08&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.13&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.29&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.04&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.24&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.22&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Schopenhauers_Optimism&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.82***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.98***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.51**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.72***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.69***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.75***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.32&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.75***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.9***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.04&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.07&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.16&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Hulks_Power&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.19&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.05&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.23&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.02&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.02&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.41*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.32&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.36*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.24&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Now we think to ourselves:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Wow look at all those super intersting significant correlations we found! But wait, what’s going on with these extra variables that aren’t in the original dataset!? We didn’t collect data on Schopenhauers Optimism or Local Air Density…”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;whats-going-on&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;What’s going on?&lt;/h4&gt;
+&lt;p&gt;To make it harder to &lt;em&gt;accidentally&lt;/em&gt; run too many uncorrected tests, the &lt;code&gt;correlation&lt;/code&gt; function simuluates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you’re deadset on p-hacking, you can override this by setting the &lt;code&gt;i_am_cheating&lt;/code&gt; argument to &lt;code&gt;TRUE&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;allcors &amp;lt;- psycho::correlation(mtcars, adjust = &amp;#39;none&amp;#39;, i_am_cheating = TRUE)
+allcorstable &amp;lt;- summary(allcors)
+knitr::kable(allcorstable) &lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;cyl&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;disp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;hp&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;drat&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;wt&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;qsec&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;vs&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;am&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;gear&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;mpg&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;cyl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;disp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.85***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.9***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;hp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.83***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;drat&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.68***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.7***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.45**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;wt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.87***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.78***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.89***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;qsec&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.42*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.59***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.43*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;vs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.81***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.72***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.44*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.55***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.74***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;am&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.6***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.52**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.59***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.24&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.71***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.69***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.23&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;gear&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.48**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.49**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.56***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.13&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.7***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.58***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.79***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;carb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.55**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.53**&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.39*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.75***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.43*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.66***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-0.57***&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.06&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There, now you can publish all those super significant, intersting, real, and totally &lt;em&gt;a-priori&lt;/em&gt; correlations you found without all those spurious ones that the &lt;code&gt;correlation&lt;/code&gt; package created… (just make sure to hide your code from reviewers!)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Lame p-hacking/fishing jokes aside, the &lt;code&gt;correlation&lt;/code&gt; package is really easy to use and makes reporting more efficient and reproducible. It’s just an added benefit that it also makes it a little harder to unknowingly/passively run a bunch of uncorrected (and potentially spurious) correlations. I think it would be cool to see more packages set defaults that are explicitly aimed at reducing questionable research practices.&lt;/p&gt;
+&lt;p&gt;Know of any others? Let me know about them at &lt;a href=&#34;mailto:pdurkee@utexas.edu&#34;&gt;pdurkee@utexas.edu&lt;/a&gt; or &lt;span class=&#34;citation&#34;&gt;@durkeepk&lt;/span&gt; so I can learn them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;A bunch of the variables in &lt;code&gt;mtcars&lt;/code&gt; are dichotomous or categorical so this doesn’t make much sense, but bare with me because that’s not the point.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>satRdays: an introduction</title>
@@ -50,7 +741,7 @@
     <item>
       <title>Differential Mechanism Functioning and Individual Differences</title>
       <link>/project/differential-mechanism-functioning-and-individual-differences/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>/project/differential-mechanism-functioning-and-individual-differences/</guid>
       <description>&lt;p&gt;More info coming soon.&lt;/p&gt;
@@ -60,7 +751,7 @@
     <item>
       <title>Emotions and Hierarchy Negotiation</title>
       <link>/project/emotions-and-hierarchy-negotiation/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>/project/emotions-and-hierarchy-negotiation/</guid>
       <description>&lt;p&gt;Project summary coming soon.&lt;/p&gt;
@@ -70,7 +761,7 @@
     <item>
       <title>Hello, world?</title>
       <link>/post/first_post/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>/post/first_post/</guid>
       <description>
@@ -94,7 +785,7 @@
     <item>
       <title>Human Status Criteria</title>
       <link>/project/human-status-criteria/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>/project/human-status-criteria/</guid>
       <description>&lt;p&gt;More info coming soon.&lt;/p&gt;
@@ -104,7 +795,7 @@
     <item>
       <title>Example Page</title>
       <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
       
       <guid>/tutorial/example/</guid>
       <description>
@@ -124,7 +815,7 @@
     <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
@@ -134,7 +825,7 @@
     <item>
       <title>Formidability assessment mechanisms: Examining their speed and automaticity</title>
       <link>/publication/efam/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0600</pubDate>
       
       <guid>/publication/efam/</guid>
       <description></description>
@@ -143,7 +834,7 @@
     <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
       <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
