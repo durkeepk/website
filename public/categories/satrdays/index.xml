@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/satrdays/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>satRdays: a snarky correlation function</title>
+      <link>/post/satrdays/snarkycorrelations/snarkycorrelations/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/satrdays/snarkycorrelations/snarkycorrelations/</guid>
+      <description>There are a lot of ways to do correlations in R (I use corr.test most of the time), but I just found out about the function, correlation, from the psycho package and it might be my new favorite. I give a quick tutorial of it here (see the The Psycho Blog for the developers’ tutorial).
+Tutorial If you’re following along, you’ll need to install the package from github:
+# install.</description>
+    </item>
     
     <item>
       <title>satRdays: an introduction</title>

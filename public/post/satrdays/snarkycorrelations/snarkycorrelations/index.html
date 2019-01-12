@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Patrick Durkee">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="There are a lot of ways to do correlations in R (I use corr.test most of the time), but I just found out about the function, correlation, from the psycho package and it might be my new favorite. I give a quick tutorial of it here (see the The Psycho Blog for the developers’ tutorial).
+Tutorial If you’re following along, you’ll need to install the package from github:
+# install.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/satrdays/snarkycorrelations/snarkycorrelations/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Patrick Durkee">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Patrick Durkee">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/satrdays/snarkycorrelations/snarkycorrelations/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@durkeepk">
+  <meta property="twitter:creator" content="@durkeepk">
+  
+  <meta property="og:site_name" content="Patrick Durkee">
+  <meta property="og:url" content="/post/satrdays/snarkycorrelations/snarkycorrelations/">
+  <meta property="og:title" content="satRdays: a snarky correlation function | Patrick Durkee">
+  <meta property="og:description" content="There are a lot of ways to do correlations in R (I use corr.test most of the time), but I just found out about the function, correlation, from the psycho package and it might be my new favorite. I give a quick tutorial of it here (see the The Psycho Blog for the developers’ tutorial).
+Tutorial If you’re following along, you’ll need to install the package from github:
+# install."><meta property="og:image" content="/img/Patrick%20Lab%20Photo.JPG">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>satRdays: a snarky correlation function | Patrick Durkee</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Patrick Durkee</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">satRdays: a snarky correlation function</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Patrick Durkee">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 19, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Patrick Durkee">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/satrdays/">satRdays</a>
+    
+  </span>
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>There are a lot of ways to do correlations in R (I use <code>corr.test</code> most of the time), but I just found out about the function, <code>correlation</code>, from the <code>psycho</code> package and it might be my new favorite. I give a quick tutorial of it here (see the <a href="https://neuropsychology.github.io/psycho.R/2018/05/20/correlation.html">The Psycho Blog</a> for the developers’ tutorial).</p>
+<div id="tutorial" class="section level2">
+<h2>Tutorial</h2>
+<p>If you’re following along, you’ll need to install the package from github:</p>
+<pre class="r"><code># install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;neuropsychology/psycho.R&quot;) # installs newest version
+library(psycho)</code></pre>
+<p>Now let’s see it in action using the <code>mtcars</code> dataset, which contains data on fuel consumption for various car models made in 1974 (super exciting, I know).</p>
+<pre class="r"><code>head(mtcars) # this dataset is preloaded in R</code></pre>
+<pre><code>##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+<p>Imagine we have a <del>hunch</del> hypothesis that car weight (<code>wt</code>) will be negatively associated with fuel efficiency (<code>mpg</code>). The <code>correlation</code> package prints out the results in a manuscript-ready format.</p>
+<pre class="r"><code>psycho::correlation(mtcars[, c(&#39;mpg&#39;, &#39;wt&#39;)])</code></pre>
+<pre><code>## Pearson Full correlation (p value correction: holm):
+## 
+##    - mpg / wt:   Results of the Pearson correlation showed a significant large, and negative association between mpg and wt (r(30) = -0.87, p &lt; .001***).</code></pre>
+<p>The <code>correlation</code> package also makes it easy to create formatted correlation matrices—complete with cute little significance stars. Let’s look at the correlations between a few more totally-theory-driven metrics.</p>
+<pre class="r"><code>cors &lt;- psycho::correlation(mtcars[, c(&#39;mpg&#39;, &#39;cyl&#39;, &#39;hp&#39;,&#39;wt&#39;, &#39;disp&#39;)])
+cortable &lt;- summary(cors)
+# if you want to save it to excel run this
+# write.csv(cortable, &quot;correlationtable.csv&quot;) 
+# cortable
+knitr::kable(cortable) # you don&#39;t need this: the `kable` function just makes it pretty for html rendering</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">mpg</th>
+<th align="left">cyl</th>
+<th align="left">hp</th>
+<th align="left">wt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mpg</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>cyl</td>
+<td align="left">-0.85***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>hp</td>
+<td align="left">-0.78***</td>
+<td align="left">0.83***</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>wt</td>
+<td align="left">-0.87***</td>
+<td align="left">0.78***</td>
+<td align="left">0.66***</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>disp</td>
+<td align="left">-0.85***</td>
+<td align="left">0.9***</td>
+<td align="left">0.79***</td>
+<td align="left">0.89***</td>
+</tr>
+</tbody>
+</table>
+<p>We can also quickly make a nice little plot of the correlations to share with collaborators:</p>
+<pre class="r"><code>plot(cors)</code></pre>
+<p><img src="/post/satRdays/snarkycorrelations/snarkycorrelations_files/figure-html/plot-1.png" width="672" /></p>
+<div id="alpha-correction" class="section level3">
+<h3>Alpha correction</h3>
+<p>You may have noticed earlier that <code>correlation</code> package automatically applies p-value corrections to the correlations. The default is Holm’s method, but you can specify others by setting the <code>adjust =</code> argument to ‘bonferroni’, ‘fdr’, or ‘none’. It doesn’t change much, in this case.</p>
+<pre class="r"><code>boncors &lt;- psycho::correlation(mtcars[, c(&#39;mpg&#39;, &#39;cyl&#39;, &#39;hp&#39;,&#39;wt&#39;, &#39;disp&#39;)],
+                            adjust = &#39;bonferroni&#39;)
+boncortable &lt;- summary(boncors)
+knitr::kable(boncortable) </code></pre>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">mpg</th>
+<th align="left">cyl</th>
+<th align="left">hp</th>
+<th align="left">wt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mpg</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>cyl</td>
+<td align="left">-0.85***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>hp</td>
+<td align="left">-0.78***</td>
+<td align="left">0.83***</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>wt</td>
+<td align="left">-0.87***</td>
+<td align="left">0.78***</td>
+<td align="left">0.66***</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>disp</td>
+<td align="left">-0.85***</td>
+<td align="left">0.9***</td>
+<td align="left">0.79***</td>
+<td align="left">0.89***</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="the-snarky-part" class="section level3">
+<h3>The ‘snarky’ part</h3>
+<p>So all that is pretty cool, but the main reason I like the <code>correlation</code> package is because it trolls you if you get too carried away with correlations.</p>
+<p>Let’s imagine we were just fishing around for some significant correlations (i.e., totally normal science stuff) so we just ran all possible pairwise correlations in the <code>mtcars</code> dataset<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>; we wouldn’t want any pesky alpha corrections getting in the way of discovering an intersting correlation, so let’s make sure we set that <code>adjust</code> argument to ‘none’.</p>
+<pre class="r"><code>allcors &lt;- psycho::correlation(mtcars, adjust = &#39;none&#39;)</code></pre>
+<pre><code>## Warning in psycho::correlation(mtcars, adjust = &quot;none&quot;): We&#39;ve detected that you are running a lot (&gt; 10) of correlation tests without adjusting the p values. To help you in your p-fishing, we&#39;ve added some interesting variables: You never know, you might find something significant!
+## To deactivate this, change the &#39;i_am_cheating&#39; argument to TRUE.</code></pre>
+<pre class="r"><code>allcorstable &lt;- summary(allcors)
+knitr::kable(allcorstable) </code></pre>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">mpg</th>
+<th align="left">cyl</th>
+<th align="left">disp</th>
+<th align="left">hp</th>
+<th align="left">drat</th>
+<th align="left">wt</th>
+<th align="left">qsec</th>
+<th align="left">vs</th>
+<th align="left">am</th>
+<th align="left">gear</th>
+<th align="left">carb</th>
+<th align="left">Local_Air_Density</th>
+<th align="left">Reincarnation_Cycle</th>
+<th align="left">Communism_Level</th>
+<th align="left">Alien_Mothership_Distance</th>
+<th align="left">Schopenhauers_Optimism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mpg</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>cyl</td>
+<td align="left">-0.85***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>disp</td>
+<td align="left">-0.85***</td>
+<td align="left">0.9***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>hp</td>
+<td align="left">-0.78***</td>
+<td align="left">0.83***</td>
+<td align="left">0.79***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>drat</td>
+<td align="left">0.68***</td>
+<td align="left">-0.7***</td>
+<td align="left">-0.71***</td>
+<td align="left">-0.45**</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>wt</td>
+<td align="left">-0.87***</td>
+<td align="left">0.78***</td>
+<td align="left">0.89***</td>
+<td align="left">0.66***</td>
+<td align="left">-0.71***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>qsec</td>
+<td align="left">0.42*</td>
+<td align="left">-0.59***</td>
+<td align="left">-0.43*</td>
+<td align="left">-0.71***</td>
+<td align="left">0.09</td>
+<td align="left">-0.17</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>vs</td>
+<td align="left">0.66***</td>
+<td align="left">-0.81***</td>
+<td align="left">-0.71***</td>
+<td align="left">-0.72***</td>
+<td align="left">0.44*</td>
+<td align="left">-0.55***</td>
+<td align="left">0.74***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>am</td>
+<td align="left">0.6***</td>
+<td align="left">-0.52**</td>
+<td align="left">-0.59***</td>
+<td align="left">-0.24</td>
+<td align="left">0.71***</td>
+<td align="left">-0.69***</td>
+<td align="left">-0.23</td>
+<td align="left">0.17</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>gear</td>
+<td align="left">0.48**</td>
+<td align="left">-0.49**</td>
+<td align="left">-0.56***</td>
+<td align="left">-0.13</td>
+<td align="left">0.7***</td>
+<td align="left">-0.58***</td>
+<td align="left">-0.21</td>
+<td align="left">0.21</td>
+<td align="left">0.79***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>carb</td>
+<td align="left">-0.55**</td>
+<td align="left">0.53**</td>
+<td align="left">0.39*</td>
+<td align="left">0.75***</td>
+<td align="left">-0.09</td>
+<td align="left">0.43*</td>
+<td align="left">-0.66***</td>
+<td align="left">-0.57***</td>
+<td align="left">0.06</td>
+<td align="left">0.27</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>Local_Air_Density</td>
+<td align="left">0.86***</td>
+<td align="left">-0.92***</td>
+<td align="left">-0.99***</td>
+<td align="left">-0.88***</td>
+<td align="left">0.67***</td>
+<td align="left">-0.87***</td>
+<td align="left">0.52**</td>
+<td align="left">0.74***</td>
+<td align="left">0.52**</td>
+<td align="left">0.47**</td>
+<td align="left">-0.5**</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>Reincarnation_Cycle</td>
+<td align="left">0.19</td>
+<td align="left">-0.15</td>
+<td align="left">-0.1</td>
+<td align="left">-0.19</td>
+<td align="left">0.14</td>
+<td align="left">-0.2</td>
+<td align="left">-0.08</td>
+<td align="left">0.03</td>
+<td align="left">0.28</td>
+<td align="left">0.21</td>
+<td align="left">-0.23</td>
+<td align="left">0.13</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>Communism_Level</td>
+<td align="left">0.27</td>
+<td align="left">-0.27</td>
+<td align="left">-0.49**</td>
+<td align="left">0.14</td>
+<td align="left">0.51**</td>
+<td align="left">-0.5**</td>
+<td align="left">-0.31</td>
+<td align="left">0.12</td>
+<td align="left">0.61***</td>
+<td align="left">0.72***</td>
+<td align="left">0.43*</td>
+<td align="left">0.35</td>
+<td align="left">-0.1</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>Alien_Mothership_Distance</td>
+<td align="left">-0.11</td>
+<td align="left">-0.09</td>
+<td align="left">0.04</td>
+<td align="left">-0.05</td>
+<td align="left">0.05</td>
+<td align="left">0.05</td>
+<td align="left">0.19</td>
+<td align="left">0.17</td>
+<td align="left">-0.23</td>
+<td align="left">-0.02</td>
+<td align="left">-0.14</td>
+<td align="left">-0.02</td>
+<td align="left">0.1</td>
+<td align="left">-0.14</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>Schopenhauers_Optimism</td>
+<td align="left">0.87***</td>
+<td align="left">-0.87***</td>
+<td align="left">-0.82***</td>
+<td align="left">-0.98***</td>
+<td align="left">0.51**</td>
+<td align="left">-0.72***</td>
+<td align="left">0.69***</td>
+<td align="left">0.75***</td>
+<td align="left">0.32</td>
+<td align="left">0.2</td>
+<td align="left">-0.75***</td>
+<td align="left">0.9***</td>
+<td align="left">0.19</td>
+<td align="left">-0.07</td>
+<td align="left">0.02</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>Hulks_Power</td>
+<td align="left">0.08</td>
+<td align="left">-0.02</td>
+<td align="left">-0.08</td>
+<td align="left">-0.12</td>
+<td align="left">0.01</td>
+<td align="left">-0.07</td>
+<td align="left">0.16</td>
+<td align="left">0.05</td>
+<td align="left">0.03</td>
+<td align="left">-0.09</td>
+<td align="left">-0.03</td>
+<td align="left">0.09</td>
+<td align="left">-0.38*</td>
+<td align="left">-0.05</td>
+<td align="left">-0.35*</td>
+<td align="left">0.12</td>
+</tr>
+</tbody>
+</table>
+<p>Now we think to ourselves:</p>
+<blockquote>
+<p>“Wow look at all those super intersting significant correlations we found! But wait, what’s going on with these extra variables that aren’t in the original dataset!? We didn’t collect data on Schopenhauers Optimism or Local Air Density…”</p>
+</blockquote>
+<div id="whats-going-on" class="section level4">
+<h4>What’s going on?</h4>
+<p>To make it harder to <em>accidentally</em> run too many uncorrected tests, the <code>correlation</code> function simuluates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you’re deadset on p-hacking, you can override this by setting the <code>i_am_cheating</code> argument to <code>TRUE</code>.</p>
+<pre class="r"><code>allcors &lt;- psycho::correlation(mtcars, adjust = &#39;none&#39;, i_am_cheating = TRUE)
+allcorstable &lt;- summary(allcors)
+knitr::kable(allcorstable) </code></pre>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">mpg</th>
+<th align="left">cyl</th>
+<th align="left">disp</th>
+<th align="left">hp</th>
+<th align="left">drat</th>
+<th align="left">wt</th>
+<th align="left">qsec</th>
+<th align="left">vs</th>
+<th align="left">am</th>
+<th align="left">gear</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mpg</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>cyl</td>
+<td align="left">-0.85***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>disp</td>
+<td align="left">-0.85***</td>
+<td align="left">0.9***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>hp</td>
+<td align="left">-0.78***</td>
+<td align="left">0.83***</td>
+<td align="left">0.79***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>drat</td>
+<td align="left">0.68***</td>
+<td align="left">-0.7***</td>
+<td align="left">-0.71***</td>
+<td align="left">-0.45**</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>wt</td>
+<td align="left">-0.87***</td>
+<td align="left">0.78***</td>
+<td align="left">0.89***</td>
+<td align="left">0.66***</td>
+<td align="left">-0.71***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>qsec</td>
+<td align="left">0.42*</td>
+<td align="left">-0.59***</td>
+<td align="left">-0.43*</td>
+<td align="left">-0.71***</td>
+<td align="left">0.09</td>
+<td align="left">-0.17</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>vs</td>
+<td align="left">0.66***</td>
+<td align="left">-0.81***</td>
+<td align="left">-0.71***</td>
+<td align="left">-0.72***</td>
+<td align="left">0.44*</td>
+<td align="left">-0.55***</td>
+<td align="left">0.74***</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>am</td>
+<td align="left">0.6***</td>
+<td align="left">-0.52**</td>
+<td align="left">-0.59***</td>
+<td align="left">-0.24</td>
+<td align="left">0.71***</td>
+<td align="left">-0.69***</td>
+<td align="left">-0.23</td>
+<td align="left">0.17</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>gear</td>
+<td align="left">0.48**</td>
+<td align="left">-0.49**</td>
+<td align="left">-0.56***</td>
+<td align="left">-0.13</td>
+<td align="left">0.7***</td>
+<td align="left">-0.58***</td>
+<td align="left">-0.21</td>
+<td align="left">0.21</td>
+<td align="left">0.79***</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>carb</td>
+<td align="left">-0.55**</td>
+<td align="left">0.53**</td>
+<td align="left">0.39*</td>
+<td align="left">0.75***</td>
+<td align="left">-0.09</td>
+<td align="left">0.43*</td>
+<td align="left">-0.66***</td>
+<td align="left">-0.57***</td>
+<td align="left">0.06</td>
+<td align="left">0.27</td>
+</tr>
+</tbody>
+</table>
+<p>There, now you can publish all those super significant, intersting, real, and totally <em>a-priori</em> correlations you found without all those spurious ones that the <code>correlation</code> package created… (just make sure to hide your code from reviewers!)</p>
+</div>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>Lame p-hacking/fishing jokes aside, the <code>correlation</code> package is really easy to use and makes reporting more efficient and reproducible. It’s just an added benefit that it also makes it a little harder to unknowingly/passively run a bunch of uncorrected (and potentially spurious) correlations. I think it would be cool to see more packages set defaults that are explicitly aimed at reducing questionable research practices.</p>
+<p>Know of any others? Let me know about them at <a href="mailto:pdurkee@utexas.edu">pdurkee@utexas.edu</a> or <span class="citation">@durkeepk</span> so I can learn them.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A bunch of the variables in <code>mtcars</code> are dichotomous or categorical so this doesn’t make much sense, but bare with me because that’s not the point.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/satrdays/">satRdays</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/Patrick%20Lab%20Photo.JPG" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Patrick Durkee</a></h5>
+    
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/durkeepk" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=uj4K4rQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/durkeepk" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/files/cv/cv.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/satrdays/firstpost/introducing/">satRdays: an introduction</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
