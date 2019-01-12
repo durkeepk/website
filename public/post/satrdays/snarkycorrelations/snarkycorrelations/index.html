@@ -460,9 +460,10 @@ knitr::kable(cortable) # you don&#39;t need this: the `kable` function just make
 <p>We can also quickly make a nice little plot of the correlations to share with collaborators:</p>
 <pre class="r"><code>plot(cors)</code></pre>
 <p><img src="/post/satRdays/snarkycorrelations/snarkycorrelations_files/figure-html/plot-1.png" width="672" /></p>
+<p>I’m pretty sure that plot title is supposed to be a play on words…</p>
 <div id="alpha-correction" class="section level3">
 <h3>Alpha correction</h3>
-<p>You may have noticed earlier that <code>correlation</code> package automatically applies p-value corrections to the correlations. The default is Holm’s method, but you can specify others by setting the <code>adjust =</code> argument to ‘bonferroni’, ‘fdr’, or ‘none’. It doesn’t change much, in this case.</p>
+<p>You may have noticed earlier that the <code>correlation</code> package automatically applies p-value corrections to the correlations. The default is Holm’s method, but you can specify others by setting the <code>adjust=</code> argument to ‘bonferroni’, ‘fdr’, or ‘none’. It doesn’t change much, in this case.</p>
 <pre class="r"><code>boncors &lt;- psycho::correlation(mtcars[, c(&#39;mpg&#39;, &#39;cyl&#39;, &#39;hp&#39;,&#39;wt&#39;, &#39;disp&#39;)],
                             adjust = &#39;bonferroni&#39;)
 boncortable &lt;- summary(boncors)
@@ -778,18 +779,18 @@ knitr::kable(allcorstable) </code></pre>
 </tr>
 <tr class="odd">
 <td>Reincarnation_Cycle</td>
+<td align="left">-0.06</td>
+<td align="left">-0.02</td>
+<td align="left">0</td>
+<td align="left">0.11</td>
+<td align="left">0.2</td>
 <td align="left">-0.05</td>
+<td align="left">-0.22</td>
 <td align="left">0.06</td>
-<td align="left">0.04</td>
-<td align="left">-0.07</td>
-<td align="left">-0.1</td>
-<td align="left">0.08</td>
-<td align="left">0</td>
-<td align="left">-0.08</td>
-<td align="left">-0.2</td>
-<td align="left">-0.19</td>
-<td align="left">0</td>
-<td align="left">-0.01</td>
+<td align="left">0.18</td>
+<td align="left">0.1</td>
+<td align="left">0.15</td>
+<td align="left">-0.03</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
@@ -809,27 +810,27 @@ knitr::kable(allcorstable) </code></pre>
 <td align="left">0.72***</td>
 <td align="left">0.43*</td>
 <td align="left">0.35</td>
-<td align="left">-0.16</td>
+<td align="left">0.15</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
 <td>Alien_Mothership_Distance</td>
-<td align="left">-0.02</td>
-<td align="left">0.12</td>
-<td align="left">0.09</td>
+<td align="left">-0.33</td>
+<td align="left">0.3</td>
+<td align="left">0.21</td>
+<td align="left">0.21</td>
+<td align="left">-0.31</td>
+<td align="left">0.21</td>
+<td align="left">-0.18</td>
+<td align="left">-0.08</td>
+<td align="left">-0.2</td>
+<td align="left">-0.15</td>
 <td align="left">0.08</td>
-<td align="left">-0.14</td>
-<td align="left">0.13</td>
-<td align="left">0.02</td>
-<td align="left">0.01</td>
-<td align="left">-0.03</td>
-<td align="left">-0.01</td>
-<td align="left">0.21</td>
-<td align="left">-0.09</td>
-<td align="left">0.21</td>
-<td align="left">-0.04</td>
+<td align="left">-0.22</td>
+<td align="left">0.24</td>
+<td align="left">-0.05</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
@@ -847,29 +848,29 @@ knitr::kable(allcorstable) </code></pre>
 <td align="left">0.2</td>
 <td align="left">-0.75***</td>
 <td align="left">0.9***</td>
-<td align="left">0.03</td>
+<td align="left">-0.11</td>
 <td align="left">-0.07</td>
-<td align="left">-0.05</td>
+<td align="left">-0.26</td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
 <td>Hulks_Power</td>
-<td align="left">0.1</td>
+<td align="left">0.19</td>
+<td align="left">-0.18</td>
+<td align="left">-0.15</td>
+<td align="left">-0.18</td>
 <td align="left">0.14</td>
+<td align="left">-0.19</td>
 <td align="left">0.11</td>
-<td align="left">0.13</td>
-<td align="left">0.1</td>
-<td align="left">-0.03</td>
-<td align="left">-0.09</td>
-<td align="left">0.08</td>
-<td align="left">-0.09</td>
-<td align="left">-0.04</td>
-<td align="left">0.03</td>
-<td align="left">-0.12</td>
-<td align="left">0.23</td>
-<td align="left">0.01</td>
-<td align="left">0.26</td>
+<td align="left">0.22</td>
 <td align="left">-0.06</td>
+<td align="left">0.18</td>
+<td align="left">-0.04</td>
+<td align="left">0.16</td>
+<td align="left">0.04</td>
+<td align="left">-0.01</td>
+<td align="left">-0.33</td>
+<td align="left">0.19</td>
 </tr>
 </tbody>
 </table>
@@ -879,7 +880,7 @@ knitr::kable(allcorstable) </code></pre>
 </blockquote>
 <div id="whats-going-on" class="section level4">
 <h4>What’s going on?</h4>
-<p>To make it harder to <em>accidentally</em> run too many uncorrected tests, the <code>correlation</code> function simuluates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you’re deadset on p-hacking, you can override this by setting the <code>i_am_cheating</code> argument to <code>TRUE</code>.</p>
+<p>To make it harder to ‘accidentally’ run too many uncorrected tests, the <code>correlation</code> function simulates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you’re deadset on p-hacking, you can override this by setting the <code>i_am_cheating</code> argument to <code>TRUE</code>.</p>
 <pre class="r"><code>allcors &lt;- psycho::correlation(mtcars, adjust = &#39;none&#39;, i_am_cheating = TRUE)
 allcorstable &lt;- summary(allcors)
 knitr::kable(allcorstable) </code></pre>

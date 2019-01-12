@@ -49,8 +49,10 @@ We can also quickly make a nice little plot of the correlations to share with co
 plot(cors)
 ```
 
+I'm pretty sure that plot title is supposed to be a play on words...
+
 ### Alpha correction
-You may have noticed earlier that `correlation` package automatically applies p-value corrections to the correlations. The default is Holm's method, but you can specify others by setting the `adjust = ` argument to 'bonferroni', 'fdr', or 'none'. It doesn't change much, in this case.
+You may have noticed earlier that the `correlation` package automatically applies p-value corrections to the correlations. The default is Holm's method, but you can specify others by setting the `adjust=` argument to 'bonferroni', 'fdr', or 'none'. It doesn't change much, in this case.
 
 ```{r correction}
 boncors <- psycho::correlation(mtcars[, c('mpg', 'cyl', 'hp','wt', 'disp')],
@@ -75,7 +77,7 @@ Now we think to ourselves:
 > "Wow look at all those super intersting significant correlations we found! But wait, what's going on with these extra variables that aren't in the original dataset!? We didn't collect data on Schopenhauers Optimism or Local Air Density..."
 
 #### What's going on?
-To make it harder to *accidentally* run too many uncorrected tests, the `correlation` function simuluates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you're deadset on p-hacking, you can override this by setting the `i_am_cheating` argument to `TRUE`.
+To make it harder to 'accidentally' run too many uncorrected tests, the `correlation` function simulates new random variables (complete with funny names) when you run more than 10 uncorrected correlations. If you're deadset on p-hacking, you can override this by setting the `i_am_cheating` argument to `TRUE`.
 
 ```{r cheating}
 allcors <- psycho::correlation(mtcars, adjust = 'none', i_am_cheating = TRUE)
