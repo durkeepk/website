@@ -1,7 +1,7 @@
 ---
 title: "satRdays: a snarky correlation function"
 author: "Patrick Durkee"
-date: 2019-01-12 #"`r noquote(format(Sys.Date(), '%Y-%m-%d'))`"
+date: 2019-01-12 
 categories: ["satRdays"]
 tags: ["satRdays"]
 ---
