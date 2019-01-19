@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/satrdays/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>satRdays: basic data visualization</title>
+      <link>/post/satrdays/musicals/plottingmusicals/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/satrdays/musicals/plottingmusicals/</guid>
+      <description>I really like data visualization. My initial forays into data vizualization led me to the package ggplot2, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the aes and geom_whatever arguments were confusing to me), but I was motivated enough by some pretty examples and helpful documentation to hack through other people’s code and make my own plots.</description>
+    </item>
     
     <item>
       <title>satRdays: a snarky correlation function</title>
