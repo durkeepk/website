@@ -118,6 +118,7 @@ style(int_plot, hoverinfo = df$Name)
 ```
 
 <p>
+
 Now we can see the name of the musical when we hover over each point. That's cool. I've played around with `plotly` a bit and it has much more functionality than I can go into here; it plays well enough with `ggplot` for stuff like this, but it looks like it might be worth just learning `plotly` too (maybe in a future blog post).
 
 ## Go forth and ggplot
