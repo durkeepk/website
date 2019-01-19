@@ -124,4 +124,7 @@ So that's some basic `ggplot` stuff (with a bonus of `ggplotly`). I haven't even
 
 ![](https://media.giphy.com/media/oqyKi6VA1du8M/giphy.gif)
 
+
+Thanks for tuning in! My semester starts next week, and this took me more time than it should have so I think I'll probably switch to making this satRdays series bi-weekly or once-a-month.
+
 [^1]: In R Markdown you can programatically write these statistics using backticks, specifying the language `` `r` `` and then writing a function, e.g., `` round(mean(df$var), 2) `` within the backticks, but after the `r`.
