@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Patrick Durkee">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="I really like data visualization. My initial forays into data vizualization led me to the package ggplot2, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the aes and geom_whatever arguments were confusing to me), but I was motivated enough by some pretty examples and helpful documentation to hack through other people’s code and make my own plots.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/satrdays/dataviz_1/dataviz_ggplot_musicals/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Patrick Durkee">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Patrick Durkee">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/satrdays/dataviz_1/dataviz_ggplot_musicals/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@durkeepk">
+  <meta property="twitter:creator" content="@durkeepk">
+  
+  <meta property="og:site_name" content="Patrick Durkee">
+  <meta property="og:url" content="/post/satrdays/dataviz_1/dataviz_ggplot_musicals/">
+  <meta property="og:title" content="satRdays: basic data visualization | Patrick Durkee">
+  <meta property="og:description" content="I really like data visualization. My initial forays into data vizualization led me to the package ggplot2, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the aes and geom_whatever arguments were confusing to me), but I was motivated enough by some pretty examples and helpful documentation to hack through other people’s code and make my own plots."><meta property="og:image" content="/img/Patrick%20Lab%20Photo.JPG">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>satRdays: basic data visualization | Patrick Durkee</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Patrick Durkee</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">satRdays: basic data visualization</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Patrick Durkee">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 19, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Patrick Durkee">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/satrdays/">satRdays</a>
+    
+  </span>
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/plotly-binding/plotly.js"></script>
+<script src="/rmarkdown-libs/typedarray/typedarray.min.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
+<link href="/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+
+
+<p>I really like data visualization. My initial forays into data vizualization led me to the package <code>ggplot2</code>, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the <code>aes</code> and <code>geom_whatever</code> arguments were confusing to me), but I was motivated enough by some <a href="https://sakaluk.wordpress.com/2015/08/27/6-make-it-pretty-plotting-2-way-interactions-with-ggplot2/">pretty examples</a> and <a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">helpful documentation</a> to hack through other people’s code and make my own plots. I slowly started to get the syntax down, and now making plots with <code>ggplot</code> is <em>mostly</em> intuitive and “fun”. I still have to look specific stuff up once in a while, but I usually know what I’m looking for at least. Anyway, I think <code>ggplot2</code> is great, but the learning curve can feel a bit steep, so here is a simple tutorial.</p>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<div id="the-data" class="section level2">
+<h2>The data</h2>
+<p>I’ll use some data on musicals I found because I was recently reminded of my childhood love for musicals (especially Rodgers &amp; Hammerstein) and I’m feeling sentimental.</p>
+<p>I took the inflation-adjusted box office numbers and release year of the 27 top grossing musicals from <a href="http://www.playbill.com/article/the-27-highest-grossing-broadway-film-adaptations-of-all-time">this website</a> and put them in a spreadsheet. (Why did they only include the top <em>27</em> musicals? Seems like a strange number to decide on.)</p>
+<p>Then, for each musical I typed “[musical name] tracklisting” and “[musical name] runtime” into google and recorded what came up for each search in my spreadsheet, which can be downloaded on <a href="https://github.com/durkeepk/musicals">my github</a> (feel free to contribute data!). There’s probably a way I could have written some code to automatically scrape that data and more, but that would’ve been a whole thing.</p>
+<p>Anyway, here is the simple dataset:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Name</th>
+<th align="right">BoxOffice</th>
+<th align="right">song_quantity</th>
+<th align="right">year</th>
+<th align="right">length_minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Annie Get Your Gun</td>
+<td align="right">127245278</td>
+<td align="right">31</td>
+<td align="right">1950</td>
+<td align="right">107</td>
+</tr>
+<tr class="even">
+<td align="left">Dreamgirls</td>
+<td align="right">128941402</td>
+<td align="right">39</td>
+<td align="right">2006</td>
+<td align="right">130</td>
+</tr>
+<tr class="odd">
+<td align="left">Bye Bye Birdie</td>
+<td align="right">130212874</td>
+<td align="right">11</td>
+<td align="right">1963</td>
+<td align="right">120</td>
+</tr>
+<tr class="even">
+<td align="left">Into The Woods</td>
+<td align="right">130894237</td>
+<td align="right">21</td>
+<td align="right">2014</td>
+<td align="right">125</td>
+</tr>
+<tr class="odd">
+<td align="left">Flower Drum Song</td>
+<td align="right">131191774</td>
+<td align="right">16</td>
+<td align="right">1961</td>
+<td align="right">132</td>
+</tr>
+<tr class="even">
+<td align="left">Gypsy</td>
+<td align="right">133397795</td>
+<td align="right">16</td>
+<td align="right">1962</td>
+<td align="right">153</td>
+</tr>
+<tr class="odd">
+<td align="left">The Rocky Horror Picture Show</td>
+<td align="right">140576117</td>
+<td align="right">14</td>
+<td align="right">1975</td>
+<td align="right">101</td>
+</tr>
+<tr class="even">
+<td align="left">Hairspray</td>
+<td align="right">145652571</td>
+<td align="right">17</td>
+<td align="right">2007</td>
+<td align="right">120</td>
+</tr>
+<tr class="odd">
+<td align="left">Les Miserables</td>
+<td align="right">156592957</td>
+<td align="right">34</td>
+<td align="right">2012</td>
+<td align="right">160</td>
+</tr>
+<tr class="even">
+<td align="left">Annie</td>
+<td align="right">163607956</td>
+<td align="right">16</td>
+<td align="right">1982</td>
+<td align="right">128</td>
+</tr>
+<tr class="odd">
+<td align="left">Gentlemen Prefer Blondes</td>
+<td align="right">168600000</td>
+<td align="right">6</td>
+<td align="right">1953</td>
+<td align="right">91</td>
+</tr>
+<tr class="even">
+<td align="left">Mamma Mia</td>
+<td align="right">169222345</td>
+<td align="right">24</td>
+<td align="right">2008</td>
+<td align="right">109</td>
+</tr>
+<tr class="odd">
+<td align="left">The Music Man</td>
+<td align="right">180087030</td>
+<td align="right">18</td>
+<td align="right">1962</td>
+<td align="right">155</td>
+</tr>
+<tr class="even">
+<td align="left">Paint Your Wagon</td>
+<td align="right">188064853</td>
+<td align="right">15</td>
+<td align="right">1969</td>
+<td align="right">164</td>
+</tr>
+<tr class="odd">
+<td align="left">The Best Little Whorehouse In Texas</td>
+<td align="right">199858769</td>
+<td align="right">15</td>
+<td align="right">1982</td>
+<td align="right">114</td>
+</tr>
+<tr class="even">
+<td align="left">Cabaret</td>
+<td align="right">204930552</td>
+<td align="right">17</td>
+<td align="right">1972</td>
+<td align="right">124</td>
+</tr>
+<tr class="odd">
+<td align="left">Camelot</td>
+<td align="right">218495610</td>
+<td align="right">12</td>
+<td align="right">1967</td>
+<td align="right">179</td>
+</tr>
+<tr class="even">
+<td align="left">Chicago</td>
+<td align="right">239112061</td>
+<td align="right">18</td>
+<td align="right">2002</td>
+<td align="right">113</td>
+</tr>
+<tr class="odd">
+<td align="left">Oliver</td>
+<td align="right">240691792</td>
+<td align="right">20</td>
+<td align="right">1968</td>
+<td align="right">153</td>
+</tr>
+<tr class="even">
+<td align="left">The King And I</td>
+<td align="right">359118000</td>
+<td align="right">21</td>
+<td align="right">1956</td>
+<td align="right">144</td>
+</tr>
+<tr class="odd">
+<td align="left">Funny Girl</td>
+<td align="right">376454194</td>
+<td align="right">17</td>
+<td align="right">1968</td>
+<td align="right">155</td>
+</tr>
+<tr class="even">
+<td align="left">Fiddler On The Roof</td>
+<td align="right">408170029</td>
+<td align="right">17</td>
+<td align="right">1971</td>
+<td align="right">181</td>
+</tr>
+<tr class="odd">
+<td align="left">South Pacific</td>
+<td align="right">456211764</td>
+<td align="right">16</td>
+<td align="right">1958</td>
+<td align="right">171</td>
+</tr>
+<tr class="even">
+<td align="left">West Side Story</td>
+<td align="right">533899997</td>
+<td align="right">15</td>
+<td align="right">1957</td>
+<td align="right">153</td>
+</tr>
+<tr class="odd">
+<td align="left">Grease</td>
+<td align="right">602892685</td>
+<td align="right">24</td>
+<td align="right">1978</td>
+<td align="right">111</td>
+</tr>
+<tr class="even">
+<td align="left">My Fair Lady</td>
+<td align="right">652645154</td>
+<td align="right">15</td>
+<td align="right">1964</td>
+<td align="right">175</td>
+</tr>
+<tr class="odd">
+<td align="left">The Sound Of Music</td>
+<td align="right">1362273686</td>
+<td align="right">16</td>
+<td align="right">1965</td>
+<td align="right">174</td>
+</tr>
+</tbody>
+</table>
+<p>The variable names are pretty self-explanatory. Across these elite (i.e., truncated range of) musicals, the average number of songs is 18.56 (<em>SD</em> = 6.95) and the average runtime is 138.59 (<em>SD</em> = 26.49)<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
+</div>
+<div id="exploring-musical-quality" class="section level2">
+<h2>Exploring musical “quality”</h2>
+<p>For the sake of this exercise, let’s imagine that the amount of money a musical makes is a decent reflection of its quality (I’m sure there are many reasons why this isn’t valid, but the same could be said for a lot of operationalizations in psychology). Let’s try to find some interesting relationships between some other objective metrics and musical quality with <code>ggplot</code>.</p>
+<div id="number-of-songs" class="section level3">
+<h3>Number of songs?</h3>
+<p>A reasonable person might guess that a good musical would have a lot of music. Maybe there’s a relationship between the number of songs in a musical and how much money it made at the box office. Let’s make a basic scatterplot exploring that relationship.</p>
+<p>At minimum, we have to specify the data and the overall aesthetics (<code>aes</code>), which are usually at least the x (<code>song_quantity</code>) and y (<code>BoxOffice</code>) axis. One cool thing about <code>ggplot</code> is that you just add layers to this backbone using a <code>+</code> for each layer. Markers can be added using <code>geom_point</code> (or <code>geom_jitter</code> to prevent points from overlapping too much). If you save the backbone plot (or any additions thereafter) as an object (e.g., <code>myplot</code>), you can simply add additional layers to that object as well (illustrated below).</p>
+<pre class="r"><code># specify the backbone
+myplot &lt;- ggplot(data = df, # specify data
+                 aes(x = song_quantity, # specify x axis variable
+                     y = BoxOffice)) # specify y axis variable
+# add markers to the backbone
+myplot + geom_point()</code></pre>
+<p><img src="/post/satRdays/Dataviz_1/dataviz_ggplot_musicals_files/figure-html/backboneplot-1.png" width="672" /></p>
+<p>So there’s the visualized relationship between song quantity and musical quality: there isn’t one.</p>
+</div>
+<div id="runtime" class="section level3">
+<h3>Runtime?</h3>
+<p>Maybe musical fans just want a good escape from their real life, so musicals that are simply longer—providing more escape—are “better”. Here’s a scatterplot exploring the relationship between runtime (<code>length_minutes</code>) and box office earnings (<code>BoxOffice</code>). I changed the point <code>size</code>, <code>shape</code>, and <code>color</code> just to show how.</p>
+<pre class="r"><code>plot2 &lt;- ggplot(df, aes(length_minutes, BoxOffice, label = Name)) +
+  geom_point(color = &#39;blue&#39;, # change color of points
+             shape = &#39;triangle&#39;, # change point shape
+             size = 3) # change the point size 
+plot2  </code></pre>
+<p><img src="/post/satRdays/Dataviz_1/dataviz_ggplot_musicals_files/figure-html/fancier-1.png" width="672" /></p>
+<p>Looks like there might be actually a relationship, although it’s probably driven by that outlier that is the highest-grossing musical. We could look in the dataframe to see what that is, but this is a plotting tutorial so let’s make the plot tell us. We can add text labels to the point using <code>geom_text</code> and change the distance of the labels from the points using <code>vjust</code> and <code>hjust</code>. Because this adds another layer that depends on the data, we have to provide the aesthetics, using the <code>label</code> arguement in this case.</p>
+<pre class="r"><code># add text labels with the musical name
+plot2 + geom_text(aes(label = Name), vjust = -.1) </code></pre>
+<p><img src="/post/satRdays/Dataviz_1/dataviz_ggplot_musicals_files/figure-html/plotlabels-1.png" width="672" /></p>
+<p>Most those labels are pretty bunched up but we can see that the highest grossing musical is The Sound of Music. We can’t very well get rid of one of the most iconic musicals of all time, so let’s just keep the outlier for the sake of the exercise. The labels look terrible, though, so we should probably get rid of them (we can bring them back later in a pretty way). While we’re at it, let’s make the plot generally prettier by changing the theme and setting the axis labels to something more clear.</p>
+<p>There are a number of ways to change the axis labels, scales, and tick marks, but the ones that gives me the most control seems to be <code>scale_x_continuous</code> and <code>scale_y_continuous</code>.</p>
+<pre class="r"><code>library(scales)
+plot2_revised &lt;- plot2 + 
+  scale_x_continuous(name = &quot;Runtime (in minutes)&quot;, # new x-axis label
+                           # setting tick mark every 10 minutes
+                           breaks = seq(90, 190, 10)) + 
+  scale_y_continuous(name = &quot;Gross Box Office Earnings (USD)&quot;,
+                     # changes y-axis tick labels to dollar values
+                     labels = dollar,
+                     breaks = seq(min(df$BoxOffice), max(df$BoxOffice), 50000000))
+  
+plot2_revised</code></pre>
+<p><img src="/post/satRdays/Dataviz_1/dataviz_ggplot_musicals_files/figure-html/labels-1.png" width="672" /></p>
+<p>There are a whole bunch of preset themes in <code>ggplot</code> (see full list of default themes <a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">here</a>). I like <code>theme_classic</code>.</p>
+<pre class="r"><code>plot_final &lt;- plot2_revised + theme_classic()
+
+plot_final</code></pre>
+<p><img src="/post/satRdays/Dataviz_1/dataviz_ggplot_musicals_files/figure-html/classic-1.png" width="672" /></p>
+</div>
+<div id="bonus-add-interactive-labels" class="section level3">
+<h3>Bonus: add interactive labels</h3>
+<p>I liked being able to see which dot belonged to each musical, but the labels were too ugly. Luckily there is an interactive plotting package called <code>plotly</code> that has a wrapper to turn any <code>ggplot</code> object into an interactive plot.</p>
+<pre class="r"><code>library(plotly)
+
+int_plot &lt;- ggplotly(plot_final)
+
+style(int_plot, hoverinfo = df$Name)</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"data":[{"x":[107,130,120,125,132,153,101,120,160,128,91,109,155,164,114,124,179,113,153,144,155,181,171,153,111,175,174],"y":[127245278,128941402,130212874,130894237,131191774,133397795,140576117,145652571,156592957,163607956,168600000,169222345,180087030,188064853,199858769,204930552,218495610,239112061,240691792,359118000,376454194,408170029,456211764,533899997,602892685,652645154,1362273686],"text":["length_minutes: 107<br />BoxOffice:  127245278<br />Name: Annie Get Your Gun","length_minutes: 130<br />BoxOffice:  128941402<br />Name: Dreamgirls","length_minutes: 120<br />BoxOffice:  130212874<br />Name: Bye Bye Birdie","length_minutes: 125<br />BoxOffice:  130894237<br />Name: Into The Woods","length_minutes: 132<br />BoxOffice:  131191774<br />Name: Flower Drum Song","length_minutes: 153<br />BoxOffice:  133397795<br />Name: Gypsy","length_minutes: 101<br />BoxOffice:  140576117<br />Name: The Rocky Horror Picture Show","length_minutes: 120<br />BoxOffice:  145652571<br />Name: Hairspray","length_minutes: 160<br />BoxOffice:  156592957<br />Name: Les Miserables","length_minutes: 128<br />BoxOffice:  163607956<br />Name: Annie ","length_minutes:  91<br />BoxOffice:  168600000<br />Name: Gentlemen Prefer Blondes","length_minutes: 109<br />BoxOffice:  169222345<br />Name: Mamma Mia","length_minutes: 155<br />BoxOffice:  180087030<br />Name: The Music Man","length_minutes: 164<br />BoxOffice:  188064853<br />Name: Paint Your Wagon","length_minutes: 114<br />BoxOffice:  199858769<br />Name: The Best Little Whorehouse In Texas","length_minutes: 124<br />BoxOffice:  204930552<br />Name: Cabaret","length_minutes: 179<br />BoxOffice:  218495610<br />Name: Camelot","length_minutes: 113<br />BoxOffice:  239112061<br />Name: Chicago","length_minutes: 153<br />BoxOffice:  240691792<br />Name: Oliver","length_minutes: 144<br />BoxOffice:  359118000<br />Name: The King And I","length_minutes: 155<br />BoxOffice:  376454194<br />Name: Funny Girl","length_minutes: 181<br />BoxOffice:  408170029<br />Name: Fiddler On The Roof","length_minutes: 171<br />BoxOffice:  456211764<br />Name: South Pacific","length_minutes: 153<br />BoxOffice:  533899997<br />Name: West Side Story","length_minutes: 111<br />BoxOffice:  602892685<br />Name: Grease","length_minutes: 175<br />BoxOffice:  652645154<br />Name: My Fair Lady","length_minutes: 174<br />BoxOffice: 1362273686<br />Name: The Sound Of Music"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,255,1)","opacity":1,"size":11.3385826771654,"symbol":"triangle","line":{"width":1.88976377952756,"color":"rgba(0,0,255,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":["Annie Get Your Gun","Dreamgirls","Bye Bye Birdie","Into The Woods","Flower Drum Song","Gypsy","The Rocky Horror Picture Show","Hairspray","Les Miserables","Annie ","Gentlemen Prefer Blondes","Mamma Mia","The Music Man","Paint Your Wagon","The Best Little Whorehouse In Texas","Cabaret","Camelot","Chicago","Oliver","The King And I","Funny Girl","Fiddler On The Roof","South Pacific","West Side Story","Grease","My Fair Lady","The Sound Of Music"],"frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":107.397260273973},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[86.5,185.5],"tickmode":"array","ticktext":["90","100","110","120","130","140","150","160","170","180"],"tickvals":[90,100,110,120,130,140,150,160,170,180],"categoryorder":"array","categoryarray":["90","100","110","120","130","140","150","160","170","180"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":"Runtime (in minutes)","titlefont":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[65493857.6,1424025106.4],"tickmode":"array","ticktext":["$127,245,278","$177,245,278","$227,245,278","$277,245,278","$327,245,278","$377,245,278","$427,245,278","$477,245,278","$527,245,278","$577,245,278","$627,245,278","$677,245,278","$727,245,278","$777,245,278","$827,245,278","$877,245,278","$927,245,278","$977,245,278","$1,027,245,278","$1,077,245,278","$1,127,245,278","$1,177,245,278","$1,227,245,278","$1,277,245,278","$1,327,245,278"],"tickvals":[127245278,177245278,227245278,277245278,327245278,377245278,427245278,477245278,527245278,577245278,627245278,677245278,727245278,777245278,827245278,877245278,927245278,977245278,1027245278,1077245278,1127245278,1177245278,1227245278,1277245278,1327245278],"categoryorder":"array","categoryarray":["$127,245,278","$177,245,278","$227,245,278","$277,245,278","$327,245,278","$377,245,278","$427,245,278","$477,245,278","$527,245,278","$577,245,278","$627,245,278","$677,245,278","$727,245,278","$777,245,278","$827,245,278","$877,245,278","$927,245,278","$977,245,278","$1,027,245,278","$1,077,245,278","$1,127,245,278","$1,177,245,278","$1,227,245,278","$1,277,245,278","$1,327,245,278"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":"Gross Box Office Earnings (USD)","titlefont":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":[{"name":"Collaborate","icon":{"width":1000,"ascent":500,"descent":-50,"path":"M487 375c7-10 9-23 5-36l-79-259c-3-12-11-23-22-31-11-8-22-12-35-12l-263 0c-15 0-29 5-43 15-13 10-23 23-28 37-5 13-5 25-1 37 0 0 0 3 1 7 1 5 1 8 1 11 0 2 0 4-1 6 0 3-1 5-1 6 1 2 2 4 3 6 1 2 2 4 4 6 2 3 4 5 5 7 5 7 9 16 13 26 4 10 7 19 9 26 0 2 0 5 0 9-1 4-1 6 0 8 0 2 2 5 4 8 3 3 5 5 5 7 4 6 8 15 12 26 4 11 7 19 7 26 1 1 0 4 0 9-1 4-1 7 0 8 1 2 3 5 6 8 4 4 6 6 6 7 4 5 8 13 13 24 4 11 7 20 7 28 1 1 0 4 0 7-1 3-1 6-1 7 0 2 1 4 3 6 1 1 3 4 5 6 2 3 3 5 5 6 1 2 3 5 4 9 2 3 3 7 5 10 1 3 2 6 4 10 2 4 4 7 6 9 2 3 4 5 7 7 3 2 7 3 11 3 3 0 8 0 13-1l0-1c7 2 12 2 14 2l218 0c14 0 25-5 32-16 8-10 10-23 6-37l-79-259c-7-22-13-37-20-43-7-7-19-10-37-10l-248 0c-5 0-9-2-11-5-2-3-2-7 0-12 4-13 18-20 41-20l264 0c5 0 10 2 16 5 5 3 8 6 10 11l85 282c2 5 2 10 2 17 7-3 13-7 17-13z m-304 0c-1-3-1-5 0-7 1-1 3-2 6-2l174 0c2 0 4 1 7 2 2 2 4 4 5 7l6 18c0 3 0 5-1 7-1 1-3 2-6 2l-173 0c-3 0-5-1-8-2-2-2-4-4-4-7z m-24-73c-1-3-1-5 0-7 2-2 3-2 6-2l174 0c2 0 5 0 7 2 3 2 4 4 5 7l6 18c1 2 0 5-1 6-1 2-3 3-5 3l-174 0c-3 0-5-1-7-3-3-1-4-4-5-6z"},"click":"function(gd) { \n        // is this being viewed in RStudio?\n        if (location.search == '?viewer_pane=1') {\n          alert('To learn about plotly for collaboration, visit:\\n https://cpsievert.github.io/plotly_book/plot-ly-for-collaboration.html');\n        } else {\n          window.open('https://cpsievert.github.io/plotly_book/plot-ly-for-collaboration.html', '_blank');\n        }\n      }"}],"cloud":false},"source":"A","attrs":{"32ebdb01be6":{"x":{},"y":{},"label":{},"type":"scatter"}},"cur_data":"32ebdb01be6","visdat":{"32ebdb01be6":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"base_url":"https://plot.ly"},"evals":["config.modeBarButtonsToAdd.0.click"],"jsHooks":[]}</script>
+<p>Now we can see the name of the musical, along with the other data, when we hover over each point. So that’s cool. I’ve played around with <code>plotly</code> a bit and it has much more functionality than I can go into here; it plays well enough with <code>ggplot</code> for stuff like this, but it looks like it might be worth just learning <code>plotly</code> too (maybe in a future blog post).</p>
+</div>
+</div>
+<div id="go-forth-and-ggplot" class="section level2">
+<h2>Go forth and ggplot</h2>
+<p>So that’s some basic <code>ggplot</code> stuff (with a bonus of <code>ggplotly</code>). I haven’t even scratched the surface of what’s possible with <code>ggplot</code> here but hopefully it helps someone get started. With enough practice and googling you’ll feel as free in ggplot as Julie Andrews did in the alps.</p>
+<div class="figure">
+<img src="https://media.giphy.com/media/oqyKi6VA1du8M/giphy.gif" />
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>In R Markdown you can programatically write these statistics using backticks, specifying the language <code>`r`</code> and then writing a function, e.g., <code>round(mean(df$var), 2)</code> within the backticks, but after the <code>r</code>.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/satrdays/">satRdays</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/Patrick%20Lab%20Photo.JPG" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Patrick Durkee</a></h5>
+    
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/durkeepk" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=uj4K4rQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/durkeepk" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/files/cv/cv.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/satrdays/snarkycorrelations/snarkycorrelations/">satRdays: a snarky correlation function</a></li>
+        
+        <li><a href="/post/satrdays/firstpost/introducing/">satRdays: an introduction</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+

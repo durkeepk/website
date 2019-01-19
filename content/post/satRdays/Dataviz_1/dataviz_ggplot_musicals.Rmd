@@ -1,0 +1,127 @@
+---
+title: "satRdays: basic data visualization"
+author: "Patrick Durkee"
+date: 2019-01-19 
+categories: ["satRdays"]
+tags: ["satRdays"]
+---
+
+I really like data visualization. My initial forays into data vizualization led me to the package `ggplot2`, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the `aes` and `geom_whatever` arguments were confusing to me), but I was motivated enough by some [pretty examples](https://sakaluk.wordpress.com/2015/08/27/6-make-it-pretty-plotting-2-way-interactions-with-ggplot2/) and [helpful documentation](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) to hack through other people's code and make my own plots. I slowly started to get the syntax down, and now making plots with `ggplot` is *mostly* intuitive and "fun". I still have to look specific stuff up once in a while, but I usually know what I'm looking for at least. Anyway, I think `ggplot2` is great, but the learning curve can feel a bit steep, so here is a simple tutorial. 
+```{r packages, message=F}
+
+library(ggplot2)
+
+```
+
+
+## The data
+
+I'll use some data on musicals I found because I was recently reminded of my childhood love for musicals (especially Rodgers & Hammerstein) and I'm feeling sentimental. 
+
+I took the inflation-adjusted box office numbers and release year of the 27 top grossing musicals from [this website](http://www.playbill.com/article/the-27-highest-grossing-broadway-film-adaptations-of-all-time) and put them in a spreadsheet. (Why did they only include the top *27* musicals? Seems like a strange number to decide on.) 
+
+Then, for each musical I typed "[musical name] tracklisting" and "[musical name] runtime" into google and recorded what came up for each search in my spreadsheet, which can be downloaded on [my github](https://github.com/durkeepk/musicals) (feel free to contribute data!). There's probably a way I could have written some code to automatically scrape that data and more, but that would've been a whole thing.
+
+Anyway, here is the simple dataset:
+
+```{r data, echo=F}
+df <- read.csv("data/musical_data.csv")
+knitr::kable(df)
+```
+
+The variable names are pretty self-explanatory. Across these elite (i.e., truncated range of) musicals, the average number of songs is `r round(mean(df$song_quantity), 2)` (*SD* = `r round(sd(df$song_quantity), 2)`) and the average runtime is `r round(mean(df$length_minutes), 2)` (*SD* = `r round(sd(df$length_minutes), 2)`)[^1].
+
+## Exploring musical "quality"
+
+For the sake of this exercise, let's imagine that the amount of money a musical makes is a decent reflection of its quality (I'm sure there are many reasons why this isn't valid, but the same could be said for a lot of operationalizations in psychology). Let's try to find some interesting relationships between some other objective metrics and musical quality with `ggplot`.
+
+### Number of songs? 
+A reasonable person might guess that a good musical would have a lot of music. Maybe there's a relationship between the number of songs in a musical and how much money it made at the box office. Let's make a basic scatterplot exploring that relationship.
+
+At minimum, we have to specify the data and the overall aesthetics (`aes`), which are usually at least the x (`song_quantity`) and y (`BoxOffice`) axis. One cool thing about `ggplot` is that you just add layers to this backbone using a `+` for each layer. Markers can be added using `geom_point` (or `geom_jitter` to prevent points from overlapping too much). If you save the backbone plot (or any additions thereafter) as an object (e.g., `myplot`), you can simply add additional layers to that object as well (illustrated below).
+
+```{r backboneplot}
+# specify the backbone
+myplot <- ggplot(data = df, # specify data
+                 aes(x = song_quantity, # specify x axis variable
+                     y = BoxOffice)) # specify y axis variable
+# add markers to the backbone
+myplot + geom_point()
+
+```
+
+So there's the visualized relationship between song quantity and musical quality: there isn't one. 
+
+### Runtime?  
+Maybe musical fans just want a good escape from their real life, so musicals that are simply longer---providing more escape---are "better". Here's a scatterplot exploring the relationship between runtime (`length_minutes`) and box office earnings (`BoxOffice`). I changed the point `size`, `shape`, and `color` just to show how.
+
+
+```{r fancier}
+
+plot2 <- ggplot(df, aes(length_minutes, BoxOffice, label = Name)) +
+  geom_point(color = 'blue', # change color of points
+             shape = 'triangle', # change point shape
+             size = 3) # change the point size 
+plot2  
+
+```
+
+Looks like there might be actually a relationship, although it's probably driven by that outlier that is the highest-grossing musical. We could look in the dataframe to see what that is, but this is a plotting tutorial so let's make the plot tell us. We can add text labels to the point using `geom_text` and change the distance of the labels from the points using `vjust` and `hjust`. Because this adds another layer that depends on the data, we have to provide the aesthetics, using the `label` arguement in this case.
+
+```{r plotlabels}
+# add text labels with the musical name
+plot2 + geom_text(aes(label = Name), vjust = -.1) 
+
+```
+
+Most those labels are pretty bunched up but we can see that the highest grossing musical is The Sound of Music. We can't very well get rid of one of the most iconic musicals of all time, so let's just keep the outlier for the sake of the exercise. The labels look terrible, though, so we should probably get rid of them (we can bring them back later in a pretty way). While we're at it, let's make the plot generally prettier by changing the theme and setting the axis labels to something more clear.
+
+There are a number of ways to change the axis labels, scales, and tick marks, but the ones that gives me the most control seems to be `scale_x_continuous` and `scale_y_continuous`.
+
+```{r labels}
+library(scales)
+plot2_revised <- plot2 + 
+  scale_x_continuous(name = "Runtime (in minutes)", # new x-axis label
+                           # setting tick mark every 10 minutes
+                           breaks = seq(90, 190, 10)) + 
+  scale_y_continuous(name = "Gross Box Office Earnings (USD)",
+                     # changes y-axis tick labels to dollar values
+                     labels = dollar,
+                     breaks = seq(min(df$BoxOffice), max(df$BoxOffice), 50000000))
+  
+plot2_revised
+```
+
+There are a whole bunch of preset themes in `ggplot` (see full list of default themes [here](https://ggplot2.tidyverse.org/reference/ggtheme.html)). I like `theme_classic`. 
+
+```{r classic}
+
+plot_final <- plot2_revised + theme_classic()
+
+plot_final
+
+```
+
+### Bonus: add interactive labels
+
+I liked being able to see which dot belonged to each musical, but the labels were too ugly. Luckily there is an interactive plotting package called `plotly` that has a wrapper to turn any `ggplot` object into an interactive plot.
+
+```{r interactive, message=F}
+
+library(plotly)
+
+int_plot <- ggplotly(plot_final)
+
+style(int_plot, hoverinfo = df$Name)
+```
+
+
+Now we can see the name of the musical, along with the other data, when we hover over each point. So that's cool. I've played around with `plotly` a bit and it has much more functionality than I can go into here; it plays well enough with `ggplot` for stuff like this, but it looks like it might be worth just learning `plotly` too (maybe in a future blog post).
+
+## Go forth and ggplot
+
+So that's some basic `ggplot` stuff (with a bonus of `ggplotly`). I haven't even scratched the surface of what's possible with `ggplot` here but hopefully it helps someone get started. With enough practice and googling you'll feel as free in ggplot as Julie Andrews did in the alps.
+
+![](https://media.giphy.com/media/oqyKi6VA1du8M/giphy.gif)
+
+[^1]: In R Markdown you can programatically write these statistics using backticks, specifying the language `` `r` `` and then writing a function, e.g., `` round(mean(df$var), 2) `` within the backticks, but after the `r`.
