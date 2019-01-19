@@ -6,7 +6,7 @@ categories: ["satRdays"]
 tags: ["satRdays"]
 ---
 
-I really like data visualization. My initial forays into data vizualization led me to the package `ggplot2`, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the `aes` and `geom_whatever` arguments were confusing to me), but I was motivated enough by some [pretty examples](https://sakaluk.wordpress.com/2015/08/27/6-make-it-pretty-plotting-2-way-interactions-with-ggplot2/) and [helpful documentation](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) to hack through other people's code and make my own plots. I slowly started to get the syntax down, and now making plots with `ggplot` is *mostly* intuitive and "fun". I still have to look specific stuff up once in a while, but I usually know what I'm looking for at least. Anyway, I think `ggplot2` is great, but the learning curve can feel a bit steep, so here is a simple tutorial. 
+I love data visualization. My initial forays into data vizualization led me to the package `ggplot2`, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the `aes` and `geom_whatever` arguments were confusing to me), but I was motivated enough by some [pretty examples](https://sakaluk.wordpress.com/2015/08/27/6-make-it-pretty-plotting-2-way-interactions-with-ggplot2/) and [helpful documentation](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) to hack through other people's code and make my own plots. I slowly started to get the syntax down, and now making plots with `ggplot` is *mostly* intuitive and "fun". I still have to look specific stuff up once in a while, but I usually know what I'm looking for at least. Anyway, I think `ggplot2` is great, but the learning curve can feel a bit steep, so here is a simple tutorial. 
 ```{r packages, message=F}
 
 library(ggplot2)
@@ -66,7 +66,7 @@ plot2
 
 ```
 
-Looks like there might be actually a relationship, although it's probably driven by that outlier that is the highest-grossing musical. We could look in the dataframe to see what that is, but this is a plotting tutorial so let's make the plot tell us. We can add text labels to the point using `geom_text` and change the distance of the labels from the points using `vjust` and `hjust`. Because this adds another layer that depends on the data, we have to provide the aesthetics, using the `label` arguement in this case.
+If there is a relationship, it's probably driven by that outlier that is the highest-grossing musical. Which musical is it? We could look in the dataframe to see, but this is a plotting tutorial so let's make the plot tell us. We can add text labels to the points using `geom_text` and change the distance of the labels from the points using `vjust` and `hjust`. Because this adds another layer that depends on the data, we have to provide the aesthetics, using the `label` arguement in this case.
 
 ```{r plotlabels}
 # add text labels with the musical name
@@ -74,9 +74,9 @@ plot2 + geom_text(aes(label = Name), vjust = -.1)
 
 ```
 
-Most those labels are pretty bunched up but we can see that the highest grossing musical is The Sound of Music. We can't very well get rid of one of the most iconic musicals of all time, so let's just keep the outlier for the sake of the exercise. The labels look terrible, though, so we should probably get rid of them (we can bring them back later in a pretty way). While we're at it, let's make the plot generally prettier by changing the theme and setting the axis labels to something more clear.
+Most those labels are pretty bunched (very ugly) up but we can see that the highest grossing musical is The Sound of Music. We can't very well get rid of one of the most iconic musicals of all time, so let's just keep the outlier for the sake of the exercise. The labels look terrible, though, so we should probably get rid of them (we can bring them back later in a pretty way). While we're at it, let's make the plot generally prettier by changing the theme and setting the axis labels to something more clear.
 
-There are a number of ways to change the axis labels, scales, and tick marks, but the ones that gives me the most control seems to be `scale_x_continuous` and `scale_y_continuous`.
+There are a number of ways to change the axis labels, scales, and tick marks, but the ones that seem to give the most control are `scale_x_continuous` and `scale_y_continuous`.
 
 ```{r labels}
 library(scales)
@@ -102,6 +102,8 @@ plot_final
 
 ```
 
+Now we've basically got a publication-ready plot!
+
 ### Bonus: add interactive labels
 
 I liked being able to see which dot belonged to each musical, but the labels were too ugly. Luckily there is an interactive plotting package called `plotly` that has a wrapper to turn any `ggplot` object into an interactive plot.
@@ -116,11 +118,11 @@ style(int_plot, hoverinfo = df$Name)
 ```
 
 
-Now we can see the name of the musical, along with the other data, when we hover over each point. So that's cool. I've played around with `plotly` a bit and it has much more functionality than I can go into here; it plays well enough with `ggplot` for stuff like this, but it looks like it might be worth just learning `plotly` too (maybe in a future blog post).
+Now we can see the name of the musical when we hover over each point. That's cool. I've played around with `plotly` a bit and it has much more functionality than I can go into here; it plays well enough with `ggplot` for stuff like this, but it looks like it might be worth just learning `plotly` too (maybe in a future blog post).
 
 ## Go forth and ggplot
 
-So that's some basic `ggplot` stuff (with a bonus of `ggplotly`). I haven't even scratched the surface of what's possible with `ggplot` here but hopefully it helps someone get started. With enough practice and googling you'll feel as free in ggplot as Julie Andrews did in the alps.
+So that's some basic `ggplot` stuff (with a bonus of `ggplotly`). I haven't even scratched the surface of what's possible with `ggplot` here but hopefully it helps someone get started. With enough practice and googling you can feel as free in ggplot as Julie Andrews did in the alps.
 
 ![](https://media.giphy.com/media/oqyKi6VA1du8M/giphy.gif)
 

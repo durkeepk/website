@@ -18,7 +18,7 @@
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/satrdays/dataviz_1/dataviz_ggplot_musicals/</guid>
-      <description>I really like data visualization. My initial forays into data vizualization led me to the package ggplot2, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the aes and geom_whatever arguments were confusing to me), but I was motivated enough by some pretty examples and helpful documentation to hack through other people’s code and make my own plots.</description>
+      <description>I love data visualization. My initial forays into data vizualization led me to the package ggplot2, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the aes and geom_whatever arguments were confusing to me), but I was motivated enough by some pretty examples and helpful documentation to hack through other people’s code and make my own plots.</description>
     </item>
     
     <item>
