@@ -104,7 +104,7 @@ plot_final
 
 Now we've basically got a publication-ready plot!
 
-### Bonus: add interactive labels
+### Bonus: Add interactive labels
 
 I liked being able to see which dot belonged to each musical, but the labels were too ugly. Luckily there is an interactive plotting package called `plotly` that has a wrapper to turn any `ggplot` object into an interactive plot.
 
@@ -117,7 +117,7 @@ int_plot <- ggplotly(plot_final)
 style(int_plot, hoverinfo = df$Name)
 ```
 
-
+<p>
 Now we can see the name of the musical when we hover over each point. That's cool. I've played around with `plotly` a bit and it has much more functionality than I can go into here; it plays well enough with `ggplot` for stuff like this, but it looks like it might be worth just learning `plotly` too (maybe in a future blog post).
 
 ## Go forth and ggplot
