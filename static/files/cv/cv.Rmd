@@ -37,13 +37,23 @@ urlcolor: black
 
 # PUBLICATIONS
 
+\hangindent=0.5in **Durkee, P. K.** (accepted manuscript). Do the Massai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters*.
+
+\hangindent=0.5in **Durkee, P. K.**, Pita, M., ..., Buss, D. M. (accepted manuscript). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology*.
+
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment   mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.
 
 # CONFERENCE PRESENTATIONS
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2018, July). *How humans assess and allocate social status*. Talk presented at 30th annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Talk accepted at 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
 
-\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.** K., Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at 12thannual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, May). *Pride and shame: Key components of a culturally universal status management system*. Poster accepted at 31st annual meeting of the Association for Psychological Science, Washington, D.C.
+
+\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.** K., Lukaszewski, A. L., Buss, D. M. (2019, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at 13th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2018, July). *How humans assess and allocate social status*. Talk presented at 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
+
+\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.** K., Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
 
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Talk presented at 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
 
@@ -74,7 +84,9 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
-Jennifer J. Malin Endowed Fellowship \hfill \textcolor{light-gray}{Summer 2018}
+Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
+
+Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018}
 
 Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}
 
@@ -86,7 +98,7 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 # PROFESSIONAL SERVICE
 
-**Reviewed for:** *Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology*
+**Reviewed for:** *Evolution & Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology*
 
 # TECHNICAL SKILLS
 
@@ -100,9 +112,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-Western Psychological Association (WPA)
-
-\pagebreak
+<!-- \pagebreak -->
 
 # ACADEMIC REFERENCES
 
