@@ -39,9 +39,9 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** (accepted manuscript). Do the Massai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters*.
 
-\hangindent=0.5in **Durkee, P. K.**, Pita, M., ..., Buss, D. M. (accepted manuscript). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology*.
+\hangindent=0.5in **Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M., (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology*.
 
-\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment   mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.
 
 # CONFERENCE PRESENTATIONS
 
