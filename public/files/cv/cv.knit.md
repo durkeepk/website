@@ -1,0 +1,147 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: rap-latex-cv.tex
+geometry: margin=1in
+
+title: "CV"
+author: Patrick Durkee
+#orcid: "orcid.org/0000-0002-9577-6885"
+#jobtitle: "Computer Scientist & United States Navy Rear Admiral"
+#address: "Address · Arlington · VA 22205"
+fontawesome: yes
+email: pdurkee@utexas.edu
+github: durkeepk
+#phone: "+1 555 5555"
+web: pdurkee.com
+twitter: durkeepk
+updated: yes
+
+keywords: RMarkdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+linkcolor: black
+urlcolor: black
+---
+# EDUCATION
+\definecolor{light-gray}{gray}{.5}
+*University of Texas at Austin*, Ph.D., Individual Differences and Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
+
+*California State University, Fullerton*, M.A., Experimental Psychology \hfill 
+\textcolor{light-gray}{2017}
+
+*California State University, Fullerton*, B.A., Psychology \hfill \textcolor{light-gray}{2015}
+
+# PUBLICATIONS
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (revise and resubmit). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.
+
+\hangindent=0.5in **Durkee, P. K.** (accepted manuscript). Do the Massai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters*.
+
+\hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M., (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
+
+\hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
+
+# CONFERENCE PRESENTATIONS
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
+
+\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.**, Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L. (2017, May). *Attractiveness assessment across domains*. Poster presented at the 11th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, July). *The relationship between formidability and aggression: A meta-analytic review*. Poster presented at the 28th annual meeting of the Human Behavior and Evolution Society, Vancouver, Canada. [More studies included and wider scope compared to initial version at APS]
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, May). *Meta-analytic review of the relationship between aggression and formidability*. Poster presented at the 28th annual Association for Psychological Science meeting, Chicago, IL.
+
+\hangindent=0.5in **Durkee, P. K.**, Ayers, J., Goetz, A. T. (2016, May). *Trolley Problems: An important limitation to consequentialist intuitions triggered by Hamiltonian mechanisms*. Poster presented at the 10th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
+
+\hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, April). *Meta analytic review of the relationship between formidability and aggression*. Paper presented at CSUF’s 1st Annual H&SS Week Research Symposium, Fullerton, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
+Columbia, MO.
+
+\hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, April). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 9th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
+
+# INVITED TALKS
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, November). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, October). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+
+# GRANTS & AWARDS
+
+Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
+
+Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018}
+
+Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}
+
+Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
+
+Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
+
+Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
+
+# PROFESSIONAL SERVICE
+
+**Reviewed for:** *Evolution & Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology*
+
+# TECHNICAL SKILLS
+
+**Statistical Software and Data Management:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT
+
+**Stimulus Presentation Software:** PsychoPy, PsyToolkit, Qualtrics, GoogleForms
+
+# PROFESSIONAL AFFILIATIONS
+
+Human Behavior and Evolution Society (HBES)
+
+Association for Psychological Science (APS)
+
+<!-- \pagebreak -->
+
+# ACADEMIC REFERENCES
+
+**David Buss, Ph.D.** \newline
+Professor of Psychology \newline
+University of Texas at Austin \newline
+Phone: 512-475-8489 \newline
+Email: dbuss@austin.utexas.edu
+
+**Aaron Goetz, Ph.D.** \newline
+Associate Professor of Psychology \newline
+California State University, Fullerton \newline
+Phone: 657-278-2602 \newline
+Email: agoetz@fullerton.edu
+
+**Aaron Lukaszewski, Ph.D.** \newline
+Assistant Professor of Psychology \newline
+California State University, Fullerton \newline
+Phone: 657-278-7235 \newline
+Email: alukaszewski@fullerton.edu 
+
+**John Patton, Ph.D.** \newline
+Professor of Anthropology \newline
+California State University, Fullerton \newline
+Phone: 657-278-5763 \newline
+Email: johnpatton@fullerton.edu 
+
+**Elizabeth Pillsworth, Ph.D.** \newline
+Associate Professor of Anthropology \newline
+California State University, Fullerton \newline
+Phone: 657-278-5603 \newline
+Email: epillsworth@fullerton.edu
+
+
