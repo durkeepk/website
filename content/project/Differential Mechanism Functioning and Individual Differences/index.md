@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "Differential Mechanism Functioning and Individual Differences"
+title = "Differential Mechanism Parameterization and Individual Differences"
 
 # Date this page was created.
 date = 2019-01-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "A project page for my research program on differential mechanism functioning and individual differences."
+summary = "A project page for my research program on differential mechanism parameterization and individual differences."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
