@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "Emotions and Hierarchy Negotiation"
+title = "Emotions and Hierarchy Navigation"
 
 # Date this page was created.
 date = 2019-01-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "Project page for my research program on emotions and hierarchy negotiation"
+summary = "Project page for my research program on emotions and hierarchy navigation"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
