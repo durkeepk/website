@@ -1,10 +1,10 @@
 +++
-title = "Men’s Bodily Attractiveness: Muscles as Fitness Indicators"
+title = "Men’s bodily attractiveness: Muscles as fitness indicators"
 date = 2019-06-05T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Durkee P.K.", "Polo P.", "Munoz-Reyes J.A.", "Rodriguez-Ruiz C.", "Losada-Perez M.", "Fernandez-Martinez A.B.", "Turiegano E.", "Buss D.M.", "Pita M."]
+authors = ["Durkee P. K.", "Polo P.", "Munoz-Reyes J. A.", "Rodriguez-Ruiz C.", "Losada-Perez M.", "Fernandez-Martinez A. B.", "Turiegano E.", "Buss D. M.", "Pita M."]
 
 # Publication type.
 # Legend:
@@ -26,7 +26,7 @@ abstract = "Bodily attractiveness is an important component of mate value. Muscu
 abstract_short = "How do different muscle groups factor into men's bodily attractiveness?"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
