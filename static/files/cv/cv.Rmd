@@ -37,9 +37,9 @@ urlcolor: black
 
 # PUBLICATIONS
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (forthcoming). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7).]("/files/pubs/Durkee_2019.pdf")
+\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7).](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
 
 \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M., (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
