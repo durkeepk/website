@@ -22,13 +22,13 @@ keywords: RMarkdown, academic CV, template
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
-fontsize: 10pt
+fontsize: 10.5pt
 linkcolor: black
 urlcolor: black
 ---
 # EDUCATION
 \definecolor{light-gray}{gray}{.5}
-*University of Texas at Austin*, Ph.D., Individual Differences and Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
+*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Exp. 2021}
 
 *California State University, Fullerton*, M.A., Experimental Psychology \hfill 
 \textcolor{light-gray}{2017}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 JUL 2019 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 JUL 2019 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -483,7 +483,12 @@ File: datetime2-en-US.ldf 2016/03/09 v1.04 (NLCT)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/datetime2-english/datetime2-engli
 sh-base.ldf
 File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
-))) (./cv.aux)
+)))
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
+(./cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -709,10 +714,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 16829 strings out of 492649
- 263414 string characters out of 6129622
- 367584 words of memory out of 5000000
- 20331 multiletter control sequences out of 15000+600000
+ 16830 strings out of 492649
+ 263423 string characters out of 6129622
+ 367596 words of memory out of 5000000
+ 20332 multiletter control sequences out of 15000+600000
  50059 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,69p,920b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -726,7 +731,7 @@ live/2018/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/20
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (4 pages, 114975 bytes).
+Output written on cv.pdf (4 pages, 114983 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
