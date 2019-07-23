@@ -49,15 +49,15 @@ urlcolor: black
 
 # CONFERENCE PRESENTATIONS
 
-^&dagger;^ *Denotes undergraduate mentee*
+^&dagger;^*Denotes undergraduate mentee*
 
-\hangindent=0.5in **Durkee, P. K.**, Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in Yoon, J.^&dagger;^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in Mohamed, M.^&dagger;^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in Willis, D.^&dagger;^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
 

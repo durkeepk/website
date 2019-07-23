@@ -37,23 +37,37 @@ urlcolor: black
 
 # PUBLICATIONS
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (revise and resubmit). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
-\hangindent=0.5in **Durkee, P. K.** (accepted manuscript). Do the Massai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters*.
+\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7).](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
 
 \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M., (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
+<!-- \hangindent=0.5in **Durkee, P. K.**, Buss, D. M., Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Psychological Inquiry*. -->
+
 # CONFERENCE PRESENTATIONS
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
+^&dagger;^*Denotes undergraduate mentee*
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.**, Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+\hangindent=0.5in Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
+\hangindent=0.5in Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+
+\hangindent=0.5in Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Are pride and shame key components of a culturally universal status management system?*. Poster presented at the 31st annual meeting of the Association for Psychological Science, Washington, DC.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
+
+\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.**, & Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+
+\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L. (2017, May). *Attractiveness assessment across domains*. Poster presented at the 11th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
 
@@ -80,6 +94,8 @@ Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, October). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
 
+\pagebreak
+
 # GRANTS & AWARDS
 
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
@@ -100,17 +116,20 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 # TECHNICAL SKILLS
 
-**Statistical Software and Data Management:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT
+**Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
 
-**Stimulus Presentation Software:** PsychoPy, PsyToolkit, Qualtrics, GoogleForms
+**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics, GoogleForms
 
 # PROFESSIONAL AFFILIATIONS
+
+Society for Personality and Social Psychology (SPSP)
 
 Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-<!-- \pagebreak -->
+
+\pagebreak
 
 # ACADEMIC REFERENCES
 
