@@ -7,7 +7,7 @@ geometry: margin=1in
 
 title: "CV"
 author: Patrick Durkee
-#orcid: "orcid.org/0000-0002-9577-6885"
+#orcid: orcid.org/0000-0001-6159-4277
 #jobtitle: "Computer Scientist & United States Navy Rear Admiral"
 #address: "Address · Arlington · VA 22205"
 fontawesome: yes
@@ -28,7 +28,7 @@ urlcolor: black
 ---
 # EDUCATION
 \definecolor{light-gray}{gray}{.5}
-*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Exp. 2021}
+*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
 
 *California State University, Fullerton*, M.A., Experimental Psychology \hfill 
 \textcolor{light-gray}{2017}
