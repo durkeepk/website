@@ -45,19 +45,27 @@ urlcolor: black
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (in prep). The inferential underpinnings of human status allocation.
+
+\hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
+
+\hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
+
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (in prep). Six dimensions of sexual disgust. 
 
 # CONFERENCE PRESENTATIONS
 
 ^&dagger;^*Denotes undergraduate mentee*
 
-\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
-\hangindent=0.5in Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in [Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
 
-\hangindent=0.5in Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in [Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
 
-\hangindent=0.5in Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+\hangindent=0.5in [Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
