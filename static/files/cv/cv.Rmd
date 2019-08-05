@@ -45,7 +45,7 @@ urlcolor: black
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-\hangindent=0.5in **Durkee, P. K.**, Buss, D. M., Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
 # CONFERENCE PRESENTATIONS
 
