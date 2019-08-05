@@ -45,7 +45,7 @@ urlcolor: black
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, Buss, D. M., Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Psychological Inquiry*. -->
+\hangindent=0.5in **Durkee, P. K.**, Buss, D. M., Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human Status Criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
 # CONFERENCE PRESENTATIONS
 
@@ -58,6 +58,8 @@ urlcolor: black
 \hangindent=0.5in Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
 \hangindent=0.5in Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
 
