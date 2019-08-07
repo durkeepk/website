@@ -26,7 +26,10 @@ fontsize: 10.5pt
 linkcolor: black
 urlcolor: black
 ---
+<!-- \hrulefill for horizontal line after headings -->
+
 # EDUCATION
+
 \definecolor{light-gray}{gray}{.5}
 *The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
 
@@ -37,6 +40,8 @@ urlcolor: black
 
 # PUBLICATIONS
 
+\textcolor{light-gray}{Peer Reviewed Journal Articles}
+
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior*.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
 \hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7).](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
@@ -45,11 +50,11 @@ urlcolor: black
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-\textcolor{light-gray}{Under Review}
+\textcolor{light-gray}{Manuscripts Under Review}
 
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
-\textcolor{light-gray}{In Preparation}
+\textcolor{light-gray}{Manuscripts in Preparation}
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (in prep). The inferential underpinnings of human status allocation.
 
@@ -108,8 +113,14 @@ Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, October). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
 
-# GRANTS & AWARDS
+# TEACHING
 
+Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
+
+Human Sexuality \hfill \textcolor{light-gray}{Spring 2019, 2018}
+
+# GRANTS & AWARDS
+ 
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
 
 Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018}

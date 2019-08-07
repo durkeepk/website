@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 AUG 2019 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  7 AUG 2019 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,8 +667,8 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 137.
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 182
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 139.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 184
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
@@ -677,7 +677,7 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 208.
+ on input line 209.
 
 [1
 
@@ -686,14 +686,14 @@ Package datetime2 Warning: Region `english-base' has ignored
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 296.
+ on input line 298.
 
 [2]
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 345.
+ on input line 354.
 
 [3] 
 AED: lastpage setting LastPage
@@ -701,26 +701,26 @@ AED: lastpage setting LastPage
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 383.
+ on input line 392.
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
 (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: E8E9933E8674C0A8395A71664C1BD32E;1188.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
+(rerunfilecheck)             Checksum: 2A70ADADBCC228EF15B9C681DA699F45;1274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
  ) 
 Here is how much of TeX's memory you used:
- 16830 strings out of 492649
- 263413 string characters out of 6129622
- 369596 words of memory out of 5000000
- 20332 multiletter control sequences out of 15000+600000
+ 16833 strings out of 492649
+ 263447 string characters out of 6129622
+ 369628 words of memory out of 5000000
+ 20334 multiletter control sequences out of 15000+600000
  50054 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,69p,920b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,69p,920b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local
@@ -731,10 +731,10 @@ live/2018/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/20
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (4 pages, 115931 bytes).
+Output written on cv.pdf (4 pages, 116205 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 18505 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 18513 words of extra memory for PDF output out of 20736 (max. 10000000)
 
