@@ -13,7 +13,7 @@ author: Patrick Durkee
 fontawesome: yes
 email: pdurkee@utexas.edu
 github: durkeepk
-#phone: "+1 555 5555"
+#phone: "+1 909 786 6054"
 web: pdurkee.com
 twitter: durkeepk
 updated: yes
@@ -55,6 +55,8 @@ urlcolor: black
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
+
+\hangindent=0.5in Lukaszewski, A. L., Lewis, D. M. G., **Durkee, P. K.**, Sznycer, D., Sell, A. N., & Buss, D. M. (in prep). An adaptationist framework for personality science. Invited submission for special issue in *European Journal of Personality*.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (in prep). The inferential underpinnings of human status allocation.
 
