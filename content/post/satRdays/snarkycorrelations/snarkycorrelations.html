@@ -26,6 +26,8 @@ library(psycho)</code></pre>
 ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
 <p>Imagine we have a <del>hunch</del> hypothesis that car weight (<code>wt</code>) will be negatively associated with fuel efficiency (<code>mpg</code>). The <code>correlation</code> package prints out the results in a manuscript-ready format.</p>
 <pre class="r"><code>psycho::correlation(mtcars[, c(&#39;mpg&#39;, &#39;wt&#39;)])</code></pre>
+<pre><code>## Warning: replacing previous import &#39;loo::kfold&#39; by &#39;rstanarm::kfold&#39; when
+## loading &#39;psycho&#39;</code></pre>
 <pre><code>## Pearson Full correlation (p value correction: holm):
 ## 
 ##    - mpg / wt:   Results of the Pearson correlation showed a significant large, and negative association between mpg and wt (r(30) = -0.87, p &lt; .001***).</code></pre>
@@ -406,18 +408,18 @@ knitr::kable(allcorstable) </code></pre>
 </tr>
 <tr class="odd">
 <td>Reincarnation_Cycle</td>
-<td align="left">-0.06</td>
-<td align="left">-0.02</td>
-<td align="left">0</td>
-<td align="left">0.11</td>
-<td align="left">0.2</td>
-<td align="left">-0.05</td>
-<td align="left">-0.22</td>
-<td align="left">0.06</td>
-<td align="left">0.18</td>
-<td align="left">0.1</td>
+<td align="left">-0.23</td>
+<td align="left">0.16</td>
+<td align="left">0.24</td>
 <td align="left">0.15</td>
-<td align="left">-0.03</td>
+<td align="left">0.03</td>
+<td align="left">0.15</td>
+<td align="left">-0.1</td>
+<td align="left">-0.15</td>
+<td align="left">-0.05</td>
+<td align="left">-0.14</td>
+<td align="left">0.07</td>
+<td align="left">-0.23</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
@@ -437,27 +439,27 @@ knitr::kable(allcorstable) </code></pre>
 <td align="left">0.72***</td>
 <td align="left">0.43*</td>
 <td align="left">0.35</td>
-<td align="left">0.15</td>
+<td align="left">-0.18</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
 <td>Alien_Mothership_Distance</td>
-<td align="left">-0.33</td>
-<td align="left">0.3</td>
-<td align="left">0.21</td>
-<td align="left">0.21</td>
-<td align="left">-0.31</td>
-<td align="left">0.21</td>
-<td align="left">-0.18</td>
-<td align="left">-0.08</td>
-<td align="left">-0.2</td>
-<td align="left">-0.15</td>
+<td align="left">-0.25</td>
+<td align="left">0.07</td>
 <td align="left">0.08</td>
-<td align="left">-0.22</td>
-<td align="left">0.24</td>
-<td align="left">-0.05</td>
+<td align="left">0.17</td>
+<td align="left">0.03</td>
+<td align="left">0.18</td>
+<td align="left">-0.13</td>
+<td align="left">-0.15</td>
+<td align="left">0.11</td>
+<td align="left">0.14</td>
+<td align="left">0.32</td>
+<td align="left">-0.1</td>
+<td align="left">0.21</td>
+<td align="left">0.11</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
@@ -475,29 +477,29 @@ knitr::kable(allcorstable) </code></pre>
 <td align="left">0.2</td>
 <td align="left">-0.75***</td>
 <td align="left">0.9***</td>
-<td align="left">-0.11</td>
+<td align="left">-0.17</td>
 <td align="left">-0.07</td>
-<td align="left">-0.26</td>
+<td align="left">-0.21</td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
 <td>Hulks_Power</td>
-<td align="left">0.19</td>
+<td align="left">0.24</td>
+<td align="left">-0.14</td>
 <td align="left">-0.18</td>
-<td align="left">-0.15</td>
-<td align="left">-0.18</td>
-<td align="left">0.14</td>
-<td align="left">-0.19</td>
-<td align="left">0.11</td>
+<td align="left">-0.08</td>
+<td align="left">0.05</td>
+<td align="left">-0.26</td>
+<td align="left">0.06</td>
+<td align="left">0.29</td>
 <td align="left">0.22</td>
-<td align="left">-0.06</td>
-<td align="left">0.18</td>
-<td align="left">-0.04</td>
+<td align="left">0.15</td>
+<td align="left">-0.14</td>
 <td align="left">0.16</td>
-<td align="left">0.04</td>
-<td align="left">-0.01</td>
-<td align="left">-0.33</td>
-<td align="left">0.19</td>
+<td align="left">-0.27</td>
+<td align="left">0.18</td>
+<td align="left">0.01</td>
+<td align="left">0.13</td>
 </tr>
 </tbody>
 </table>

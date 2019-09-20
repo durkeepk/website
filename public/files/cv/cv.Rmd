@@ -31,7 +31,7 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
+*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2020}
 
 *California State University, Fullerton*, M.A., Experimental Psychology \hfill 
 \textcolor{light-gray}{2017}
@@ -54,9 +54,11 @@ urlcolor: black
 
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
-\textcolor{light-gray}{Manuscripts in Preparation}
+\hangindent=0.5in Lukaszewski, A. L., Lewis, D. M. G., **Durkee, P. K.**, Sznycer, D., Sell, A. N., & Buss, D. M. (under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
-\hangindent=0.5in Lukaszewski, A. L., Lewis, D. M. G., **Durkee, P. K.**, Sznycer, D., Sell, A. N., & Buss, D. M. (in prep). An adaptationist framework for personality science. Invited submission for special issue in *European Journal of Personality*.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (under review). Six dimensions of sexual disgust. *Personality and Individual Differences*.
+
+\textcolor{light-gray}{Manuscripts in Preparation}
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (in prep). The inferential underpinnings of human status allocation.
 
@@ -64,7 +66,6 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (in prep). Six dimensions of sexual disgust. 
 
 # CONFERENCE PRESENTATIONS
 
