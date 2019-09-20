@@ -83,7 +83,7 @@ urlcolor: black
 
 \hangindent=0.5in [Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+<!-- \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK. -->
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
 
@@ -103,9 +103,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Ayers, J., Goetz, A. T. (2016, May). *Trolley Problems: An important limitation to consequentialist intuitions triggered by Hamiltonian mechanisms*. Poster presented at the 10th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
 
-\hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
-
-\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, April). *Meta analytic review of the relationship between formidability and aggression*. Paper presented at CSUF’s 1st Annual H&SS Week Research Symposium, Fullerton, CA.
+<!-- \hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA. -->
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
 Columbia, MO.
