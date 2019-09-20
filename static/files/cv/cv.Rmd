@@ -66,6 +66,10 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
+\textcolor{light-gray}{Other Publications}
+
+\hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
+
 
 # CONFERENCE PRESENTATIONS
 
