@@ -114,15 +114,30 @@ Columbia, MO.
 
 # INVITED TALKS
 
-\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, November). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
+\hangindent=0.5in **Durkee, P. K.** (2019). *The social-cognitive foundations of human hierarchies*. Talk given to the Cogntiive Area Meeting, UT Austin.
 
-\hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, October). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+\hangindent=0.5in **Durkee, P. K.** (2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
+
+\hangindent=0.5in **Durkee, P. K.** (2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
 
 # TEACHING
 
+\textcolor{light-gray}{Lab Instructor}
+
 Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
-Human Sexuality \hfill \textcolor{light-gray}{Spring 2018, 2019}
+\textcolor{light-gray}{Teaching Assistant}
+
+Human Sexuality \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
+The Psychology of Language \hfill \textcolor{light-gray}{Fall 2017} \newline
+Cognitive Psychology \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Learning & Memory \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
+
+\textcolor{light-gray}{Guest Lectures}
+
+Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
+\textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
 # GRANTS & AWARDS
  
@@ -156,8 +171,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-
-\pagebreak
+<!-- \newpage -->
 
 # ACADEMIC REFERENCES
 
