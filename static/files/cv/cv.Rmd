@@ -66,7 +66,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., Smaldino, P. E., von Rueden, C. (in prep). A test of the sociological complexity hypothesis of personality covariance across 120 countries. 
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., Smaldino, P. E., von Rueden, C. (in prep). Is sociological complexity associated with personality covariation? A test across 120 countries. 
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness. 
 
