@@ -68,7 +68,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., Smaldino, P. E., von Rueden, C. (in prep). A test of the sociological complexity hypothesis of personality covariance across 120 countries. 
 
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness. 
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness. 
 
 \textcolor{light-gray}{Other Publications}
 
@@ -111,7 +111,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Ayers, J., Goetz, A. T. (2016, May). *Trolley Problems: An important limitation to consequentialist intuitions triggered by Hamiltonian mechanisms*. Poster presented at the 10th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
 
-<!-- \hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA. -->
+\hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
 Columbia, MO.
