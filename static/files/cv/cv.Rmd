@@ -54,7 +54,7 @@ urlcolor: black
 
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
 
-\hangindent=0.5in Lukaszewski, A. L., Lewis, D. M. G., **Durkee, P. K.**, Sznycer, D., Sell, A. N., & Buss, D. M. (under review). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (under review). Six dimensions of sexual disgust. *Personality and Individual Differences*.
 
@@ -68,7 +68,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., Smaldino, P. E., von Rueden, C. (in prep). A test of the sociological complexity hypothesis of personality covariance across 120 countries. 
 
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., **Durkee, P. K.**  (in prep). Bodily attractiveness across 14 countries. 
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness. 
 
 \textcolor{light-gray}{Other Publications}
 
@@ -81,15 +81,19 @@ urlcolor: black
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
+
 \hangindent=0.5in [Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
 
 \hangindent=0.5in [Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
 
 \hangindent=0.5in [Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
 
-<!-- \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK. -->
-
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
+
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (2019, May). *Anger is the mechanistic core of the folk-lexical construct, “Agreeableness.”* Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
+ 
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (2019, May). *Anger is the mechanistic core of the folk-lexical construct, “Agreeableness.”* Podium presentation at the the 31st annual meeting of the Association for Psychological Science, Washington, DC.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Are pride and shame key components of a culturally universal status management system?*. Poster presented at the 31st annual meeting of the Association for Psychological Science, Washington, DC.
 
