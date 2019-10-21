@@ -74,7 +74,6 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
 
-
 # CONFERENCE PRESENTATIONS
 
 ^&dagger;^*Denotes undergraduate mentee*
@@ -148,6 +147,8 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
 # GRANTS & AWARDS
+
+Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019}
  
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
 
