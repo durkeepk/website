@@ -115,25 +115,7 @@ urlcolor: black
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
 Columbia, MO.
 
-\hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, April). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 9th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
-
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
-
-# GRANTS & AWARDS
-
-Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019}
- 
-Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
-
-Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018}
-
-Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # INVITED TALKS
 
@@ -142,6 +124,16 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 \hangindent=0.5in **Durkee, P. K.** (2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
 
 \hangindent=0.5in **Durkee, P. K.** (2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+
+# GRANTS & AWARDS
+
+Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
+Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
+Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
+Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # TEACHING
 
