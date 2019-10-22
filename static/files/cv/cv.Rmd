@@ -52,9 +52,9 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (Invited resubmission). Six dimensions of sexual disgust. *Personality and Individual Differences*.
-
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (Invited resubmission). Six dimensions of sexual disgust. *Personality and Individual Differences*.
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
