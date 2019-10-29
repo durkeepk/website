@@ -52,7 +52,7 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*. 
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (Invited resubmission). Six dimensions of sexual disgust. *Personality and Individual Differences*.
 
