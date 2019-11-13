@@ -42,6 +42,8 @@ urlcolor: black
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.
+
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
 \hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
@@ -53,8 +55,6 @@ urlcolor: black
 \textcolor{light-gray}{Manuscripts Under Review}
 
 \hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Under review). Human status criteria. *Journal of Personality and Social Psychology*. 
-
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (Invited resubmission). Six dimensions of sexual disgust. *Personality and Individual Differences*.
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
