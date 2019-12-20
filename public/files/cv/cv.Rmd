@@ -42,21 +42,21 @@ urlcolor: black
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
+\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
+
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
 \hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
 
-  \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M., (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
+  \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
 \hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (under review). Human status criteria. *Journal of Personality and Social Psychology: Attitudes and Social Cognition*.
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revise and resubmit). Human status criteria. *Journal of Personality and Social Psychology*. 
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (under review). An adaptationist framework for personality science. *European Journal of Personality*.
-
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (under review). Six dimensions of sexual disgust. *Personality and Individual Differences*.
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
@@ -66,9 +66,10 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., Smaldino, P. E., von Rueden, C. (in prep). Is sociological complexity inversely associated with personality covariation? A test across 120 countries. 
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M. (in prep). Does niche diversity explain differences in personality structure across human populations?
 
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness. 
+
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness across 14 nations. 
 
 \textcolor{light-gray}{Other Publications}
 
@@ -77,6 +78,8 @@ urlcolor: black
 # CONFERENCE PRESENTATIONS
 
 ^&dagger;^*Denotes undergraduate mentee*
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
@@ -115,8 +118,6 @@ urlcolor: black
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
 Columbia, MO.
 
-\hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, April). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 9th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
-
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
 
 # INVITED TALKS
@@ -126,6 +127,16 @@ Columbia, MO.
 \hangindent=0.5in **Durkee, P. K.** (2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
 
 \hangindent=0.5in **Durkee, P. K.** (2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+
+# GRANTS & AWARDS
+
+Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
+Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
+Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
+Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # TEACHING
 
@@ -146,23 +157,9 @@ Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
-# GRANTS & AWARDS
- 
-Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019}
-
-Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018}
-
-Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}
-
-Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
-
 # PROFESSIONAL SERVICE
 
-**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology*
+**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology, Aggressive Behavior*
 
 # TECHNICAL SKILLS
 

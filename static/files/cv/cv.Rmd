@@ -54,7 +54,7 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Under review). Human status criteria. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revise and resubmit). Human status criteria. *Journal of Personality and Social Psychology*. 
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Under review). An adaptationist framework for personality science. *European Journal of Personality*.
 
@@ -159,7 +159,7 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 # PROFESSIONAL SERVICE
 
-**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology*
+**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology, Aggressive Behavior*
 
 # TECHNICAL SKILLS
 
