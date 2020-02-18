@@ -7,7 +7,7 @@ publishDir = "public"
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://pdurkee.com/"
 
 # Title of your site
 title = "Patrick Durkee"
@@ -137,7 +137,7 @@ enableGitInfo = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
   comment_count = false
