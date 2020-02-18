@@ -54,9 +54,9 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revise and resubmit). Human status criteria. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revised and resubmitted). Human status criteria. *Journal of Personality and Social Psychology*. 
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Under review). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
