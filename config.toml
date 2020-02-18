@@ -7,7 +7,7 @@ publishDir = "public"
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://pdurkee.com/"
+baseurl = "https://www.pdurkee.com/"
 
 # Title of your site
 title = "Patrick Durkee"
