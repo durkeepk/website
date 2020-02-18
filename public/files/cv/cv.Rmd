@@ -13,7 +13,6 @@ author: Patrick Durkee
 fontawesome: yes
 email: pdurkee@utexas.edu
 github: durkeepk
-#phone: "+1 909 786 6054"
 web: pdurkee.com
 twitter: durkeepk
 updated: yes
