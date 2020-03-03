@@ -79,7 +79,7 @@ urlcolor: black
 
 ^&dagger;^*Denotes undergraduate mentee*
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
