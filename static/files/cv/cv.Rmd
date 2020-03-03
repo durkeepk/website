@@ -49,11 +49,13 @@ urlcolor: black
 
   \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
-\hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
+\hangindent=0.5in [**Durkee, P. K.**\*, Goetz, A. T.\*, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+\newline \**these authors contributed equally to this paper*
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revised and resubmitted). Human status criteria. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revised and resubmitted). Human status criteria. *Journal of Personality and Social Psychology*. 
+\newline \**these authors contributed equally to this paper*
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
 
@@ -71,7 +73,9 @@ urlcolor: black
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness across 14 nations. 
 
-\textcolor{light-gray}{Other Publications}
+\newpage
+
+\textcolor{light-gray}{Other Publications} 
 
 \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
 
@@ -144,6 +148,8 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
+\newpage
+
 \textcolor{light-gray}{Teaching Assistant}
 
 Human Sexuality \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
@@ -151,6 +157,7 @@ The Psychology of Language \hfill \textcolor{light-gray}{Fall 2017} \newline
 Cognitive Psychology \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Learning & Memory \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
+
 
 \textcolor{light-gray}{Guest Lectures}
 
@@ -175,7 +182,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-<!-- \newpage -->
+\newpage
 
 # ACADEMIC REFERENCES
 
