@@ -30,7 +30,7 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2020}
+*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
 
 *California State University, Fullerton*, M.A., Experimental Psychology \hfill 
 \textcolor{light-gray}{2017}
@@ -57,7 +57,7 @@ urlcolor: black
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report under review). Mate availability and sexual disgust. *Adaptive Human Behavior & Physiology*.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report under review). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
