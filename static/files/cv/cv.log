@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 APR 2020 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 APR 2020 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,7 +667,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 139.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 135.
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
@@ -738,7 +738,7 @@ live/2018/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/20
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (5 pages, 120518 bytes).
+Output written on cv.pdf (5 pages, 120501 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams

@@ -41,6 +41,9 @@ urlcolor: black
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
+\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (Revised and resubmitted). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
+\newline \**these authors share first authorship*
+
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
@@ -54,8 +57,6 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (Revised and resubmitted). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
-\newline \**these authors share first authorship*
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
 
