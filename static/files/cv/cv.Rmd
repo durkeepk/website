@@ -41,7 +41,7 @@ urlcolor: black
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (In press). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (Accepted). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
 \newline \**these authors share first authorship*
 
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
@@ -60,9 +60,9 @@ urlcolor: black
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Under editorial review). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report under review). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Under editorial review). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
