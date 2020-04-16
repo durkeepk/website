@@ -199,7 +199,15 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \lhead{}
 \chead{}
 \rhead{}
+\usepackage[en-US]{datetime2}
+%\usepackage{datetime2}
+
+%\makeatletter
+%\newcommand{\monthyeardate}{%
+%  \DTMenglishmonthname{\@dtm@month}, \@dtm@year}
+%\makeatother
 \lfoot{\scriptsize \DTMlangsetup{showdayofmonth=false}\today}
+%\lfoot{\scriptsize \monthyeardate}
 \cfoot{\scriptsize $author-meta$ | $title$ }
 \rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
 
@@ -225,7 +233,6 @@ $endif$
             urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
             breaklinks=true, bookmarks=true}
 \urlstyle{same}  % don't use monospace font for urls
-\usepackage[en-US]{datetime2}
 
 \begin{document}
 
