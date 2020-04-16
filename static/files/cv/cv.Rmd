@@ -57,8 +57,7 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision invited). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
