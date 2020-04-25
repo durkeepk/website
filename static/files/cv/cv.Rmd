@@ -41,8 +41,8 @@ urlcolor: black
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (Accepted). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
-\newline \**these authors share first authorship*
+\hangindent=0.5in Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (Accepted). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
+\newline ^\ddag^*these authors share first authorship* 
 
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
@@ -52,8 +52,8 @@ urlcolor: black
 
   \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
-\hangindent=0.5in [**Durkee, P. K.**\*, Goetz, A. T.\*, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
-\newline \**these authors share first authorship*
+\hangindent=0.5in [**Durkee, P. K.**^\ddag^, Goetz, A. T.^\ddag^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+\newline ^\ddag^*these authors share first authorship*
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
