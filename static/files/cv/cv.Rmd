@@ -63,10 +63,11 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Under review). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
+\textcolor{light-gray}{Manuscripts on Preprint Servers}
+
+\hangindent=0.5in **Durkee, P. K.**, & Ayers, J. D. (2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. https://doi.org/10.31234/osf.io/tpngz
+
 \textcolor{light-gray}{Manuscripts in Preparation}
-
-
-\hangindent=0.5in **Durkee, P. K.**, & Ayers, J. D. (in prep). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. 
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Does niche diversity explain differences in personality structure across human populations?
 
