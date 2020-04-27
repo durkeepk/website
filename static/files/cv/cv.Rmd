@@ -136,6 +136,7 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
+LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
 Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
 Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
