@@ -149,17 +149,17 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 \textcolor{light-gray}{Lab Instructor}
 
-Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
+Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
 \newpage
 
 \textcolor{light-gray}{Teaching Assistant}
 
-Human Sexuality \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
-The Psychology of Language \hfill \textcolor{light-gray}{Fall 2017} \newline
-Cognitive Psychology \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Learning & Memory \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
+Human Sexuality (~500 students, online) \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
+The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
+Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
 
 \textcolor{light-gray}{Guest Lectures}
