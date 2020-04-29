@@ -57,11 +57,11 @@ urlcolor: black
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision invited). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Invited). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
-
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Under review). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
 \textcolor{light-gray}{Manuscripts on Preprint Servers}
 
