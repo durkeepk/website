@@ -23,7 +23,7 @@ publication_short = "In *E&HB*"
 
 # Abstract and optional shortened version.
 abstract = "We apply recent adaptationist theories about the emotions “pride” and “shame” to the domain of hierarchical status and test the hypothesis that pride and shame are distinct components of a culturally universal status-management system. Using an international dataset containing ratings of the status impacts of 240 personal characteristics within 14 nations (N=2751), we found that (i) the status impacts of personal characteristics were strongly intercorrelated across nations (rs=0.79–0.98); (ii) American's (N=222) forecasts of the pride or shame they would experience if they exhibited those same personal characteristics closely tracked the status impacts across nations (|rs|=0.74–0.98); and (iii) pride differentially tracked status gains, while shame differentially tracked status losses. These findings provide strong supporting evidence for the existence of a universal grammar of status criteria, and suggest that pride and shame are key components of a culturally universal status management system."
-abstract_short = "Pride and shame differentially track universal status criteria."
+abstract_short = "Do pride and shame differentially track universal status criteria?"
 
 # Is this a selected publication? (true/false)
 selected = true
