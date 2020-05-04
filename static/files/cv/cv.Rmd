@@ -149,21 +149,22 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
-\newpage
-
 \textcolor{light-gray}{Teaching Assistant}
 
-Human Sexuality (~500 students, online) \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
+Human Sexuality (~500 students, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020} \newline
 The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
 Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
-
 \textcolor{light-gray}{Guest Lectures}
 
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
+
+\textcolor{light-gray}{Training}
+
+Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 # PROFESSIONAL SERVICE
 
