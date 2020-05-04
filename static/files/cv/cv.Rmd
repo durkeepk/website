@@ -91,11 +91,11 @@ urlcolor: black
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in [Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
+\hangindent=0.5in [Yoon^&dagger;^, J., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
 
-\hangindent=0.5in [Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
+\hangindent=0.5in [Mohamed^&dagger;^, M., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
 
-\hangindent=0.5in [Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
+\hangindent=0.5in [Willis^&dagger;^, D., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
  
@@ -105,7 +105,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
 
-\hangindent=0.5in Acevedo, C. M.^&dagger;^, **Durkee, P. K.**, & Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+\hangindent=0.5in Acevedo^&dagger;^, C. M., **Durkee, P. K.**, & Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
 
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
 
