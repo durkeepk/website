@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  4 MAY 2020 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.8)  11 MAY 2020 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06> (/Users/patrickdurkee/Library/TinyTeX/texmf-d
+L3 programming layer <2020-05-05> (/Users/patrickdurkee/Library/TinyTeX/texmf-d
 ist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -384,7 +384,7 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 
 (/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-
 pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count268
 \l__pdf_internal_box=\box48
 )
@@ -558,10 +558,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: AEA39904009BC6B96EE2105E14845249;1274.
  ) 
 Here is how much of TeX's memory you used:
- 14950 strings out of 482555
- 236912 string characters out of 5950669
- 487486 words of memory out of 5000000
- 30339 multiletter control sequences out of 15000+600000
+ 14953 strings out of 482629
+ 236968 string characters out of 5951731
+ 484797 words of memory out of 5000000
+ 30271 multiletter control sequences out of 15000+600000
  569109 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,12n,45p,1191b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
