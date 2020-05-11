@@ -134,6 +134,7 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
+Psychological Science Accelerator Secondary Analysis Challenge \hfill \textcolor{light-gray}{Spring 2020} \newline
 LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
 Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
@@ -144,6 +145,10 @@ Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gra
 Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # TEACHING
+
+\textcolor{light-gray}{Training}
+
+Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 \textcolor{light-gray}{Lab Instructor}
 
@@ -162,9 +167,6 @@ Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
-\textcolor{light-gray}{Training}
-
-Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 # PROFESSIONAL SERVICE
 
