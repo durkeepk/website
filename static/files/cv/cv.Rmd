@@ -23,7 +23,7 @@ keywords: RMarkdown, academic CV, template
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
-fontsize: 11pt
+fontsize: 10.5pt
 linkcolor: black
 urlcolor: black
 ---
@@ -69,7 +69,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
-\newpage
+<!-- \newpage -->
 
 \textcolor{light-gray}{Manuscripts on Preprint Servers}
 
@@ -142,11 +142,14 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
-Psychological Science Accelerator Secondary Analysis Challenge \hfill \textcolor{light-gray}{Spring 2020} \newline
+PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
 LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
+Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
 Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
-Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
+Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
 Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
 Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
 Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
@@ -176,9 +179,20 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
 
-# PROFESSIONAL SERVICE
+# PROFESSIONAL SERVICE 
 
-**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology, Aggressive Behavior, PLOS ONE, Scandinavian Journal of Psychology*
+**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
+
+***Ad hoc*** **Reviewer:** \newline
+*Adaptive Human Behavior and Physiology* \newline
+*Aggressive Behavior* \newline
+*American Journal of Human Biology* \newline
+*Evolution and Human Behavior* \newline
+*Evolutionary Psychology* \newline
+*Evolutionary Psychological Science*  \newline
+*PLOS ONE* \newline
+*SAGE Open* \newline
+*Scandinavian Journal of Psychology*
 
 # TECHNICAL SKILLS
 
@@ -194,6 +208,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
+\newpage
 
 # ACADEMIC REFERENCES
 
