@@ -6,22 +6,24 @@ output:
 geometry: margin=1in
 
 title: "CV"
-author: Patrick Durkee
+author: "Patrick Durkee"
+date: "`r format(Sys.time(), '%B, %Y')`"
 #orcid: orcid.org/0000-0001-6159-4277
-#jobtitle: "Computer Scientist & United States Navy Rear Admiral"
-#address: "Address · Arlington · VA 22205"
+# jobtitle: "PhD Candidate"
+# address: "108 E Dean Keeton St · Austin · TX 78712"
 fontawesome: yes
 email: pdurkee@utexas.edu
-github: durkeepk
 web: pdurkee.com
+github: durkeepk
 twitter: durkeepk
+# phone: 909-786-6054
 updated: yes
 
 keywords: RMarkdown, academic CV, template
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
-fontsize: 10.5pt
+fontsize: 11pt
 linkcolor: black
 urlcolor: black
 ---
@@ -30,12 +32,15 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2021}
+Ph.D., Psychology \hfill \textcolor{light-gray}{Expected 2021} \newline
+*The University of Texas at Austin*
 
-*California State University, Fullerton*, M.A., Experimental Psychology \hfill 
-\textcolor{light-gray}{2017}
+M.A., Experimental Psychology \hfill 
+\textcolor{light-gray}{2017} \newline
+*California State University, Fullerton*
 
-*California State University, Fullerton*, B.A., Psychology \hfill \textcolor{light-gray}{2015}
+B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
+*California State University, Fullerton*
 
 # PUBLICATIONS
 
@@ -44,7 +49,7 @@ urlcolor: black
 \hangindent=0.5in Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (In press). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
 \newline ^\ddag^*these authors share first authorship* 
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
+\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
@@ -55,6 +60,7 @@ urlcolor: black
 \hangindent=0.5in [**Durkee, P. K.**^\ddag^, Goetz, A. T.^\ddag^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
 \newline ^\ddag^*these authors share first authorship*
 
+
 \textcolor{light-gray}{Manuscripts Under Review}
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
@@ -62,6 +68,8 @@ urlcolor: black
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Invited). An adaptationist framework for personality science. *European Journal of Personality*.
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
+
+\newpage
 
 \textcolor{light-gray}{Manuscripts on Preprint Servers}
 
@@ -186,7 +194,6 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-\newpage
 
 # ACADEMIC REFERENCES
 

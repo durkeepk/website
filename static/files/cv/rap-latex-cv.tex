@@ -199,14 +199,17 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \lhead{}
 \chead{}
 \rhead{}
-\usepackage[en-US]{datetime2}
-%\usepackage{datetime2}
+%\usepackage[en-US]{datetime2}
+\usepackage{datetime2}
 
-%\makeatletter
-%\newcommand{\monthyeardate}{%
-%  \DTMenglishmonthname{\@dtm@month}, \@dtm@year}
+\makeatletter
+%\newcommand{\monthyeardate}{\DTMlangsetup{showdayofmonth=false}\today}
+%\newcommand{\monthyeardate}{\DTMlangsetup{\@dtm@month}}
+
+%\DTMenglishmonthname{\@dtm@month}}
 %\makeatother
-\lfoot{\scriptsize \DTMlangsetup{showdayofmonth=false}\today}
+%\lfoot{\scriptsize \DTMlangsetup{\@dtm@month}}
+\lfoot{\scriptsize $date$}
 %\lfoot{\scriptsize \monthyeardate}
 \cfoot{\scriptsize $author-meta$ | $title$ }
 \rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
@@ -247,7 +250,14 @@ $endif$
 
 $if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
 $if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
-\moveleft.5\hoffset\centerline{ $if(email)$$if(fontawesome)$\faEnvelopeO \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$ $if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$   $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ }
+\moveleft.5\hoffset\centerline{ 
+$if(email)$$if(fontawesome)$\faEnvelope \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$ 
+$if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$   
+$if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  \hspace{1 mm}  $endif$ 
+$if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$
+$if(github)$$if(fontawesome)$\faTwitterSquare \hspace{1 mm}$else$\emph{Twitter:}$endif$ \href{http://twitter.com/$twitter$}{\tt $twitter$} $endif$
+
+}
 
 \vspace{2 mm}
 
