@@ -63,11 +63,11 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Submitted). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
+
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Invited). An adaptationist framework for personality science. *European Journal of Personality*.
-
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Invited). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
 <!-- \newpage -->
 
@@ -142,6 +142,7 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
+Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
 PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
 LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
 Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
@@ -151,7 +152,7 @@ Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
 Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
 Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
 Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
+Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
 Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
 Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
