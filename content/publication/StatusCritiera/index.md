@@ -1,6 +1,6 @@
 +++
-title = "Human status criteria: Sex differences and similarities across 14 nations"
-date = 2019-07-03T00:00:00
+title = "Human Status Criteria: Sex Fifferences and Similarities Across 14 Nations"
+date = 2020-05-29T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -63,12 +63,12 @@ math = false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
+# [image]
   # Caption (optional)
-  caption = "Theoretical model of human status criteria"
+  caption = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point = ""
 +++
 
