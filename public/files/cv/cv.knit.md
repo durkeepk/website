@@ -6,16 +6,17 @@ output:
 geometry: margin=1in
 
 title: "CV"
-author: Patrick Durkee
+author: "Patrick Durkee"
+date: "May, 2020"
 #orcid: orcid.org/0000-0001-6159-4277
-#jobtitle: "Computer Scientist & United States Navy Rear Admiral"
-#address: "Address · Arlington · VA 22205"
+# jobtitle: "PhD Candidate"
+# address: "108 E Dean Keeton St · Austin · TX 78712"
 fontawesome: yes
 email: pdurkee@utexas.edu
-github: durkeepk
-#phone: "+1 909 786 6054"
 web: pdurkee.com
+github: durkeepk
 twitter: durkeepk
+# phone: 909-786-6054
 updated: yes
 
 keywords: RMarkdown, academic CV, template
@@ -31,18 +32,24 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-*The University of Texas at Austin*, Ph.D., Individual Differences & Evolutionary Psychology \hfill \textcolor{light-gray}{Expected 2020}
+Ph.D., Psychology \hfill \textcolor{light-gray}{Expected 2021} \newline
+*The University of Texas at Austin*
 
-*California State University, Fullerton*, M.A., Experimental Psychology \hfill 
-\textcolor{light-gray}{2017}
+M.A., Experimental Psychology \hfill 
+\textcolor{light-gray}{2017} \newline
+*California State University, Fullerton*
 
-*California State University, Fullerton*, B.A., Psychology \hfill \textcolor{light-gray}{2015}
+B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
+*California State University, Fullerton*
 
 # PUBLICATIONS
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (In press). Six dimensions of sexual disgust. *Personality and Individual Differences*.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
+\hangindent=0.5in [Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/HumanStatusCriteria_2020.pdf) 
+\newline ^\ddag^*these authors share first authorship* 
+
+\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
@@ -50,28 +57,35 @@ urlcolor: black
 
   \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
-\hangindent=0.5in [**Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
+\hangindent=0.5in [**Durkee, P. K.**^\ddag^, Goetz, A. T.^\ddag^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+\newline ^\ddag^*these authors share first authorship*
+
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Buss, D. M., **Durkee, P. K.**, Shackelford, T. K., Schmitt, D. P., & Bowdle, B. (Revised and resubmitted). Human status criteria. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Submitted). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Invited revision). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Invited). An adaptationist framework for personality science. *European Journal of Personality*.
+
+<!-- \newpage -->
+
+\textcolor{light-gray}{Manuscripts on Preprint Servers}
+
+\hangindent=0.5in **Durkee, P. K.**, & Ayers, J. D. (2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. https://doi.org/10.31234/osf.io/tpngz
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (in prep). The inferential underpinnings of human status allocation.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Does niche diversity explain differences in personality structure across human populations?
 
-\hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
 
-\hangindent=0.5in **Durkee, P. K.** & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M. (in prep). Does niche diversity explain differences in personality structure across human populations?
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness across 14 nations. 
 
-
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness across 14 nations. 
-
-\textcolor{light-gray}{Other Publications}
+\textcolor{light-gray}{Other Publications} 
 
 \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
 
@@ -79,21 +93,19 @@ urlcolor: black
 
 ^&dagger;^*Denotes undergraduate mentee*
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in [Yoon, J.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
+\hangindent=0.5in [Yoon^&dagger;^, J., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
 
-\hangindent=0.5in [Mohamed, M.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
+\hangindent=0.5in [Mohamed^&dagger;^, M., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
 
-\hangindent=0.5in [Willis, D.^&dagger;^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
+\hangindent=0.5in [Willis^&dagger;^, D., **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
-
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (2019, May). *Anger is the mechanistic core of the folk-lexical construct, “Agreeableness.”* Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
  
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (2019, May). *Anger is the mechanistic core of the folk-lexical construct, “Agreeableness.”* Podium presentation at the the 31st annual meeting of the Association for Psychological Science, Washington, DC.
 
@@ -101,7 +113,7 @@ urlcolor: black
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
 
-\hangindent=0.5in Acevedo, C. M., **Durkee, P. K.**, & Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+\hangindent=0.5in Acevedo^&dagger;^, C. M., **Durkee, P. K.**, & Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
 
 \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
 
@@ -130,36 +142,58 @@ Columbia, MO.
 
 # GRANTS & AWARDS
 
+Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
+PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
+LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
+Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
 Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
 Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
-Psychology Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
+Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
 Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Human Evolution and Behavioral Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
+Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
 Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
 Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # TEACHING
 
+\textcolor{light-gray}{Training}
+
+Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
+
 \textcolor{light-gray}{Lab Instructor}
 
-Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
+Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
 \textcolor{light-gray}{Teaching Assistant}
 
-Human Sexuality \hfill \textcolor{light-gray}{Spring 2018, 2019} \newline
-The Psychology of Language \hfill \textcolor{light-gray}{Fall 2017} \newline
-Cognitive Psychology \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Learning & Memory \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
+Human Sexuality (~500 students, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020} \newline
+The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
+Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
 \textcolor{light-gray}{Guest Lectures}
 
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
-# PROFESSIONAL SERVICE
 
-**Reviewed for:** *Evolution and Human Behavior, Evolutionary Psychology, Evolutionary Psychological Science, SAGE Open, American Journal of Human Biology, Adaptive Human Behavior and Physiology, Aggressive Behavior*
+# PROFESSIONAL SERVICE 
+
+**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
+
+***Ad hoc*** **Reviewer:** \newline
+*Adaptive Human Behavior and Physiology* \newline
+*Aggressive Behavior* \newline
+*American Journal of Human Biology* \newline
+*Evolution and Human Behavior* \newline
+*Evolutionary Psychology* \newline
+*Evolutionary Psychological Science*  \newline
+*PLOS ONE* \newline
+*SAGE Open* \newline
+*Scandinavian Journal of Psychology*
 
 # TECHNICAL SKILLS
 
@@ -175,7 +209,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-<!-- \newpage -->
+\newpage
 
 # ACADEMIC REFERENCES
 

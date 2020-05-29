@@ -46,7 +46,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (In press). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*. 
+\hangindent=0.5in [Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/HumanStatusCriteria_2020.pdf) 
 \newline ^\ddag^*these authors share first authorship* 
 
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
