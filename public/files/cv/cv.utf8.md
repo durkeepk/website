@@ -77,7 +77,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Does niche diversity explain differences in personality structure across human populations?
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Testing the niche diversity hypothesis in 115 nations?
 
 \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
 
@@ -143,6 +143,7 @@ Columbia, MO.
 # GRANTS & AWARDS
 
 Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
+Rick and Paula Short Fellowship \hfill \textcolor{light-gray}{Summer 2020} \newline
 PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
 LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
 Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
@@ -155,6 +156,8 @@ Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-g
 Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
 Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
 Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
+
+\newpage
 
 # TEACHING
 
