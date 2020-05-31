@@ -46,6 +46,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
+
 \hangindent=0.5in [Buss, D. M.^\ddag^, **Durkee, P. K.**^\ddag^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/HumanStatusCriteria_2020.pdf) 
 \newline ^\ddag^*these authors share first authorship* 
 
@@ -60,10 +61,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 \hangindent=0.5in [**Durkee, P. K.**^\ddag^, Goetz, A. T.^\ddag^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
 \newline ^\ddag^*these authors share first authorship*
 
-
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Revision Submitted). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
