@@ -77,7 +77,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Testing the niche diversity hypothesis in 115 nations?
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). The niche diversity hypothesis successfully predicts differences in personality covariance across 115 nations.
 
 \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
 

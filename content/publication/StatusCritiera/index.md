@@ -1,5 +1,5 @@
 +++
-title = "Human Status Criteria: Sex Fifferences and Similarities Across 14 Nations"
+title = "Human Status Criteria: Sex Differences and Similarities Across 14 Nations"
 date = 2020-05-29T00:00:00
 draft = false
 
