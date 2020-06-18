@@ -65,9 +65,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Invited). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Revision Submitted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Invited). An adaptationist framework for personality science. *European Journal of Personality*.
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (Revision Submitted). An adaptationist framework for personality science. *European Journal of Personality*.
 
 <!-- \newpage -->
 
@@ -77,13 +77,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). The niche diversity hypothesis successfully predicts differences in personality covariance across 115 nations.
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., & Buss, D. M. (in prep). Niche diversity predicts differences in personality covariance across 115 nations.
 
 \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
 
 \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.** (in prep). Universal and sex-specific determinants of human bodily attractiveness across 14 nations. 
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.** (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
 \textcolor{light-gray}{Other Publications} 
 
