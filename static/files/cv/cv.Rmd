@@ -29,12 +29,6 @@ urlcolor: black
 ---
 <!-- \hrulefill for horizontal line after headings -->
 
-```{r include=F}
-
-# devtools::install_github("rstudio/fontawesome")
-library(fontawesome)
-```
-
 
 # EDUCATION
 
