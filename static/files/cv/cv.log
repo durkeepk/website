@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.29)  29 JUN 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.29)  29 JUN 2020 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -382,12 +382,7 @@ pdfmode.def
 File: l3backend-pdfmode.def 2020-06-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count268
 \l__pdf_internal_box=\box48
-)
-
-LaTeX Warning: Unused global option(s):
-    [10.5pt].
-
-(./cv.aux)
+) (./cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
@@ -562,10 +557,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: AEA39904009BC6B96EE2105E14845249;1274.
  ) 
 Here is how much of TeX's memory you used:
- 14918 strings out of 482419
- 236463 string characters out of 5946509
- 489418 words of memory out of 5000000
- 30450 multiletter control sequences out of 15000+600000
+ 14917 strings out of 482419
+ 236454 string characters out of 5946509
+ 489406 words of memory out of 5000000
+ 30449 multiletter control sequences out of 15000+600000
  572574 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,12n,45p,1191b,387s stack positions out of 5000i,500n,10000p,200000b,80000s

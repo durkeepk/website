@@ -23,7 +23,7 @@ keywords: RMarkdown, academic CV, template
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
-fontsize: 10.5pt
+fontsize: 10pt
 linkcolor: black
 urlcolor: black
 ---
