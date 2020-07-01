@@ -27,8 +27,8 @@ fontsize: 10pt
 linkcolor: black
 urlcolor: black
 ---
-<!-- \hrulefill for horizontal line after headings -->
 
+<!-- \hrulefill for horizontal line after headings -->
 
 # EDUCATION
 
@@ -45,7 +45,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 # PUBLICATIONS
 
-^\faUnsorted^ ^=^ ^Equal^ ^Contribution^ \newline
+^\faUnsorted^ ^=^ ^Shared^ ^First^ ^Authorship^ \newline
 ^\faBarChart^ ^=^ ^Statistics^ ^Lead^
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
