@@ -92,7 +92,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
-\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). Does niche diversity explain differences in personality structure across human populations? Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
+\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.** (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster accepted for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M. (February, 2020). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
@@ -109,6 +111,10 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 \hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., & Buss, D. M. (2019, May). *Anger is the mechanistic core of the folk-lexical construct, “Agreeableness.”* Podium presentation at the the 31st annual meeting of the Association for Psychological Science, Washington, DC.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Are pride and shame key components of a culturally universal status management system?*. Poster presented at the 31st annual meeting of the Association for Psychological Science, Washington, DC.
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, April). *Pride, Shame, and Personality: An initial investigation of differential mechanism parameterization as the root of personality.* Poster presented at the 13th annual California Workshop on Evolutionary Social Sciences, Fullerton, CA.
+
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, & Buss, D. M. (2019, April). *Mate availability and sexual disgust.* Poster presented at the 13th annual California Workshop on Evolutionary Social Sciences, Fullerton, CA.
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
 
@@ -156,8 +162,6 @@ Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{l
 Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
 Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
-\newpage
-
 # TEACHING
 
 \textcolor{light-gray}{Training}
@@ -177,6 +181,9 @@ Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015,
 Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
 \textcolor{light-gray}{Guest Lectures}
+
+Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
+\textit{Anna Sedlacek's introductory psychology course, UT Austin}
 
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
