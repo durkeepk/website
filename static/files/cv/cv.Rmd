@@ -240,16 +240,5 @@ California State University, Fullerton \newline
 Phone: 657-278-7235 \newline
 Email: alukaszewski@fullerton.edu 
 
-**John Patton, Ph.D.** \newline
-Professor of Anthropology \newline
-California State University, Fullerton \newline
-Phone: 657-278-5763 \newline
-Email: johnpatton@fullerton.edu 
-
-**Elizabeth Pillsworth, Ph.D.** \newline
-Associate Professor of Anthropology \newline
-California State University, Fullerton \newline
-Phone: 657-278-5603 \newline
-Email: epillsworth@fullerton.edu
 
 
