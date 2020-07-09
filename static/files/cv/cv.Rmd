@@ -66,7 +66,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
+\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Revision Submitted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
