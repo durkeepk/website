@@ -66,7 +66,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Sedlacek, B. G. A., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
+\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Revision Submitted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
@@ -84,7 +84,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., Burtsev, E., ..., & Buss, D. M. (2020). Sex differences in sexual disgust: A cross-cultural analysis.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., Burtsev, E., ..., & Buss, D. M. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
+
+\hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era.
 
 \textcolor{light-gray}{Other Publications} 
 
@@ -147,6 +149,8 @@ Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.** (2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
 
+\newpage
+
 # GRANTS & AWARDS
 
 Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
@@ -190,6 +194,11 @@ Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
+# TECHNICAL SKILLS
+
+**Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
+
+**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics, GoogleForms
 
 # PROFESSIONAL SERVICE 
 
@@ -206,12 +215,6 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 *SAGE Open* \newline
 *Scandinavian Journal of Psychology*
 
-# TECHNICAL SKILLS
-
-**Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
-
-**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics, GoogleForms
-
 # PROFESSIONAL AFFILIATIONS
 
 Society for Personality and Social Psychology (SPSP)
@@ -220,7 +223,7 @@ Human Behavior and Evolution Society (HBES)
 
 Association for Psychological Science (APS)
 
-\newpage
+<!-- \newpage -->
 
 # ACADEMIC REFERENCES
 
