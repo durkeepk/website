@@ -1,0 +1,107 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.9)  9 JUL 2020 08:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**test.tex
+(./test.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawe
+some5.sty
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-
+xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count171
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count172
+\g__pdf_backend_annotation_int=\count173
+))
+Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/
+l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xp
+arse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xp
+arse-generic.tex
+\l__xparse_current_arg_int=\count174
+\g__xparse_grabber_int=\count175
+\l__xparse_m_args_int=\count176
+\l__xparse_v_nesting_int=\count177
+))
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawe
+some5-utex-helper.sty
+Package: fontawesome5-utex-helper 2020/03/24 v5.13.0 uTeX helper for fontawesom
+e5
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/fontawesome5/tufonta
+wesomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/fontawesome5/tufonta
+wesomebrands.fd))) (./test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+.
+
+(/Users/patrickdurkee/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+[1
+
+] (./test.aux) ) 
+Here is how much of TeX's memory you used:
+ 2383 strings out of 481269
+ 39772 string characters out of 5923410
+ 276882 words of memory out of 5000000
+ 19957 multiletter control sequences out of 15000+600000
+ 532370 words of font info for 28 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 39i,4n,49p,262b,161s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on test.pdf (1 page).
