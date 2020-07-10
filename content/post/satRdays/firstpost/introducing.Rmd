@@ -7,8 +7,6 @@ tags: ["R"]
 markdown: GFM
 ---
 
-
-
 In this post I'll list and describe some of my favorite resources for learning R (R-esources?). There are already so many amazing resources for learning R scattered across the interwebs that this will likely go unnoticed. But if even one person learns something about R from my haphazard explanations and dry humor, then it would be worth it.
 
 Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn't even played around with html). When I found out I had to learn R for my stats course, I felt justifiably terrified. Luckily, the internet exists. I've grown fairly ~~competent~~ confident in R over the years since my first graduate stats course---and a little less scared---thanks to the plethora of amazing resources freely available for R. This list will probably seem pretty basic and mundane to most R users, but maybe it would be helpful to someone just starting out.
