@@ -96,9 +96,11 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
-\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, **Durkee, P. K.**, Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* Poster accepted for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., Tucker-Drob, E. M. (2020, July). *Niche diversity explains differences in personality structure across human populations.* Podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
 
-\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.** (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster accepted for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, **Durkee, P. K.**, Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+
+\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
 
 \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., Tucker-Drob, E. M. (2020, February). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
 
