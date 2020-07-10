@@ -2,7 +2,7 @@
 title = "Hello, world?"
 subtitle = "typing into the void..."
 
-date = 2019-01-01
+date = 2020-01-01
 lastmod = "`r noquote(format(Sys.Date(), '%Y-%m-%d'))`"
 draft = false
 
@@ -44,6 +44,6 @@ _________
 
 I probably don't need this, but just in case:
 
-The views and opinions expressed anywhere throughout my blog and writings are my own and do not necessarily reflect the official policy or position of any institutions or persons that I am affiliated with. Any content provided is of my own opinion, and are not intended to malign any religion, ethic group, club, organization, company, individual or anyone or anything.
+The views and opinions expressed anywhere throughout my blog and writings are my own and do not necessarily reflect the official policy or position of any institutions or persons that I am affiliated with. Any content provided is of my own opinion, and is not intended to malign any religion, ethic group, club, organization, company, individual or anyone or anything.
 
 

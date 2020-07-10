@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials, thoughts, and other unsolicited writings on Patrick Durkee</title>
-    <link>/post/</link>
-    <description>Recent content in Tutorials, thoughts, and other unsolicited writings on Patrick Durkee</description>
+    <title>R on Patrick Durkee</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Patrick Durkee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,16 +29,6 @@
       <guid>/post/satrdays/firstpost/introducing/</guid>
       <description>In this post I’ll list and describe some of my favorite resources for learning R (R-esources?). There are already so many amazing resources for learning R scattered across the interwebs that this will likely go unnoticed. But if even one person learns something about R from my haphazard explanations and dry humor, then it would be worth it.
 Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn’t even played around with html).</description>
-    </item>
-    
-    <item>
-      <title>Hello, world?</title>
-      <link>/post/first_post/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/post/first_post/</guid>
-      <description>I&amp;rsquo;ve never blogged or had any strong inclination to do so, but I recently convinced myself it might be a &amp;ldquo;fun&amp;rdquo; way to spend some of my free time while still bettering myself academically. So, I made this website and I&amp;rsquo;m going to give academic-blogging a go. I&amp;rsquo;m not entirely sure what I&amp;rsquo;ll blog about, but I have some general ideas.
-My main goals for this blog include writing R tutorials, summarizing interesting articles, and reporting results of casual research studies I conduct (e.</description>
     </item>
     
   </channel>

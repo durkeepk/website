@@ -1,12 +1,13 @@
 ---
-title: "satRdays: basic data visualization"
+title: "Data visualization basics"
 author: "Patrick Durkee"
-date: 2019-01-19 
-categories: ["satRdays"]
-tags: ["satRdays"]
+date: 2020-01-19 
+categories: ["R"]
+tags: ["R"]
 ---
 
 I love data visualization. My initial forays into data vizualization led me to the package `ggplot2`, which seems to be quickly becoming the standard in the R community (or at least the one I see most often). When I first started using it, the syntax seemed pretty daunting (all the `aes` and `geom_whatever` arguments were confusing to me), but I was motivated enough by some [pretty examples](https://sakaluk.wordpress.com/2015/08/27/6-make-it-pretty-plotting-2-way-interactions-with-ggplot2/) and [helpful documentation](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) to hack through other people's code and make my own plots. I slowly started to get the syntax down, and now making plots with `ggplot` is *mostly* intuitive and "fun". I still have to look specific stuff up once in a while, but I usually know what I'm looking for at least. Anyway, I think `ggplot2` is great, but the learning curve can feel a bit steep, so here is a simple tutorial. 
+
 ```{r packages, message=F}
 
 library(ggplot2)
@@ -129,6 +130,6 @@ So that's some basic `ggplot` stuff (with a bonus of `ggplotly`). I haven't even
 
 <p>
 
-Thanks for tuning in! My semester starts next week, and this blogging thing always takes me more time than I think it does, so I think I'll probably switch to making the satRdays series bi-weekly or once-a-month.
+Thanks for tuning in! My semester starts next week, and this blogging thing always takes me more time than I think it does, so I think I'll probably dial it back for a while.
 
 [^1]: In R Markdown you can programatically write these statistics using backticks, specifying the language `` `r` `` and then writing a function, e.g., `` round(mean(df$var), 2) `` within the backticks, but after the `r`.

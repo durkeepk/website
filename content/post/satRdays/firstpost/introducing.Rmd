@@ -1,20 +1,17 @@
 ---
-title: "satRdays: an introduction"
+title: "R-esources"
 author: "Patrick Durkee"
-date: 2019-01-05 #"`r noquote(format(Sys.Date(), '%Y-%m-%d'))`"
-categories: ["satRdays"]
-tags: ["satRdays"]
+date: 2020-01-05 #"`r noquote(format(Sys.Date(), '%Y-%m-%d'))`"
+categories: ["R"]
+tags: ["R"]
 markdown: GFM
 ---
 
-I'm planning to make a (semi-)weekly habit of learning a new thing in R (e.g., a function, an analysis, a feature) and writing a brief overview/tutorial of it. This will be the first of the series. I couldn't find any evidence that a blog series[^1] of of this name exists (let me know if I'm wrong), but it seems like a fairly obvious R pun; maybe most people have better things to do than blog on Saturdays... 
-
-The main motivations for starting this series are to force myself to learn more R and begin contributing to the community that helped me---and continues to help me---learn R. There are already so many amazing resources for learning R scattered across the interwebs that this will likely go unnoticed. But if even one person learns something about R from my haphazard explanations and dry humor, then it would be worth it.
 
 
-****
+In this post I'll list and describe some of my favorite resources for learning R (R-esources?). There are already so many amazing resources for learning R scattered across the interwebs that this will likely go unnoticed. But if even one person learns something about R from my haphazard explanations and dry humor, then it would be worth it.
 
-For this first satRday, I'll just list and describe some of my favorite resources for learning R (R-esources?). Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn't even played around with html). When I found out I had to learn R for my stats course, I felt justifiably terrified. Luckily, the internet exists. I've grown fairly ~~competent~~ confident in R over the years since my first graduate stats course---and a little less scared---thanks to the plethora of amazing resources freely available for R. This list will probably seem pretty basic and mundane to most R users, but maybe it would be helpful to someone just starting out.
+Before learning R, I had zero experience with any sort of coding (I never had a myspace, so I hadn't even played around with html). When I found out I had to learn R for my stats course, I felt justifiably terrified. Luckily, the internet exists. I've grown fairly ~~competent~~ confident in R over the years since my first graduate stats course---and a little less scared---thanks to the plethora of amazing resources freely available for R. This list will probably seem pretty basic and mundane to most R users, but maybe it would be helpful to someone just starting out.
 
 - [Google](https://www.google.com): When I first started using R, I had to google basically every little thing I wanted to do (how do I change a variable name again?). Then I had to google every error message that inevitably arose as I tried to run what I had copy/pasted from my previous google. But after a couple years of careful searching and copy/pasting and editing and carrying out my own projects in R, *I still google nearly everything*. Being competent in R is being good at googling (for me at least). You could stop here and just start googling and you'll find out about all the below resources all by yourself. You don't need me any more; be free!
 <div class="tenor-gif-embed" data-postid="5519059" data-share-method="host" data-width="70%" data-aspect-ratio="1.396551724137931"><a href="https://tenor.com/view/adam-scott-dove-free-hand-gif-5519059">Adam Scott Dove GIF</a> from <a href="https://tenor.com/search/adamscott-gifs">Adamscott GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
@@ -28,7 +25,7 @@ For this first satRday, I'll just list and describe some of my favorite resource
 - [R Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) and [R Markdown](https://rmarkdown.rstudio.com): this last point is more of a tip than a resource. Up until a couple months ago, I spent my life chasing scripts across folders, writing painfully long file paths every time I wanted to read in a dataset, and tediously copy/pasting results into Word documents. When I found out about creating R projects and using R Markdown, I felt betrayed (WHY DIDN'T ANYONE TELL ME THIS BEFORE!?), but also relieved. Hopefully, I can save someone from this painful experience by telling you about both now. Projects allow you to keep all your scripts, data, figures, etc. organized in one place. Everytime you open the .Rproj file, it will reset your working directory to the project folder so you only have to go forward/backward a level or two when specifying files paths [e.g., `read.csv("data/mydataset.csv")` instead of `read.csv("username/veryspecificfoldername/underspecifiedfolder/anotherfolder/generalresearchfolder/folderforproject/folderwheremydatais/cleaneddata/usethisdata.csv")`][^2].  In addition to being unaware of the benefits of projects, I was unaware of R Markdown. R Markdown lets you create beautiful reproducible reports---where you can see the code along with the output---in addition to a bunch of other cool stuff, like making presentation slides and websites (like this one I made!). Anyway, I'm still learning to use these tools, but as with all things R, an abundance of documentation and help is available online; praise Google!
 
 
-So those are some of my favourite R-esources. I hope this short list could be useful to someone at some point. I'll probably focus on more specific tutorials in the future.
+So those are some of my favourite R-esources. I hope this short list could be useful to someone at some point. 
 
 
 [^1]: Although, there is a really cool community-led series of conferences that go by that name. Check them out (https://satrdays.org)! 
