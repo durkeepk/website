@@ -50,7 +50,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (Accepted). An adaptationist framework for personality science. *European Journal of Personality*. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
 
 \hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/HumanStatusCriteria_2020.pdf) 
 
@@ -67,8 +69,6 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 \textcolor{light-gray}{Manuscripts Under Review}
 
 \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
-
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Revision Submitted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.](https://doi.org/10.31234/osf.io/tpngz)
 
