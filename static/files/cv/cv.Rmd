@@ -78,9 +78,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality covariance across 115 nations.
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A network approach. 
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
@@ -144,6 +144,8 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
+
+\newpage
 
 # INVITED TALKS
 
