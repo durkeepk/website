@@ -202,7 +202,7 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 **Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
 
-**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics, GoogleForms
+**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics
 
 # PROFESSIONAL SERVICE 
 
