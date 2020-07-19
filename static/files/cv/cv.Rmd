@@ -45,8 +45,8 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 # PUBLICATIONS
 
-^\faUnsorted^ ^=^ ^Shared^ ^First^ ^Authorship^ \newline
-^\faBarChart^ ^=^ ^Statistics^ ^Lead^
+^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^ \newline
+^\faBarChart^ ^=^ ^Lead^ ^Statistician^
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
