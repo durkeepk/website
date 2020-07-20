@@ -45,14 +45,16 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 # PUBLICATIONS
 
-^\faUnsorted^ ^=^ ^Shared^ ^First^ ^Authorship^ \newline
-^\faBarChart^ ^=^ ^Statistics^ ^Lead^
+^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^ \newline
+^\faBarChart^ ^=^ ^Lead^ ^Statistician^
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (Accepted). An adaptationist framework for personality science. *European Journal of Personality*. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
-\hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/HumanStatusCriteria_2020.pdf) 
+\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
+
+\hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
 
 \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
@@ -68,25 +70,25 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Revision Submitted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
-
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.](https://doi.org/10.31234/osf.io/tpngz)
 
 <!-- \textcolor{light-gray}{Manuscripts on Preprint Servers} -->
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality covariance across 115 nations.
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality structure across 115 nations.
+
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A network approach. 
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
-
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierarchy navigation strategies. 
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., Burtsev, E., ..., & Buss, D. M. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
 
 \hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era.
+
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^. (in prep). Emotions of Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
 
 \textcolor{light-gray}{Other Publications} 
 
@@ -96,13 +98,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
-\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., Tucker-Drob, E. M. (2020, July). *Niche diversity explains differences in personality structure across human populations.* Podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in **Durkee, P. K.** (2020, July). *Niche diversity explains differences in personality structure across human populations.* Podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
 
-\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, **Durkee, P. K.**, Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, Diamond B.^\faChevronCircleDown^, Duarte H. L.^\faChevronCircleDown^, **Durkee, P. K.**, & Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
 
-\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
 
-\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., Tucker-Drob, E. M. (2020, February). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., & Tucker-Drob, E. M. (2020, February). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
 
 \hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
 
@@ -145,13 +147,15 @@ Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
 
+\newpage
+
 # INVITED TALKS
 
-\hangindent=0.5in **Durkee, P. K.** (2019). *The social-cognitive foundations of human hierarchies*. Talk given to the Cogntiive Area Meeting, UT Austin.
+\hangindent=0.5in **Durkee, P. K.** (October, 2019). *Investigating associations between individual differences in emotion parameterization and personality*. Talk given to the Cogntiive Area Meeting, UT Austin.
 
-\hangindent=0.5in **Durkee, P. K.** (2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
+\hangindent=0.5in **Durkee, P. K.** (May, 2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
 
-\hangindent=0.5in **Durkee, P. K.** (2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+\hangindent=0.5in **Durkee, P. K.** (April, 2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
 
 # GRANTS & AWARDS
 
@@ -200,7 +204,7 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 **Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
 
-**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics, GoogleForms
+**Stimulus Presentation Software:** formr, PsychoPy, Qualtrics
 
 # PROFESSIONAL SERVICE 
 

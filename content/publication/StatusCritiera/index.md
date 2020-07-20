@@ -41,7 +41,7 @@ selected = true
 tags = []
 
 # Links (optional).
-url_pdf = "/files/pubs/HumanStatusCriteria_2020.pdf"
+url_pdf = "/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf"
 #url_preprint = "#"
 #url_code = "#"
 #url_dataset = "#"
