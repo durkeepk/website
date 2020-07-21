@@ -84,7 +84,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., Burtsev, E., ..., & Buss, D. M. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
+\hangindent=0.5in Crosby, C. L., Buss, D. M., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
 
 \hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era.
 
