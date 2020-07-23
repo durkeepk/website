@@ -210,6 +210,8 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 **Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
 
+**Data Scientist**, *Upper Ninety* Youth Soccer Program \hfill \textcolor{light-gray}{2020} 
+
 ***Ad hoc*** **Reviewer:** \newline
 *Adaptive Human Behavior and Physiology* \newline
 *Aggressive Behavior* \newline
