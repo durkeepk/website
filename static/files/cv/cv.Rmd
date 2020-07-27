@@ -72,11 +72,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.](https://doi.org/10.31234/osf.io/tpngz)
 
-<!-- \textcolor{light-gray}{Manuscripts on Preprint Servers} -->
+\textcolor{light-gray}{Manuscripts on Preprint Servers}
+
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality structure across 115 nations.](https://psyarxiv.com/93qmp/)
+
+\newpage
 
 \textcolor{light-gray}{Manuscripts in Preparation}
-
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality structure across 115 nations.
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A network approach. 
 
