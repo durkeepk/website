@@ -74,7 +74,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts on Preprint Servers}
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality structure across 115 nations.](https://psyarxiv.com/93qmp/)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2020). Niche diversity predicts personality structure across 115 nations.](https://psyarxiv.com/93qmp/)
 
 \newpage
 
