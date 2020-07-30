@@ -80,9 +80,9 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A network approach. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A psychometric network approach. 
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Testing the inputs of emotions for status conferral. 
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
