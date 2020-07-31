@@ -153,7 +153,7 @@ Columbia, MO.
 
 # INVITED TALKS
 
-\hangindent=0.5in **Durkee, P. K.** (July, 2020). *Probing the psychology underpinning human status hierarchies*. Virtual talk given to the Kenrick-Neuberg Lab Group, Arizona State University.
+\hangindent=0.5in **Durkee, P. K.** (July, 2020). *Probing the psychology underpinning human status hierarchies*. Virtual talk given to the Evolutionary Social Cognition Lab Group, Arizona State University.
 
 \hangindent=0.5in **Durkee, P. K.** (October, 2019). *Investigating associations between individual differences in emotion parameterization and personality*. Talk given to the Cogntiive Area Meeting, UT Austin.
 
