@@ -50,21 +50,23 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+**Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
+Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
 
-\hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
+[Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
+[Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
+[**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
+[**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
 
-  \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
+[**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
 
-\hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+[**Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+
+<!-- \end{etaremune} -->
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
@@ -74,13 +76,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts on Preprint Servers}
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2020). Niche diversity predicts personality structure across 115 nations.](https://psyarxiv.com/93qmp/)
+[**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2020). Niche diversity predicts personality structure across 115 nations.](https://psyarxiv.com/93qmp/)
 
 \newpage
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.** (forthcoming). Emotions of Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (forthcoming). Emotions and Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A psychometric network approach. 
 
@@ -96,7 +98,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
 
-\hangindent=0.5in Landers, M., **Durkee, P. K.**^\faBarChart^, Sznycer., D. (in prep). Testing explanatory models of guilt and shame.
+\hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.**^\faBarChart^ (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
 
 \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**^\faBarChart^, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation.
 
