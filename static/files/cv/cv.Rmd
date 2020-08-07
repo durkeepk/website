@@ -50,7 +50,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Peer Reviewed Journal Articles}
 
-\hangindent=0.5in **Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+\hangindent=0.5in **Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (In Press). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
 \hangindent=0.5in [Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*.](http://www.pdurkee.com/files/pubs/AnAdaptationistFrameworkPersonality.pdf)
 
