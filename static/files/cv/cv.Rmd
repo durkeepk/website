@@ -52,7 +52,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in **Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
+\hangindent=0.5in [Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*.](http://www.pdurkee.com/files/pubs/AnAdaptationistFrameworkPersonality.pdf)
 
 \hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
 
