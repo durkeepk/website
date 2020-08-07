@@ -255,12 +255,12 @@ University of Texas at Austin \newline
 Email: dbuss@austin.utexas.edu
 
 **Aaron Goetz, Ph.D.** \newline
-Associate Professor of Psychology \newline
+Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: agoetz@fullerton.edu
 
 **Aaron Lukaszewski, Ph.D.** \newline
-Assistant Professor of Psychology \newline
+Associate Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: alukaszewski@fullerton.edu 
 
