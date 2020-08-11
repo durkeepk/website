@@ -33,7 +33,7 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology \hfill \textcolor{light-gray}{Expected 2021} \newline
+Ph.D., Psychology \hfill \textcolor{light-gray}{Expected Spring 2021} \newline
 *The University of Texas at Austin*
 
 M.A., Experimental Psychology \hfill 
