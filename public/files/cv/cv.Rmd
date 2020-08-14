@@ -33,7 +33,7 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology \hfill \textcolor{light-gray}{Expected 2021} \newline
+Ph.D., Psychology \hfill \textcolor{light-gray}{Expected Spring 2021} \newline
 *The University of Texas at Austin*
 
 M.A., Experimental Psychology \hfill 
@@ -48,47 +48,62 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 ^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^ \newline
 ^\faBarChart^ ^=^ ^Lead^ ^Statistician^
 
-\textcolor{light-gray}{Peer Reviewed Journal Articles}
+\textcolor{light-gray}{Peer Reviewed Journal Articles} 
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (Accepted). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+<!-- \textcolor{light-gray}{\textit{In Press}} -->
 
-\hangindent=0.5in Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (In Press). An adaptationist framework for personality science. *European Journal of Personality*. 
+\hangindent=0.5in **Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (In Press). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
 
-\hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
+<!-- \textcolor{light-gray}{\textit{2020}} -->
 
-\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
+\hangindent=0.5in [Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (2020). An adaptationist framework for personality science. *European Journal of Personality*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/AnAdaptationistFrameworkPersonality.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
+\hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
 
-\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
+\hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.^\faFileTextO^](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf) 
 
-  \hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2019). Pride and shame: Key components of a culturally universal status management system. *Evolution and Human Behavior 40*(5), 470-477.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
+\hangindent=0.5in [**Durkee, P. K.** (2019). Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters, 15*(7), 1-2.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
+
+\hangindent=0.5in [**Durkee, P. K.**, Polo, P., Munoz-Reyes, J. A., Rodriguez-Ruiz, C., Losada-Perez, M., Fernandez-Martinez, A. B., Turiegano, E., Buss, D. M., & Pita, M. (2019). Men’s bodily attractiveness: Muscles as fitness indicators. *Evolutionary Psychology, 17*(2), 1-10.^\faFileTextO^](https://journals.sagepub.com/doi/pdf/10.1177/1474704919852918)
+
+\hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf) 
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.](https://osf.io/g9us7/)
+\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.](https://doi.org/10.31234/osf.io/tpngz)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
 
 <!-- \textcolor{light-gray}{Manuscripts on Preprint Servers} -->
 
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Under Review). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+
+
+\newpage
+
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss, D. M., & Tucker-Drob., E. M. (in prep). Niche diversity predicts differences in personality structure across 115 nations.
+\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (forthcoming). Emotions and Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A network approach. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A psychometric network approach. 
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Fitness interdependence and emotions of status conferral. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Emotions for status conferral: Testing their input-output structure.
 
-\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
-
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., Burtsev, E., ..., & Buss, D. M. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality.
 
 \hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era.
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^. (in prep). Emotions of Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
+
+\hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Inferring status: A test of sex-specific visual cues across 14 nations. 
+
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
+
+\hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.**^\faBarChart^ (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
+
+\hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**^\faBarChart^, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation.
 
 \textcolor{light-gray}{Other Publications} 
 
@@ -98,23 +113,25 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
-\hangindent=0.5in **Durkee, P. K.** (2020, July). *Niche diversity explains differences in personality structure across human populations.* Podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in **Durkee, P. K.** (2020, July). *Niche diversity explains differences in personality structure across human populations.* Virtual podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. 
 
-\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, Diamond B.^\faChevronCircleDown^, Duarte H. L.^\faChevronCircleDown^, **Durkee, P. K.**, & Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, Diamond B.^\faChevronCircleDown^, Duarte H. L.^\faChevronCircleDown^, **Durkee, P. K.**, & Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_4a0dca2931c042a38b24ac60884dd5cd.pdf)
 
-\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* Poster at the 14th annual California Workshop on Evolutionary Social Sciences. [Online due to COVID-19 Pandemic]
+\hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_8e49b4d32561449ca6aa7ac9a82738e9.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., & Tucker-Drob, E. M. (2020, February). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.](https://osf.io/6gp85/)
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (2020, July). *Sex differences in sexual disgust: A cross-cultural analysis.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_e00c96a9623f40cd95eee2aaad5e59f5.pdf)
 
-\hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6enb8/)
+\hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Gurven, M., von Rueden, C., Buss., D. M., & Tucker-Drob, E. M. (2020, February). *Does niche diversity explain differences in personality structure across human populations?* Data blitz at the 18th annual SPSP Evolutionary Psychology Preconference, New Orleans, LA.^\faFilePdfO^](https://osf.io/6gp85/)
+
+\hangindent=0.5in [**Durkee, P. K.**, & Buss, D. M. (2019, August). *Fitness interdependence and emotions of status conferral*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/6enb8/)
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2019, August). *Six dimensions of sexual disgust*. Podium presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.
 
-\hangindent=0.5in [Yoon, J.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/uzpj5/)
+\hangindent=0.5in [Yoon, J.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/uzpj5/)
 
-\hangindent=0.5in [Mohamed, M.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/6jnz5/)
+\hangindent=0.5in [Mohamed, M.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/6jnz5/)
 
-\hangindent=0.5in [Willis, D.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.](https://osf.io/3rv7z/)
+\hangindent=0.5in [Willis, D.^\faChevronCircleDown^, **Durkee, P. K.**, & Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/3rv7z/)
 
 \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2019, June). *Pride and shame: Key components of a culturally universal status management system*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Boston, MA.
  
@@ -140,39 +157,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in **Durkee, P. K.**, Ayers, J., Goetz, A. T. (2016, May). *Trolley Problems: An important limitation to consequentialist intuitions triggered by Hamiltonian mechanisms*. Poster presented at the 10th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
 
-\hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
+<!-- \hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA. -->
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference, 
 Columbia, MO.
 
 \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
 
-\newpage
-
-# INVITED TALKS
-
-\hangindent=0.5in **Durkee, P. K.** (October, 2019). *Investigating associations between individual differences in emotion parameterization and personality*. Talk given to the Cogntiive Area Meeting, UT Austin.
-
-\hangindent=0.5in **Durkee, P. K.** (May, 2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
-
-\hangindent=0.5in **Durkee, P. K.** (April, 2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
-
-# GRANTS & AWARDS
-
-Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
-Rick and Paula Short Fellowship \hfill \textcolor{light-gray}{Summer 2020} \newline
-PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
-LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
-Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
-Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
-Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
-Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
-Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
-Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
-Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
-Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 # TEACHING
 
@@ -200,15 +191,47 @@ Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
 Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
 \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
 
+# INVITED TALKS
+
+\hangindent=0.5in **Durkee, P. K.** (July, 2020). *Probing the psychology underpinning human status hierarchies*. Virtual talk given to the Evolutionary Social Cognition Lab Group, Arizona State University.
+
+\hangindent=0.5in **Durkee, P. K.** (October, 2019). *Investigating associations between individual differences in emotion parameterization and personality*. Talk given to the Cogntiive Area Meeting, UT Austin.
+
+\hangindent=0.5in **Durkee, P. K.** (May, 2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
+
+\hangindent=0.5in **Durkee, P. K.** (April, 2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
+
 # TECHNICAL SKILLS
 
 **Statistical and Data Management Software:** R, Mplus, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
 
 **Stimulus Presentation Software:** formr, PsychoPy, Qualtrics
 
+# GRANTS & AWARDS
+
+Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
+Rick and Paula Short Fellowship \hfill \textcolor{light-gray}{Summer 2020} \newline
+PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
+LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2020} \newline
+Psychology Department Travel Award \hfill \textcolor{light-gray}{Spring 2020} \newline
+Hixon Graduate Fellowship in Statistics \hfill \textcolor{light-gray}{Fall 2019} \newline
+Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Summer 2019} \newline
+Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
+Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
+Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
+Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
+Giles T. Brown Student Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
+Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
+
+
 # PROFESSIONAL SERVICE 
 
 **Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
+
+**Mentor**, *UTeam*, Mentorship Program for Underrepresented Students \hfill \textcolor{light-gray}{2019-2020} 
+
+**Data Scientist**, *Upper Ninety*, Positive Youth Development Program \hfill \textcolor{light-gray}{2020}
 
 ***Ad hoc*** **Reviewer:** \newline
 *Adaptive Human Behavior and Physiology* \newline
@@ -223,10 +246,8 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 # PROFESSIONAL AFFILIATIONS
 
-Society for Personality and Social Psychology (SPSP)
-
-Human Behavior and Evolution Society (HBES)
-
+Society for Personality and Social Psychology (SPSP) \newline
+Human Behavior and Evolution Society (HBES) \newline
 Association for Psychological Science (APS)
 
 <!-- \newpage -->
@@ -235,20 +256,17 @@ Association for Psychological Science (APS)
 
 **David Buss, Ph.D.** \newline
 Professor of Psychology \newline
-University of Texas at Austin \newline
-Phone: 512-475-8489 \newline
+The University of Texas at Austin \newline
 Email: dbuss@austin.utexas.edu
 
 **Aaron Goetz, Ph.D.** \newline
-Associate Professor of Psychology \newline
+Professor of Psychology \newline
 California State University, Fullerton \newline
-Phone: 657-278-2602 \newline
 Email: agoetz@fullerton.edu
 
 **Aaron Lukaszewski, Ph.D.** \newline
-Assistant Professor of Psychology \newline
+Associate Professor of Psychology \newline
 California State University, Fullerton \newline
-Phone: 657-278-7235 \newline
 Email: alukaszewski@fullerton.edu 
 
 

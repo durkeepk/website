@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Human Status Criteria: Sex Differences and Similarities Across 14 Nations</title>
       <link>/publication/statuscritiera/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 29 May 2020 00:00:00 -0700</pubDate>
       
       <guid>/publication/statuscritiera/</guid>
       <description></description>
@@ -365,7 +365,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Hello, world?</title>
       <link>/post/first_post/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>/post/first_post/</guid>
       <description>
@@ -389,7 +389,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Pride and shame: Key components of a culturally universal status management system</title>
       <link>/publication/prideshame/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/prideshame/</guid>
       <description></description>
@@ -398,7 +398,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Men’s bodily attractiveness: Muscles as fitness indicators</title>
       <link>/publication/muscles_spain/</link>
-      <pubDate>Wed, 05 Jun 2019 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/muscles_spain/</guid>
       <description></description>
@@ -407,7 +407,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Differential Mechanism Parameterization and Individual Differences</title>
       <link>/project/differential-mechanism-functioning-and-individual-differences/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
       <guid>/project/differential-mechanism-functioning-and-individual-differences/</guid>
       <description>&lt;p&gt;More info coming soon.&lt;/p&gt;
@@ -417,7 +417,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Emotions and Hierarchy Navigation</title>
       <link>/project/emotions-and-hierarchy-negotiation/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
       <guid>/project/emotions-and-hierarchy-negotiation/</guid>
       <description>&lt;p&gt;Project summary coming soon.&lt;/p&gt;
@@ -427,7 +427,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Human Status Criteria</title>
       <link>/project/human-status-criteria/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       
       <guid>/project/human-status-criteria/</guid>
       <description>&lt;p&gt;More info coming soon.&lt;/p&gt;
@@ -437,7 +437,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Example Page</title>
       <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
       
       <guid>/tutorial/example/</guid>
       <description>
@@ -457,7 +457,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
@@ -467,7 +467,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Formidability assessment mechanisms: Examining their speed and automaticity</title>
       <link>/publication/efam/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
       
       <guid>/publication/efam/</guid>
       <description></description>
@@ -476,7 +476,7 @@ style(int_plot, hoverinfo = df$Name)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
       
       <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
