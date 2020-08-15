@@ -62,7 +62,7 @@ enableGitInfo = false
   { name = "Buss Lab", url = "https://labs.la.utexas.edu/buss/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "Patrick Lab Photo.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "mountain_pic.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "pdurkee@utexas.edu"
@@ -121,7 +121,7 @@ enableGitInfo = false
   description = "Patrick Durkee's Personal Website"
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = "Patrick Lab Photo.JPG"
+  sharing_image = "mountain_pic.JPG"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "durkeepk"
@@ -307,10 +307,10 @@ enableGitInfo = false
   url = "#publications"
   weight = 2
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 3
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 3
   
 [[menu.main]]
   name = "Blog"

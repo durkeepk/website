@@ -16,6 +16,10 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
+  course = "PhD in Psychology"
+  institution = "The University of Texas at Austin"
+  year = "Expected Spring 2021"
+[[education.courses]]
   course = "MA in Experimental Psychology"
   institution = "California State University, Fullerton"
   year = 2017
