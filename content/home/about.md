@@ -18,7 +18,7 @@ weight = 5
 [[education.courses]]
   course = "PhD in Psychology"
   institution = "The University of Texas at Austin"
-  year = "Expected Spring 2021"
+  year = "Exp. Spring 2021"
 [[education.courses]]
   course = "MA in Experimental Psychology"
   institution = "California State University, Fullerton"
