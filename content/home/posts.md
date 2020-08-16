@@ -7,7 +7,7 @@ weight = 50  # Order that this section will appear.
 date = 2016-04-20T00:00:00
 
 title = "Blog"
-subtitle = "Unsolicited writings"
+subtitle = "Unsolicited writings, tutorials, etc."
 
 # Number of recent posts to list.
 count = 5

@@ -3,11 +3,11 @@
 # This widget displays publications from `content/publication/` which have
 # `selected = true` in their `+++` front matter.
 widget = "publications_selected"
-active = false
+active = true
 date = 2016-04-20T00:00:00
 
 title = "Selected Publications"
-subtitle = ""
+subtitle = "See [CV](http://www.pdurkee.com/files/cv/cv.pdf) for list of all publications."
 
 # Order that this section will appear in.
 weight = 10
@@ -18,7 +18,7 @@ weight = 10
 #   2 = APA
 #   3 = MLA
 #   4 = Stream
-list_format = 0
+list_format = 1
 
 # Filter by publication type.
 # -1: Any
