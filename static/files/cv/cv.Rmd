@@ -52,7 +52,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 <!-- \textcolor{light-gray}{\textit{In Press}} -->
 
-\hangindent=0.5in **Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (In Press). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.
+\hangindent=0.5in [**Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2020). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*, 1-7.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf)
 
 <!-- \textcolor{light-gray}{\textit{2020}} -->
 
