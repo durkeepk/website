@@ -1,5 +1,5 @@
 +++
-title = "Formidability assessment mechanisms: Examining their speed and automaticity"
+title = "Formidability Assessment Mechanisms: Examining their Speed and Automaticity"
 date = 2018-03-01T00:00:00
 draft = false
 
