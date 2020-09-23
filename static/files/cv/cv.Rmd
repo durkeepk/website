@@ -72,15 +72,16 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
-
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Under Review). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
-
-<!-- \textcolor{light-gray}{Manuscripts on Preprint Servers} -->
-
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Under Review). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
+\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
+
 \hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era. *Perspectives on Psychological Science.*
+
+\textcolor{light-gray}{Preprints}
+
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (June, 2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
+
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
@@ -102,6 +103,8 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**^\faBarChart^, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation.
 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Gosling, S., & Tucker-Drob, E. M. (in prep). Historical roots of human personality strcuture. 
+
 \textcolor{light-gray}{Other Publications} 
 
 \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
@@ -109,6 +112,10 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 # CONFERENCE PRESENTATIONS
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
+
+\hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2021, February). *Psychological foundations of status*. Paper presentation in the symposium, "Social Status: New Work Challenging the Status Quo" (Chair, J. Krems), at the Society for Personality and Social Psychology Virtual Annual Convention.
+
+\hangindent=0.5in Landers, M., Sznycer., D., & **Durkee, P. K.**. (2021, February). *Testing Models of Shame and Guilt *. Poster presentation at the Society for Personality and Social Psychology Virtual Annual Convention.
 
 \hangindent=0.5in **Durkee, P. K.** (2020, July). *Niche diversity explains differences in personality structure across human populations.* Virtual podium presentation at for the 14th annual California Workshop on Evolutionary Social Sciences. 
 
@@ -174,7 +181,7 @@ Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall
 
 \textcolor{light-gray}{Teaching Assistant}
 
-Human Sexuality (~500 students, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020} \newline
+Human Sexuality (~500 students per semester, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020; Fall 2020} \newline
 The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
 Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
@@ -206,6 +213,7 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 # GRANTS & AWARDS
 
+SCORE Secondary Data Replication Analysis Award \hfill \textcolor{light-gray}{Fall 2020} \newline
 Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
 Rick and Paula Short Fellowship \hfill \textcolor{light-gray}{Summer 2020} \newline
 PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
@@ -247,7 +255,7 @@ Society for Personality and Social Psychology (SPSP) \newline
 Human Behavior and Evolution Society (HBES) \newline
 Association for Psychological Science (APS)
 
-<!-- \newpage -->
+\newpage
 
 # ACADEMIC REFERENCES
 
