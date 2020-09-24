@@ -76,11 +76,11 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
 
-\hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (in prep). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era. *Perspectives on Psychological Science.*
+\hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (Under Review). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era. *Perspectives on Psychological Science.*
 
 \textcolor{light-gray}{Preprints}
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (June, 2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (June, 2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *PsyArxiv*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
 
 
 \textcolor{light-gray}{Manuscripts in Preparation}
