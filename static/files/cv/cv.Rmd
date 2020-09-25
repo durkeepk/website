@@ -54,8 +54,6 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [**Durkee, P. K.** ^\faBarChart^, Lukaszewski, A. L., & Buss, D. M. (2020). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*, 1-7.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf)
 
-<!-- \textcolor{light-gray}{\textit{2020}} -->
-
 \hangindent=0.5in [Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**^\faBarChart^, Sell, A., Sznycer, D., & Buss, D. M. (2020). An adaptationist framework for personality science. *European Journal of Personality*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/AnAdaptationistFrameworkPersonality.pdf)
 
 \hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf) 
@@ -80,7 +78,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Preprints}
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (June, 2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *PsyArxiv*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (June, 2020). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *PsyArXiv*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
 
 
 \textcolor{light-gray}{Manuscripts in Preparation}
