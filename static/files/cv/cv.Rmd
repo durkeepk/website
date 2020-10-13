@@ -89,6 +89,8 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Emotions for status conferral: Testing their input-output structure.
 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect.
+
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality.
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
@@ -195,6 +197,8 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 # INVITED TALKS
 
+\hangindent=0.5in **Durkee, P. K.** (October, 2020). *Leveraging task analyses of adaptive problems posed by hierarchies to differentiate the potential functions of admiration and respect*. Virtual talk given to the Evolutionary Psychology Lab, CSUF.
+
 \hangindent=0.5in **Durkee, P. K.** (July, 2020). *Probing the psychology underpinning human status hierarchies*. Virtual talk given to the Evolutionary Social Cognition Lab Group, Arizona State University.
 
 \hangindent=0.5in **Durkee, P. K.** (October, 2019). *Investigating associations between individual differences in emotion parameterization and personality*. Talk given to the Cogntiive Area Meeting, UT Austin.
@@ -211,7 +215,7 @@ Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newlin
 
 # GRANTS & AWARDS
 
-SCORE Secondary Data Replication Analysis Award \hfill \textcolor{light-gray}{Fall 2020} \newline
+SCORE Secondary Data Replication Analysis Award (x2) \hfill \textcolor{light-gray}{Fall 2020} \newline
 Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2020} \newline
 Rick and Paula Short Fellowship \hfill \textcolor{light-gray}{Summer 2020} \newline
 PSA Secondary Analysis Challenge Award \hfill \textcolor{light-gray}{Spring 2020} \newline
