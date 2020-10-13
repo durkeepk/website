@@ -103,7 +103,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**^\faBarChart^, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation.
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Gosling, S., & Tucker-Drob, E. M. (in prep). Historical roots of human personality strcuture. 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Gosling, S., Schulz, J., Henrich, J. (in prep). The cultural evolution of WEIRD personality structure. 
 
 \textcolor{light-gray}{Other Publications} 
 
