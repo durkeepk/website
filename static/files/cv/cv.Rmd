@@ -70,7 +70,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts Under Review}
 
-\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Under Extended Review). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+\hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Revise and Resubmit). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Revise and Resubmit). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
 
