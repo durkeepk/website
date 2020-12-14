@@ -244,6 +244,7 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 *Adaptive Human Behavior and Physiology* \newline
 *Aggressive Behavior* \newline
 *American Journal of Human Biology* \newline
+*Brain Structure and Function* \newline
 *Evolution and Human Behavior* \newline
 *Evolutionary Psychology* \newline
 *Evolutionary Psychological Science*  \newline
