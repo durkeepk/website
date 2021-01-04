@@ -83,13 +83,13 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-\hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (forthcoming). Emotions and Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.
+<!-- \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (forthcoming). Emotions and Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press. -->
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A psychometric network approach. 
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Emotions for status conferral: Testing their input-output structure.
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect.
+<!-- \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality.
 
@@ -97,7 +97,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Inferring status: A test of sex-specific visual cues across 14 nations. 
 
-\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-cultural analysis.
+\hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis.
 
 \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.**^\faBarChart^ (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
 
