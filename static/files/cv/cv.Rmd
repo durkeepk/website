@@ -74,24 +74,21 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in [**Durkee, P. K.**^\faBarChart^, & Ayers, J. D. (Revision Invited). Is facial width-to-height ratio reliably associated with social inferences? A large cross-national examination. *Evolution and Human Behavior*.^\faFileTextO^](https://doi.org/10.31234/osf.io/tpngz)
 
+\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (Under Review). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. *Journal of Personality*.
+
 \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
 
-<!-- \hangindent=0.5in Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., & Buss, D. M. (Under Review). Falsifiability and Evolutionary Psychology: Revisiting an Old Critique in a New Era. *Perspectives on Psychological Science.* -->
-
 <!-- \textcolor{light-gray}{Preprints} -->
-
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (forthcoming). Emotions and Hierachy Navigation: Universal features and individual differences. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press. -->
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Individual differences in hierachy navigation: A psychometric network approach. 
-
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Emotions for status conferral: Testing their input-output structure.
 
 <!-- \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
 
-\hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality.
+<!-- \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality. -->
 
 \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations. 
 
