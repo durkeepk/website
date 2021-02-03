@@ -76,7 +76,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in **Durkee, P. K.**^\faBarChart^, & Buss, D. M. (Under Review). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. *Journal of Personality*.
 
-\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 1 Registered Report: Accepted in Principle). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
+\hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^ ^\faBarChart^, Sedlacek, A. G. B., & Buss, D. M. (Stage 2 Registered Report: Under Review). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*.^\faFileTextO^](https://osf.io/g9us7/)
 
 <!-- \textcolor{light-gray}{Preprints} -->
 
@@ -96,7 +96,7 @@ B.A., Psychology \hfill \textcolor{light-gray}{2015} \newline
 
 \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**^\faBarChart^, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis.
 
-\hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.**^\faBarChart^ (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
+<!-- \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.**^\faBarChart^ (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
 \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**^\faBarChart^, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation.
 
