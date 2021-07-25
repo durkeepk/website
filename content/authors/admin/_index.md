@@ -12,8 +12,8 @@ education:
   - course: BS in Psychology
     institution: California State University, Fullerton
     year: 2015
-email: ""
-highlight_name: false
+email: "pdurkee@utexas.edu"
+highlight_name: true
 interests:
 - Social Cognition
 - Emotion
