@@ -5,7 +5,7 @@ education:
   courses:
   - course: PhD in Psychology
     institution: The University of Texas at Austin
-    year: Exp 2021
+    year: Exp. 2021
   - course: MA in Experimental Psychology
     institution: California State University, Fullerton
     year: 2017
@@ -30,12 +30,11 @@ role: Doctoral Student
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: pdurkee@utexas.edu
 - display:
     header: true
   icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
   link: https://twitter.com/durkeepk
 - icon: github
   icon_pack: fab
