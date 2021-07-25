@@ -37,18 +37,26 @@ social:
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/durkeepk
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl
 - icon: github
   icon_pack: fab
   link: https://github.com/durkeepk
-
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/zgfnt/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-6159-4277
+- icon: cv
+  icon_pack: ai
+  link: https://www.pdurkee.com/files/cv/cv.pdf
   
 superuser: true
 title: Patrick Durkee
 ---
 
-I am studying individual differences and evolutionary psychology in the Buss Lab at UT Austin. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to personality. I also teach R. View my [CV here](https://www.pdurkee.com/files/cv/cv.pdf).
+I am a doctoral student studying individual differences and evolutionary psychology in the Buss Lab at UT Austin. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to personality. I also teach R.
 
 
