@@ -53,6 +53,6 @@ superuser: true
 title: Patrick Durkee
 ---
 
-I am a doctoral student studying individual differences and evolutionary psychology in the Buss Lab at UT Austin. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to personality. I also teach R.
+I am a doctoral student studying psychology in the Buss Lab at UT Austin. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to broad cultural and individual differences. I also teach R.
 
 
