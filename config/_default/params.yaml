@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: classic
+theme: earth
 day_night: true
-font: 'playfair'
+font: 'minimal'
 font_size: L
 
 # SEO
