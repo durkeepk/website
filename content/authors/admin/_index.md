@@ -30,7 +30,7 @@ role: Doctoral Student
 social:
 - icon: envelope
   icon_pack: fas
-  link: pdurkee@utexas.edu
+  link: mailto:pdurkee@utexas.edu
 - display:
     header: true
   icon: twitter
