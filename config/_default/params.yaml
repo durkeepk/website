@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: forest
+theme: coffee
 day_night: true
-font: 'playfair'
+font: ''
 font_size: L
 
 # SEO

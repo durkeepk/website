@@ -45,9 +45,6 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0001-6159-4277
 - icon: cv
   icon_pack: ai
   link: https://www.pdurkee.com/files/cv/cv.pdf

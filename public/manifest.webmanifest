@@ -2,8 +2,8 @@
   "name": "Patrick Durkee",
   "short_name": "Patrick Durkee",
   "lang": "en-us",
-  "theme_color": "#4caf50",
-  "background_color": "#4caf50",
+  "theme_color": "#795548",
+  "background_color": "#795548",
   "icons": [{
     "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
