@@ -9,7 +9,7 @@ education:
   - course: MA in Experimental Psychology
     institution: California State University, Fullerton
     year: 2017
-  - course: BS in Psychology
+  - course: BA in Psychology
     institution: California State University, Fullerton
     year: 2015
 email: "pdurkee@utexas.edu"
