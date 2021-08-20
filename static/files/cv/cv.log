@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  20 AUG 2021 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  20 AUG 2021 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,7 +531,7 @@ File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
+Underfull \hbox (badness 10000) in paragraph at lines 631--633
 
  []
 
@@ -561,7 +561,7 @@ e/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2021/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (6 pages, 163969 bytes).
+Output written on cv.pdf (6 pages, 163979 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
