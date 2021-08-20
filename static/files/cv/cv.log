@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  24 JUL 2021 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  20 AUG 2021 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,12 +530,12 @@ File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 626--628
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 630--632
 
  []
 
-[5] 
+
 AED: lastpage setting LastPage
 [6] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
@@ -544,7 +544,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  17124 strings out of 478994
  273373 string characters out of 5858184
- 615808 words of memory out of 5000000
+ 615810 words of memory out of 5000000
  33862 multiletter control sequences out of 15000+600000
  465076 words of font info for 423 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -561,7 +561,7 @@ e/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2021/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (6 pages, 163825 bytes).
+Output written on cv.pdf (6 pages, 163969 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams

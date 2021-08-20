@@ -51,7 +51,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 # PUBLICATIONS
 
 ^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  
-^\faFileTextO^ ^=^ ^Paper^ ^Link^
+^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
+<!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ -->
 <!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
@@ -73,7 +74,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 6\. \hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf)
 
-5\. \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.^\faFileTextO^](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf)
+5\. \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.^\faFileTextO^](https://labs.la.utexas.edu/mestonlab/files/2019/12/1-s2.0-S0191886919306543-main.pdf)
 
 <!-- \textcolor{light-gray}{2019} -->
 
@@ -96,9 +97,11 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in [**Durkee, P. K.** , Lukaszewski, A. L., & Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
-\textcolor{light-gray}{Manuscripts Under Review}
+\textcolor{light-gray}{Submitted Manuscripts}
 
-2\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Under Review). Hierarchy Navigation: A Psychological Network Approach to Individual Differences.
+3\. \hangindent=0.5in **Durkee, P. K.**, Baker, K.^\faChevronCircleDown^, Lukaszewski, A. L., & Buss, D. M. Status-impact assessment: Does accuracy covary with status motivations? [Stage 1 Registered Report]
+
+2\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
 
 1\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (Under Review). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data.
 
