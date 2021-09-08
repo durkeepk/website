@@ -222,6 +222,10 @@ Columbia, MO.
 
 # TEACHING
 
+\textcolor{light-gray}{Instructor of Record}
+
+Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
+
 \textcolor{light-gray}{Training}
 
 Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
@@ -302,9 +306,7 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 # PROFESSIONAL AFFILIATIONS
 
 Society for Personality and Social Psychology (SPSP) \newline
-Human Behavior and Evolution Society (HBES) \newline
-
-<!-- \newpage -->
+Human Behavior and Evolution Society (HBES)
 
 # ACADEMIC REFERENCES
 
