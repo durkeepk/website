@@ -33,20 +33,18 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{Exp. 2021}
+Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
 
 M.A., Experimental Psychology, California State University, Fullerton \hfill
 \textcolor{light-gray}{2017}
 
 B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015} 
 
-
 # PROFESSIONAL APPOINTMENTS
 
+Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{01/2022 - Present}
 
-<!-- Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present} -->
-
-Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - Present}
+Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{08/2021 - Present}
 
 # PUBLICATIONS
 
@@ -88,10 +86,11 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-
 \textcolor{light-gray}{Edited Volume Entries}
 
-1\. \hangindent=0.5in [**Durkee, P. K.** (Forthcoming). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
+2\. \hangindent=0.5in [**Durkee, P. K.** (Forthcoming). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
+
+1\. \hangindent=0.5in **Durkee, P. K.** & Lukaszewski, A. L. (Forthcoming). Pride and the Psychology of Prestige. In *The SAGE Encyclopedia of Leadership Studies* (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.
 
 \textcolor{light-gray}{Preprints}
 
@@ -105,9 +104,9 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (Submitted). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data.
 
-<!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
+\textcolor{light-gray}{Manuscripts in Preparation}
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks. -->
+3\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
 
@@ -121,10 +120,9 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 <!-- \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
-<!-- \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation. -->
+2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Gosling, S., Schulz, J., Henrich, J. (in prep). The cultural evolution of WEIRD personality structure.  -->
-
+1\. \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
 
 \textcolor{light-gray}{Other Publications}
 
@@ -175,6 +173,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
 
 1\. \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
+
+\newpage
 
 \textcolor{light-gray}{Poster Presentations}
 
@@ -322,6 +322,11 @@ Email: agoetz@fullerton.edu
 Associate Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: alukaszewski@fullerton.edu 
+
+**Elliot Tucker-Drob, Ph.D.** \newline
+Professor of Psychology \newline
+The University of Texas at Austin \newline
+Email: tuckerdrob@utexas.edu 
 
 
 
