@@ -228,6 +228,7 @@ Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fal
 
 \textcolor{light-gray}{Training}
 
+Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
 Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 \textcolor{light-gray}{Lab Instructor}
