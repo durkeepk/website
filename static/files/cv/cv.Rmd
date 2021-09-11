@@ -134,6 +134,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Invited Talks}
 
+7\. \hangindent=0.5in **Durkee, P. K.** (September, 2021). *Cultural Variation in Niche Diversity and Personality Structure*. Virtual talk given to the Institute for Advanced Study in Toulouse, France.
+
 6\. \hangindent=0.5in **Durkee, P. K.** (May, 2021). *Adaptive challenges posed by hierarchies and emotional adaptations*. Virtual talk given to the Center for the Study of Human Nature, CSUF.
 
 5\. \hangindent=0.5in **Durkee, P. K.** (October, 2020). *Differentiating the potential functions of admiration and respect through task analysis*. Virtual talk given to the Evolutionary Psychology Lab, CSUF.
