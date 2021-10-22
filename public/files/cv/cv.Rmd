@@ -33,33 +33,34 @@ urlcolor: black
 # EDUCATION
 
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{Exp. 2021}
+Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
 
 M.A., Experimental Psychology, California State University, Fullerton \hfill
 \textcolor{light-gray}{2017}
 
 B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015} 
 
-
 # PROFESSIONAL APPOINTMENTS
 
+Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{01/2022 - Present}
 
-<!-- Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present} -->
-
-Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - Present}
+Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{08/2021 - Present}
 
 # PUBLICATIONS
 
 ^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  
-^\faFileTextO^ ^=^ ^Paper^ ^Link^
+^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
+<!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ -->
 <!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-12\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
-11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (In press). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
+12\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (In press). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.
+
+11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
 10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*, 1-20.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)
 
@@ -73,7 +74,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 6\. \hangindent=0.5in [Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., & Trofimova, I. (2020). Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf)
 
-5\. \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.^\faFileTextO^](http://www.pdurkee.com/files/pubs/CrosbyDurkeeMeston&Buss_2020_SDI.pdf)
+5\. \hangindent=0.5in [Crosby, C. L., **Durkee, P. K.**, Meston, C. M., & Buss, D. M. (2020). Six dimensions of sexual disgust. *Personality and Individual Differences, 156*, 109714.^\faFileTextO^](https://labs.la.utexas.edu/mestonlab/files/2019/12/1-s2.0-S0191886919306543-main.pdf)
 
 <!-- \textcolor{light-gray}{2019} -->
 
@@ -87,26 +88,26 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior, 39*(2), 170-178.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-
 \textcolor{light-gray}{Edited Volume Entries}
 
-1\. \hangindent=0.5in [**Durkee, P. K.** (Forthcoming). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
+2\. \hangindent=0.5in [**Durkee, P. K.** (Forthcoming). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
+
+1\. \hangindent=0.5in **Durkee, P. K.** & Lukaszewski, A. L. (Forthcoming). Pride and the Psychology of Prestige. In *The SAGE Encyclopedia of Leadership Studies* (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.
 
 \textcolor{light-gray}{Preprints}
 
 1\. \hangindent=0.5in [**Durkee, P. K.** , Lukaszewski, A. L., & Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
-\textcolor{light-gray}{Manuscripts Under Review}
+\textcolor{light-gray}{Submitted Manuscripts}
 
-2\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Under Review). Hierarchy Navigation: A Psychological Network Approach to Individual Differences.
+2\. \hangindent=0.5in **Durkee, P. K.**, Baker, K.^\faChevronCircleDown^, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
 
-1\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (Under Review). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data.
+1\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
 
-<!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, Baker, K., Buss, D. M. (in prep). Higher status-motivations are associated with greater accuracy in assessing status impacts of personal characteristics.  -->
+\textcolor{light-gray}{Manuscripts in Preparation}
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks. -->
+3\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
 
@@ -120,10 +121,9 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 <!-- \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
-<!-- \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, & cross-cultural collaborators (in prep). The origins of criminal law: A cross-national investigation. -->
+2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Gosling, S., Schulz, J., Henrich, J. (in prep). The cultural evolution of WEIRD personality structure.  -->
-
+1\. \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
 
 \textcolor{light-gray}{Other Publications}
 
@@ -134,6 +134,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
 \textcolor{light-gray}{Invited Talks}
+
+7\. \hangindent=0.5in **Durkee, P. K.** (September, 2021). *Cultural Variation in Niche Diversity and Personality Structure*. Virtual talk given to the Institute for Advanced Study in Toulouse, France.
 
 6\. \hangindent=0.5in **Durkee, P. K.** (May, 2021). *Adaptive challenges posed by hierarchies and emotional adaptations*. Virtual talk given to the Center for the Study of Human Nature, CSUF.
 
@@ -174,6 +176,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2018, July). *How humans assess and allocate social status*. Podium presentation at the 31st annual meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.
 
 1\. \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
+
+\newpage
 
 \textcolor{light-gray}{Poster Presentations}
 
@@ -221,8 +225,13 @@ Columbia, MO.
 
 # TEACHING
 
+\textcolor{light-gray}{Instructor of Record}
+
+Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
+
 \textcolor{light-gray}{Training}
 
+Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
 Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 \textcolor{light-gray}{Lab Instructor}
@@ -301,9 +310,7 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 # PROFESSIONAL AFFILIATIONS
 
 Society for Personality and Social Psychology (SPSP) \newline
-Human Behavior and Evolution Society (HBES) \newline
-
-<!-- \newpage -->
+Human Behavior and Evolution Society (HBES)
 
 # ACADEMIC REFERENCES
 
@@ -321,6 +328,11 @@ Email: agoetz@fullerton.edu
 Associate Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: alukaszewski@fullerton.edu 
+
+**Elliot Tucker-Drob, Ph.D.** \newline
+Professor of Psychology \newline
+The University of Texas at Austin \newline
+Email: tuckerdrob@utexas.edu 
 
 
 

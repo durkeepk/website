@@ -56,9 +56,11 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-12\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
-11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (In press). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
+12\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (In press). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.
+
+11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
 10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*, 1-20.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)
 
@@ -98,11 +100,10 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-3\. \hangindent=0.5in **Durkee, P. K.**, Baker, K.^\faChevronCircleDown^, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
+2\. \hangindent=0.5in **Durkee, P. K.**, Baker, K.^\faChevronCircleDown^, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
 
-2\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
+1\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
 
-1\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (Submitted). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data.
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
