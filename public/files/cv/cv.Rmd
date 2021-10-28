@@ -312,6 +312,8 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 Society for Personality and Social Psychology (SPSP) \newline
 Human Behavior and Evolution Society (HBES)
 
+\newpage
+
 # ACADEMIC REFERENCES
 
 **David Buss, Ph.D.** \newline
@@ -324,15 +326,36 @@ Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: agoetz@fullerton.edu
 
+**Cristine Legare, Ph.D.** \newline
+Professor of Psychology \newline
+The University of Texas at Austin \newline
+Email: legare@austin.utexas.edu
+
 **Aaron Lukaszewski, Ph.D.** \newline
 Associate Professor of Psychology \newline
 California State University, Fullerton \newline
 Email: alukaszewski@fullerton.edu 
 
+**John Patton, Ph.D.** \newline
+Professor of Anthropology \newline
+California State University, Fullerton \newline
+Email: johnpatton@fullerton.edu
+
+**Elizabeth Pillsworth, Ph.D.** \newline
+Professor of Anthropology \newline
+California State University, Fullerton \newline
+Email: epillsworth@fullerton.edu
+
 **Elliot Tucker-Drob, Ph.D.** \newline
 Professor of Psychology \newline
 The University of Texas at Austin \newline
 Email: tuckerdrob@utexas.edu 
+
+
+
+
+
+
 
 
 
