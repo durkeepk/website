@@ -58,7 +58,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
-12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
+12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
 
 11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
