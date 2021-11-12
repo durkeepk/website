@@ -58,7 +58,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
 
-12\. \hangindent=0.5in Michaelides, M. P., **Durkee, P. K.** (In press). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.
+12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
 
 11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
@@ -104,24 +104,24 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
 
-
 \textcolor{light-gray}{Manuscripts in Preparation}
 
-3\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
+5\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Hierarchy navigation emotion reactivity predicts personality. -->
 
-<!-- \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Universal determinants of human sex-specific bodily attractiveness across 14 nations.  -->
-
-<!-- \hangindent=0.5in Sznycer, D., Lukaszewski, A. L., Chua, K., Sell, A., & **Durkee, P. K.**^\faBarChart^ (in prep). Inferring status: A test of sex-specific visual cues across 14 nations.  -->
 
 <!-- \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis. -->
 
 <!-- \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
-2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
+4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
+
+3\. \hangindent=0.5in Sell, A., Lukaszewski, A.W., Chua, K.J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A.M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J.A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., & Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study.
+
+2\. \hangindent=0.5in Sell, A., Lukaszewski, A.W., Chua, K.J., **Durkee, P. K.**,  Acevedo, C., Boothroyd, L., Fukushima, S., Hitokoto, Li, J.,  H., Patton, J.,Takemura, K., Thornborrow, T., Zhuang, J., & Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness among forager societies.
 
 1\. \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
 
@@ -177,7 +177,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 1\. \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T., & Lukaszewski, A. L. (2017, June). *Examining the speed and automaticity of formidability assessment mechanisms*. Podium presentation presented at the 29th annual meeting of the Human Behavior and Evolution Society, Boise, Idaho.
 
-\newpage
+<!-- \newpage -->
 
 \textcolor{light-gray}{Poster Presentations}
 
