@@ -106,6 +106,10 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Manuscripts in Preparation}
 
+7\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
+
+6\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P K.**, Lukaszewski, A. W. (in prep). Men Are Less Fearful Than Women Because They Are Physically Stronger.
+
 5\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
 
 <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
@@ -115,7 +119,6 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 <!-- \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis. -->
 
-<!-- \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
 4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
 
