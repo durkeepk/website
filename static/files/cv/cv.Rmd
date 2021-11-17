@@ -49,7 +49,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 # PUBLICATIONS
 
 ^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  
-^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
+<!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ -->
 <!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ -->
 <!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
@@ -100,7 +100,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-2\. \hangindent=0.5in **Durkee, P. K.**, Baker, K.^\faChevronCircleDown^, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
+2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
 
 1\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
 
@@ -108,7 +108,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 7\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
 
-6\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P K.**, Lukaszewski, A. W. (in prep). Men Are Less Fearful Than Women Because They Are Physically Stronger.
+6\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (in prep). Men Are Less Fearful Than Women Because They Are Physically Stronger.
 
 5\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
 
@@ -122,11 +122,11 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
 
-3\. \hangindent=0.5in Sell, A., Lukaszewski, A.W., Chua, K.J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A.M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J.A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., & Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study.
+3\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A. M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J. A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., & Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study.
 
-2\. \hangindent=0.5in Sell, A., Lukaszewski, A.W., Chua, K.J., **Durkee, P. K.**,  Acevedo, C., Boothroyd, L., Fukushima, S., Hitokoto, Li, J.,  H., Patton, J.,Takemura, K., Thornborrow, T., Zhuang, J., & Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness among forager societies.
+2\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**,  Acevedo, C., Boothroyd, L., Fukushima, S., Hitokoto, Li, J.,  H., Patton, J.,Takemura, K., Thornborrow, T., Zhuang, J., & Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness among forager societies.
 
-1\. \hangindent=0.5in Sznycer., D., Patrick., C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
+1\. \hangindent=0.5in Sznycer, D., Patrick, C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
 
 \textcolor{light-gray}{Other Publications}
 
