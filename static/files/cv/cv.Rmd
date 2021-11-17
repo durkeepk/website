@@ -48,10 +48,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 # PUBLICATIONS
 
-^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  
-<!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ -->
-<!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ -->
-<!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
+^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  <!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ --><!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ --><!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
