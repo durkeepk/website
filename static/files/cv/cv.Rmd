@@ -97,7 +97,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-3\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Submitted). Men Are Less Fearful Than Women Because They Are Physically Stronger.
+3\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Submitted). Sex differences in fearful personality traits are explained by facultative calibration to physical strength.
 
 2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Submitted). Status-impact assessment: Does accuracy covary with status motivations?
 
