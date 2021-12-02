@@ -247,8 +247,8 @@ Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 
 Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
 \textit{Anna Sedlacek's introductory psychology course, UT Austin}
 
-Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
-\textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
+<!-- Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline -->
+<!-- \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF} -->
 
 
 # GRANTS & AWARDS
