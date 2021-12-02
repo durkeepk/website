@@ -5,7 +5,7 @@ education:
   courses:
   - course: PhD in Psychology
     institution: The University of Texas at Austin
-    year: Exp. 2021
+    year: 2021
   - course: MA in Experimental Psychology
     institution: California State University, Fullerton
     year: 2017
