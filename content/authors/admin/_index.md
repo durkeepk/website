@@ -53,6 +53,6 @@ superuser: true
 title: Patrick Durkee
 ---
 
-I am a Research Fellow at the Institute for Advanced Study in Toulouse. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to broad cultural and individual differences. I also teach R and statistics.
+I am a Research Fellow at the Institute for Advanced Study in Toulouse. I study cultural variation in personality and status hierarchy structure. I also teach R and statistics.
 
 
