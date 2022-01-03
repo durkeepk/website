@@ -1,5 +1,5 @@
 ---
-bio: My research interests include emotions, social cognition, personality, and evolution.
+bio: Research fellow at the Institute for Advanced Study in Toulouse. My research interests include emotion, social cognition, personality, and evolution.
 
 education:
   courses:
@@ -12,7 +12,7 @@ education:
   - course: BA in Psychology
     institution: California State University, Fullerton
     year: 2015
-email: "pdurkee@utexas.edu"
+email: "patrick.durkee@iast.fr"
 highlight_name: true
 interests:
 - Social Cognition
@@ -22,15 +22,15 @@ interests:
 - Status Hierarchy
 - Evolution
 organizations:
-- name: The University of Texas at Austin
-  url: https://liberalarts.utexas.edu/psychology/
-- name: The Buss Lab
-  url: https://labs.la.utexas.edu/buss/
-role: Doctoral Student
+- name: The Institute for Advanced Study in Toulouse
+  url: https://www.iast.fr
+# - name: The Buss Lab
+#   url: https://labs.la.utexas.edu/buss/
+role: Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:pdurkee@utexas.edu
+  link: mailto:patrick.durkee@iast.fr
 - display:
     header: true
   icon: twitter
@@ -53,6 +53,6 @@ superuser: true
 title: Patrick Durkee
 ---
 
-I am a doctoral student studying psychology in the Buss Lab at UT Austin. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to broad cultural and individual differences. I also teach R.
+I am a Research Fellow at the Institute for Advanced Study in Toulouse. I spend most of my time investigating the psychological underpinnings of human status hierarchies and how they relate to broad cultural and individual differences. I also teach R and statistics.
 
 
