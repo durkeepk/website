@@ -12,7 +12,7 @@ date: "`r format(Sys.time(), '%B, %Y')`"
 # jobtitle: "PhD Candidate"
 # address: "108 E Dean Keeton St · Austin · TX 78712"
 fontawesome: yes
-email: pdurkee@utexas.edu
+email: patrick.durkee@iast.fr
 web: pdurkee.com
 github: durkeepk
 twitter: durkeepk
