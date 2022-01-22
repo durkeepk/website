@@ -53,7 +53,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
 12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
 
