@@ -53,6 +53,5 @@ superuser: true
 title: Patrick Durkee
 ---
 
-I'm a Research Fellow at the Institute for Advanced Study in Toulouse. I study hierarchy and personality across cultures. I also teach R and statistics.
-
+I'm a Research Fellow at the Institute for Advanced Study in Toulouse. I study hierarchy and personality across cultures. 
 
