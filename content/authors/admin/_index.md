@@ -22,7 +22,7 @@ interests:
 - Status Hierarchy
 - Evolution
 organizations:
-- name: The Institute for Advanced Study in Toulouse
+- name: Institute for Advanced Study in Toulouse
   url: https://www.iast.fr
 # - name: The Buss Lab
 #   url: https://labs.la.utexas.edu/buss/

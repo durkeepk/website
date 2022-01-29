@@ -9,10 +9,10 @@ title: "CV"
 author: "Patrick Durkee"
 date: "`r format(Sys.time(), '%B, %Y')`"
 #orcid: orcid.org/0000-0001-6159-4277
-# jobtitle: "PhD Candidate"
-# address: "108 E Dean Keeton St · Austin · TX 78712"
+# jobtitle: "Research Follow"
+# address: ""
 fontawesome: yes
-email: pdurkee@utexas.edu
+email: patrick.durkee@iast.fr
 web: pdurkee.com
 github: durkeepk
 twitter: durkeepk
@@ -42,9 +42,9 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 # PROFESSIONAL APPOINTMENTS
 
-Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{01/2022 - Present}
+Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
 
-Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{08/2021 - Present}
+Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
 
 # PUBLICATIONS
 
@@ -53,7 +53,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (Accepted). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](https://psyarxiv.com/93qmp/)
+13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
 12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
 
@@ -247,8 +247,8 @@ Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 
 Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
 \textit{Anna Sedlacek's introductory psychology course, UT Austin}
 
-Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline
-\textit{Dr. Kathleen Preston's multivariate statistics course, CSUF}
+<!-- Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline -->
+<!-- \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF} -->
 
 
 # GRANTS & AWARDS

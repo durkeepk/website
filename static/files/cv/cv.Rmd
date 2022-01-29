@@ -9,8 +9,8 @@ title: "CV"
 author: "Patrick Durkee"
 date: "`r format(Sys.time(), '%B, %Y')`"
 #orcid: orcid.org/0000-0001-6159-4277
-# jobtitle: "PhD Candidate"
-# address: "108 E Dean Keeton St · Austin · TX 78712"
+# jobtitle: "Research Follow"
+# address: ""
 fontawesome: yes
 email: patrick.durkee@iast.fr
 web: pdurkee.com
