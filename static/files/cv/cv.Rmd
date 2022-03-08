@@ -53,7 +53,6 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-14\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -98,6 +97,8 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 1\. \hangindent=0.5in [**Durkee, P. K.** , Lukaszewski, A. L., & Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
 \textcolor{light-gray}{Submitted Manuscripts}
+
+4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
 3\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Submitted). Sex differences in fearful personality traits are explained by facultative calibration to physical strength.
 
