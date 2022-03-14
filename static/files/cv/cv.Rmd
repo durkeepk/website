@@ -28,17 +28,9 @@ linkcolor: black
 urlcolor: black
 ---
 
-<!-- \hrulefill for horizontal line after headings -->
-
-# EDUCATION
-
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
 
-M.A., Experimental Psychology, California State University, Fullerton \hfill
-\textcolor{light-gray}{2017}
-
-B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015} 
+<!-- \hrulefill for horizontal line after headings -->
 
 # PROFESSIONAL APPOINTMENTS
 
@@ -46,13 +38,22 @@ Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textco
 
 Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
 
+# EDUCATION
+
+
+Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
+
+M.A., Experimental Psychology, California State University, Fullerton \hfill
+\textcolor{light-gray}{2017}
+
+B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015}
+
 # PUBLICATIONS
 
 ^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  <!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ --><!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ --><!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
-
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -277,13 +278,14 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 # PROFESSIONAL SERVICE 
 
-**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
 
-**Mentor**, *UTeam*, Mentorship Program for Underrepresented Students \hfill \textcolor{light-gray}{2019-2020} 
+**Project Analyst**, *Goodwill Excel*, GED program \hfill \textcolor{light-gray}{Spring 2021}
 
 **Data Scientist**, *Upper Ninety*, Positive Youth Development Program \hfill \textcolor{light-gray}{Spring 2020}
 
-**Project Analyst**, *Goodwill Excel*, GED program \hfill \textcolor{light-gray}{Spring 2021}
+**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
+
+**Mentor**, *UTeam*, Mentorship Program for Underrepresented Students \hfill \textcolor{light-gray}{2019-2020} 
 
 ***Ad hoc*** **Reviewer:** \newline
 *Adaptive Human Behavior and Physiology*;
