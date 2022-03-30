@@ -17,7 +17,6 @@ highlight_name: true
 interests:
 - Social Cognition
 - Emotion
-- Person Perception
 - Personality
 - Status Hierarchy
 - Evolution
