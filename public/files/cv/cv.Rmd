@@ -28,23 +28,25 @@ linkcolor: black
 urlcolor: black
 ---
 
-<!-- \hrulefill for horizontal line after headings -->
-
-# EDUCATION
-
 \definecolor{light-gray}{gray}{.5}
-Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
 
-M.A., Experimental Psychology, California State University, Fullerton \hfill
-\textcolor{light-gray}{2017}
-
-B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015} 
+<!-- \hrulefill for horizontal line after headings -->
 
 # PROFESSIONAL APPOINTMENTS
 
 Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
 
 Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
+
+# EDUCATION
+
+
+Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
+
+M.A., Experimental Psychology, California State University, Fullerton \hfill
+\textcolor{light-gray}{2017}
+
+B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015}
 
 # PUBLICATIONS
 
@@ -53,7 +55,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-14\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
+14\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Accepted). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*.
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -99,7 +101,7 @@ Adjunct Professor, Department of Psychology, Texas State University \hfill \text
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-3\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Submitted). Sex differences in fearful personality traits are explained by facultative calibration to physical strength.
+3\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
 2\. \hangindent=0.5in **Durkee, P. K.**, Hahnel-Peeters, R. K., & Buss, D. M. (Submitted). Emotionality and physical strength: Sex differences covary across countries.
 
@@ -276,13 +278,14 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 
 # PROFESSIONAL SERVICE 
 
-**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
 
-**Mentor**, *UTeam*, Mentorship Program for Underrepresented Students \hfill \textcolor{light-gray}{2019-2020} 
+**Project Analyst**, *Goodwill Excel*, GED program \hfill \textcolor{light-gray}{Spring 2021}
 
 **Data Scientist**, *Upper Ninety*, Positive Youth Development Program \hfill \textcolor{light-gray}{Spring 2020}
 
-**Project Analyst**, *Goodwill Excel*, GED program \hfill \textcolor{light-gray}{Spring 2021}
+**Editorial Assistant**, *Handbook of Human Mating*, Buss, D. M. (Ed.) \hfill \textcolor{light-gray}{2019-2021} 
+
+**Mentor**, *UTeam*, Mentorship Program for Underrepresented Students \hfill \textcolor{light-gray}{2019-2020} 
 
 ***Ad hoc*** **Reviewer:** \newline
 *Adaptive Human Behavior and Physiology*;
