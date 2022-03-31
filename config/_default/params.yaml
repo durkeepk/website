@@ -6,7 +6,7 @@
 # Appearance
 
 theme: earth
-day_night: true
+day_night: false
 font: 'minimal'
 font_size: L
 
