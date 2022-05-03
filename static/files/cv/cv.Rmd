@@ -55,7 +55,9 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-14\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (Accepted). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*.
+15\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
+
+14\. \hangindent=0.5in Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (In Press). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*.
 
 13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -63,7 +65,7 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
-10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology*^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)
+10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology.*^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)
 
 9\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2021). Reply to Cheng et al.: Benefit generation dominates cost infliction in explaining cross-national status allocations. *Proceedings of the National Academy of Sciences*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeReply_2021.pdf)
 
@@ -100,8 +102,6 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 1\. \hangindent=0.5in [**Durkee, P. K.** , Lukaszewski, A. L., & Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
 \textcolor{light-gray}{Submitted Manuscripts}
-
-3\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
 2\. \hangindent=0.5in **Durkee, P. K.**, Hahnel-Peeters, R. K., & Buss, D. M. (Submitted). Emotionality and physical strength: Sex differences covary across countries.
 
