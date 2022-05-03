@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.3.25)  25 MAR 2022 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.5)  3 MAY 2022 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,18 +448,18 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: EA8A99FE07C8399130A792A7FEB89DDD;1276.
  ) 
 Here is how much of TeX's memory you used:
- 15455 strings out of 480236
- 261536 string characters out of 5894377
- 561669 words of memory out of 5000000
- 33163 multiletter control sequences out of 15000+600000
+ 15456 strings out of 480228
+ 261591 string characters out of 5894809
+ 560667 words of memory out of 5000000
+ 33164 multiletter control sequences out of 15000+600000
  509179 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,63p,1191b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,1191b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc} </Users/patrickdurkee/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (7 pages, 137869 bytes).
+Output written on cv.pdf (7 pages, 137666 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
