@@ -91,9 +91,9 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 1\. \hangindent=0.5in [**Durkee, P. K.**^\faUnsorted^, Goetz, A. T.^\faUnsorted^, & Lukaszewski, A. W. (2018). Formidability assessment mechanisms: Examining their speed and automaticity. *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeGoetzLukaszewski_2018.pdf)
 
-\textcolor{light-gray}{Edited Volume Entries}
+\textcolor{light-gray}{Edited Volume Contributions}
 
-2\. \hangindent=0.5in [**Durkee, P. K.** (Forthcoming). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
+2\. \hangindent=0.5in [**Durkee, P. K.** (In Press). Emotions and Status Hierarchies. In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackleford). Oxford University Press.^\faFileTextO^](https://osf.io/hukwr)
 
 1\. \hangindent=0.5in **Durkee, P. K.** & Lukaszewski, A. L. (Forthcoming). Pride and the Psychology of Prestige. In *The SAGE Encyclopedia of Leadership Studies* (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.
 
