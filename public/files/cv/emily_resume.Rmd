@@ -1,0 +1,84 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: rap-latex-cv.tex
+geometry: margin=1in
+
+title: "Resume"
+author: "Emily Sanchez"
+date: "`r format(Sys.time(), '%Y')`"
+#orcid: orcid.org/0000-0001-6159-4277
+# jobtitle: "Research Follow"
+# address: ""
+fontawesome: yes
+email: emilyrsanchez7@gmail.com
+# web: pdurkee.com
+# github: durkeepk
+# twitter: durkeepk
+# phone: +33 06 73 53 03 40
+updated: yes
+
+keywords: RMarkdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 9pt
+linkcolor: black
+urlcolor: black
+---
+
+\definecolor{light-gray}{gray}{.5}
+
+<!-- \hrulefill for horizontal line after headings -->
+
+# EDUCATION
+
+M.S., Biology, California State University, Fullerton \hfill
+\textcolor{light-gray}{May 2018}
+
+B.S., Biological Science, California State University, Fullerton \hfill \textcolor{light-gray}{May 2015}
+
+# RELEVANT EXPERIENCE
+
+**Natural Resources Technician II**  \newline Texas Commission on Environmental Quality \hfill \textcolor{light-gray}{July 2019 – August 2021}
+
+- Evaluated applications for Nonpoint Source (NPS) Program grants from the Environmental Protection Agency under the Clean Water Act Section 319(h).
+- Managed 10 - 18 NPS contracts at a time, the largest for ~$600,000 in federal funds; advised contractors through contract development, evaluated and maintained files for contract deliverables, and held regular calls with contractors to facilitate program success. 
+- Improved program guidance documents and procedures for several recurring program processes.
+- Coordinated updates to the ArcGIS Pro layers in the program’s ArcGIS Web AppBuilder. 
+- Managed and updated the program’s Microsoft Access database used for contract management.
+- Maintained the program’s public website and documents to comply with agency requirements.
+
+**Graduate Teaching Associate**  \newline California State University, Fullerton \hfill \textcolor{light-gray}{August 2016 – December 2017}
+
+- Created lectures on ecological and physiological principles, and field techniques.
+- Independently facilitated and monitored student activities in the field and laboratory.
+- Maintained and demonstrated use of equipment including compound and dissecting microscopes, balances, IR and analog thermometers, YSI oxygen meters, and pipets.
+- Introduced students to data management and statistical analysis using Microsoft Excel, and making scientific presentations in Microsoft PowerPoint.
+- Designed a new workshop for developing scientific writing skills, and graded lab reports.
+
+**Graduate Researcher**  \newline California State University, Fullerton \hfill \textcolor{light-gray}{January 2016 – May 2018}
+
+- Managed a two-person field crew for 5 months at Boyd Deep Canyon Desert Research Center to collect data on thermoregulatory behavior of wild common chuckwallas.
+- Trained field technicians in use of iButton temperature data loggers and associated software, GPS navigation, and VHF telemetry, and to record field behavioral observations.
+- Analyzed behavioral observation and temperature data using R.
+
+**Research Assistant**  \newline California State University, Fullerton \hfill \textcolor{light-gray}{September 2013 – May 2018}
+
+- Cared for a live collection of over 50 lizards (of six species) including feeding, cleaning, and recording body measurements.
+- Coordinated and supervised monthly cleaning of animal facilities. 
+
+# OUTREACH 
+
+**Volunteer Land Steward**  \newline Austin Wildlands Conservation Division of Austin Water \hfill \textcolor{light-gray}{February 2019 – March 2020}
+
+- Co-led volunteer conservation events including removing invasive plants, collecting native seeds, and propagating and planting Texas native plants with the goal of improving stormwater quality and protecting wildlands in Austin Texas.
+
+<!-- # SKILLS -->
+
+<!-- - Experienced with ArcGIS Pro, R Studio, and Microsoft Word Office Suite. -->
+<!-- - Effective oral communicator, excellent organizational and time management skills. -->
+
+
+
