@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.23)  17 JUL 2022 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.23)  17 NOV 2022 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,25 +437,25 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomethree on in
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 ) [1
 
-{/Users/patrickdurkee/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] 
+{/Users/patrickdurkee/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] 
 AED: lastpage setting LastPage
-[7] (./cv.aux)
+[6] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: EA8A99FE07C8399130A792A7FEB89DDD;1276.
+(rerunfilecheck)             Checksum: DC9E0180E172BFCB3A115445E10153F8;1132.
  ) 
 Here is how much of TeX's memory you used:
- 15495 strings out of 480260
- 262733 string characters out of 5893012
- 564011 words of memory out of 5000000
- 33171 multiletter control sequences out of 15000+600000
+ 15490 strings out of 480260
+ 262663 string characters out of 5893012
+ 563970 words of memory out of 5000000
+ 33169 multiletter control sequences out of 15000+600000
  509179 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,67p,1191b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc} </Users/patrickdurkee/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{/Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (7 pages, 138096 bytes).
+Output written on cv.pdf (6 pages, 133231 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
