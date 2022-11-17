@@ -55,7 +55,6 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-15\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
 14\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -103,27 +102,27 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-2\. \hangindent=0.5in **Durkee, P. K.**, Hahnel-Peeters, R. K., & Buss, D. M. (Submitted). Emotionality and physical strength: Sex differences covary across countries.
+2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
-1\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (Submitted). Hierarchy Navigation: A Psychological Network Approach to Individual Differences. 
+1\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., & Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolutionary and Human Behavior*.
 
-\textcolor{light-gray}{Manuscripts in Preparation}
+<!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
-7\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories.
+<!-- 7\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
 
-6\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks.
+<!-- <!-- 6\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks. --> 
 
-<!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. -->
+<!-- <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., & Buss, D. M. (in prep). Differentiating admiration and respect. --> 
 
-5\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis.
+<!-- <!-- 5\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis. --> 
 
-4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure.
+<!-- <!-- 4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure. --> 
 
-3\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A. M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J. A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., & Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study.
+<!-- 3\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A. M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J. A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., & Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study. -->
 
-2\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**,  Acevedo, C., Fukushima, S., Hitokoto, Li, J., H., Patton, J., Takemura, K., Thornborrow, T., Zhuang, J., & Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness in small-scale societies.
+<!-- 2\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**,  Acevedo, C., Fukushima, S., Hitokoto, Li, J., H., Patton, J., Takemura, K., Thornborrow, T., Zhuang, J., & Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness in small-scale societies. -->
 
-1\. \hangindent=0.5in Sznycer, D., Patrick, C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation.
+<!-- 1\. \hangindent=0.5in Sznycer, D., Patrick, C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation. -->
 
 \textcolor{light-gray}{Other Publications}
 
@@ -231,10 +230,10 @@ Columbia, MO.
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
-\textcolor{light-gray}{Training}
+<!-- \textcolor{light-gray}{Training} -->
 
-Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
-Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
+<!-- Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline -->
+<!-- Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020} -->
 
 \textcolor{light-gray}{Lab Instructor}
 
@@ -248,10 +247,10 @@ Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 20
 Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
 Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
-\textcolor{light-gray}{Guest Lectures}
+<!-- \textcolor{light-gray}{Guest Lectures} -->
 
-Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline
-\textit{Anna Sedlacek's introductory psychology course, UT Austin}
+<!-- Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline -->
+<!-- \textit{Anna Sedlacek's introductory psychology course, UT Austin} -->
 
 <!-- Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline -->
 <!-- \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF} -->
@@ -314,44 +313,44 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 Society for Personality and Social Psychology (SPSP) \newline
 Human Behavior and Evolution Society (HBES)
 
-\newpage
+<!-- \newpage -->
 
-# ACADEMIC REFERENCES
+<!-- # ACADEMIC REFERENCES -->
 
-**David Buss, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: dbuss@austin.utexas.edu
+<!-- **David Buss, Ph.D.** \newline -->
+<!-- Professor of Psychology \newline -->
+<!-- The University of Texas at Austin \newline -->
+<!-- Email: dbuss@austin.utexas.edu -->
 
-**Aaron Goetz, Ph.D.** \newline
-Professor of Psychology \newline
-California State University, Fullerton \newline
-Email: agoetz@fullerton.edu
+<!-- **Aaron Goetz, Ph.D.** \newline -->
+<!-- Professor of Psychology \newline -->
+<!-- California State University, Fullerton \newline -->
+<!-- Email: agoetz@fullerton.edu -->
 
-**Cristine Legare, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: legare@austin.utexas.edu
+<!-- **Cristine Legare, Ph.D.** \newline -->
+<!-- Professor of Psychology \newline -->
+<!-- The University of Texas at Austin \newline -->
+<!-- Email: legare@austin.utexas.edu -->
 
-**Aaron Lukaszewski, Ph.D.** \newline
-Associate Professor of Psychology \newline
-California State University, Fullerton \newline
-Email: alukaszewski@fullerton.edu 
+<!-- **Aaron Lukaszewski, Ph.D.** \newline -->
+<!-- Associate Professor of Psychology \newline -->
+<!-- California State University, Fullerton \newline -->
+<!-- Email: alukaszewski@fullerton.edu  -->
 
-**John Patton, Ph.D.** \newline
-Professor of Anthropology \newline
-California State University, Fullerton \newline
-Email: johnpatton@fullerton.edu
+<!-- **John Patton, Ph.D.** \newline --> 
+<!-- Professor of Anthropology \newline --> 
+<!-- California State University, Fullerton \newline --> 
+<!-- Email: johnpatton@fullerton.edu --> 
 
-**Elizabeth Pillsworth, Ph.D.** \newline
-Professor of Anthropology \newline
-California State University, Fullerton \newline
-Email: epillsworth@fullerton.edu
+<!-- **Elizabeth Pillsworth, Ph.D.** \newline -->
+<!-- Professor of Anthropology \newline -->
+<!-- California State University, Fullerton \newline -->
+<!-- Email: epillsworth@fullerton.edu -->
 
-**Elliot Tucker-Drob, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: tuckerdrob@utexas.edu 
+<!-- **Elliot Tucker-Drob, Ph.D.** \newline -->
+<!-- Professor of Psychology \newline -->
+<!-- The University of Texas at Austin \newline -->
+<!-- Email: tuckerdrob@utexas.edu  -->
 
 
 
