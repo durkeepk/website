@@ -104,7 +104,7 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
 
-1\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., & Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolutionary and Human Behavior*.
+1\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., & Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*.
 
 <!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
@@ -124,9 +124,9 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 <!-- 1\. \hangindent=0.5in Sznycer, D., Patrick, C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation. -->
 
-\textcolor{light-gray}{Other Publications}
+<!-- \textcolor{light-gray}{Other Publications} -->
 
-1\. \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
+<!-- 1\. \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019. -->
 
 # PRESENTATIONS
 
@@ -297,6 +297,8 @@ Psychology Department Student Research Travel Award \hfill \textcolor{light-gray
 *Evolutionary Psychology*;
 *Evolutionary Psychological Science*;
 *Journal of Personality*;
+*Proceedings of the National Academy of Science*; 
+*Proceedings of the Royal Academy B*;
 *PLOS ONE*;
 *SAGE Open*;
 *Scandinavian Journal of Psychology*
