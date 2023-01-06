@@ -1,5 +1,5 @@
 ---
-bio: Assistant Professor of Psychology at California State University, Fresno. My research interests include emotion, social cognition, personality, and evolution.
+bio: Assistant Professor of Psychology at California State University, Fresno.
 
 education:
   courses:

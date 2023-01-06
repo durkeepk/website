@@ -36,7 +36,7 @@ urlcolor: black
 
 Assistant Professor, Department of Psychology, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
 
-Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - 2023}
+Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
 
 Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
 
