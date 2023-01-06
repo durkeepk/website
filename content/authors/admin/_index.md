@@ -1,5 +1,5 @@
 ---
-bio: Research fellow at the Institute for Advanced Study in Toulouse. My research interests include emotion, social cognition, personality, and evolution.
+bio: Assistant Professor of Psychology at California State University, Fresno. My research interests include emotion, social cognition, personality, and evolution.
 
 education:
   courses:
@@ -12,7 +12,7 @@ education:
   - course: BA in Psychology
     institution: California State University, Fullerton
     year: 2015
-email: "patrick.durkee@iast.fr"
+email: "pdurkee@csufresno.edu"
 highlight_name: true
 interests:
 - Social Cognition
@@ -21,11 +21,13 @@ interests:
 - Status Hierarchy
 - Evolution
 organizations:
-- name: Institute for Advanced Study in Toulouse
-  url: https://www.iast.fr
+- name: California State University, Fresno
+  url: https://csm.fresnostate.edu/psych/index.html
+# - name: Institute for Advanced Study in Toulouse
+#   url: https://www.iast.fr
 # - name: The Buss Lab
 #   url: https://labs.la.utexas.edu/buss/
-role: Research Fellow
+role: Assistant Professor of Psychology
 social:
 - icon: envelope
   icon_pack: fas
@@ -51,5 +53,5 @@ social:
 superuser: true
 title: Patrick Durkee
 ---
-I'm an Assistant Professor at California State University, Fresno. I study personality and hierarchy at multiple levels of analysis. 
+I'm an Assistant Professor of Psychology at California State University, Fresno. I study personality and hierarchy at multiple levels of analysis. 
 
