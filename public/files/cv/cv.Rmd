@@ -9,10 +9,10 @@ title: "CV"
 author: "Patrick Durkee"
 date: "`r format(Sys.time(), '%B, %Y')`"
 #orcid: orcid.org/0000-0001-6159-4277
-# jobtitle: "Research Follow"
+# jobtitle: Assistant Professor"
 # address: ""
 fontawesome: yes
-email: patrick.durkee@iast.fr
+email: pdurkee@csufresno.edu
 web: pdurkee.com
 github: durkeepk
 twitter: durkeepk
@@ -33,6 +33,8 @@ urlcolor: black
 <!-- \hrulefill for horizontal line after headings -->
 
 # PROFESSIONAL APPOINTMENTS
+
+Assistant Professor, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
 
 Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
 
