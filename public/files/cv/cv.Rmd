@@ -34,7 +34,7 @@ urlcolor: black
 
 # PROFESSIONAL APPOINTMENTS
 
-Assistant Professor, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
+Assistant Professor, Department of Psychology, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
 
 Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
 

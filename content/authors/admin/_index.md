@@ -51,6 +51,5 @@ social:
 superuser: true
 title: Patrick Durkee
 ---
-
-I'm a Research Fellow at the Institute for Advanced Study in Toulouse. I study hierarchy and personality at multiple levels of analysis. 
+I'm an Assistant Professor at California State University, Fresno. I study personality and hierarchy at multiple levels of analysis. 
 
