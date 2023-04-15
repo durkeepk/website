@@ -36,12 +36,11 @@ urlcolor: black
 
 Assistant Professor, Department of Psychology, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
 
-Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - Present}
+Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - 2023}
 
 Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
 
 # EDUCATION
-
 
 Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
 
@@ -57,6 +56,7 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
+15\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 2 Registered Report Accepted). Status-impact assessment: Is accuracy linked with status motivations? *Evolutionary Human Sciences*.^\faFileTextO^](https://osf.io/7jm2r/)
 
 14\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
@@ -104,13 +104,13 @@ B.A., Psychology, California State University, Fullerton \hfill \textcolor{light
 
 \textcolor{light-gray}{Submitted Manuscripts}
 
-2\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 1 Registered Report Accepted in Principle). Status-impact assessment: Does accuracy covary with status motivations? *Evolutionary Human Sciences*.
+2\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., & Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*.
 
-1\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., & Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*.
+1\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (Submitted). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. 
 
 <!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
-<!-- 7\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (in prep). What are shame and guilt for? Testing interpersonal theories against intrapersonal theories. -->
+
 
 <!-- <!-- 6\. \hangindent=0.5in **Durkee, P. K.**, & Buss, D. M. (in prep). Status conferral emotion networks. --> 
 
