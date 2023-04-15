@@ -34,39 +34,39 @@ urlcolor: black
 
 # PROFESSIONAL APPOINTMENTS
 
-Assistant Professor, Department of Psychology, California State University, Fresno \hfill \textcolor{light-gray}{2023 - Present}
+Assistant Professor of Psychology, *California State University, Fresno* \hfill \textcolor{light-gray}{2023 - Present}
 
-Research Fellow, Institute for Advanced Study in Toulouse, France \hfill \textcolor{light-gray}{2022 - 2023}
+Research Fellow, *Institute for Advanced Study in Toulouse, France* \hfill \textcolor{light-gray}{2022 - 2023}
 
-Adjunct Professor, Department of Psychology, Texas State University \hfill \textcolor{light-gray}{2021 - 2022}
+Adjunct Professor of Psychology, *Texas State University* \hfill \textcolor{light-gray}{2021 - 2022}
 
 # EDUCATION
 
-Ph.D., Psychology, The University of Texas at Austin \hfill \textcolor{light-gray}{2021}
+Ph.D., Psychology, *The University of Texas at Austin* \hfill \textcolor{light-gray}{2021}
 
-M.A., Experimental Psychology, California State University, Fullerton \hfill
+M.A., Experimental Psychology, *California State University, Fullerton* \hfill
 \textcolor{light-gray}{2017}
 
-B.A., Psychology, California State University, Fullerton \hfill \textcolor{light-gray}{2015}
+B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{light-gray}{2015}
 
 # PUBLICATIONS
 
-^\faUnsorted^ ^=^ ^Joint^ ^First^ ^Authorship^  <!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ --><!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ --><!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
+^\faUnsorted^ ^=^ *^Joint^ ^First^ ^Authorship^* \newline ^**RR**^ ^=^ *^Registered^ ^Report^* <!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ --><!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ --><!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 <!-- \textcolor{light-gray}{2021} -->
 
-15\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 2 Registered Report Accepted). Status-impact assessment: Is accuracy linked with status motivations? *Evolutionary Human Sciences*.^\faFileTextO^](https://osf.io/7jm2r/)
+15\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (Stage 2 Registered Report Accepted). Status-impact assessment: Is accuracy linked with status motivations? *Evolutionary Human Sciences*.^\faFileTextO^](https://osf.io/7jm2r/)^**RR**^
 
 14\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., & Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
 13\. \hangindent=0.5in [Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (2022). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*. ^\faFileTextO^](http://www.pdurkee.com/files/pubs/Mansonetal_2022.pdf)
 
-12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)
+12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)^**RR**^
 
 11\. \hangindent=0.5in [**Durkee, P. K.**, & Ayers, J. D. (2021). Is facial width-to-height ratio reliably associated with social inferences? *Evolution and Human Behavior*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf)
 
-10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology.*^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)
+10\. \hangindent=0.5in [Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., & Buss, D. M. (2021). Mate availability and sexual disgust. *Adaptive Human Behavior and Physiology.*^\faFileTextO^](http://www.pdurkee.com/files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf)^**RR**^
 
 9\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., & Buss, D. M. (2021). Reply to Cheng et al.: Benefit generation dominates cost infliction in explaining cross-national status allocations. *Proceedings of the National Academy of Sciences*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/DurkeeReply_2021.pdf)
 
