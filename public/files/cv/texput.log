@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.23)  23 MAY 2022 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  15 APR 2023 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**emily_resume.tex
+**cv.tex
 ! Emergency stop.
-<*> emily_resume.tex
-                     
+<*> cv.tex
+           
 Here is how much of TeX's memory you used:
- 3 strings out of 480260
- 108 string characters out of 5893012
- 284935 words of memory out of 5000000
- 18029 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 0i,0n,0p,1b,6s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 3 strings out of 478994
+ 98 string characters out of 5858184
+ 283044 words of memory out of 5000000
+ 17591 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!

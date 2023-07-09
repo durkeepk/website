@@ -104,11 +104,11 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 1\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
-\textcolor{light-gray}{Submitted Manuscripts}
+<!-- \textcolor{light-gray}{Submitted Manuscripts} -->
 
-2\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*.
+<!-- 2\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*. -->
 
-1\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (Submitted). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. 
+<!-- 1\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (Submitted). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures.  -->
 
 <!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
@@ -138,6 +138,8 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Invited Talks}
 
+8\. \hangindent=0.5in **Durkee, P. K.** (June, 2023). *Preferences and Personality*. Talk given to the Institute for Advanced Study in Toulouse, France.
+
 7\. \hangindent=0.5in **Durkee, P. K.** (September, 2021). *Cultural Variation in Niche Diversity and Personality Structure*. Virtual talk given to the Institute for Advanced Study in Toulouse, France.
 
 6\. \hangindent=0.5in **Durkee, P. K.** (May, 2021). *Adaptive challenges posed by hierarchies and emotional adaptations*. Virtual talk given to the Center for the Study of Human Nature, CSUF.
@@ -157,6 +159,8 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 1\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, February). *Psychological foundations of status*. Paper presentation in the symposium, "Social Status: New Work Challenging the Status Quo" (Co-Chair w/ J. Krems), at the Society for Personality and Social Psychology Virtual Annual Convention.
 
 \textcolor{light-gray}{Podium Presentations}
+
+12\. \hangindent=0.5in **Durkee, P. K.** (2023, June). *Status impact assessment: Is accuracy linked with status motives?*. Podium presentation at the 33rd annual meeting of the Human Behavior and Evolution Society, Palm Springs. [Finalist for Postdoctoral Research Award] 
 
 11\. \hangindent=0.5in **Durkee, P. K.** (2021, June). *Niche Diversity and Personality Structure*. Virtual podium presentation at the 32nd annual meeting of the Human Behavior and Evolution Society, Virtually Everywhere. 
 
