@@ -102,7 +102,9 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Preprints}
 
-1\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
+1\. \hangindent=0.5in [**Durkee, P. K.**, (2023, June 16). Measuring a Personality Trait is Harder than I Thought: Simulations Exploring the Interplay between Measurands, Mechanisms, and Measurement in Personality Research. *SSRN*. ^\faFileTextO^](http://dx.doi.org/10.2139/ssrn.4482488)
+
+2\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
 
 <!-- \textcolor{light-gray}{Submitted Manuscripts} -->
 

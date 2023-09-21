@@ -31,7 +31,7 @@ role: Assistant Professor of Psychology
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:patrick.durkee@iast.fr
+  link: mailto:pdurkee@csufresno.edu
 - display:
     header: true
   icon: twitter
