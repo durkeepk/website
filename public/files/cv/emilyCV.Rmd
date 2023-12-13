@@ -6,17 +6,17 @@ output:
 geometry: margin=1in
 
 title: "CV"
-author: "Patrick Durkee"
+author: "Emily Sanchez"
 date: "`r format(Sys.time(), '%B, %Y')`"
 #orcid: orcid.org/0000-0001-6159-4277
 # jobtitle: Assistant Professor"
 # address: ""
 fontawesome: yes
-email: pdurkee@csufresno.edu
-web: pdurkee.com
-github: durkeepk
-twitter: durkeepk
-# phone: 909-786-6054
+email: emilyrsanchez7@gmail.com
+# web: pdurkee.com
+#github: durkeepk
+#twitter: durkeepk
+phone: 909-608-8653
 updated: yes
 
 keywords: RMarkdown, academic CV, template
@@ -32,41 +32,29 @@ urlcolor: black
 
 <!-- \hrulefill for horizontal line after headings -->
 
-# PROFESSIONAL APPOINTMENTS
 
-Assistant Professor of Psychology, *California State University, Fresno* \hfill \textcolor{light-gray}{2023 - Present}
-
-Research Fellow, *Institute for Advanced Study in Toulouse, France* \hfill \textcolor{light-gray}{2022 - 2023}
-
-Adjunct Professor of Psychology, *Texas State University* \hfill \textcolor{light-gray}{2021 - 2022}
 
 # EDUCATION
 
-Ph.D., Psychology, *The University of Texas at Austin* \hfill \textcolor{light-gray}{2021}
+M.S., Biology, *California State University, Fullerton* \hfill \textcolor{light-gray}{2018}
 
-M.A., Experimental Psychology, *California State University, Fullerton* \hfill
-\textcolor{light-gray}{2017}
+M.S., Biology, *California State University, Fullerton* \hfill \textcolor{light-gray}{2018}
 
-B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{light-gray}{2015}
 
 # PUBLICATIONS
 
 ^\faUnsorted^ ^=^ *^Joint^ ^First^ ^Authorship^* \newline ^**RR**^ ^=^ *^Registered^ ^Report^* 
+
 <!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ --><!-- ^\faFileTextO^ ^=^ ^Paper^ ^Link^ --><!-- ^\faBarChart^ ^=^ ^Lead^ ^Statistician^ -->
 
 \textcolor{light-gray}{Peer Reviewed Articles}
-
-18\. \hangindent=0.5in **Durkee, P. K.** (In press). Status in Himba Pastoralists: Are Causal Claims Warranted? *Evolution and Human Behavior*.
-
-17\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (In press). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. *Emotion*.
-
-16\. \hangindent=0.5in Lukaszewski, A. W., Patton, J. Q., **Durkee, P. K.**, Zerbe, J. G., & Bowser, B. J. (In press). Calibration and fitness-linked correlates of personality in Conambo, Ecuador. *Evolution and Human Behavior*.
+<!-- \textcolor{light-gray}{2021} -->
 
 15\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2023). Status-impact assessment: Is accuracy linked with status motivations? *Evolutionary Human Sciences*.^\faFileTextO^](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16454C7E058347A01F94E64565CBF19/S2513843X23000129a.pdf/status-impact-assessment-is-accuracy-linked-with-status-motivations.pdf)^**RR**^
 
-14\. \hangindent=0.5in [Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (2023). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*. ^\faFileTextO^](http://www.pdurkee.com/files/pubs/Mansonetal_2022.pdf)
+14\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
 
-13\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Tucker-Drob, E. M. (2022). Niche diversity predicts personality structure across 115 nations. *Psychological Science*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Durkee_etal_2022_PsychScience.pdf)
+13\. \hangindent=0.5in [Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (2022). Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*. ^\faFileTextO^](http://www.pdurkee.com/files/pubs/Mansonetal_2022.pdf)
 
 12\. \hangindent=0.5in [Michaelides, M. P., **Durkee, P. K.** (2021). Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data. *Frontiers in Education*.^\faFileTextO^](http://www.pdurkee.com/files/pubs/Michaelides&Durkee.pdf)^**RR**^
 
@@ -106,27 +94,43 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Preprints}
 
-2\. \hangindent=0.5in [**Durkee, P. K.**, (2023, June 16). Measuring a Personality Trait is Harder than I Thought: Simulations Exploring the Interplay between Measurands, Mechanisms, and Measurement in Personality Research. *SSRN*. ^\faFileTextO^](http://dx.doi.org/10.2139/ssrn.4482488)
+1\. \hangindent=0.5in [**Durkee, P. K.**, (2023, June 16). Measuring a Personality Trait is Harder than I Thought: Simulations Exploring the Interplay between Measurands, Mechanisms, and Measurement in Personality Research. *SSRN*. ^\faFileTextO^](http://dx.doi.org/10.2139/ssrn.4482488)
 
-1\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
+2\. \hangindent=0.5in [**Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April 20). Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*. ^\faFileTextO^](https://psyarxiv.com/4gvt5/)
+
+<!-- \textcolor{light-gray}{Submitted Manuscripts} -->
+
+<!-- 2\. \hangindent=0.5in Lukaszewski, A. L., **Durkee, P. K.**, Zerbe, J. G., Patton, J. Q. (Submitted). Personality Concepts in Conambo, Ecuador. *Evolution and Human Behavior*. -->
+
+<!-- 1\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (Submitted). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures.  -->
 
 <!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
+
+
 
 <!-- <!-- 6\. \hangindent=0.5in **Durkee, P. K.**, Buss, D. M. (in prep). Status conferral emotion networks. --> 
 
 <!-- <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., Buss, D. M. (in prep). Differentiating admiration and respect. --> 
 
-\textcolor{light-gray}{Other Publications}
+<!-- <!-- 5\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (in prep). Sex differences in sexual disgust: A cross-national analysis. --> 
 
-1\. \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019.
+<!-- <!-- 4\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. W., Schulz, J., von Rueden, C., Gurven, M., Henrich, J., Gosling, S. (in prep). The cultural evolution of WEIRD personality structure. --> 
+
+<!-- 3\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**, Aguirre, A., Ananyeva, K., Bereby-Meyer, Y., Curry, O., Fernández, A. M.,  Kharitonov, A., Khvatov, I., Konishi, N., Li, J., Li, N., O, J., Ohtsubo, Y.,  Quillien, T., Muñoz-Reyes, J. A., Romero, P., Saribay, A., van Leeuwen, F., Zhuang, J., Sznycer, D. (in prep). An evolutionary perspective on sex-specific perceptions of physical attractiveness: A cross-national study. -->
+
+<!-- 2\. \hangindent=0.5in Sell, A., Lukaszewski, A. W., Chua, K. J., **Durkee, P. K.**,  Acevedo, C., Fukushima, S., Hitokoto, Li, J., H., Patton, J., Takemura, K., Thornborrow, T., Zhuang, J., Sznycer, D. (in prep). Sex-specific determinants of physical attractiveness in small-scale societies. -->
+
+<!-- 1\. \hangindent=0.5in Sznycer, D., Patrick, C., **Durkee, P. K.**, et al. (in prep). The origins of criminal law: A cross-national investigation. -->
+
+<!-- \textcolor{light-gray}{Other Publications} -->
+
+<!-- 1\. \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2019. -->
 
 # PRESENTATIONS
 
 ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
 
 \textcolor{light-gray}{Invited Talks}
-
-9\. \hangindent=0.5in **Durkee, P. K.** (October, 2023). *Exploring conceptual overlap between preferences in economics and personality in pshychology*. Talk given to the CSU Fresno Department of Economics.
 
 8\. \hangindent=0.5in **Durkee, P. K.** (June, 2023). *Preferences and Personality*. Talk given to the Institute for Advanced Study in Toulouse, France.
 
@@ -226,15 +230,14 @@ Columbia, MO.
 
 \textcolor{light-gray}{Instructor of Record}
 
-Personality Psychology (in-person) \hfill \textcolor{light-gray}{Spring/Fall 2023}
+Personality Psychology (in-person) \hfill \textcolor{light-gray}{Spring 2023}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
-\textcolor{light-gray}{Training}
+<!-- \textcolor{light-gray}{Training} -->
 
-California State University Introduction to Teaching Online Using QLT \hfill \textcolor{light-gray}{Fall 2023} \newline
-Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
-Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
+<!-- Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline -->
+<!-- Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020} -->
 
 \textcolor{light-gray}{Lab Instructor}
 

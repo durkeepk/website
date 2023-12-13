@@ -56,7 +56,9 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
-17\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (Accepted). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. *Emotion*.
+18\. \hangindent=0.5in **Durkee, P. K.** (In press). Status in Himba Pastoralists: Are Causal Claims Warranted? *Evolution and Human Behavior*.
+
+17\. \hangindent=0.5in Landers, M.^\faUnsorted^, Sznycer., D.^\faUnsorted^, **Durkee, P. K.** (In press). Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. *Emotion*.
 
 16\. \hangindent=0.5in Lukaszewski, A. W., Patton, J. Q., **Durkee, P. K.**, Zerbe, J. G., & Bowser, B. J. (In press). Calibration and fitness-linked correlates of personality in Conambo, Ecuador. *Evolution and Human Behavior*.
 
@@ -224,14 +226,15 @@ Columbia, MO.
 
 \textcolor{light-gray}{Instructor of Record}
 
-Personality Psychology (in-person) \hfill \textcolor{light-gray}{Spring 2023}
+Personality Psychology (in-person) \hfill \textcolor{light-gray}{Spring/Fall 2023}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
-<!-- \textcolor{light-gray}{Training} -->
+\textcolor{light-gray}{Training}
 
-<!-- Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline -->
-<!-- Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020} -->
+California State University Introduction to Teaching Online Using QLT \hfill \textcolor{light-gray}{Fall 2023} \newline
+Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
+Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 \textcolor{light-gray}{Lab Instructor}
 
