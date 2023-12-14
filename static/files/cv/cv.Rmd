@@ -141,7 +141,7 @@ Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., B
 6\. \hangindent=0.5in 
 \marginpar{\scriptsize{\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faDatabase\faFileCodeO}}
-Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., Trofimova, I. (2020). [Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.(http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf)
+Buss, D. M.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., Trofimova, I. (2020). [Human status criteria: Sex differences and similarities across 14 nations. *Journal of Personality and Social Psychology*.](http://www.pdurkee.com/files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf)
 
 5\. \hangindent=0.5in 
 \marginpar{\scriptsize{\faBarChart\faPencil}}
