@@ -236,6 +236,8 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Podium Presentations}
 
+13\. \hangindent=0.5in [**Durkee, P. K.** (February, 2024). *Simulations exploring the interplay between measurands, mechanisms, and measurement in personality research*. Pre-recorded data blitz presentation for SPSP Personality Pre-Conference. \faPlay](https://www.youtube.com/watch?v=CLGuF_fBM0o&list=PL6Fi8qOQlSrj7v5Kj7C_aekqXco9Cnljk&index=9) 
+
 12\. \hangindent=0.5in **Durkee, P. K.** (2023, June). *Status impact assessment: Is accuracy linked with status motives?*. Podium presentation at the 33rd annual meeting of the Human Behavior and Evolution Society, Palm Springs. [Finalist for Postdoctoral Research Award] 
 
 11\. \hangindent=0.5in **Durkee, P. K.** (2021, June). *Niche Diversity and Personality Structure*. Virtual podium presentation at the 32nd annual meeting of the Human Behavior and Evolution Society, Virtually Everywhere. 
@@ -263,6 +265,8 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 <!-- \newpage -->
 
 \textcolor{light-gray}{Poster Presentations}
+
+22\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/)
 
 21\. \hangindent=0.5in [**Durkee, P. K.** (2022, July). *Regional Analysis of Niche Diversity and Personality Strucutre.* Regional Cultural Differences Conference.](http://www.pdurkee.com/files/pubs/geo_psych_poster.pdf)
 

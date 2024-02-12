@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  26 JAN 2024 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  12 FEB 2024 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,16 +607,16 @@ LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-[2] [3] [4] [5] [6] 
+[2] [3] [4] [5] [6] [7] 
 AED: lastpage setting LastPage
-[7] (./cv.aux)
+[8] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: EA8A99FE07C8399130A792A7FEB89DDD;1276.
  ) 
 Here is how much of TeX's memory you used:
- 17205 strings out of 478994
- 274547 string characters out of 5858184
- 625648 words of memory out of 5000000
+ 17206 strings out of 478994
+ 274553 string characters out of 5858184
+ 625868 words of memory out of 5000000
  33878 multiletter control sequences out of 15000+600000
  471370 words of font info for 471 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -633,10 +633,10 @@ ocal/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (7 pages, 157105 bytes).
+Output written on cv.pdf (8 pages, 158281 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 29 named destinations out of 1000 (max. 500000)
  82001 words of extra memory for PDF output out of 89155 (max. 10000000)
 
