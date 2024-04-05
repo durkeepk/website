@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  12 FEB 2024 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  5 APR 2024 10:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,10 @@ LaTeX Warning: Marginpar on page 1 moved.
 LaTeX Warning: Marginpar on page 1 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--289
+LaTeX Warning: Marginpar on page 1 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--294
 
  []
 
@@ -616,7 +619,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  17206 strings out of 478994
  274553 string characters out of 5858184
- 625868 words of memory out of 5000000
+ 625717 words of memory out of 5000000
  33878 multiletter control sequences out of 15000+600000
  471370 words of font info for 471 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -633,10 +636,10 @@ ocal/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (8 pages, 158281 bytes).
+Output written on cv.pdf (8 pages, 159553 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
+ 302 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
  29 named destinations out of 1000 (max. 500000)
  82001 words of extra memory for PDF output out of 89155 (max. 10000000)
 

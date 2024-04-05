@@ -73,6 +73,11 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+19\. \hangindent=0.5in 
+\marginpar{\scriptsize{\faLightbulbO\faPencil}}
+\marginpar{\textsuperscript{\faCommentsO}}
+**Durkee, P. K.**, Lukaszewski, A. L. (Accepted). Deconstructing “dominance” to refine leadership research. *Evolution and Human Behavior*.
+
 18\. \hangindent=0.5in 
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faCheckCircle \faDatabase \faFileCodeO}}
@@ -265,6 +270,18 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 <!-- \newpage -->
 
 \textcolor{light-gray}{Poster Presentations}
+
+28\. \hangindent=0.5in Ahmed^\faChevronCircleDown^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
+
+27\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+
+26\. \hangindent=0.5in Gonzalez^\faChevronCircleDown^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+
+25\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+
+24\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+
+23\. \hangindent=0.5in Wilson, A. N., Bechtold, J., **Durkee, P. K.** (2023, December). *Program evaluation of a small private practice providing problem gambling services*. Poster presented at International Center for Responsible Gaming, Las Vegas, NV.
 
 22\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/)
 
