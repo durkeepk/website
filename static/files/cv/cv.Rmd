@@ -60,7 +60,7 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 \newline 
 ^Paper^ ^Notes:^
 ^\faRegistered^ ^=^ *^Registered^ ^Report^*^;^
-^\faCommentsO^ ^=^ *^Commentary/Reply^*^;^
+<!-- ^\faCommentsO^ ^=^ *^Commentary/Reply^*^;^ -->
 ^\faCheckCircle^ ^=^ *^Preregistered^*^;^
 ^\faDatabase^ ^=^ *^Open^ ^Dataset^*^;^
 ^\faFileCodeO^ ^=^ *^Open^ ^Code^*
@@ -73,10 +73,15 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+20\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
+\marginpar{\textsuperscript{\faDatabase}}
+Alberhasky, M., **Durkee, P. K.** (Accepted). Songs Tell a Story: The Arc of Narrative for Music. *PLOS ONE*.
+
 19\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
-\marginpar{\textsuperscript{\faCommentsO}}
-**Durkee, P. K.**, Lukaszewski, A. L. (Accepted). Deconstructing “dominance” to refine leadership research. *Evolution and Human Behavior*.
+<!-- \marginpar{\textsuperscript{\faCommentsO}} -->
+[**Durkee, P. K.**, Lukaszewski, A. L. (2024). Deconstructing “dominance” to refine leadership research. *Evolution and Human Behavior*.](https://www.sciencedirect.com/science/article/pii/S1090513824000461?dgcid=author)
 
 18\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
@@ -85,7 +90,7 @@ Landers, M., Sznycer., D., **Durkee, P. K.** (2024). [Are Self-Conscious Emotion
 
 17\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
-\marginpar{\textsuperscript{\faCommentsO}}
+<!-- \marginpar{\textsuperscript{\faCommentsO}} -->
 **Durkee, P. K.** (2023). [Status in Himba Pastoralists: Are Causal Claims Warranted? *Evolution and Human Behavior*.](http://www.pdurkee.com/files/pubs/Durkee2023_HimbaStatusComment.pdf) 
 
 16\.\hangindent=0.5in
@@ -127,7 +132,7 @@ Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., 
 
 9\.\hangindent=0.5in
 \marginpar{\scriptsize{\faBarChart\faPencil}}
-\marginpar{\textsuperscript{\faCommentsO\faDatabase\faFileCodeO}}
+\marginpar{\textsuperscript{\faDatabase\faFileCodeO}}
 **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021). [Reply to Cheng et al.: Benefit generation dominates cost infliction in explaining cross-national status allocations. *Proceedings of the National Academy of Sciences*.](http://www.pdurkee.com/files/pubs/DurkeeReply_2021.pdf)
 
 <!-- \textcolor{light-gray}{2020} -->
@@ -161,7 +166,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 3\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
-\marginpar{\textsuperscript{\faCommentsO\faFileCodeO}}
+\marginpar{\textsuperscript{\faFileCodeO}}
 **Durkee, P. K.** (2019). [Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019). *Biology Letters*.](http://www.pdurkee.com/files/pubs/Durkee_2019.pdf)
 
 2\.\hangindent=0.5in
