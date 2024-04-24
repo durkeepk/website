@@ -74,9 +74,9 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 \textcolor{light-gray}{Peer Reviewed Articles}
 
 20\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
-\marginpar{\textsuperscript{\faDatabase}}
-Alberhasky, M., **Durkee, P. K.** (Accepted). Songs Tell a Story: The Arc of Narrative for Music. *PLOS ONE*.
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil\faFileCodeO}}}
+<!-- \marginpar{\textsuperscript{} -->
+Alberhasky, M., **Durkee, P. K.** (In press). Songs Tell a Story: The Arc of Narrative for Music. *PLoS ONE*.
 
 19\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
@@ -140,7 +140,7 @@ Crosby, C. L.^\faUnsorted^, **Durkee, P. K.**^\faUnsorted^, Sedlacek, A. G. B., 
 8\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faTable\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faDatabase\faFileCodeO}}
-**Durkee, P. K.**, [Lukaszewski, A. L., Buss, D. M. (2020). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf) \newline
+**Durkee, P. K.**, [Lukaszewski, A. L., Buss, D. M. (2020). Psychological foundations of human status allocation. *Proceedings of the National Academy of Sciences*.](http://www.pdurkee.com/files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf)
 
 7\.\hangindent=0.5in
 \marginpar{\scriptsize{\faBarChart\faPencil}}
@@ -413,13 +413,14 @@ Upper Ninety Positive Youth Development Program, Austin TX
 *Aggressive Behavior*;
 *American Journal of Human Biology*;
 *Brain Structure and Function*;
+*Oxford University Press;*
 *Evolution and Human Behavior*;
 *Evolutionary Psychology*;
 *Evolutionary Psychological Science*;
 *Journal of Personality*;
 *Proceedings of the National Academy of Science*; 
 *Proceedings of the Royal Academy B*;
-*PLOS ONE*;
+*PLoS ONE*;
 *SAGE Open*;
 *Scandinavian Journal of Psychology*
 
