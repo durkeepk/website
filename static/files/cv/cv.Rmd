@@ -74,7 +74,7 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 \textcolor{light-gray}{Peer Reviewed Articles}
 
 20\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil\faFileCodeO}}}
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil\faFileCodeO}}
 <!-- \marginpar{\textsuperscript{} -->
 Alberhasky, M., **Durkee, P. K.** (In press). Songs Tell a Story: The Arc of Narrative for Music. *PLoS ONE*.
 
