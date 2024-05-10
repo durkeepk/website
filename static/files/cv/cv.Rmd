@@ -221,15 +221,17 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Invited Talks}
 
+10\. \hangindent=0.5in **Durkee, P. K.** (May, 2024). *Linking adaptationist models of emotion to lexical personality traits*. Talk given to the Center for Evolutionary Psychology (CEP) at UC Santa Barbara.
+
 9\. \hangindent=0.5in **Durkee, P. K.** (October, 2023). *Exploring conceptual overlap between preferences in economics and personality in pshychology*. Talk given to the CSU Fresno Department of Economics.
 
 8\. \hangindent=0.5in **Durkee, P. K.** (June, 2023). *Preferences and Personality*. Talk given to the Institute for Advanced Study in Toulouse, France.
 
 7\. \hangindent=0.5in **Durkee, P. K.** (September, 2021). *Cultural Variation in Niche Diversity and Personality Structure*. Virtual talk given to the Institute for Advanced Study in Toulouse, France.
 
-6\. \hangindent=0.5in **Durkee, P. K.** (May, 2021). *Adaptive challenges posed by hierarchies and emotional adaptations*. Virtual talk given to the Center for the Study of Human Nature, CSUF.
+6\. \hangindent=0.5in **Durkee, P. K.** (May, 2021). *Adaptive challenges posed by hierarchies and emotional adaptations*. Virtual talk given to the Center for the Study of Human Nature, CSU Fullerton.
 
-5\. \hangindent=0.5in **Durkee, P. K.** (October, 2020). *Differentiating the potential functions of admiration and respect through task analysis*. Virtual talk given to the Evolutionary Psychology Lab, CSUF.
+5\. \hangindent=0.5in **Durkee, P. K.** (October, 2020). *Differentiating the potential functions of admiration and respect through task analysis*. Virtual talk given to the Evolutionary Psychology Lab, CSU Fullerton.
 
 4\. \hangindent=0.5in **Durkee, P. K.** (July, 2020). *Probing the psychology underpinning human status hierarchies*. Virtual talk given to the Evolutionary Social Cognition Lab Group, Arizona State University.
 
@@ -345,7 +347,7 @@ Columbia, MO.
 
 \textcolor{light-gray}{Instructor of Record}
 
-Personality Psychology (in-person) \hfill \textcolor{light-gray}{Spring/Fall 2023}
+Personality Psychology (in-person) \hfill \textcolor{light-gray}{Fall/Spring 2023, Spring 2024}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
