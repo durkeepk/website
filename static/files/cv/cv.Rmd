@@ -108,7 +108,6 @@ Lukaszewski, A. W., Patton, J. Q., **Durkee, P. K.**, Zerbe, J. G., & Bowser, B.
 \marginpar{\textsuperscript{\faDatabase\faFileCodeO}}
 Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (2023). [Sex differences in fearful personality traits are mediated by physical strength. *Social Psychological and Personality Science*.](http://www.pdurkee.com/files/pubs/Mansonetal_2022.pdf)
 
-
 13\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faTable\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faDatabase\faFileCodeO}}
@@ -221,11 +220,13 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Invited Talks}
 
-10\. \hangindent=0.5in **Durkee, P. K.** (May, 2024). *Linking adaptationist models of emotion to lexical personality traits*. Talk given to the Center for Evolutionary Psychology (CEP) at UC Santa Barbara.
+11\. \hangindent=0.5in **Durkee, P. K.** (May, 2024). *Linking adaptationist models of emotion to lexical personality traits*. Talk given to the Center for Evolutionary Psychology (CEP) at UC Santa Barbara.
 
-9\. \hangindent=0.5in **Durkee, P. K.** (October, 2023). *Exploring conceptual overlap between preferences in economics and personality in pshychology*. Talk given to the CSU Fresno Department of Economics.
+10\. \hangindent=0.5in **Durkee, P. K.** (October, 2023). *Exploring conceptual overlap between preferences in economics and personality in pshychology*. Talk given to the CSU Fresno Department of Economics.
 
-8\. \hangindent=0.5in **Durkee, P. K.** (June, 2023). *Preferences and Personality*. Talk given to the Institute for Advanced Study in Toulouse, France.
+9\. \hangindent=0.5in **Durkee, P. K.** (June, 2023). *Preferences and Personality*. Talk given to the Institute for Advanced Study in Toulouse, France.
+
+8\. \hangindent=0.5in **Durkee, P. K.** (March, 2023). *Improving Personality Measurement*. Talk given to the Center for the Study of Human Nature, CSU Fullerton.
 
 7\. \hangindent=0.5in **Durkee, P. K.** (September, 2021). *Cultural Variation in Niche Diversity and Personality Structure*. Virtual talk given to the Institute for Advanced Study in Toulouse, France.
 
@@ -380,7 +381,7 @@ Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 
 
 # GRANTS & AWARDS
 
-Besample "Beyond the West" Research Grant \hfill \textcolor{light-gray}{Fall 2023} \newline
+Besample "Beyond the West" Research Grant \hfill \textcolor{light-gray}{Spring 2023} \newline
 KindFund Research Grant \hfill \textcolor{light-gray}{Fall 2021} \newline
 Graduate School Continuing Fellowship \hfill \textcolor{light-gray}{Fall 2021} \newline
 LBJ CONNECT Fellowship \hfill \textcolor{light-gray}{Spring 2021} \newline
