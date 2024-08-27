@@ -197,7 +197,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 3\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faFileCodeO}}
-**Durkee, P. K.** (2024, March). [Proximate and ultimate drivers of norms and norm change *IAST Working Paper*.](https://www.iast.fr/sites/default/files/IAST/wp/wp_iast_163.pdf)
+**Durkee, P. K.** (2024, March). [Proximate and ultimate drivers of norms and norm change. *IAST Working Paper*.](https://www.iast.fr/sites/default/files/IAST/wp/wp_iast_163.pdf)
 
 2\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
@@ -283,27 +283,29 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Poster Presentations}
 
-32\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+33\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-31\. \hangindent=0.5in Garcia^\faChevronCircleDown^, M., Gonzalez^\faChevronCircleDown^, C., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+32\. \hangindent=0.5in Garcia^\faChevronCircleDown^, M., Gonzalez^\faChevronCircleDown^, C., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-30\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+31\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-29\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+30\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-28\. \hangindent=0.5in Ahmed^\faChevronCircleDown^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
+29\. \hangindent=0.5in Ahmed^\faChevronCircleDown^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
 
-27\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+28\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-26\. \hangindent=0.5in Gonzalez^\faChevronCircleDown^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+27\. \hangindent=0.5in Gonzalez^\faChevronCircleDown^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-25\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+26\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-24\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+25\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+
+24\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/) 
 
 23\. \hangindent=0.5in Wilson, A. N., Bechtold, J., **Durkee, P. K.** (2023, December). *Program evaluation of a small private practice providing problem gambling services*. Poster presented at International Center for Responsible Gaming, Las Vegas, NV.
 
-22\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/)
+22\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *How can we identify the algorithmic form(s) of evolved psychological mechanisms?* Poster presentation at the 17th annual California Workshop on Evolutionary Social Sciences.
 
 21\. \hangindent=0.5in [**Durkee, P. K.** (2022, July). *Regional Analysis of Niche Diversity and Personality Strucutre.* Regional Cultural Differences Conference.](http://www.pdurkee.com/files/pubs/geo_psych_poster.pdf)
 
