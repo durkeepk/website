@@ -192,6 +192,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 \marginpar{\textsuperscript{}}
 **Durkee, P. K.**, Lukaszewski, A. L. (2023). Pride and the Psychology of Prestige. In *The SAGE Encyclopedia of Leadership Studies* (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.
 
+
 \textcolor{light-gray}{Preprints and Working Papers}
 
 3\.\hangindent=0.5in
@@ -209,15 +210,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 \marginpar{\textsuperscript{\faFileCodeO}}
 **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April). [Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*.](https://psyarxiv.com/4gvt5/)
 
-<!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
 
-<!-- <!-- 6\. \hangindent=0.5in **Durkee, P. K.**, Buss, D. M. (in prep). Status conferral emotion networks. --> 
-
-<!-- <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., Buss, D. M. (in prep). Differentiating admiration and respect. --> 
-
-\textcolor{light-gray}{Other Publications}
-
-1\. \hangindent=0.5in **Durkee, P. K.** Instructor's Manual and Test Bank for *Evolutionary Psychology: The New Science of The Mind*. Routledge, 2024.
 
 # PRESENTATIONS
 
@@ -246,10 +239,6 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 2\. \hangindent=0.5in **Durkee, P. K.** (May, 2016). *The ancestral importance of formidability and its lasting impact on modern social behavior*. Plenary talk given at the 3rd Annual Exploring Darwin Conference at Palomar College, Palomar, CA.
 
 1\. \hangindent=0.5in **Durkee, P. K.** (April, 2016). *Is aggression calibrated to self-perceptions of formidability? An empirical test*. Talk given to the Psi Beta student research club of Mt. San Antonio Community College, Walnut, CA.
-
-\textcolor{light-gray}{Chaired Symposia}
-
-1\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, February). *Psychological foundations of status*. Paper presentation in the symposium, "Social Status: New Work Challenging the Status Quo" (Co-Chair w/ J. Krems), at the Society for Personality and Social Psychology Virtual Annual Convention.
 
 \textcolor{light-gray}{Podium Presentations}
 
@@ -281,7 +270,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 <!-- \newpage -->
 
-\textcolor{light-gray}{Poster Presentations}
+\textcolor{light-gray}{Poster Presentations (Selected)}
 
 33\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
@@ -293,25 +282,12 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 29\. \hangindent=0.5in Ahmed^\faChevronCircleDown^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
 
-28\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
-
-27\. \hangindent=0.5in Gonzalez^\faChevronCircleDown^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
-
-26\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
-
-25\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
-
 24\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/) 
-
-23\. \hangindent=0.5in Wilson, A. N., Bechtold, J., **Durkee, P. K.** (2023, December). *Program evaluation of a small private practice providing problem gambling services*. Poster presented at International Center for Responsible Gaming, Las Vegas, NV.
 
 22\. \hangindent=0.5in **Durkee, P. K.** (2023, May). *How can we identify the algorithmic form(s) of evolved psychological mechanisms?* Poster presentation at the 17th annual California Workshop on Evolutionary Social Sciences.
 
 21\. \hangindent=0.5in [**Durkee, P. K.** (2022, July). *Regional Analysis of Niche Diversity and Personality Strucutre.* Regional Cultural Differences Conference.](http://www.pdurkee.com/files/pubs/geo_psych_poster.pdf)
 
-20\. \hangindent=0.5in Landers, M., Sznycer., D., **Durkee, P. K.** (2021, June). *Shame and Guilt: Intrapersonal or Interpersonal Emotions.* Virtual poster presentation at the 32nd annual meeting of the Human Behavior and Evolution Society, Virtually Everywhere. 
-
-19\. \hangindent=0.5in Landers, M., Sznycer., D., **Durkee, P. K.** (2021, February). *Testing Models of Shame and Guilt*. Poster presentation at the Society for Personality and Social Psychology Virtual Annual Convention.
 
 18\. \hangindent=0.5in **Durkee, P. K.** (2021, May). *Hierarchy Navigation, Emotion Networks, and Fitness Interdependence.* Virtual poster presentation at the 15th annual California Workshop on Evolutionary Social Sciences.
 
@@ -319,37 +295,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 16\. \hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_8e49b4d32561449ca6aa7ac9a82738e9.pdf)
 
-15\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (2020, July). *Sex differences in sexual disgust: A cross-cultural analysis.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_e00c96a9623f40cd95eee2aaad5e59f5.pdf)
-
 14\. \hangindent=0.5in [Yoon, J.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/uzpj5/)
-
-13\. \hangindent=0.5in [Mohamed, M.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/6jnz5/)
-
-12\. \hangindent=0.5in [Willis, D.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/3rv7z/)
-
-11\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, June). *Are pride and shame key components of a culturally universal status management system?*. Poster presented at the 31st annual meeting of the Association for Psychological Science, Washington, DC.
-
-10\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, April). *Pride, Shame, and Personality: An initial investigation of differential mechanism parameterization as the root of personality.* Poster presented at the 13th annual California Workshop on Evolutionary Social Sciences, Fullerton, CA.
-
-9\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M. (2019, April). *Mate availability and sexual disgust.* Poster presented at the 13th annual California Workshop on Evolutionary Social Sciences, Fullerton, CA.
-
-8\. \hangindent=0.5in Acevedo, C. M.^\faChevronCircleDown^, **Durkee, P. K.**, Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
-
-7\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L. (2017, May). *Attractiveness assessment across domains*. Poster presented at the 11th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
-
-6\. \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, July). *The relationship between formidability and aggression: A meta-analytic review*. Poster presented at the 28th annual meeting of the Human Behavior and Evolution Society, Vancouver, Canada. [More studies included and wider scope compared to initial version at APS]
-
-5\. \hangindent=0.5in **Durkee, P. K.**, Goetz, A. T. (2016, May). *Meta-analytic review of the relationship between aggression and formidability*. Poster presented at the 28th annual Association for Psychological Science meeting, Chicago, IL.
-
-4\. \hangindent=0.5in **Durkee, P. K.**, Ayers, J., Goetz, A. T. (2016, May). *Trolley Problems: An important limitation to consequentialist intuitions triggered by Hamiltonian mechanisms*. Poster presented at the 10th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
-
-3\. \hangindent=0.5in Ayers, J., **Durkee, P. K.**, Goetz, A. T. (2016, May). *Can we be best friends now? Exploring cooperative aspects of the coordinated condemnation model*. Poster presented at the 10th annual California Workshop on Evolutionary Social Sciences, San Luis Obispo, CA.
-
-2\. \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Goetz, A. T. (2015, May). *Does sickness, injury, or fatigue recalibrate perceptions of formidability?* Poster presented at the 27th annual Human Behavior and Evolution Society Conference,
-Columbia, MO.
-
-1\. \hangindent=0.5in **Durkee, P. K.**, Romero, G. A., Park, J., Goetz, A. T. (2015, April). *Spontaneous assessments of formidability by men*. Poster presented at the 95th annual Western Psychological Association Conference, Las Vegas, NV.
-
 
 # TEACHING
 
@@ -358,33 +304,6 @@ Columbia, MO.
 Personality Psychology (in-person) \hfill \textcolor{light-gray}{Fall/Spring 2023, Spring 2024}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
-
-\textcolor{light-gray}{Training}
-
-California State University Introduction to Teaching Online Using QLT \hfill \textcolor{light-gray}{Fall 2023} \newline
-Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
-Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
-
-\textcolor{light-gray}{Lab Instructor}
-
-Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall 2018, 2019}
-
-\textcolor{light-gray}{Teaching Assistant}
-
-Human Sexuality (~500 students per semester, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020, 2021; Fall 2020} \newline
-The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
-Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
-
-<!-- \textcolor{light-gray}{Guest Lectures} -->
-
-<!-- Perspectives on Personality \hfill \textcolor{light-gray}{Summer 2020} \newline -->
-<!-- \textit{Anna Sedlacek's introductory psychology course, UT Austin} -->
-
-<!-- Principle Components Analysis \hfill \textcolor{light-gray}{Spring 2015} \newline -->
-<!-- \textit{Dr. Kathleen Preston's multivariate statistics course, CSUF} -->
-
 
 # GRANTS & AWARDS
 
@@ -402,10 +321,6 @@ Rick and Paula Short Summer Research Fellowship \hfill \textcolor{light-gray}{Su
 Clark Burnham Travel Grant \hfill \textcolor{light-gray}{Spring 2019} \newline
 Psychology Deparmtment Summer Research Award \hfill \textcolor{light-gray}{Summer 2018} \newline
 Professional Development Travel Award \hfill \textcolor{light-gray}{Spring 2018} \newline
-Associated Students, Inc. (ASI) Student Research Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Human Evolution and Behavior Society Conference Travel Grant \hfill \textcolor{light-gray}{Spring 2016} \newline
-Giles T. Brown Graduate Student Travel Grant \hfill \textcolor{light-gray}{Spring 2016}  \newline
-Psychology Department Student Research Travel Award \hfill \textcolor{light-gray}{Spring 2016}
 
 
 # PROFESSIONAL SERVICE 
@@ -454,31 +369,3 @@ Upper Ninety Positive Youth Development Program, Austin TX
 Society for Personality and Social Psychology (SPSP) \newline
 Human Behavior and Evolution Society (HBES)
 
-\newpage
-
-# ACADEMIC REFERENCES
-
-**David Buss, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: dbuss@austin.utexas.edu
-
-**Cristine Legare, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: legare@austin.utexas.edu
-
-**Aaron Lukaszewski, Ph.D.** \newline
-Associate Professor of Psychology \newline
-California State University, Fullerton \newline
-Email: alukaszewski@fullerton.edu
-
-**Elizabeth Pillsworth, Ph.D.** \newline
-Professor of Anthropology \newline
-California State University, Fullerton \newline
-Email: epillsworth@fullerton.edu
-
-**Elliot Tucker-Drob, Ph.D.** \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: tuckerdrob@utexas.edu
