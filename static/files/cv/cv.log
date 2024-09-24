@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  12 SEP 2024 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  23 SEP 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,9 +599,6 @@ LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-
-LaTeX Warning: Marginpar on page 2 moved.
-
 [2] [3] [4] [5] [6] [7] 
 AED: lastpage setting LastPage
 [8] (./cv.aux)
@@ -611,11 +608,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  17251 strings out of 478994
  274933 string characters out of 5858184
- 627723 words of memory out of 5000000
+ 627420 words of memory out of 5000000
  33878 multiletter control sequences out of 15000+600000
  473615 words of font info for 507 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,74p,1191b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,1191b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/loc
 al/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/u
@@ -628,10 +625,10 @@ ocal/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (8 pages, 161734 bytes).
+Output written on cv.pdf (8 pages, 161531 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
+ 302 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
  29 named destinations out of 1000 (max. 500000)
  82001 words of extra memory for PDF output out of 89155 (max. 10000000)
 

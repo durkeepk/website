@@ -72,6 +72,10 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+21\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faPencil}}
+<!-- \marginpar{\textsuperscript{\faCommentsO}} -->
+Alger, I., Gavrilets, S., **Durkee, P. K.** (Accepted). Ultimate and Proximate Drivers of Norms and Norm Change. *Current Opinion in Psychology*.
 
 20\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
@@ -194,10 +198,10 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Preprints and Working Papers}
 
-3\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
-\marginpar{\textsuperscript{\faFileCodeO}}
-**Durkee, P. K.** (2024, March). [Proximate and ultimate drivers of norms and norm change. *IAST Working Paper*.](https://www.iast.fr/sites/default/files/IAST/wp/wp_iast_163.pdf)
+<!-- 3\.\hangindent=0.5in -->
+<!-- \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}} -->
+<!-- \marginpar{\textsuperscript{\faFileCodeO}} -->
+<!-- **Durkee, P. K.** (2024, March). [Proximate and ultimate drivers of norms and norm change. *IAST Working Paper*.](https://www.iast.fr/sites/default/files/IAST/wp/wp_iast_163.pdf) -->
 
 2\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
