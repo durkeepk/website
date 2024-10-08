@@ -75,7 +75,7 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 21\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
 <!-- \marginpar{\textsuperscript{\faCommentsO}} -->
-Alger, I., Gavrilets, S., **Durkee, P. K.** (Accepted). Ultimate and Proximate Drivers of Norms and Norm Change. *Current Opinion in Psychology*.
+Alger, I., Gavrilets, S., **Durkee, P. K.** (2024). Proximate and Ultimate Drivers of Norms and Norm Change. *Current Opinion in Psychology*.
 
 20\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
@@ -359,13 +359,16 @@ Columbia, MO.
 
 \textcolor{light-gray}{Instructor of Record}
 
+Undergraduate Honors Seminar (in-person) \hfill \textcolor{light-gray}{Fall 2024}
+
 Personality Psychology (in-person) \hfill \textcolor{light-gray}{Fall/Spring 2023, Spring 2024}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
 \textcolor{light-gray}{Training}
 
-California State University Introduction to Teaching Online Using QLT \hfill \textcolor{light-gray}{Fall 2023} \newline
+Advancing Inclusive Mentoring (AIM) Program \hfill \textcolor{light-gray}{Fall 2024} \newline
+Introduction to Teaching Online Using QLT \hfill \textcolor{light-gray}{Fall 2023} \newline
 Teaching Online @TXST \hfill \textcolor{light-gray}{Fall 2021} \newline
 Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
