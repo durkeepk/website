@@ -72,25 +72,28 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+22\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faPencil}} Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. 
+
 21\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
 <!-- \marginpar{\textsuperscript{\faCommentsO}} -->
 Alger, I., Gavrilets, S., **Durkee, P. K.** (2024). Proximate and Ultimate Drivers of Norms and Norm Change. *Current Opinion in Psychology*.
 
 20\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
+\marginpar{\textsuperscript{\faCheckCircle \faDatabase \faFileCodeO}}
+Landers, M., Sznycer., D., **Durkee, P. K.** (2024). [Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. *Emotion*.](http://www.pdurkee.com/files/pubs/LandersSznycerDurkee2024.pdf)
+
+19\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
 <!-- \marginpar{\textsuperscript{\faCommentsO}} -->
 [**Durkee, P. K.**, Lukaszewski, A. L. (2024). Deconstructing “dominance” to refine leadership research. *Evolution and Human Behavior*.](https://www.sciencedirect.com/science/article/pii/S1090513824000461?dgcid=author)
 
-19\.\hangindent=0.5in
+18\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil\faFileCodeO}}
 <!-- \marginpar{\textsuperscript{} -->
 [Alberhasky, M., **Durkee, P. K.** (2024). Songs Tell a Story: The Arc of Narrative for Music. *PLoS ONE*.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0303188)
-
-18\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
-\marginpar{\textsuperscript{\faCheckCircle \faDatabase \faFileCodeO}}
-Landers, M., Sznycer., D., **Durkee, P. K.** (2024). [Are Self-Conscious Emotions About the Self? Testing Competing Theories of Shame and Guilt Across Two Disparate Cultures. *Emotion*.](http://www.pdurkee.com/files/pubs/LandersSznycerDurkee2024.pdf)
 
 17\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}}
@@ -229,6 +232,9 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Invited Talks}
 
+
+12\. \hangindent=0.5in **Durkee, P. K.** (February, 2025). *Linking adaptationist models of emotion to lexical personality traits*. Talk given at the SPSP Evolutionary Psychology Preconference in Denver, CO.
+
 11\. \hangindent=0.5in **Durkee, P. K.** (May, 2024). *Linking adaptationist models of emotion to lexical personality traits*. Talk given to the Center for Evolutionary Psychology (CEP) at UC Santa Barbara.
 
 10\. \hangindent=0.5in **Durkee, P. K.** (October, 2023). *Exploring conceptual overlap between preferences in economics and personality in pshychology*. Talk given to the CSU Fresno Department of Economics.
@@ -256,6 +262,9 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 1\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, February). *Psychological foundations of status*. Paper presentation in the symposium, "Social Status: New Work Challenging the Status Quo" (Co-Chair w/ J. Krems), at the Society for Personality and Social Psychology Virtual Annual Convention.
 
 \textcolor{light-gray}{Podium Presentations}
+
+14\. \hangindent=0.5in **Durkee, P. K.** (2025, February). *Navigating hierarchies: Cross-national examination of cues informing status criteria
+inference*. Podium presentation at the 25th annual meeting of the Society for Personality and Social Psychology (SPSP) in Denver, CO. 
 
 13\. \hangindent=0.5in [**Durkee, P. K.** (February, 2024). *Simulations exploring the interplay between measurands, mechanisms, and measurement in personality research*. Pre-recorded data blitz presentation for SPSP Personality Pre-Conference. \faPlay](https://www.youtube.com/watch?v=CLGuF_fBM0o&list=PL6Fi8qOQlSrj7v5Kj7C_aekqXco9Cnljk&index=9) 
 
@@ -359,9 +368,11 @@ Columbia, MO.
 
 \textcolor{light-gray}{Instructor of Record}
 
-Undergraduate Honors Seminar (in-person) \hfill \textcolor{light-gray}{Fall 2024}
+Causal Inference in Psychology (grad seminar) \hfill \textcolor{light-gray}{Spring 2025}
 
-Personality Psychology (in-person) \hfill \textcolor{light-gray}{Fall/Spring 2023, Spring 2024}
+Undergraduate Honors Seminar \hfill \textcolor{light-gray}{Fall 2024, Spring 2025}
+
+Personality Psychology \hfill \textcolor{light-gray}{Fall/Spring 2023, Spring 2024}
 
 Advanced Statistical Methodology in R (online) \hfill \textcolor{light-gray}{Fall 2021}
 
@@ -374,15 +385,15 @@ Supervised Teaching in Psychology \hfill \textcolor{light-gray}{Spring 2020}
 
 \textcolor{light-gray}{Lab Instructor}
 
-Statistics and Research Design (~20 students) \hfill \textcolor{light-gray}{Fall 2018, 2019}
+Statistics and Research Design \hfill \textcolor{light-gray}{Fall 2018, 2019}
 
 \textcolor{light-gray}{Teaching Assistant}
 
 Human Sexuality (~500 students per semester, online) \hfill \textcolor{light-gray}{Spring 2018, 2019, 2020, 2021; Fall 2020} \newline
-The Psychology of Language (~100 students) \hfill \textcolor{light-gray}{Fall 2017} \newline
-Cognitive Psychology (~25 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Learning & Memory (~30 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
-Research Methods (~40 students) \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
+The Psychology of Language \hfill \textcolor{light-gray}{Fall 2017} \newline
+Cognitive Psychology \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Learning & Memory \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016} \newline
+Research Methods \hfill \textcolor{light-gray}{Fall/Spring 2015, 2016}
 
 <!-- \textcolor{light-gray}{Guest Lectures} -->
 
