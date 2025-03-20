@@ -72,6 +72,11 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+23\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
+\marginpar{\textsuperscript{\faDatabase \faFileCodeO}}
+**Durkee, P. K.** (in press). Measuring Personality Traits: Simulations Exploring (Mis)Alignment Between Methods and Measurands. *Journal of Research in Personality*. 
+
 22\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}} Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. 
 
