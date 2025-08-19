@@ -73,10 +73,12 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 \textcolor{light-gray}{Peer Reviewed Articles}
 
 24\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faPencil}} Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Beyond Falsifiability: Evolutionary Psychology’s Many Theoretical Strengths. *American Psychologist*. 
+\marginpar{\scriptsize{\faLightbulbO\faPencil}} 
+Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Beyond Falsifiability: Evolutionary Psychology’s Many Theoretical Strengths. *American Psychologist*. [Response to commentaries]
 
 23\.\hangindent=0.5in
-\marginpar{\scriptsize{\faLightbulbO\faPencil}} Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. 
+\marginpar{\scriptsize{\faLightbulbO\faPencil}} 
+Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. [Target article]
 
 22\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
