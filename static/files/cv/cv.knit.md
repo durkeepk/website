@@ -7,7 +7,7 @@ geometry: margin=1in
 
 title: "CV"
 author: "Patrick Durkee"
-date: "`r format(Sys.time(), '%B, %Y')`"
+date: "August, 2025"
 #orcid: orcid.org/0000-0001-6159-4277
 # jobtitle: Assistant Professor"
 # address: ""
