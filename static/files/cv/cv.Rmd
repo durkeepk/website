@@ -72,6 +72,11 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+25\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
+\marginpar{\textsuperscript{\faDatabase \faFileCodeO}}
+**Durkee, P. K.**, Buss, D. M. (accepted). Hierarchy Navigation: Individual Differences in Tactics, Strategies, and Traits. *Human Nature*.
+
 24\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faPencil}} 
 Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Beyond Falsifiability: Evolutionary Psychology’s Many Theoretical Strengths. *American Psychologist*. [Response to commentaries]
@@ -211,11 +216,6 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Preprints and Working Papers}
 
-<!-- 3\.\hangindent=0.5in -->
-<!-- \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}} -->
-<!-- \marginpar{\textsuperscript{\faFileCodeO}} -->
-<!-- **Durkee, P. K.** (2024, March). [Proximate and ultimate drivers of norms and norm change. *IAST Working Paper*.](https://www.iast.fr/sites/default/files/IAST/wp/wp_iast_163.pdf) -->
-
 2\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faFileCodeO}}
@@ -226,11 +226,6 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 \marginpar{\textsuperscript{\faFileCodeO}}
 **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2021, April). [Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. *PsyArXiv*.](https://psyarxiv.com/4gvt5/)
 
-<!-- \textcolor{light-gray}{Manuscripts in Preparation} -->
-
-<!-- <!-- 6\. \hangindent=0.5in **Durkee, P. K.**, Buss, D. M. (in prep). Status conferral emotion networks. --> 
-
-<!-- <!-- \hangindent=0.5in **Durkee, P. K.**, Al-Shawaf, L., Buss, D. M. (in prep). Differentiating admiration and respect. --> 
 
 \textcolor{light-gray}{Other Publications}
 

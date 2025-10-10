@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  19 AUG 2025 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 OCT 2025 07:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -513,6 +513,9 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
+LaTeX Warning: Marginpar on page 2 moved.
+
+
 
 [2]
 
@@ -541,16 +544,16 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  15695 strings out of 469781
  263649 string characters out of 5481415
- 693358 words of memory out of 5000000
+ 694359 words of memory out of 5000000
  43841 multiletter control sequences out of 15000+600000
  670596 words of font info for 110 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,12n,79p,1191b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/patrickdurkee/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/patrickdurkee/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (9 pages, 144999 bytes).
+Output written on cv.pdf (9 pages, 145158 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
+ 320 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
  20 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
