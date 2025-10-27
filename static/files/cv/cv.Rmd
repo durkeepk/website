@@ -72,6 +72,11 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
+26\.\hangindent=0.5in
+\marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
+\marginpar{\textsuperscript{\faCheckCircle \faDatabase \faFileCodeO}}
+**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (accepted). Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. *Evolution and Human Behavior*.
+
 25\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faDatabase \faFileCodeO}}
