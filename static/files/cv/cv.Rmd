@@ -243,6 +243,8 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 \textcolor{light-gray}{Invited Talks}
 
+14\. \hangindent=0.5in **Durkee, P. K.** (October, 2025). *Prediction and Causal Inference as Subtasks of Adaptive Challenges*. Talk given to the Center for the Study of Human Nature, CSU Fullerton.
+
 13\. \hangindent=0.5in **Durkee, P. K.** (March, 2025). *Differentiating hierarchy navigation emotions*. Talk given at the Oklahoma Center for Evolutionary Analysis (OCEAN) at OK State.
 
 12\. \hangindent=0.5in **Durkee, P. K.** (February, 2025). *Linking adaptationist models of emotion to lexical personality traits*. Talk given at the SPSP Evolutionary Psychology Preconference in Denver, CO.
@@ -307,6 +309,14 @@ inference*. Podium presentation at the 25th annual meeting of the Society for Pe
 <!-- \newpage -->
 
 \textcolor{light-gray}{Poster Presentations}
+
+37\. \hangindent=0.5in **Durkee, P. K.** (2025, May). *Differentiating hierarchy navigation emotions.* Poster presented at the California Workshop for Evolutionary Social Sciences, at UCSB.
+
+36\. \hangindent=0.5in Chumley^\textdagger^, M., **Durkee, P. K.** (2025, May). *Jealousy and Personality.* Poster presented at the California Workshop for Evolutionary Social Sciences, at UCSB.
+
+35\. \hangindent=0.5in Do^\textdagger^, L., **Durkee, P. K.** (2025, May). *Gratitude and Personality.* Poster presented at Western Psychological Association Annual Conference, Las Vegas, NV.
+
+34\. \hangindent=0.5in Ahmed^\textdagger^, H., **Durkee, P. K.** (2025, May). *How do dominance and prestige relate to physical formidability?* Poster presented at Western Psychological Association Annual Conference, Las Vegas, NV.
 
 33\. \hangindent=0.5in Morales^\textdagger^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
