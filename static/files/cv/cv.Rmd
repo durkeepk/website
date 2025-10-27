@@ -66,8 +66,9 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 <!-- ^\faFileTextO^ ^=^ *^PDF^* -->
 \newline 
 ^Authorship^ ^Notes:^ 
-^\faUnsorted^ ^=^ *^Shared^ ^First^ ^Authorship^*
-<!-- ^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^ -->
+^\faUnsorted^ ^=^ *^Shared^ ^First^ ^Authorship^*^;^
+^\textdagger^ ^=^ *^Undergraduate^ ^Mentee^*^;^
+^\textdaggerdbl^ ^=^ *^Graduate^ ^Mentee^*
 
 
 \textcolor{light-gray}{Peer Reviewed Articles}
@@ -75,7 +76,7 @@ B.A., Psychology, *California State University, Fullerton* \hfill \textcolor{lig
 26\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
 \marginpar{\textsuperscript{\faCheckCircle \faDatabase \faFileCodeO}}
-**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (accepted). Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. *Evolution and Human Behavior*.
+**Durkee, P. K.**, Graves^\textdagger^, P. A., Rodriguez^\textdaggerdbl^, N. R. (accepted). Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. *Evolution and Human Behavior*.
 
 25\.\hangindent=0.5in
 \marginpar{\scriptsize{\faLightbulbO\faBarChart\faPencil}}
@@ -238,7 +239,7 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 
 # PRESENTATIONS
 
-^\faChevronCircleDown^ ^=^ ^Undergraduate^ ^Mentee^
+^\textdagger^ ^=^ ^Undergraduate^ ^Mentee^
 
 \textcolor{light-gray}{Invited Talks}
 
@@ -307,23 +308,23 @@ inference*. Podium presentation at the 25th annual meeting of the Society for Pe
 
 \textcolor{light-gray}{Poster Presentations}
 
-33\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+33\. \hangindent=0.5in Morales^\textdagger^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-32\. \hangindent=0.5in Garcia^\faChevronCircleDown^, M., Gonzalez^\faChevronCircleDown^, C., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+32\. \hangindent=0.5in Garcia^\textdagger^, M., Gonzalez^\textdagger^, C., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-31\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+31\. \hangindent=0.5in Valadez^\textdagger^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-30\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
+30\. \hangindent=0.5in Ortiz^\textdagger^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Western Psychological Association Annual Conference, San Francisco, CA.
 
-29\. \hangindent=0.5in Ahmed^\faChevronCircleDown^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
+29\. \hangindent=0.5in Ahmed^\textdagger^, H. **Durkee, P. K.** (2024, April). *How do dominance and prestige relate to physical formidability?* Poster presented at Central California Research Symposium, Fresno, CA.
 
-28\. \hangindent=0.5in Morales^\faChevronCircleDown^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+28\. \hangindent=0.5in Morales^\textdagger^, J. **Durkee, P. K.** (2024, April). *Guilt and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-27\. \hangindent=0.5in Gonzalez^\faChevronCircleDown^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+27\. \hangindent=0.5in Gonzalez^\textdagger^, C., Garcia, M., **Durkee, P. K.** (2024, April). *Pride, Shame, and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-26\. \hangindent=0.5in Valadez^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+26\. \hangindent=0.5in Valadez^\textdagger^, S., **Durkee, P. K.** (2024, April). *Gratitude and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
-25\. \hangindent=0.5in Ortiz^\faChevronCircleDown^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
+25\. \hangindent=0.5in Ortiz^\textdagger^, S., **Durkee, P. K.** (2024, April). *Anger and Personality.* Poster presented at Central California Research Symposium, Fresno, CA.
 
 24\. \hangindent=0.5in [**Durkee, P. K.** (2024, February). *Links between personality and individual differences in the functioning of evolved emotion programs.* SPSP Evolutoinary Psychology Pre-Conference.](https://osf.io/9nk5w/) 
 
@@ -339,17 +340,17 @@ inference*. Podium presentation at the 25th annual meeting of the Society for Pe
 
 18\. \hangindent=0.5in **Durkee, P. K.** (2021, May). *Hierarchy Navigation, Emotion Networks, and Fitness Interdependence.* Virtual poster presentation at the 15th annual California Workshop on Evolutionary Social Sciences.
 
-17\. \hangindent=0.5in Bargotra, S.^\faChevronCircleDown^, Diamond B.^\faChevronCircleDown^, Duarte H. L.^\faChevronCircleDown^, **Durkee, P. K.**, Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_4a0dca2931c042a38b24ac60884dd5cd.pdf)
+17\. \hangindent=0.5in Bargotra, S.^\textdagger^, Diamond B.^\textdagger^, Duarte H. L.^\textdagger^, **Durkee, P. K.**, Lukaszewski, A. L. (2020, July). *Anger closely tracks apparent undervaluation: Testing the recalibrational theory of anger using an act-nomination procedure.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_4a0dca2931c042a38b24ac60884dd5cd.pdf)
 
-16\. \hangindent=0.5in Bowen, L.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_8e49b4d32561449ca6aa7ac9a82738e9.pdf)
+16\. \hangindent=0.5in Bowen, L.^\textdagger^, **Durkee, P. K.**, Buss, D. M. (2020, July). *Differential associations between self-perceived social rank and facets of machiavellianism.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_8e49b4d32561449ca6aa7ac9a82738e9.pdf)
 
 15\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M., Batres, C., Kitema, H., A., Rezvushkina, T., Seisembekov, T., Dontsov, A., Samekin, A., Abdramanova, S., ... Burtsev, E. (2020, July). *Sex differences in sexual disgust: A cross-cultural analysis.* [Virtual poster at the 14th annual California Workshop on Evolutionary Social Sciences.^\faFilePdfO^](https://baeab2dc-9ca9-4f07-91d9-ca2bf5c551fa.filesusr.com/ugd/e82d4f_e00c96a9623f40cd95eee2aaad5e59f5.pdf)
 
-14\. \hangindent=0.5in [Yoon, J.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/uzpj5/)
+14\. \hangindent=0.5in [Yoon, J.^\textdagger^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Relationships between status-seeking and sociosexuality*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/uzpj5/)
 
-13\. \hangindent=0.5in [Mohamed, M.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/6jnz5/)
+13\. \hangindent=0.5in [Mohamed, M.^\textdagger^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Emotions that track others' status gains and losses*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/6jnz5/)
 
-12\. \hangindent=0.5in [Willis, D.^\faChevronCircleDown^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/3rv7z/)
+12\. \hangindent=0.5in [Willis, D.^\textdagger^, **Durkee, P. K.**, Buss, D. M. (2019, August). *Individual differences in hierarchy navigation strategies*. Poster presentation at the 1st annual Flyover State Scientists Integrating Evolution Conference, Stillwater, OK.^\faFilePdfO^](https://osf.io/3rv7z/)
 
 11\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L., Buss, D. M. (2019, June). *Are pride and shame key components of a culturally universal status management system?*. Poster presented at the 31st annual meeting of the Association for Psychological Science, Washington, DC.
 
@@ -357,7 +358,7 @@ inference*. Podium presentation at the 25th annual meeting of the Society for Pe
 
 9\. \hangindent=0.5in Crosby, C. L., **Durkee, P. K.**, Buss, D. M. (2019, April). *Mate availability and sexual disgust.* Poster presented at the 13th annual California Workshop on Evolutionary Social Sciences, Fullerton, CA.
 
-8\. \hangindent=0.5in Acevedo, C. M.^\faChevronCircleDown^, **Durkee, P. K.**, Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
+8\. \hangindent=0.5in Acevedo, C. M.^\textdagger^, **Durkee, P. K.**, Goetz, A. T. (2018, May). *The allure of altercations: Fitness-relevant information captures our attention*. Poster presented at the 12th annual California Workshop on Evolutionary Social Sciences, Santa Cruz, CA.
 
 7\. \hangindent=0.5in **Durkee, P. K.**, Lukaszewski, A. L. (2017, May). *Attractiveness assessment across domains*. Poster presented at the 11th annual California Workshop on Evolutionary and Social Sciences, San Louis Obispo, CA.
 
