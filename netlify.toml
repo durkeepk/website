@@ -7,16 +7,21 @@
 # @quarto/netlify-plugin-quarto. That plugin (last published 2022) resolves
 # releases through the GitHub API and fails here with "HttpError: Not Found".
 # An explicit command is also required to override the stale `hugo` build
-# command still configured in this site's Netlify UI settings.
+# command previously configured in this site's Netlify UI settings.
+#
+# Quarto is unpacked under /tmp, NOT into the repo: `quarto render` scans the
+# whole project for inputs, and Quarto's own bundled extension templates
+# contain .qmd scaffolds that are not valid Quarto markdown.
 
 [build]
   publish = "_site"
   command = """
     set -e
     echo "Installing Quarto $QUARTO_VERSION"
-    curl -fsSL -o quarto.tar.gz "https://github.com/quarto-dev/quarto-cli/releases/download/v$QUARTO_VERSION/quarto-$QUARTO_VERSION-linux-amd64.tar.gz"
-    tar -xzf quarto.tar.gz
-    export PATH="$PWD/quarto-$QUARTO_VERSION/bin:$PATH"
+    mkdir -p /tmp/quarto
+    curl -fsSL -o /tmp/quarto.tar.gz "https://github.com/quarto-dev/quarto-cli/releases/download/v$QUARTO_VERSION/quarto-$QUARTO_VERSION-linux-amd64.tar.gz"
+    tar -xzf /tmp/quarto.tar.gz -C /tmp/quarto
+    export PATH="/tmp/quarto/quarto-$QUARTO_VERSION/bin:$PATH"
     quarto --version
     quarto render
     """

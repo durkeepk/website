@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: _site
+  # Explicit list: never let a stray .qmd elsewhere in the tree be treated
+  # as site input.
+  render:
+    - index.qmd
+    - research.qmd
+    - cv.qmd
+    - 404.qmd
   resources:
     - files/**
 
