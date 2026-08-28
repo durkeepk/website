@@ -35,6 +35,12 @@
 # The apex -> www redirect is handled by Netlify's domain settings, not here.
 # ---------------------------------------------------------------------------
 
+# Renamed page (was /education for a few minutes on 2026-08-28).
+[[redirects]]
+  from = "/education"
+  to = "/background"
+  status = 301
+
 # The old Wowchemy profile page.
 [[redirects]]
   from = "/author/patrick-durkee/*"

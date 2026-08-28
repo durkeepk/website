@@ -5,7 +5,7 @@ project:
   # as site input.
   render:
     - index.qmd
-    - education.qmd
+    - background.qmd
     - research.qmd
     - cv.qmd
     - 404.qmd
@@ -21,8 +21,8 @@ website:
   navbar:
     title: "Patrick Durkee"
     left:
-      - href: education.qmd
-        text: Education
+      - href: background.qmd
+        text: Background
       - href: research.qmd
         text: Research
   page-footer:

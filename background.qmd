@@ -1,6 +1,6 @@
 ---
-title: "Education"
-description-meta: "Patrick Durkee's academic background: education and employment history."
+title: "Background"
+description-meta: "Patrick Durkee's academic background: how he got here, plus education and employment history."
 toc: false
 ---
 
@@ -26,11 +26,8 @@ anthropology, and political science. But I totally failed at learning French.
 I'm excited to return to my roots in the CSU system here at Fresno State. I look
 forward to continuing my research on hierarchy navigation and individual
 differences, while training the next generation of scholars for a diverse range
-of career opportunities.
-:::
-
-::: {.lab-invite}
-Students interested in getting involved in my research can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
+of career opportunities. Students interested in getting involved in my research
+can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
 :::
 
 ## Education
