@@ -1,6 +1,5 @@
 ---
 title: "Evolution and Personality"
-description: "Adaptations, adaptive problems, and how evolutionary thinking frames personality variation."
 ---
 
 Now that we have a decent taxonomy of personality traits for focusing our attention (i.e., the Big Five), we can begin to ask interesting questions about them. In this chapter we will turn our focus to an *ultimate* question: Why do these personality differences exist?
@@ -19,7 +18,7 @@ Natural selection depends on three conditions: *variation*, *differential reprod
 
 In any population (e.g., a crash of rhinos, an exaltation of larks, a tower of giraffes[^1]), individuals are slightly different from one another. Individuals within populations differ from one another in countless ways: body size, musculature, hunger, adventurousness, aggressiveness, furriness, speed, sleepiness, etc. All the traits that an organism possesses make up its *phenotype*. So, individuals within populations have somewhat different phenotypes. This phenotypic variation eventually leads to some traits becoming more prominent in a population because of differential selection and inheritance.
 
-#### Differential reproduction
+#### Differential Reproduction
 
 Some individuals within populations reproduce more than others and some don't reproduce at all. Sometimes individuals fail to reproduce because they die from some completely random accident. But individuals also fail to reproduce because there is something about their phenotype that led them to die before reproduction or to be unsuccessful in finding or copulating with a mate. Put another way, some individuals possess traits that make it harder to survive and reproduce in their habitat, while some individuals have traits that make it easier to survive and reproduce. For example, a slower adolescent gazelle might be more likely to be caught by a cheetah before they have a chance to mate; or a more brilliantly colored bird might be more noticeable than a duller bird, leading them to be detected more easily by potential mates and giving them more reproductive opportunities than duller birds. The degree to which an individual organism has traits that allow it to successfully survive and reproduce in their environment better than other individuals is referred to as differences in *fitness.*
 
@@ -47,19 +46,19 @@ Darwin's was a careful thinker and was always looking for ways to disprove his t
 
 Eventually, Darwin came up with a solution to this puzzle. He proposed a second evolutionary process, called *sexual selection*, which operates somewhat differently than natural selection. Sexual selection is a specialized form of natural selection whereby characteristics that improve success in competing to attract a mate become more common in a population, even if those traits aren't directly useful for survival---sometimes, traits can even harm survival and still be maintained via sexual selection. There are two mechanisms of sexual selection: *intra*-sexual competition and *inter*-sexual choice.
 
-#### intra-sexual Competition
+#### Intra-Sexual Competition
 
 Intrasexual competition involves members of one sex (usually males) competing for access to the opposite sex (usually females). This competition can take various forms, such as physical combat, displays of strength, or contests of endurance. The winners of these competitions often gain preferential access to mates and reproductive opportunities.
 
 Because of this competition being directly tied to reproductive success, any traits that provide a competitive advantage will tend to become more common in a population, assuming that the traits are inheritable. So, over long periods of time, traits like antlers, horns, and thicker skin have evolved in the sex that typically competes for mates (usually males) across many species. Many of these traits do not directly aid in survival. For example, male deer only grow antlers during the mating season, indicating that they are not used for protection in a general sense.
 
-#### Inter-sexual choice
+#### Inter-Sexual Choice
 
 Intersexual choice, also known as mate choice, involves members of one sex (often females) choosing mates based on certain preferred characteristics. These characteristics, often referred to as "ornaments" or "indicators of fitness," can include physical traits, behaviors, or social status. Sometimes, however, the preferences are somewhat arbitrary. Individuals with preferred traits are more likely to be chosen as mates, allowing them to pass their traits to the next generation.
 
 Sexual selection often leads to the development of exaggerated traits that are not directly related to survival but are favored because they appeal to the opposite sex. This can result in elaborate courtship displays, colorful plumage, or intricate behaviors that enhance an individual's attractiveness to potential mates. The peacock tail and complex bird songs are classic examples of traits that likely evolved via inter-sexual choice.
 
-## Products of evolution
+## Products of Evolution
 
 Evolution is ultimately just a change in frequencies of traits (and their associated genes) in a population over time. There are three main products of evolutionary processes: adaptations, byproducts, and noise.
 
@@ -75,7 +74,7 @@ Byproducts are traits that are not directly shaped by evolutionary processes, bu
 
 Noise refers to variation in traits that evolves and is not selected out by evolutionary processes because it is not tied to survival and reproduction. This noise is not part of the design of an organism. For example, peoples' bellybuttons vary in terms of size and appearance, but the size and appearance of bellybuttons doesn't matter for survival and reproduction on average. Noise, or random variation in traits, is inevitable because of random genetic mutations and environmental influences on traits. This variation is also a key driver of evolution because it can produce variants of traits that improve fitness (i.e., survival and reproduction).
 
-## The power of evolutionary theory
+## The Power of Evolutionary Theory
 
 Understanding the mechanisms and products of evolution, particularly natural and sexual selection, unveils the intricate tapestry of life. It allows us to comprehend how and why living organisms seem to fit so well within their natural habitats. Natural selection illustrates how subtle variations, advantageous or otherwise, influence survival and reproduction, shaping species over generations. Moreover, sexual selection illuminates the role of mate preferences and competition, driving the development of striking traits and behaviors that might seem unrelated to survival but profoundly impact a species' evolutionary trajectory. Together, these mechanisms produce adaptations, byproducts, and noise. Evolutionary theory provides a powerful lens through which we can fully appreciate the breathtaking diversity and complex interplay of life on Earth. In the next section, we will explore how it may also allow us to better human psychology as well.
 
@@ -83,7 +82,7 @@ Understanding the mechanisms and products of evolution, particularly natural and
 
 Evolutionary Psychology (EP) is relatively new approach to studying the mind and behavior. At its core, EP is about applying evolutionary theory to understand the mind and behavior. This approach posits that many---but not necessarily all---aspects of human psychology and behavior exist because they enhanced our survival and reproduction in ancestral environments. The main focus of EP are *evolved psychological mechanisms.*
 
-### What the #@%! is a psychological mechanism?
+### What the #@%! Is a Psychological Mechanism?
 
 A psychological mechanism is an abstract term to describe a hypothetical information processing system in the mind. I like to think of psychological mechanisms as biologically based computer programs that are each designed to do a particular task. Psychological mechanisms are typically hypothesized to take some inputs and produce some outputs (e.g., behavior) based on some set of (logical or numerical) algorithmic procedures. So, they have a structure like the one depicted in @fig-mechanism.
 
@@ -97,7 +96,7 @@ Ultimately, these computations produce some **outputs** in the form of behaviors
 
 To fully understand a psychological mechanism, we would want to eventually be able to provide a description for each of Marr's levels, which we covered in the Foundational Frameworks chapter. The computational level explanation would describe what the psychological mechanism is for, or what its function is, by identifying to an *adaptive problem* it is solves. The algorithmic level would describe the form of algorithm that transforms inputs to outputs. And the implementational level would describe how such computations are physically instantiated in our brains (or perhaps another physical substance).
 
-### What the #@%! is an adaptive problem?
+### What the #@%! Is an Adaptive Problem?
 
 Adaptive problems refer to the challenges and obstacles to survival and reproduction that our ancestors faced in their ancestral environments. Adaptive problems are challenges that would have needed to be reliably overcome generation after generation throughout our evolutionary history---often going back even before humans evolved. These problems encompass a range of fundamental concerns such as finding food, shelter, forming alliances, selecting mates, caring for offspring, avoiding predators, and navigating social hierarchies.
 

@@ -1,6 +1,5 @@
 ---
 title: "Personality Change"
-description: "Volitional personality change, interventions, and what can and cannot be changed."
 ---
 
 Earlier in the course, we examined personality development across the life course. We learned that personality traits are not perfectly fixed. People tend to become more stable in their relative standings as they get older, and there are average developmental trends in traits such as agreeableness, conscientiousness, and emotional stability. But that still leaves a more personal and practical question: can people change their personality in the specific ways they want to change?
@@ -9,7 +8,7 @@ This is a tricky question because the answer depends on what we mean by change. 
 
 In this chapter, we will examine volitional personality change, which refers to intentional efforts to change one's own personality traits. We will also examine evidence from clinical interventions, because psychotherapy and other structured interventions may change personality even when personality change is not the explicit goal. Along the way, we will keep returning to a basic idea: traits are broad descriptions, so changing a trait probably requires repeatedly changing the smaller state-level thoughts, feelings, and behaviors that make up the trait.
 
-## Many people want to change their personality
+## Many People Want to Change Their Personality
 
 Before asking whether people can change their traits, it is worth noting that many people want to. If you ask people whether there is some aspect of their personality they would like to change, most people can think of something. This should not be surprising. Personality traits are tied to many outcomes people care about, including relationships, work, health, and emotional well-being.
 
@@ -17,7 +16,7 @@ The most common desired changes also make intuitive sense. Across studies, peopl
 
 However, wanting to change is not the same thing as changing. Lots of people want to exercise more, sleep better, save money, or study earlier for exams. The wanting is real, but it does not automatically produce the behavior. Personality change has the same problem. The question is not only whether people prefer a different trait profile. The question is whether they can repeatedly think, feel, and behave in ways that are different enough, and consistent enough, to eventually shift their average tendencies.
 
-## From personality states to personality traits
+## From Personality States to Personality Traits
 
 A useful way to think about personality change is to distinguish between personality states and personality traits. A personality state is a temporary pattern of thinking, feeling, or behaving in a particular moment. For example, a person might behave assertively during a group task, conscientiously while studying, or (dis)agreeably during a conflict. A personality trait is a broader summary of how often and how strongly a person tends to show those states across many situations and over time.
 
@@ -31,7 +30,7 @@ The basic premise of many personality change interventions is that lasting trait
 
 This is why personality change is not just a matter of insight. Insight may help, and motivation may help, but the central mechanism in this framework is repeated change in thoughts, feelings, and behaviors. If the behavioral pattern never changes, then there is not much for the trait summary to summarize differently.
 
-## Participant attributes that may affect change
+## Participant Attributes That May Affect Change
 
 People differ in how likely they are to benefit from a personality change intervention. One obvious factor is motivation. A person who strongly wants to change may be more willing to practice new behaviors, tolerate discomfort, and continue when progress is slow. Motivation may be especially important because many personality change goals require doing things that initially feel unnatural. A shy person trying to become more extraverted may need to start conversations that feel awkward. A disorganized person trying to become more conscientious may need to build routines that feel tedious.
 
@@ -43,7 +42,7 @@ The evidence is less supportive of this idea than you might expect, however. In 
 
 This finding is useful because it pushes us away from overly simple slogans. Growth mindsets may be encouraging, but personality change probably depends more on what people repeatedly do than on whether they endorse a general belief that change is possible.
 
-## Intervention attributes that may affect change
+## Intervention Attributes That May Affect Change
 
 The design of the intervention also matters. A vague goal such as 'be more conscientious' or 'be less anxious' may express a real desire, but it does not give the person much guidance. What should they do at 9:00 AM tomorrow? What should they do when a friend texts them, when they sit down to study, or when they feel irritated? Personality traits are broad summaries, but interventions need to operate at the level of concrete states and behaviors.
 
@@ -55,7 +54,7 @@ A third feature is *intensiveness*. An intervention that happens once is unlikel
 
 A fourth feature is *duration*. Even an intensive intervention may not last long enough for new behaviors to become habitual or identity-relevant. Duration refers to how long the intervention continues. Longer interventions are not automatically better, because people may stop adhering if the intervention becomes exhausting or inconvenient. But in general, changing a trait-like pattern should require sustained practice over time rather than a single burst of effort.
 
-## Evidence from psychotherapy and clinical intervention
+## Evidence from Psychotherapy and Clinical Intervention
 
 One source of evidence for personality change comes from psychotherapy and clinical interventions. These interventions are often designed to reduce distress, treat symptoms, or improve functioning, not necessarily to change personality traits. Even so, they may alter the recurring thoughts, feelings, and behaviors that personality questionnaires measure.
 
@@ -63,7 +62,7 @@ A meta-analysis of intervention studies found that personality traits can change
 
 Psychotherapy is therefore a strong reminder that personality is not sealed off from the rest of psychology. The same processes that change symptoms, coping strategies, relationship patterns, or daily routines may also change trait-relevant patterns. Still, we should be cautious. When a person's depression or anxiety improves, their responses to personality items may change partly because they are in a different emotional state. Distinguishing true trait change from symptom change, response bias, or temporary state change is difficult. The evidence suggests that intervention-related trait change is possible, but it does not mean that every therapy client changes personality in the same way or to the same degree.
 
-## Evidence from volitional personality change studies
+## Evidence from Volitional Personality Change Studies
 
 Research on volitional personality change asks a slightly different question: when people intentionally try to change their traits, do they move in the direction they want to move? Early studies suggest that they often do, at least to some degree. For example, people who reported wanting to increase a trait such as extraversion tended to show increases in that trait over time (Hudson & Fraley, 2015). This pattern is encouraging, but it also leaves open an important question: what are people doing that produces the change?
 
@@ -75,7 +74,7 @@ The evidence is not uniformly simple. Some interventions work better for some tr
 
 More recent intervention studies have used digital tools to support personality change. In one randomized controlled trial, adults used a smartphone-based coaching intervention designed to support desired trait changes over several months (Stieger et al., 2021). Participants receiving the intervention showed greater changes than a waitlist control group, and some changes were also visible to people who knew the participants. This provides stronger evidence than simple correlational studies, because random assignment helps rule out some alternative explanations. But even randomized interventions do not answer every question. We still need to know how long changes last, which components are most important, and whether changes produce improvements in life outcomes.
 
-## How much change is possible?
+## How Much Change Is Possible?
 
 The evidence reviewed in this chapter supports the possibility of personality change, but it does not support unlimited change. Traits are relatively stable for a reason. They are shaped by many interacting factors, including genetics, biological systems, developmental history, habits, relationships, social roles, and environments. A short intervention can push on some of these factors, but it cannot instantly replace all of them.
 
@@ -85,7 +84,7 @@ Another issue is durability. A person might show meaningful change during an int
 
 Finally, personality change is not automatically improvement. Higher levels of a socially desirable trait can still have costs in some contexts. More conscientiousness may come with rigidity or stress. More agreeableness may make it harder to set boundaries. More extraversion may be useful in some environments and exhausting in others. Personality change should be evaluated in relation to goals, contexts, tradeoffs, and well-being, not treated as a simple march toward the highest possible score on every desirable trait.
 
-## Closing thoughts about personality change
+## Closing Thoughts About Personality Change
 
 The main conclusion from this chapter is neither 'personality is fixed' nor 'you can become anyone you want by deciding hard enough.' Both claims are too simple. Personality traits are stable enough that change usually requires sustained effort, repeated practice, and supportive contexts. But they are also malleable enough that interventions, therapy, social roles, and deliberate behavioral practice can shift them.
 

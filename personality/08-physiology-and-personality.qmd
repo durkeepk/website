@@ -1,6 +1,5 @@
 ---
 title: "Physiology and Personality"
-description: "Neurotransmitters, hormones, and physiological sources of personality variation."
 ---
 
 In the last chapter, we learned that genetics explains a significant portion of variation in personality and that the genetics of personality are far from simple. There are many, many genes that influence personality---and any single gene has only a very tiny effect.
@@ -13,7 +12,7 @@ We'll start with brains before moving to our bodies more generally. But let's no
 
 ## Brains
 
-### What is a brain?
+### What Is a Brain?
 
 Our brains are a highly sophisticated web of interconnected *neurons*. Neurons are a specialized form of nerve cell. They are the primary functional unit in the brain. The average human brain has 86 billion neurons (Herculano-Houzel, 2012). Each neuron can be connected to around 10,000 other neurons. That means that there are potentially trillions of neural connections in the human brain! This complexity, and the resulting potential for an immense number of possible configurations of brain activity or "brain states".
 
@@ -25,7 +24,7 @@ When a neuron fires, an electrochemical signal travels to the axon terminal and 
 
 This electrochemical communication between neurons and larger brain networks is the primary way that computations happen the brain. Because of this, differences in neuronal communication may help us understand how average individual differences in thoughts, feelings, and behavior (i.e., personality) arise.
 
-### Neurotransmitters and personality
+### Neurotransmitters and Personality
 
 There are over 100 types of neurotransmitters. But research in personality has explored on only a small number of these. In this chapter we will focus on two neurotransmitters that have been the subjects of most personality research: serotonin and dopamine.
 
@@ -37,13 +36,13 @@ It's tempting to present individual types of neurotransmitters as having specifi
 
 Considering the functions of these neurotransmitters, we could make predictions about their relations to personality. For example, we could predict that serotonin would be linked to the personality trait Neuroticism. And perhaps dopamine could be expected to be related to Openness or Extraversion. However, there is little evidence for reliable relationships between these neurotransmitters and personality.
 
-#### Limited evidence for links between neurotransmitters and personality
+#### Limited Evidence for Links Between Neurotransmitters and Personality
 
 The strongest evidence for links between neurotransmitters and personality comes from clinical trials of pharmaceutical treatments for depression and anxiety. The first-line treatments for depression and anxiety include a class of drugs called selective serotonin reuptake inhibitors (SSRIs). As the name implies, SSRIs work by preventing presynaptic neurons from taking back serotonin that is floating in the synapse, which allows the postsynaptic neuron's receptors to have more time to bind with the serotonin.
 
 Some research suggests that patients who are assigned to take SSRIs for treatment of depression or anxiety tend to score lower on self-report measures of Neuroticism in post-treatment questionnaires than in the pre-treatment questionnaires (Noordhof et al., 2019). This provides some tentative evidence that differences in serotonin are linked to differences Neuroticism. However, it isn't clear whether differences in serotonin can account for differences in Neuroticism (or other personality traits) in people who are not seeking treatment for depression or anxiety.
 
-#### Complicated relationships may obscure associations
+#### Complicated Relationships May Obscure Associations
 
 The lack of evidence for clear links between neurotransmitters and personality variation may simply be because there are very few simple or straightforward links between neurotransmitters and personality. The effects of neurotransmitters depend on a multitude of factors. Simply having more or less of a given neurotransmitter does not necessarily mean that it will have more effects. @fig-neuronal highlights some of the many aspects of neuronal communication that could lead to individual differences in the computations that produce behavior, thoughts, and feelings.
 
@@ -53,7 +52,7 @@ For example, there are differences in the number of postsynaptic receptors avail
 
 Therefore, it seems unlikely to me that the complexity of individual differences in neurotransmitter communication will be captured by examining simple relationships between neurotransmitter levels and personality traits. Without measuring more of the relevant factors and accounting for the complex interactions among all these moving parts, it will be difficult to understand how neurotransmitters relate to personality. In order for differences in neurotransmitters to explain personality differences, changes to neurotransmitter levels (1) would need to be sufficient to produces changes in activation in large brain regions/circuits/networks (otherwise the effects would be micro and insignificant); and (2) would need to be sustained over a long enough period of time to exert a detectable effect on personality features (otherwise the effects would be transient).Ultimately, neurotransmitters are unlikely to be linked to personality in a clear 1-1 fashion. We will need much more sophisticated methods and larger sample sizes to study these complex relationships.
 
-### Brain region size, connectedness, and activity
+### Brain Region Size, Connectedness, and Activity
 
 Neuroscientists also look at higher levels of organization within the brain in search of the physiological underpinnings of personality. Some of the most common targets of research are differences in the *size*, *activity,* and *connectedness* of different brain regions to try to explain personality differences.
 
@@ -63,7 +62,7 @@ This thinking goes back even before modern neuroscience. There have been many hi
 
 Modern neuroscience aims to systematically map the human brain and its functions by examining its structure and activity patterns. As a side goal, neuroscientists can gain insight into individual differences in brain structure and activity, which may inform personality research. Let's examine some of the main neuroscience methods and see what they may reveal about personality.
 
-#### Brain structure
+#### Brain Structure
 
 Neuroscientists have developed variety of neuroimaging tools for examining brain structure. Indices of brain structure include the size of brain regions, the shape of brain regions, and the interconnectedness of brain regions. It is helpful to understand neuroimaging methodology to envision the research and aid in interpreting the results, so we will review some common neuroimaging methods here.
 
@@ -77,7 +76,7 @@ What does neuroscience research using these methods to examine differences in th
 
 A recent meta-analysis that systematically surveyed and aggregated the near totality of studies examining links between personality and brain structure reported that there is "nothing to see here", meaning that there is no evidence for reliable links between gross brain structure differences and personality (Chen & Cali, 2022). Similarly, recent studies that examined over 1000 subjects each found mostly null or very small relationships between gross brain morphology and personality traits (Gray et al., 2018; Hyatt et al., 2021). In sum, there does not seem to be any strong evidence linking variation in gross brain structure, as measured by current methods, to variation in our current constructs of personality.
 
-#### Brain activity
+#### Brain Activity
 
 Neuroscientists can also use neuroimaging tools to measure brain activity. These methods allow for spatial assessment of *where* activity is happening, quantitative assessment of *how much* activity is happening, and temporal assessment of *when* activity is happening. Let's review some details of these methods, so we can get a better understanding of how this research is done before evaluating what the research reveals about personality.
 
@@ -91,7 +90,7 @@ Together, these technologies help neuroscientists see which parts of the brain a
 
 A meta-analysis by Kuper et al. (2019) aggregated 79 studies that looked at relationships between EEG activity and personality traits. In total, the studies represent over 5700 participants. The authors of the study reported that "less than 0.4% of the variance in extraversion and neuroticism could be explained by resting frontal asymmetry", which is one type of EEG data. Similarly, a recent fMRI study that examined over 1000 subjects to test for associations between personality traits and brain activity in several regions during reward-based tasks found no reliable relationships (Hyatt et al., 2020). However, another study using machine learning methods to measure individual differences in the patterns of interconnected activation across many brain regions reliably predicted all Big Five traits, except extraversion (Cai et al., 2020). More recently, a meta-analysis of 17 studies identified reliable associations between neuroticism and resting-state brain activity in several brain regions (Lin et al., 2023). In sum, the relatively inconclusive results of research linking brain size, activity, and connectedness to personality traits suggests that such links are complicated.
 
-#### Tentative conclusions about the state of personality neuroscience
+#### Tentative Conclusions About the State of Personality Neuroscience
 
 At this point you may be feeling somewhat underwhelmed with the insights delivered by neuroscience methods to the study of personality. I am too. But many researchers are optimistic that research using larger samples and better methods may provide more insight (e.g., De Young et al., 2022).
 
@@ -103,7 +102,7 @@ Another issue is that the personality traits like that Big Five and HEXACO, whic
 
 Now let's turn to aspects of our physiology outside of the brain. The aspects of our bodies that we will look at here interact with the nervous system in many ways and may have some influence on personality indirectly through their effects on our brain/mind. Let's start with the chemical messengers of the body: hormones.
 
-### The role(s) of hormones
+### The Role(s) of Hormones
 
 Hormones, like neurotransmitters, are chemical messengers. But hormones are produced by endocrine glands such as the pituitary, thyroid, and adrenal glands, and then distributed throughout the body. They travel through the bloodstream and target specific cells or organs, influencing a wide range of bodily functions and behaviors and do so for a relatively prolonged period of time. Hormones are crucial for coordinating bodily function and maintaining homeostasis, or balance, across the body's many organ systems.
 
@@ -121,7 +120,7 @@ We'll focus on the two most studied hormones when it comes to personality: testo
 
 **Testosterone** is an androgen that is typically present in higher levels in males than in females. During puberty, it drives the development of secondary sexual characteristics in males, such as the growth of facial and body hair, deepening of the voice, and muscle mass increase. This hormone is crucial for the regulation of energy metabolism, bone density, and the production of red blood cells. Additionally, individual differences in testosterone are associated with differences in aggression (Geniole et al., 2020).
 
-#### Hormones and personality
+#### Hormones and Personality
 
 Given the roles of cortisol and testosterone, how might we expect them to be related to personality? You might predict that because cortisol is related to stress responses, and the personality trait of Neuroticism seems to capture differences in stress responses (e.g., depression, anxiety), then differences in cortisol levels will relate to differences in Neuroticism. Additionally, you might predict that testosterone will be related to Extraversion or Agreeableness because testosterone is linked to aggression and competition, and Extraversion or Agreeableness capture differences in related constructs of status-striving and domineering. This is essentially the predictions made by many researchers examining links between hormones and personality.
 
@@ -131,11 +130,11 @@ The most convincing study that I've come across used data on testosterone and co
 
 In general, it seems that there are not many clear, strong links between broad personality features and single hormones. Perhaps things will become clearer as research samples get larger. However, it is likely that the effects of hormones on personality depend on complex interactions among many hormones, so we will need very large samples to be able to reliably estimate these relationships.
 
-### Does anything about our physiology predict personality?
+### Does Anything About Our Physiology Predict Personality?
 
 At this point you may be a little frustrated. Isn't there anything about physiology that predicts personality? In this section, we will look at a theoretical framework that can give clearer predictions about features of our physiology may be predictive of personality variation. Specifically, we'll examine the *facultative calibration* hypothesis of personality variation.
 
-#### Facultative calibration!?
+#### Facultative Calibration!?
 
 The phrase "facultative calibration" might appear a little daunting, so let's break it down. The term "facultative" refers to traits or behaviors that are flexible or changeable. The term "calibration" is about fine-tuning or adjusting something to make it accurate or suitable for a particular purpose. In the case of personality, facultative calibration refers to adjusting tendencies in behaviors, thoughts, and feelings (i.e., personality) over development.
 
@@ -143,7 +142,7 @@ More specifically, the facultative calibration hypothesis posits that our person
 
 At a basic level, the facultative calibration hypothesis leads the prediction that any physical trait that is related to the costs and benefits of a personality trait on average, will come to be associated with that trait. For example, if a physiological trait makes it easier to carry out a particular personality trait, then individuals possessing that physiological trait should be more likely to exhibit that trait.
 
-#### Empirical support for facultative calibration of personality traits
+#### Empirical Support for Facultative Calibration of Personality Traits
 
 Thus far, empirical research on facultative calibration has focused on three physiological features: attractiveness, formidability (i.e., physical strength and fighting ability), and health. Each of these physiological characteristics can be linked to personality traits by considering whether they make particular personality traits more or less effective. Let's explore some of these predictions and see whether they are supported by empirical data.
 
@@ -163,7 +162,7 @@ This research on facultative calibration is still in its early stages, and its l
 
 Importantly, facultative calibration provides a clear framework for making predictions based on an analysis of the costs and benefits of different personality traits. If any of the physical traits are influenced by genetic differences (which most are), then these differences may ultimately account for some of the genetic variance in personality. Further, if the psychological systems that calibrate personality are assessing the costs and benefits of traits throughout development, then this personality development mechanism can also account for the environmental components of personality variance as well. Ultimately, the facultative calibration hypothesis of personality variation is about more than just physical features like attractiveness, formidability, or health. Any characteristics of a person or their environment can alter the costs and benefits of different personality traits.
 
-## Conclusions about physiology and personality
+## Conclusions About Physiology and Personality
 
 The research we have discussed in this chapter makes one point very clear: the links between our physiology and personality should not be expected to be simple 1-1 relationships. Personality traits are complex phenomena that are not simply reflections of physiological differences. In fact, because personality traits as they are currently studied are rooted in language terms for individual differences, there is no guarantee that they will strongly map onto any underlying biological reality. We may need to reexamine how we define and measure personality traits to make further progress in understanding their physiological underpinnings.
 

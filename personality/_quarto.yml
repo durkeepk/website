@@ -17,6 +17,10 @@ book:
   search: true
   reader-mode: true
   chapters:
+    # index.qmd deliberately has no YAML front matter and an unnumbered H1.
+    # A chapter with a YAML title is always numbered, which would make the
+    # landing page Chapter 1 and shift every cross-reference by one
+    # (Chapter 4's figures came out as "Figure 5.1"). Do not add front matter.
     - index.qmd
     - 01-foundational-frameworks.qmd
     - 02-past-perspectives.qmd

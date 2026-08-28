@@ -1,17 +1,16 @@
 ---
 title: "Personality Power"
-description: "How much personality predicts, and how those effects compare with other predictors."
 ---
 
 Thus far, we've explored how personality taxonomies like the Big Five or HEXACO came to be and critically examined our ability to measure relative differences between people on personality dimensions. We learned that contemporary personality taxonomies are largely informed by the natural-language adjective terms that people use to describe others personality. We also scrutinized the measurement tools used to measure personality traits. We found decent evidence of their reliability and validity, suggesting that personality inventories can be useful proxies for differences in personality.
 
 But just because we can measure something, doesn't mean it's important. Given that personality traits are theoretically expected to be stable characteristics of a person that influence how they interact with the world, we might expect that personality traits could allow us to predict and explain many aspects of a person's life. So, is personality powerful? In this chapter, we'll discuss the evidence for the power of personality in prediction and explanation.
 
-## The person-situation debate
+## The Person-Situation Debate
 
 We can't really talk about the power of personality without treading into an age-old debate. People have been arguing for ages about whether internal or external forces are more important for understanding human behavior. In contemporary psychology, this dispute manifested in what has come to be known as the person-situation debate. There are two opposing sides to this debate.
 
-### Person (trait) Position
+### Person (Trait) Position
 
 Proponents of the person side of the debate---often referred to as trait theorists---argue that individuals possess consistent and enduring traits that influence their behavior across situations. These traits, like extraversion or conscientiousness, are seen as intrinsic to the person and relatively stable over time. This perspective emphasizes the importance of understanding an individual's unique characteristics to predict their actions.
 
@@ -23,7 +22,7 @@ Advocates of the situation perspective emphasize the powerful influence of exter
 
 Following from this position, situationists would expect that peoples' behavior is not consistent across time and across situations. Accordingly, the main research focus on this side of the debate is to identify situations and features of situations that influences human behavior.
 
-## Walter Mischel's critique of personality
+## Walter Mischel's Critique of Personality
 
 At the height of the person-situation debate, Walter Mischel challenged the traditional view of personality by questioning the stability and consistency of behavior across different situations. He argued that the assumption of consistent, enduring traits guiding behavior oversimplifies the complexity of human actions. Mischel's critique was encapsulated in his book "Personality and Assessment" (1968).
 
@@ -35,7 +34,7 @@ Mischel's "person-situation interaction" theory proposed that behavior is an out
 
 Overall, Mischel's arguments challenged the conventional view of personality as a set of stable traits, paving the way for a more nuanced and contextually sensitive understanding of human behavior. His work encouraged researchers to explore the intricate relationship between individual differences and the environments in which they manifest, fostering a more comprehensive and dynamic perspective on personality psychology.
 
-## The power of the situation
+## The Power of the Situation
 
 Following the second world war, social psychologists conducted a lot of studies that highlighted the power of the situation for shaping how people behave. The most famous of these studies are probably the Milgram Experiments and the Stanford Prison Experiment.
 
@@ -49,7 +48,7 @@ Follow up research has examined how personality traits may have played a role in
 
 Together, these follow up studies suggest that the personality traits of participants likely played some role in the results of the original studies. While the Milgram Experiments and Stanford Prison Study may highlight the impact that extreme situations can have on behavior, they certainly do not rule out a role for personality.
 
-## The power of personality
+## The Power of Personality
 
 The growing evidence for the power situations spurred research examining the predictive and explanatory power of personality traits. We now have evidence that the personality estimates we can get by administering personality inventories can be useful for predicting important outcomes.
 
@@ -59,11 +58,11 @@ Subsequently, Roberts et al. (2007) conducted a meta-analysis to examine the cor
 
 More recently, Beck & Jackson (2022) used data on over 170,000 people from 10 different longitudinal studies to test the power of personality. They conducted mega-analyses that controlled for many different sets of background variables (e.g., race, age, socioeconomic status). They found that personality trait scores were correlated with 14 life outcomes (e.g., divorce, marriage, having children, losing a job) and that controlling for potential confounds or moderating characteristics did not substantially dampen their predictive power. You can explore all the analyses for each personality trait and life outcome on the website they created to display their results: [https://emoriebeck.shinyapps.io/Big-5-Prediction/](https://emoriebeck.shinyapps.io/Big-5-Prediction/).
 
-### Aside: prediction versus (causal) explanation
+### Aside: Prediction versus (Causal) Explanation
 
 These studies that highlight the power of personality are based on cross-sectional observational correlational data, which makes the causal picture unclear. We should take a step back and remember the adage: correlation is not causation. It is easy to interpret correlations between personality and life outcomes as indicating that personality traits cause life outcomes. But this would be a leap of logic that is not warranted by the data and evidence we currently have. Something can be a good predictor of an outcome and not actually have any causal effect on the outcome. Future research may be able to use recent advances in causal inference to better test the casual effects of personality on life outcomes. But for now, we can still appreciate the predictive power of personality.
 
-## Resolving the person situation debate
+## Resolving the Person Situation Debate
 
 After years of heated debate, we can now declare the person-situation debate over---or at least not worth discussing further (Hogan, 2009). The person-situation debate is largely a waste of time because neither extreme is likely to be true. Most contemporary psychologists agree that behavior in any given instance is an interaction between features of the situation and features of the person.
 

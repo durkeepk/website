@@ -1,6 +1,5 @@
 ---
 title: "Foundational Frameworks"
-description: "Levels of analysis, Tinbergen's four questions, and Marr's three levels as frameworks for studying personality."
 ---
 
 Studying psychology can feel a bit disorienting. Many undergraduate courses and research topics in psychology appear to be only loosely connected. The psychological literature is filled with myriad empirical findings, many of which are not even be reliably repeatable (Anvari & Lakens, 2018). Professors and researchers defend "theories" that feel more like confidently stated hunches about psychological phenomena than well-developed explanations and descriptions (Eronen & Bringmann, 2021).
@@ -81,7 +80,7 @@ And we would hope to be able to do the same for our psychology. If we want to gi
 
 Ideally, we could point to some more specific part of the brain (e.g., the amygdala or frontal lobe). And eventually maybe to more specific clusters or neurons or interactions among groups of neurons. We might also need to describe how other areas of the body are involved in anger. For example, the muscles and tendons that contort our faces in a way that says, "I'm angry!" without us saying a word. In general, I think we are long way off from understanding the implementational level of many psychological phenomena (like emotions or personality)---especially because we don't yet have a great grasp of things at the algorithmic or even the computational levels of analysis. But maybe you can help change that!
 
-## Connecting to personality
+## Connecting to Personality
 
 At this point, you may be wondering what any of this has to do with personality. It might not be clear how applying Tinbergen's Four Questions or moving through Marr's three levels of analysis helps us understand a personality trait. To better appreciate how these frameworks can help us study personality, let's practice applying them to personality.
 
@@ -133,7 +132,7 @@ The last of Marr's levels is the **implementational level**. Of course, any psyc
 
 Ultimately, by developing description of pessimism---or any trait---at the computational, algorithmic, and implementational levels of analysis, we can begin to provide more-complete and detailed explanations of psychological phenomena. In theory, this should allow us to recreate the phenomenon of interest, using different implementational components than our biology uses. For example, we could potentially simulate the trait using the software and hardware of a computer or robot instead of the software and hardware of organic organisms.
 
-## Wrapping up and building on these foundations
+## Wrapping Up and Building on These Foundations
 
 In this chapter, we've just begun our journey to understand the complexities of personality. It's understandable that the vast field of psychology can initially appear bewildering, with its disconnected findings, loosely defined theories, and myriad empirical questions. But as we've seen, there are foundational frameworks at our disposal to make sense of this seemingly chaotic landscape. We'll rely on these frameworks frequently throughout this course.
 

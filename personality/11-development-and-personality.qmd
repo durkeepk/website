@@ -1,11 +1,10 @@
 ---
 title: "Development and Personality"
-description: "Rank-order stability, mean-level change, and the maturation of personality across the lifespan."
 ---
 
 This chapter delves into the topic of personality development from infancy to adulthood. We'll examine personality development through the lens of the Big Five personality traits. Specifically, we'll explore how the structure of personality changes across development, how personality becomes more stable over time, and normative trends in how personality "matures" as we get older.
 
-## Temperament versus personality
+## Temperament versus Personality
 
 Historically, developmental psychologists have distinguished between *temperament* and personality (Shiner et al., 2021). Temperament in this context refers to individual differences in the first two years of life. In theory, temperament is expected to have a stronger biological basis because these individual differences emerge soon after birth, ostensibly before culture and other aspects of the environment can have much influence.
 
@@ -13,7 +12,7 @@ Distinguishing between temperament and personality as different constructs might
 
 For our purposes, we will refer to all individual differences in tendencies of thought, feeling, and behavior as personality, regardless of what life stage we are examining. However, as we will see, this doesn't mean that personality looks exactly the same across the lifespan.
 
-## The Little six?
+## The Little Six?
 
 There are some important differences between youth and adult personality (Soto & Tacket, 2015). One of the biggest differences is in the *structure* of personality. We learned about the structure of adult personality back in the "Contemporary Personality Perspectives" module.
 
@@ -23,7 +22,7 @@ There are non-trivial differences in the structure of personality in childhood a
 
 The "Little Six" is a model of youth personality that combines key traits from both child temperament and adult personality studies (Soto & John, 2014). Child temperament models have historically included include four dimensions: sociability, negative emotionality, persistence, and activity level. Interestingly, three of these dimensions align well with adult personality traits, like extraversion, neuroticism, and conscientiousness. This suggests that there might be six fundamental personality dimensions: extraversion, agreeableness, conscientiousness, neuroticism, openness to experience, and *activity*. Recent research on parents' reports of their children's personalities supported this idea, showing that the Little Six structure is present consistently from middle childhood through adolescence, while the traditional Big Five structure emerges later in late adolescence. These findings also suggest that as we age, childhood variation in the activity dimension merges with Extraversion.
 
-## General principles of personality development
+## General Principles of Personality Development
 
 There are two broad principles that have been supported by empirical research on personality development. We will call the first the "cumulative continuity" principle. We will call second the "maturity" principle. We will explore each in the relevant sections below, and also examine some interesting caveats.
 
@@ -49,7 +48,7 @@ Caveat: The stability of personality is far from perfect. Research on the stabil
 
 While the maturity principle suggests a general trend of personality maturation as individuals age, there is one caveat. Researchers have found that the biological, social, and psychological changes that occur during the transition from childhood to adolescence can lead to temporary dips in some agreeableness, conscientiousness, and emotional stability (Tacket & Soto, 2015). For most, puberty is the period of life characterized by the most turbulent personality change. This idea of *personality disruption* will come as no surprise to any parents of teenagers reading this.
 
-## Normative trends aren't "one size fits all"
+## Normative Trends Aren't "One Size Fits All"
 
 We've examined the major normative trends in personality development: personality becomes more stable as we age, and people tend to become more agreeable, emotionally stable, and conscientious. However, these trends reflect the *average* tendencies of how a population of people can be expected to change. They do not necessarily predict how any given individual will change---it's very possible that your own personality development doesn't seem to fit very well with these normative trends.
 

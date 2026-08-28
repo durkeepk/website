@@ -1,6 +1,5 @@
 ---
 title: "Culture and Personality"
-description: "Cross-cultural evidence on personality structure, cultural dimensions, and the WEIRD-samples problem."
 ---
 
 You may not have realized this, but most of our exploration of personality thus far has been focused on a very small subset of humans. Most of the data is focused on people living in the United States, Canada, and the United Kingdom because that's where most psychological research has historically been conducted. Humans in these countries, however, are obviously only a very small percentage of the global population, and they are probably different in several regards from other humans who are currently living or have lived in the past. Specifically, these countries are geographically (and ideologically) *Western*, highly educated (in terms of formal schooling), heavily *Industrialized*, financially *Rich* (in terms of GDP), and *Democratic*. Psychologists commonly refer to this group of country characteristics with the tongue-in-cheek acronym "WEIRD".
@@ -11,7 +10,7 @@ Cross-cultural research plays a pivotal role in enriching our understanding of h
 
 In this chapter, we will examine some cross-cultural research exploring the interplay between culture and personality. We will examine what culture is, what it is made up of, and learn about a few fundamental dimensions of culture that will orient our focus. Then, we will explore how these fundamental cultural dimensions relate to cultural variation in personality trait levels and the structure of personality itself. Before we get going with our exploration of culture and personality, let's review some basic pitfalls that we want to avoid and review basics of statistical distributions that can help us avoid them.
 
-## Common pitfalls to avoid
+## Common Pitfalls to Avoid
 
 When examining cultural differences, there are several pitfalls to avoid. **Essentialism** is a common pitfall to avoid when discussing cross-cultural research and cultural differences. This involves reducing a culture to a set of fixed, immutable traits or characteristics, ignoring the diversity and complexity within that culture. It overlooks the dynamic nature of cultures and individuals within them, leading to oversimplification and stereotyping. **Ethnocentrism** is another pitfall, where one evaluates other cultures solely based on the standards and values of their own culture, often leading to judgment or bias against those cultures. It's crucial to recognize and appreciate cultural differences without imposing one's own cultural norms as the universal standard.
 
@@ -29,7 +28,7 @@ By acknowledging the overlap between cultural groups, we can avoid the trap of o
 
 Now that we are equipped to avoid these pitfalls, we can begin to traverse the landscape of cultural variation in personality.
 
-## Elements of culture
+## Elements of Culture
 
 What is culture? Just as it is difficult to pin down just one definition of personality, it is also challenging to define culture succinctly. For our purposes, we will avoid providing a rigid definition of culture and instead focus on exploring some of the key elements that constitute it. We'll consider five elements of culture: symbols, beliefs, values, norms, and practices.
 
@@ -47,45 +46,32 @@ Together, these elements interact in different combinations to make up the cultu
 
 While there may be an underlying logic to many combinations of cultural elements that arise in a group, there can also be a randomness or arbitrariness to it. Some cultural elements, such as norms or practices, may have originated by chance or historical accidents; but they are perpetuated simply because people continue to adhere to them. Culture is dynamic and evolving --- shaped by a complex interplay of historical, social, and psychological factors. There is a whole field of cultural evolution that specifically studies the dynamic change of cultural elements over time.
 
-### Levels of culture and cultural identities
+### Levels of Culture and Cultural Identities
 
 It is also important to recognize that culture can be defined at many levels. A nation is a convenient unit for cross-cultural research, but people also belong to ethnic groups, political groups, social classes, cities, neighborhoods, religions, languages, occupations, hobbies, music scenes, academic disciplines, and many other groups. Each of these can include its own symbols, beliefs, values, norms, and practices.
 
 This means that a person is not simply from one culture. Most people hold many cultural identities at once, and these identities can become more or less important across situations. For example, the cultural expectations that guide behavior in a family setting may not be the same expectations that guide behavior in a classroom, workplace, religious community, neighborhood, or online group. This is one reason we should expect cultural influences on personality to be plural, probabilistic, and heterogeneous rather than simple and deterministic.
 
-## dimensions of culture
+## Dimensions of Culture
 
 Just like there are countless ways individual people might differ in their tendencies of thoughts, feelings, and behaviors (i.e., personality traits), there are also countless ways that groups can differ in their unique combinations of symbols, practices, beliefs, norms, and values (i.e., culture). In previous chapters, we learned that psychologists made the study of personality traits more tractable by using factor analysis to identify broad dimensions of personality; it turns out that a similar approach was applied to identify broad dimensions of culture.
 
 In the 1960s and 1970s Dr. Geert Hofstede, a psychologist studying cultural differences, used interviews and surveys to index variation in practices, beliefs, norms, and other elements of culture across multiple countries. Through his research and several follow-up studies, six fundamental cultural dimensions have been identified (Hofstede & Bond, 1984). The first dimension, *Power Distance*, reflects the acceptance of unequal power distribution within a society. *Individualism vs. Collectivism*, the second dimension, measures the prioritization of personal versus group interests. The third dimension, *Masculinity vs. Femininity*, explores the degree of emphasis on traditional masculine values like competitiveness and assertiveness versus feminine values such as cooperation and nurturance. *Uncertainty Avoidance*, the fourth dimension, examines the level of discomfort with ambiguity and risk within a culture. The fifth dimension, introduced later, is *Long-Term Orientation vs. Short-Term Orientation,* which assesses the focus on long-term planning and perseverance versus short-term gratification. Finally, *Indulgence vs. Restraint*, indexes the extent to which societies allow for gratification of human desires (e.g., sexual, material). See the table below for an overview of what the extremes of each dimension describe.
 
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Dimension                  | Description of High End                                                                                                                                                                          | Description of Low End                                                                                                                                                                  |
-+============================+==================================================================================================================================================================================================+=========================================================================================================================================================================================+
-| Power                     | Acceptance of hierarchical structures and centralized decision-making. Less powerful members of society defer to authority figures and expect clear delineation between social classes or ranks. | Preference for more egalitarian relationships. Individuals challenge authority and expect a participatory decision-making process.                                                      |
-| Distance                   |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Individualism vs.         | Emphasis on personal freedom, autonomy, and achievement. People prioritize their own goals and assert their individuality.                                                                       | Emphasis on group harmony and cooperation. Individuals prioritize the needs and goals of the group over individual desires.                                                             |
-| Collectivism               |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Masculinity vs.           | Emphasis on traditionally masculine values such as competitiveness, assertiveness, and achievement. Success is often defined in terms of material wealth and status.                             | Emphasis on nurturing relationships, quality of life, and work-life balance. Success is often defined in terms of social welfare and personal fulfillment.                              |
-| Femininity                 |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Uncertainty               | Preference for rules, structure, and conformity to minimize uncertainty. People avoid ambiguous situations and seek security through adherence to traditions and established norms.              | Tolerance for ambiguity and a willingness to take risks. People are more open to change, innovation, and experimentation.                                                               |
-| Avoidance                  |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Long-Term Orientation vs. | Emphasis on long-term planning, perseverance, and thriftiness. People prioritize long-term goals and are willing to sacrifice short-term gains for future success.                               | Emphasis on short-term gratification, tradition, and respect for social norms. People focus on enjoying the present moment and may prioritize short-term gains over long-term planning. |
-| Short-Term Orientation     |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Indulgence vs.            | Emphasis on enjoying life, freedom of expression, and indulging in personal desires. People prioritize leisure, pleasure, and self-expression.                                                   | Emphasis on self-discipline, modesty, and adherence to social norms. People restrain their desires and adhere to strict social codes of conduct.                                        |
-| Restraint                  |                                                                                                                                                                                                  |                                                                                                                                                                                         |
-+----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Dimension | Description of High End | Description of Low End |
+|:---|:---|:---|
+| Power Distance | Acceptance of hierarchical structures and centralized decision-making. Less powerful members of society defer to authority figures and expect clear delineation between social classes or ranks. | Preference for more egalitarian relationships. Individuals challenge authority and expect a participatory decision-making process. |
+| Individualism vs. Collectivism | Emphasis on personal freedom, autonomy, and achievement. People prioritize their own goals and assert their individuality. | Emphasis on group harmony and cooperation. Individuals prioritize the needs and goals of the group over individual desires. |
+| Masculinity vs. Femininity | Emphasis on traditionally masculine values such as competitiveness, assertiveness, and achievement. Success is often defined in terms of material wealth and status. | Emphasis on nurturing relationships, quality of life, and work-life balance. Success is often defined in terms of social welfare and personal fulfillment. |
+| Uncertainty Avoidance | Preference for rules, structure, and conformity to minimize uncertainty. People avoid ambiguous situations and seek security through adherence to traditions and established norms. | Tolerance for ambiguity and a willingness to take risks. People are more open to change, innovation, and experimentation. |
+| Long-Term Orientation vs. Short-Term Orientation | Emphasis on long-term planning, perseverance, and thriftiness. People prioritize long-term goals and are willing to sacrifice short-term gains for future success. | Emphasis on short-term gratification, tradition, and respect for social norms. People focus on enjoying the present moment and may prioritize short-term gains over long-term planning. |
+| Indulgence vs. Restraint | Emphasis on enjoying life, freedom of expression, and indulging in personal desires. People prioritize leisure, pleasure, and self-expression. | Emphasis on self-discipline, modesty, and adherence to social norms. People restrain their desires and adhere to strict social codes of conduct. |
 
 : Description of Hofstede's six dimensions of culture {#tbl-hofstede}
 
 Importantly, much like the Big Five and other factor analytic models of personality do not capture every nuance of personality variation, Hofstede's dimensions also probably do not capture many nuances of cultural differences. However, the dimensions provide a tractable framework for understanding and comparing cultural differences across societies. We will refer to these dimensions as we further explore the interplay between culture and personality.
 
-## Interplay between culture and personality
+## Interplay Between Culture and Personality
 
 How is culture related to personality? As you might guess, these constructs are overlapping, and mutually reinforcing. As we will see, it is likely that personality shapes culture (personality -\> culture), and that culture shapes personality (culture -\> personality). This is because the systems of interconnected beliefs, norms, values, and other elements of culture are ultimately maintained in the minds of individuals: individuals are culturally influenced influencers of culture. But also, culture can shape personality via at least two pathways: enculturation and acculturation.
 
@@ -95,13 +81,13 @@ How is culture related to personality? As you might guess, these constructs are 
 
 There are some important nuances to keep in mind when considering the power of these cultural processes to shape personality. Firstly, they are implicit, meaning that individuals often internalize cultural norms and values without conscious awareness. Secondly, they are plural, indicating that there are multiple cultural influences at play, including family, peers, media, and societal institutions. Thirdly, they are probabilistic, suggesting that individuals may not adopt all aspects of their culture equally or in the same way, and outcomes can vary based on various factors such as individual differences and environmental circumstances. Finally, these processes are heterogeneous, meaning that they manifest differently across diverse cultural contexts and can result in a wide range of outcomes in terms of personality, beliefs, and behaviors. With these caveats in mind, let's examine some of the empirical research describing how cultural influences may shape personality.
 
-### Culture -\> Personality
+### Culture → Personality
 
 One way culture can shape personality is by repeatedly exposing people to particular situations, expectations, rewards, and punishments. A culture that strongly values group harmony, for example, may provide frequent opportunities to practice deference, cooperation, and concern for others. A culture that strongly values self-expression may provide more opportunities to practice assertiveness, novelty seeking, and public self-promotion. These repeated situations do not create personality out of nothing, but they may help calibrate the average ways that people think, feel, and behave.
 
 Cross-cultural research has found average differences in Big Five trait levels across nations and cultural groups (Schmitt et al., 2007). These findings are interesting, but they should be interpreted with the cautions from earlier in the chapter. Average differences in trait levels do not imply that every person in one culture differs from every person in another culture. They also do not tell us whether culture caused the difference, personality caused the cultural pattern, both influenced each other, or some third variable influenced both.
 
-#### Culture and personality development
+#### Culture and Personality Development
 
 Culture may also shape how personality changes across the lifespan. Recall from the development chapter that people tend, on average, to become more agreeable, conscientious, and emotionally stable with age. Cross-cultural research suggests that these maturation trends are fairly widespread, but the timing and strength of these changes differ across cultures. One explanation is that cultures differ in when people enter adult social roles, such as stable work, committed partnerships, parenting, and other responsibilities. In one large study across 62 nations, cultures with earlier onset of adult-role responsibilities tended to show earlier personality maturation (Bleidorn et al., 2013).
 
@@ -109,19 +95,19 @@ Cultural expectations may also matter later in life. For example, Kitayama and c
 
 These patterns suggest that culture may influence which personality patterns are reinforced, expected, or made difficult at different ages.
 
-#### Cultural experiences and acculturation
+#### Cultural Experiences and Acculturation
 
 Acculturation provides another window into culture shaping personality. When people move into a new cultural context, they may repeatedly encounter different norms, values, practices, and social expectations. Over time, these experiences can shift how people typically behave or how they understand themselves. Research on studying abroad, for example, suggests that international experiences can be associated with changes in some Big Five traits, although people who choose to study abroad may already differ from people who do not (Niehoff et al., 2017).
 
 Research on immigrants provides a similar example. In one study of Japanese, Japanese American, and European American participants, greater involvement in U.S. culture was associated with personality profiles that fit U.S. cultural patterns more closely and Japanese cultural patterns less closely (Güngör et al., 2013). This is consistent with the idea that personality can acculturate. But it still requires caution: cultural exposure, self-selection, age, language, social roles, and measurement issues can all be tangled together.
 
-#### Problems with comparing personality across cultures
+#### Problems with Comparing Personality Across Cultures
 
 Comparing personality across cultures is difficult because the measure itself may not work the same way across groups. A translated item may not carry the same meaning. A trait word may depend on a cultural context that is not shared by all participants. People in different cultures may compare themselves to different reference groups when answering questions (Heine et al., 2002). Response styles can also differ; for example, some groups may be more likely to agree with statements in general, avoid extreme responses, or answer in socially desirable ways.
 
 These problems matter because they can make a real cultural difference look larger or smaller than it is, or they can make a measurement artifact look like a cultural difference. This does not mean we should give up on cross-cultural personality research. It means we should treat reliability and validity as central scientific problems rather than boring technical details.
 
-### Personality -\> Culture
+### Personality → Culture
 
 Culture can shape personality, but the arrow also points in the other direction. Cultures are produced and maintained by groups of individuals. If many people in a group tend to be open to novelty, extraverted, threat-sensitive, cooperative, suspicious, risk tolerant, or highly status motivated, those aggregate tendencies may influence the symbols, beliefs, values, norms, and practices that become common in that group.
 
@@ -129,7 +115,7 @@ For example, region-level personality has been linked to cultural and political 
 
 The difficulty is that these patterns are usually circular. Personality may help shape culture, culture may help shape personality, and both may be influenced by other features of the environment. A cautious population might develop cautious norms, and cautious norms might then reinforce cautious behavior. Over time, it becomes hard to separate the chicken from the egg.
 
-## Ecological factors
+## Ecological Factors
 
 One way to make progress on the chicken-and-egg problem is to examine ecological factors. Ecological factors are aspects of the physical environment that can influence development and behavior but are less likely to be directly produced by personality or culture. Examples include latitude, temperature, topography, pathogen prevalence, soil quality, resource availability, and subsistence style. These variables are not magic causal explanations, but they can help us think more clearly about why cultures and personality patterns might differ across places.
 
@@ -139,7 +125,7 @@ Pathogen prevalence provides another example. In environments where infectious d
 
 Topography is another possible ecological influence. Mountainous or frontier environments may be more difficult to settle and may reward or attract people who are more independent, self-reliant, or open to risk and novelty. In a large study of the United States, Götz and colleagues (2020) found that mountainousness was associated with regional differences in Big Five traits. These effects were not enormous, and they do not mean that every person in a mountain region has the same personality. But they illustrate how physical environments can become part of the broader explanation for cultural and personality variation.
 
-## Cultural variation in personality structure
+## Cultural Variation in Personality Structure
 
 So far, we have mostly focused on trait levels: whether one group is higher or lower, on average, on some personality trait. But we also need to think about personality structure. Personality structure refers to the pattern of covariation among traits in a population. The Big Five is not merely a list of five interesting traits. It is a claim that many narrower traits tend to cluster into five broad dimensions.
 
@@ -149,7 +135,7 @@ The evidence is more complicated. The Big Five structure tends to replicate fair
 
 Another way to see this issue is through indigenous personality research. If researchers begin with personality concepts that are especially important in a particular language or cultural context, they may find dimensions that imported Big Five measures miss. For example, research on Chinese personality assessment has identified an Interpersonal Relatedness dimension, including concepts such as ren qing, or reciprocal relationship orientation, that are not fully captured by standard Big Five measures (Cheung et al., 2001). This does not mean people in one culture have psychological traits that people in another culture completely lack. It means the socially important ways of describing, organizing, and measuring personality may differ across cultures.
 
-### The Tsimane case study
+### The Tsimane Case Study
 
 One important case study comes from research with the Tsimane, an Indigenous group living in the Bolivian Amazon. The Tsimane are often described as forager-horticulturalists who live in relatively small communities, rely heavily on subsistence activities, and have had less exposure to formal schooling and industrialized institutions than participants in typical personality studies.
 
@@ -157,7 +143,7 @@ Gurven and colleagues (2013) translated a Big Five questionnaire into the Tsiman
 
 There are two ways to react to this finding. One reaction is to assume the result is just a measurement problem: maybe the translation was imperfect, the questions were unfamiliar, or the response format did not fit the context. Those are serious possibilities, and cross-cultural researchers should take them seriously. But Gurven and colleagues tested several measurement explanations and still did not find strong support for the Big Five. So the more interesting possibility is that the structure of personality itself may differ across socioecological contexts.
 
-### The niche diversity hypothesis
+### The Niche Diversity Hypothesis
 
 The niche diversity hypothesis was developed to explain why personality structure might differ across societies. A niche is a smaller position or role within a larger society that has its own opportunities, constraints, and payoff structures. Occupations, social groups, coalitions, families, and organizations can all be thought of as niches. Different niches may reward different combinations of traits.
 
@@ -171,7 +157,7 @@ Durkee and colleagues (2022) tested the niche diversity hypothesis using Big Fiv
 
 These findings suggest that niche diversity can partly explain cultural variation in personality structure. But it is not without problems. The evidence is correlational, the indicators of niche diversity are imperfect, the personality data came from people with internet access, and cross-cultural personality measurement remains difficult. Still, this framework helps move the field beyond simply asking whether the Big Five is universal. A better question is: What features of human minds, cultures, and socioecologies explain both the similarities and differences in personality structure across populations?
 
-## Closing thoughts about culture and personality
+## Closing Thoughts About Culture and Personality
 
 Culture and personality are not separate forces acting independently on behavior. Culture is maintained in the minds and actions of individuals, and individuals develop within cultural and ecological contexts. This means that culture can shape personality, personality can shape culture, and ecological factors can influence both.
 

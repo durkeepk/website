@@ -1,6 +1,5 @@
 ---
 title: "Past Perspectives"
-description: "Psychodynamic, neo-Freudian, humanistic, and behaviorist perspectives on personality."
 ---
 
 A thorough and systematic understanding of personality will likely require the scientific method. But humans have only been applying something like the scientific method to understand personality and individual differences for a hundred years or so. So, for most of history, ideas about personality have been largely nonscientific. What can we learn from these past perspectives on personality that can give is a better appreciation for scientific approaches to understanding personality?
@@ -13,9 +12,9 @@ Third, examining how long people have been trying to understand personality and 
 
 So, how long have humans been thinking about personality? What were some perspectives on personality in the past? Let's explore.
 
-## Is personality ancient?
+## Is Personality Ancient?
 
-### Personality in the oldest written story
+### Personality in the Oldest Written Story
 
 The oldest written story we have evidence for is the *Epic of Gilgamesh*. It is a Mesopotamian story found written on stone tablets that date back to around 2200 BCE --- that's over 4000 years ago! And the story itself was probably transmitted verbally for a long time before it was written down.
 
@@ -25,7 +24,7 @@ The obvious takeaway from the story is that death is inevitable, and we should e
 
 But were the ancient humans who wrote down the epic including information about the characters personality? Du et al. (2023) examined the Epic of Gilgamesh to see what personality relevant information it contained and how that information might have changed as it was transcribed over the course of 1000 or so years. They found that even the earliest version of the story contained person descriptor words that are relevant to personality. Moreover, the number of personality descriptor words increased over time in different versions of the story. Thus, it appears that even 2000 years ago, humans wanted to know about others' personality.
 
-### What about earlier?
+### What About Earlier?
 
 The Epic of Gilgamesh is old but not super old. Humans have existed for at least 200,000 years. Did super ancient humans care about individual differences and have ideas about personality? This is a difficult question to answer because we can't look back in time to see what they thought. But I think we can be fairly certain that our ancestors cared about personality for several reasons. Below I outline some reasons to think that personality differences existed and were important enough to care about throughout deep in our evolutionary past.
 
@@ -35,9 +34,9 @@ As we'll see in the next chapter, personality as we know it depends largely on l
 
 Of course, this is all a "just-so-story". But I can't really come up with a good reason why our ancestors wouldn't have paid attention to personality, and why personality concepts wouldn't have emerged in language fairly early on. Ultimately, I think it's pretty safe to say that humans have been thinking about personality and individual differences, at least implicitly or unconsciously, for a very very very long time. But what can we know about what these ancient humans thought about personality?
 
-## A nonexhaustive history of historical personality perspectives
+## A Nonexhaustive History of Historical Personality Perspectives
 
-###  A note on missing data
+### A Note on Missing Data
 
 Personality doesn't fossilize. We can only learn about what ancient humans thought about personality if those ancient humans happened to record their thoughts on material that would last long enough for us to find it. The overwhelming majority of personality-relevant information about cultures from around the world are lost to time.
 
@@ -45,13 +44,13 @@ So, we don't have data on what most cultures thought of personality. For example
 
 It is important to appreciate that the cultures we do have data from may not be representative of all human cultures that have ever existed. Still, by looking at the data we do have, perhaps we can start to get a sense of what sorts of things ancient humans might have thought about personality.
 
-### Ideal personalities
+### Ideal Personalities
 
 Ancient Confucian writings going back to 500 BCE discuss the concept of *Junzi*, which could be thought of as the closest any individual person could get to the ideal personality. Junzi has three components: *Ren* (benevolence), *Zhi* (wisdom), and *Yong* (courage). Under this view, people could cultivate different levels of each component and each component is causally related to one's behavior and thought. In contrast to Junzi, Confucian writings also discuss a personality concept of small-mindedness or pettiness, called *xiaoren.*
 
 The Bhagavad-Gita, an ancient Hindu text going back to around 200 BCE talks about personality being composed of three "modes", the *Tri Gunas*. The three modes are: *sattva* (holiness), *rajas* (desire), and *tamas* (darkness). In this belief system, a person's actions are determined by the dominant mode. The relative dominance of each mode could be attributed to many things: mystic formulas, occupation, birth, ancestry, thought, etc.
 
-### humourous humorism
+### Humorous Humorism
 
 Humorism is the belief that illnesses and differences in behavior correspond to the balance of four fluids ("humors") in the body: yellow bile in the liver; black bile from the kidneys; phlegm from the lungs; and blood from the heart. This belief system is often attributed to the ancient Greek physician-philosophers Hippocrates and Galen. But beliefs like humourism may actually go back further to ancient Mesopotamia or Egypt.
 
@@ -61,7 +60,7 @@ These beliefs might sound humorous to us now, but humorism was prevalent for ove
 
 ### Freud and the Neo-Freudians
 
-#### Freud and psychosexual stages of personality development
+#### Freud and Psychosexual Stages of Personality Development
 
 According to Freud, our personality develops from a conflict between two forces: our biological aggressive and pleasure-seeking drives versus our internal (socialized) control over these drives. Our personality is the result of our efforts to balance these two competing forces. Freud suggested that we can understand this by imagining three interacting systems within our minds. He called them the id, ego, and superego.
 
@@ -97,23 +96,23 @@ Following the phallic stage of psychosexual development is a period known as the
 
 The final stage is the genital stage (from puberty on). In this stage, there is a sexual reawakening as the incestuous urges resurface. The young person redirects these urges to other, more socially acceptable partners (who often resemble the other-sex parent). People in this stage have mature sexual interests, which for Freud meant a strong desire for the opposite sex. Individuals who successfully completed the previous stages, reaching the genital stage with no fixations, are said to be well-balanced, healthy adults.
 
-#### Neo-freudians
+#### Neo-Freudians
 
 Freud's ideas inspired and influenced many subsequent psychologists, mostly through disagreements. The followers of Freud, who are often deemed "neo-Freudians", typically agreed with Freud that there are unconscious urges that are important for behavior and that development mattered for personality, but they often disagreed about the specifics. Some notable neo-freudians that we will examine here are Alfred Adler, Karen Horney, and Carl Jung.
 
-##### Alfred Adler: inferiority avoidance
+##### Alfred Adler: Inferiority Avoidance
 
 Alfred Adler disagreed with Freud's proposal that sexual libido and aggression were the main driving forces of human behavior. Adler argued instead that the need to be superior to others, or at least to avoid being inferior to others is the main driver of behavior and personality.
 
 Adler also proposed the idea that birth order shapes our personality. He suggested that older siblings, who start out as the focus of their parents' attention but must share that attention once a new child joins the family, compensate by becoming overachievers. The youngest children, according to Adler, may be spoiled, leaving the middle child with the opportunity to minimize the negative dynamics of the youngest and oldest children. Despite popular attention, research has not provided much support for Adler's hypotheses about birth order.
 
-##### Karen Horney: Need for security and support
+##### Karen Horney: Need for Security and Support
 
 Karen Horney was one of the first women trained as a Freudian psychoanalyst. Horney disagreed with the Freudian idea that girls have penis envy and are jealous of male biological features. According to Horney, any jealousy is most likely culturally based, due to the greater privileges that males often have in a patriarchal society. She further countered that men have womb envy because they cannot give birth.
 
 Like Adler, Horney disagreed with Freud's focus on sexual urges and aggression. Her theory of personality development focused on the role of unconscious anxiety. She suggested that normal growth can be blocked by basic anxiety stemming from needs not being met, such as childhood experiences of loneliness and/or isolation Horney suggested that people cope with these anxieties and desire for security with three main coping styles: moving towards people; moving away from people; and moving against people. Horney believed these three styles are normal ways in which people cope with day-to-day problems but that inflexibility in applying the strategies can lead to neurotic behavior and alienation from others.
 
-##### Carl Jung: Archetypes, Attitudes,
+##### Carl Jung: Archetypes, Attitudes
 
 Jung's split from Freud was based on two major disagreements. First, Jung, like Adler and Erikson, did not accept that sexual drive was the primary motivator in a person's mental life. Second, although Jung agreed with Freud's concept of a personal unconscious, he thought it to be incomplete. In addition to the personal unconscious, Jung focused on the collective unconscious.
 

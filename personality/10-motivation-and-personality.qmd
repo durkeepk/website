@@ -1,13 +1,12 @@
 ---
 title: "Motivation and Personality"
-description: "Module 10 of Personality Psychology: internal regulatory variables, fundamental motives, and their links to personality traits."
 ---
 
 In the last module, we explored how variation in personality maps on to variation in emotions. We learned that ultimate perspectives about the evolved functions of emotions can inform proximal research questions about relationships between emotional variation and personality. In this chapter, we'll use another ultimate framework---that of evolved fundamental motives---to explore how differences in motivational priorities might help to explain abstract personality constructs captured by descriptive lexical dimensions like the Big Five and HEXACO traits.
 
 *Note: If phrases like "adaptations", "adaptive problems", "evolutionary fitness" are unfamiliar to you, you may want to review the chapter on "Evolution and Personality" before continuing.*
 
-## What are motivations?
+## What Are Motivations?
 
 When I ask students what a motivation is, I often get answers that involve "wanting", "desiring", "needing", or "striving" for a goal. This isn't wrong. It certainly fits with my own experience of what motivations feel like---and probably with your subjective experience as well. But we want to delve a little deeper to try to get beyond the subjective experience of motivation and the words we use to describe these experiences. We need a more *mechanistic* view of motivations: one that treats motivation as a component of the broader computational system that makes up the human mind.
 
@@ -25,17 +24,17 @@ Internal regulatory variables play a role in regulating behavior, thoughts, and 
 
 The theoretical concept of motivation that we'll rely on is the different weights that our minds place on the value of different goals. But what are the goals that humans have? How can we determine which ones are important to study?
 
-## What goals are motivations for?
+## What Goals Are Motivations For?
 
 There have been many attempts to identify the most basic or important human goals or motivations. A common theme in motivation theories is that peoples' behavior is largely determined by the goals they are pursuing and the motives that are active.
 
-### Early motivation theorists
+### Early Motivation Theorists
 
 Freud and the neo-Freudians that we discussed back in the "Past Personality Perspectives" chapter each had their own hunches about which motives drive for human behavior. Freud thought that the libido, or the sex drive, was the primary motivational drives in humans. As for the neo-Freudians, Karen Horney argued that the primary human drives were the need for belonging and security, while Alfred Adler argued that people were primary motivated by the need for superiority (or at least avoiding inferiority). Who is right?
 
 These theories of motivation appear to overlook the fact that there are likely to be many fundamental human motives. There probably isn't just one motive or drive that can be held responsible for all of the varied behaviors that people engage in. We probably need several motives to explain the many in thoughts, feelings, and behaviors that humans produce.
 
-### Maslow's hierarchy of Needs
+### Maslow's Hierarchy of Needs
 
 One of the first proposals of a list of multiple fundamental motives was developed by Abraham Maslow in 1943, which is referred to as Maslow's Hierarchy of Needs[^1]. @fig-maslow shows the typical representation of Maslow's hierarchy as a pyramid. According to Maslow, behavior will be geared towards addressing whichever goal is currently being worked on, and the lower-order needs at the bottom of the hierarchy must be fulfilled before the higher-order needs (higher on the pyramid) can be achieved.
 
@@ -55,7 +54,7 @@ In the early 2000s evolutionary psychologists revised Maslow's Hierarchy based o
 
 Under this evolutionary fundamental motives framework, a given motive will be activated in response to the relevant cues of the adaptive problem being present. For example, if you enter into a competition that could affect your status, then internal regulatory variables related to status motives will be relevant; or if predators are detected, then internal regulatory variables related to self-protection will be involved. Of course, some goals, like kin care or mate acquisition and retention can only be activated at particular life-stages and depend on achieving some other goals---mate retention is only relevant if you already solved the adaptive problem of acquiring a mate, for example. Moreover, these motives are fairly rough categories that could be further divided up into more narrowly defined adaptive problems. But ultimately, this framework provides some useful dimensions that we can explore in relation to personality.
 
-#### Linking fundamental motives to personality constructs
+#### Linking Fundamental Motives to Personality Constructs
 
 Neel and colleagues (2016) developed scales to measure individual differences in each of the fundamental motives, along with more specific aspects of them (e.g., disease avoidance within safety needs). Evidence suggests these scales have good reliability and their validity has largely been established by linking them to other individual difference constructs like personality traits. As shown in @tbl-motives-bigfive, several studies in sample from the USA (Ns \> 200) show that individual differences in fundamental motives are reliably linked to Big Five personality trait constructs in predictable ways (Neel et al., 2016).
 
@@ -74,7 +73,7 @@ Neel and colleagues (2016) developed scales to measure individual differences in
 
 : Correlations between fundamental motives and Big Five personality traits from Neel et al. (2016) {#tbl-motives-bigfive}
 
-#### Limitations of current motive measures
+#### Limitations of Current Motive Measures
 
 Of course, this research can't really show that motivations are *causing* the variation in personality. It could also be that differences in personality lead people to experience different situations that have more of particular adaptive problems. For example, extraverted individuals are more likely be in social situations, so they may be more likely to experience cues to adaptive problems relevant to status and affiliation. Or other individual differences like age may cause differences in both the fundamental motives and personality traits, leading them to be correlated even though they do not have a direct influence on one another.
 
@@ -97,7 +96,7 @@ Moreover, because both personality questionnaires and the fundamental motives qu
 
 In my own research (Durkee et al., 2023), I've also used self-report scales to measure HEXACO traits and status motivations in samples of participants in India and the USA (Ns \> 800). I found that higher status motivations were reliably connected to higher Extraversion and lower Honesty-Humility in both countries. In India, higher status motivations were also linked to higher Conscientiousness and higher Openness. These findings add some additional evidence that motivational priorities are reliably linked to personality traits. But they also suggest that some of these connections may differ depending on the cultural interpretations of motivations and their manifest behavior, thoughts, and feelings.
 
-## Closing thoughts about motivations and personality
+## Closing Thoughts About Motivations and Personality
 
 In this chapter, we've learned that the concept of motivations may refer largely to subtle differences in the weight that organisms---or more accurately, organisms' internal regulatory variables---place on different adaptive problems. We explored how differences in motivations could be expected to relate to descriptive personality constructs like the Big Five and HEXACO traits. Just like with emotions, many of the personality trait terms we employ describe subtle differences in peoples' motivational priorities, or the weights that their mind places on addressing different adaptive problems. This can again help us to better predict how others may behave in different situations.
 

@@ -1,6 +1,5 @@
 ---
 title: "Measurement Matters"
-description: "Reliability, validity, and the practical business of measuring personality well."
 ---
 
 Some sort of quantification of the thing we want to study is necessary if we want to objectively compare things in a systematic way. Without measurement, we can't do science. So, after the Big Five was discovered, people began developing tools to specifically measure a person's standing on the traits of Extraversion, Agreeableness, Neuroticism, Conscientiousness, and Openness. Measurement of personality traits like the Big Five or HEXACO traits would, in theory, allow researchers to use their knowledge of a person's personality to predict things like behavior and life outcomes. The most common way of measuring personality traits in psychology is through lists of questions called "scales" or "inventories".
@@ -27,7 +26,7 @@ How can we assess the extent to which a measurement tool gives consistent estima
 
 All the reliability assessment methods we'll look at are based on correlations. I'm going to mostly assume here that you know what a correlation is, but here is a quick summary. Correlations summarize the overlap between variables. The correlation coefficient is bounded between -1 and +1. The closer a correlation is to 1, whether it's negative 1 or positive 1, the stronger the correlation is---or the more overlap there are between the two constructs. A correlation of zero means that there is absolutely no relationship or overlap between constructs, so the closer a correlation coefficient is to zero, the less strongly related they are. The positive and negative sign of the correlation coefficient tells us the direction of the relationship. If the sign is positive, then it means there is a positive correlation between variables, i.e., when one variable tends to be high, the other tends to be high as well. If the sign is negative, it means the correlation is negative, i.e., when one variable is high, the other tends to be low. When it comes to reliability assessments, we typically want to see strong correlations as evidence.
 
-### Test-retest reliability
+### Test-Retest Reliability
 
 Test-retest reliability assesses the stability and consistency of a measurement over time. It involves administering the same measurement to the same individuals on separate occasions. A strong positive correlation indicates that the measurement tool consistently captures something---but not necessarily the thing we want to measure---across different points in time. These measurement occasions can be separated by any amount of time deemed appropriate by the researcher, whether that's minutes, hours, days, weeks, months, or years.
 
@@ -57,7 +56,7 @@ Across all of the Big Five traits, the expected reliability of a test is about .
 
 This meta-analysis found that studies with longer times between tests typically had lower test-retest reliability than studies with less time between tests. But in general, reliabilities were still high, even for tests two months apart. In a later chapter we will explore more about how personality changes over time, so it isn't necessarily a problem if reliability is lower over longer periods of time. We sort of expect that unless you think personality is perfectly fixed across time (some researchers do).
 
-### Inter-item reliability
+### Inter-Item Reliability
 
 Inter-item reliability evaluates the internal consistency of a multi-item scale or questionnaire designed to measure a specific construct. It examines how well the individual items within the scale correlate with one another. This is typically assessed using methods like Cronbach's alpha, which you'll see in many papers indicated by its Greek letter, α. A high inter-item correlation suggests that the items are repeatedly measuring a similar thing---ideally the same thing. If we have very low correlations among our items, it may suggest that they are not good items.
 
@@ -81,7 +80,7 @@ For most Big Five measures, inter-item reliability is very high. The table below
 
 : Inter-item reliability for the in-class Big Five personality test. {#tbl-inter-item}
 
-### Inter-rater reliability
+### Inter-Rater Reliability
 
 Inter-rater reliability gauges the level of agreement or consistency among different raters or observers when evaluating a particular phenomenon or behavior. People can have different perceptions of most psychological outcomes, especially personality, so we want to be able to assess how much estimates from personality inventories differ from person to person. High inter-rater reliability scores signify a high level of agreement among the raters, enhancing the confidence in the accuracy and consistency of the measurements.
 
@@ -111,7 +110,7 @@ Interestingly, even in a first meeting, people may even be able to judge others'
 
 There is a whole huge area of research exploring how and why people's perceptions of others' personality may differ and how these perceptions change over time, which we may be able to explore in a later chapter. For now, we should just recognize that self-other and even other-other agreement is not very high, but that doesn't necessarily mean there is something wrong with the measures themselves.
 
-## Validity assessments
+## Validity Assessments
 
 So, the reliability of most Big Five tests that are commonly used is typically pretty good. There is strong test-retest reliability across fairly long time periods, there is strong inter-item reliability, and there is moderate inter-rater agreement. I'd be comfortable saying that most Big Five tests are reliable, meaning they can consistently measure something. But again, reliability is not enough---we want to know that we are consistently measuring the specific something that we intend to measure (i.e., Big Five traits). Let's look at some methods for assessing validity and see what the evidence for the validity of Big Five personality inventories looks like.
 
@@ -119,11 +118,11 @@ There are two broad types of validity assessments: *subjective* and *empirical*.
 
 ![Different types of validity.](images/04-validity-types.svg){#fig-validity fig-alt="Two hierarchies. Subjective Assessments divides into Face Validity and Content Validity. Empirical Assessments divides into Predictive, Concurrent and Discriminant Validity." width="700"}
 
-### Subjective validity assessments
+### Subjective Validity Assessments
 
 Subjective validity can be assessed without collecting any data or doing any statistical tests. We can all conduct a subjective validity test for any inventory just by looking at it and thinking a bit. We just need a good sense of the *operational definition* of the trait. The operational definition describes the specific thing being measured (e.g., Extraversion) in a way that allows us to determine how the measurement tool can achieve measurement. Let's take a closer look at face validity and content validity.
 
-#### Face validity
+#### Face Validity
 
 Face validity is an initial, subjective evaluation of whether a measurement tool appears, "on its face", to measure the intended construct accurately. It assesses whether the items or questions in the instrument seem relevant and appropriate to the construct being measured.
 
@@ -131,17 +130,17 @@ Assessing face validity is like judging a book by its cover. It's a quick, intui
 
 However, face validity isn't always desirable. Sometimes we don't want subjects to know exactly what is being measured. For example, if we were to try to measure psychopathic traits using a self-report scale, we might not want it to be obvious because then a good psychopath could just lie to us if they don't want to be measured. However, we should always consider the face validity of our measure because it likely that our subjects will make some guesses about what we are measuring and those guesses can affect their responses---so by considering what it looks like we are measuring, we might be able to better interpret participant responses.
 
-#### Content validity
+#### Content Validity
 
 Content validity is a systematic and comprehensive assessment of how well the items in a measurement tool represent the construct being measured. It involves judgment to ensure that the items adequately cover all aspects of the construct.
 
 Content validity is like making sure you have all the pieces of a puzzle that you are trying to put together. If you are missing jigsaw pieces, the puzzle will, at best, be incomplete; and if you're missing too many pieces you may not even be able to produce anything that looks like the picture you intended to produce (i.e., measure the thing you intended measure). We want to make sure our questions in an inventory (corresponding to puzzle pieces) provide complete coverage of our trait (corresponding to the puzzle picture).
 
-### Empirical validity assessments
+### Empirical Validity Assessments
 
 Empirical tests require us to collect some data and run some statical tests. This doesn't necessarily mean they are purely objective tests; researchers must still make subjective interpretations of the statistical results to determine what sort of evidential value they have. Let's take a closer look at the empirical validity assessments: criterion/predictive validity; concurrent/convergent validity; and discriminant/divergent validity.
 
-#### Criterion (Predictive) validity
+#### Criterion (Predictive) Validity
 
 Criterion validity, also known as predictive validity, refers to the extent to which a measurement tool accurately predicts or correlates with a specific outcome that theory predicts it should be closely related to. It involves comparing the scores obtained from the measurement tool with the scores on an established criterion, and ideally demonstrating a strong relationship between them.
 
@@ -175,7 +174,7 @@ Indeed, when we examine studies that directly measure behavior, the correlations
 
 ####
 
-#### Concurrent (Convergent) validity
+#### Concurrent (Convergent) Validity
 
 Concurrent validity---sometimes called convergent validity---involves comparing a new inventory with an existing, well-established inventory that measures the same construct. To do this comparison, the different inventories are typically administered to a group of people at the same time, so that we have scores for everyone on both inventories, allowing us to assess their correlation. Ideally, we want very high correlations on inventories that are supposed to measure the same thing. For example, different Neuroticism inventories should be highly correlated, as should different Openness measures.
 
@@ -202,7 +201,7 @@ Another application of convergent validity is when researchers make a shorter sc
 
 ####
 
-#### Discriminant (Divergent) validity
+#### Discriminant (Divergent) Validity
 
 Discriminant validity---sometimes called divergent---is the degree to which a measurement tool accurately distinguishes between the construct it's intended to measure and other unrelated constructs that it isn't supposed to measure. It ensures that the tool does not measure other irrelevant traits, demonstrating its ability to discriminate between different concepts or variables.
 
@@ -212,7 +211,7 @@ For personality inventories, discriminant validity is often used to argue that a
 
 It is also important that Big Five scores are mostly uncorrelated with one another as well---we don't really want Extraversion scores to be picking up on Neuroticism or Openness because that makes it harder to interpret what they mean. In reality, however, it is often the case that scores in different personality dimensions are correlated at least a little bit, perhaps due to some self-report biases. This phenomenon is often attributed to a mythical "crud" factor that accounts for confounds that might drive correlations among scores from inventories in psychology.
 
-## What's the verdict? Do personality inventories measure what they intend to?
+## What's the Verdict? Do Personality Inventories Measure What They Intend To?
 
 In this chapter we've examined the important components of measurement, reliability and validity. We learned how to assess information about inter-rater reliability, test-retest reliability, and inter-item reliability, which is necessary but not sufficient for measurement. Then, we learned how to evaluate the validity of a measure by testing criterion validity, convergent validity, and discriminant validity.
 

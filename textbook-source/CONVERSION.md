@@ -210,3 +210,27 @@ naive module→chapter replacement would corrupt.
 counts, figure counts, table counts, equation counts, heading hierarchy, broken
 links and accessibility. Word-count ratios should sit near 1.00; anything below
 0.90 means content went missing.
+
+## Never rewrite text inside a grid table
+
+Grid tables (`+---+---+`) align their columns by **character position**. Any
+substitution that changes a cell's length by even one character stops pandoc
+recognising the grid: it then parses the whole row as a single cell and emits
+the remaining `|` characters as literal text. The result renders as one long
+mangled row with empty neighbours.
+
+Two tables were damaged this way before it was spotted:
+
+- **Table 12.1** — the normalizer's `\ ` → ` ` rule removed the `\` hard-break
+  marker pandoc uses for a line break inside a cell (`| Power\`), moving the
+  column boundary from 29 to 28.
+- **Table 7.1** — collapsing `$$h^{2}$$` to `$h^{2}$` shortened the header row,
+  which pushed a stray `|` into the rendered header cell.
+
+`normalize_draft.py` now skips any line beginning `+-`, `+=` or `|`. Where a
+grid table has already been disturbed, rebuild it as a **pipe table** from the
+Word source rather than trying to re-align the grid — pipe tables do not depend
+on character alignment and survive later edits.
+
+Note that `tbl-colwidths` bypasses the `row-headers.lua` filter, so a table
+given explicit column widths loses its row headers. Prefer the default widths.

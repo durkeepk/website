@@ -75,7 +75,22 @@ def spans(s: str) -> str:
     return s
 
 def math(s: str) -> str:
-    """Word bolds math for display; that is formatting, not notation."""
+    """Word bolds math for display; that is formatting, not notation.
+
+    Grid-table lines are left untouched. Their columns are aligned by character
+    position, so shortening a cell -- dropping a `\\` hard-break marker, or
+    collapsing `$$x$$` to `$x$` -- silently breaks the whole table: pandoc stops
+    recognising the grid and merges each row into one cell.
+    """
+    def is_grid(line):
+        return line.startswith(("+-", "+=")) or (line.startswith("|") and line.rstrip().endswith("|"))
+    out = []
+    for line in s.split("\n"):
+        out.append(line if is_grid(line) else _math_line(line))
+    return "\n".join(out)
+
+
+def _math_line(s: str) -> str:
     s = re.sub(r"\\mathbf\{([^{}]*)\}", r"\1", s)
     s = re.sub(r"\\mathbf\s*", "", s)
     s = s.replace(r"\ $", "$").replace(r"\ ", " ")

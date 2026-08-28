@@ -93,3 +93,47 @@ No bibliography database exists — citations are typed by hand. 103 reference
 entries across 12 chapters, with no duplicates between chapters. A proper
 BibTeX migration is deliberately out of scope for now, and no DOIs, citation
 keys or publication metadata have been invented.
+
+---
+
+# Found during the contents and table review
+
+## Two headings look unfinished in the Word source
+
+Both are faithful conversions — the text is incomplete in the originals, so
+completing them would mean inventing words:
+
+- **Chapter 1**, heading 2: "Ultimate versus Proximate and Tinbergen's Four".
+  It reads as though a noun is missing (Questions?).
+- **Chapter 2**, heading 4: "Carl Jung: Archetypes, Attitudes," ended with a
+  comma in the source, suggesting a third item was intended. The stray comma
+  has been removed; the possibly-missing item has not been supplied.
+
+## Chapter titles differ from the Word document titles
+
+Two chapters carry a different title in the source document than the name used
+in the book. The book follows the chapter list you specified:
+
+| Book | Word document title |
+|:--|:--|
+| Past Perspectives | Past Perspectives on Personality |
+| Development and Personality | Personality Development |
+
+Worth confirming which you want to appear in the finished book.
+
+## Headings were normalised to title case
+
+Section headings in the sources mixed sentence case and title case, sometimes
+within a single chapter, and character-level styling had left slips such as
+"BRains", "actIvity", "intra-sexual" and "Neo-freudians". All headings are now
+title case, with acronyms (GWAS, HEXACO), proper nouns and deliberate notation
+("What the #@%! Is a Psychological Mechanism?") preserved. Chapter 2's
+"humourous humorism" became "Humorous Humorism" — *humourous* is a misspelling
+in British and American English alike; the wordplay is unchanged.
+
+## Mobile header overflows slightly
+
+Every page scrolls about 13px horizontally on a 375px-wide viewport. The cause
+is Quarto's own fixed mobile header, not the book's content, and it predates
+this review. Table 12.1 is not involved — it scrolls within its own container,
+as wide tables should. Left alone as a framework matter.
