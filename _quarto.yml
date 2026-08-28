@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/**
+
+website:
+  title: "Patrick Durkee"
+  description: "Patrick Durkee is an Assistant Professor of Psychology at California State University, Fresno, studying personality, emotion, and status hierarchy."
+  site-url: "https://www.pdurkee.com"
+  favicon: images/favicon.png
+  open-graph: true
+  navbar:
+    title: "Patrick Durkee"
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    center: "&copy; Patrick Durkee"
+    border: false
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, dark.scss]
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    grid:
+      body-width: 820px

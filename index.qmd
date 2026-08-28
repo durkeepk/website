@@ -1,0 +1,61 @@
+---
+pagetitle: "Patrick Durkee"
+description-meta: "Patrick Durkee is an Assistant Professor of Psychology at California State University, Fresno, studying personality, emotion, and status hierarchy."
+page-layout: full
+toc: false
+---
+
+::: {.profile-header}
+
+![](images/profile.jpg){fig-alt="Portrait of Patrick Durkee" .profile-img}
+
+::: {.profile-intro}
+# Patrick Durkee {.profile-name}
+
+::: {.profile-role}
+Assistant Professor of Psychology<br>
+[California State University, Fresno](https://csm.fresnostate.edu/psych/index.html)
+:::
+
+::: {.profile-links}
+[Email](mailto:pdurkee@csufresno.edu)
+[Google Scholar](https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl)
+[OSF](https://osf.io/zgfnt/)
+[GitHub](https://github.com/durkeepk)
+[CV](files/cv/cv.pdf)
+:::
+
+:::
+
+:::
+
+::: {.lead-bio}
+I'm an Assistant Professor of Psychology at California State University, Fresno.
+I study personality and hierarchy at multiple levels of analysis.
+:::
+
+## Research interests
+
+::: {.interests}
+Social Cognition &middot; Emotion &middot; Personality &middot; Status Hierarchy &middot; Evolution
+:::
+
+## Education
+
+::: {.tworow}
+**Ph.D., Psychology** — The University of Texas at Austin [2021]{.year}
+
+**M.A., Experimental Psychology** — California State University, Fullerton [2017]{.year}
+
+**B.A., Psychology** — California State University, Fullerton [2015]{.year}
+:::
+
+## Appointments
+
+::: {.tworow}
+**Assistant Professor of Psychology** — California State University, Fresno [2023–]{.year}
+
+**Research Fellow** — Institute for Advanced Study in Toulouse [2022–2023]{.year}
+
+**Adjunct Professor of Psychology** — Texas State University [2021–2022]{.year}
+:::

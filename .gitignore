@@ -1,4 +1,32 @@
-.Rproj.user
+# --- Quarto -----------------------------------------------------------------
+/_site/
+/.quarto/
+/_freeze/
+
+# --- macOS ------------------------------------------------------------------
+.DS_Store
+._*
+
+# --- R / RStudio ------------------------------------------------------------
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+# --- LaTeX intermediates from the CV workflow -------------------------------
+# (the CV PDFs themselves are tracked; only the build litter is ignored)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+# knitr writes an intermediate .tex beside each CV .Rmd, but the Pandoc
+# template rap-latex-cv.tex is source and must stay tracked.
+_cv-source/*.tex
+!_cv-source/rap-latex-cv.tex
+
+# --- Node (installed by the Netlify build plugin) ---------------------------
+node_modules/
+package-lock.json

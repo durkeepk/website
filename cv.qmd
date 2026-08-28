@@ -1,0 +1,16 @@
+---
+title: "Curriculum Vitae"
+description-meta: "Curriculum vitae for Patrick Durkee."
+toc: false
+---
+
+::: {.page-intro}
+[Download CV (PDF)](files/cv/cv.pdf){.btn-cv}
+:::
+
+::: {.cv-embed}
+<object data="files/cv/cv.pdf" type="application/pdf" width="100%" height="900">
+  <p>Your browser can't display embedded PDFs.
+  [Download the CV instead](files/cv/cv.pdf).</p>
+</object>
+:::

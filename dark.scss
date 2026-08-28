@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+$body-color:  #d6d6d6 !default;
+$body-bg:     #16181a !default;
+$link-color:  #4fc3ae !default;
+$navbar-bg:   #16181a !default;
+$navbar-fg:   #d6d6d6 !default;
+
+/*-- scss:rules --*/
+
+h2 {
+  color: #9a9a9a;
+  border-bottom-color: #2e3134;
+}
+
+.navbar { border-bottom-color: #2e3134; }
+
+.profile-img { box-shadow: 0 2px 14px rgba(0, 0, 0, 0.5); }
+
+.profile-role { color: #a8a8a8; }
+
+.profile-links a {
+  border-color: #3a3d40;
+  color: #b4b4b4;
+
+  &:hover {
+    border-color: $link-color;
+    color: $link-color;
+  }
+}
+
+.lead-bio    { color: #cfcfcf; }
+.page-intro  { color: #b8b8b8; }
+.interests   { color: #b8b8b8; }
+.year        { color: #8b8b8b; }
+
+.footnote-note { color: #8b8b8b; }
+
+.btn-cv {
+  border-color: $link-color;
+  color: $link-color;
+
+  &:hover {
+    background: $link-color;
+    color: #16181a;
+  }
+}
+
+.cv-embed object { border-color: #2e3134; }
+
+.nav-footer {
+  border-top-color: #2e3134;
+  color: #7e7e7e;
+}
