@@ -10,6 +10,10 @@ toc-location: right
 Selected publications are listed below. See my [CV](cv.qmd) for full record.
 :::
 
+::: {.lab-invite}
+Students interested in getting involved in my research can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
+:::
+
 ## Peer-reviewed articles
 
 ::: {.pubs}

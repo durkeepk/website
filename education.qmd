@@ -29,6 +29,10 @@ differences, while training the next generation of scholars for a diverse range
 of career opportunities.
 :::
 
+::: {.lab-invite}
+Students interested in getting involved in my research can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
+:::
+
 ## Education
 
 ::: {.tworow}

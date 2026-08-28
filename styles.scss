@@ -183,6 +183,22 @@ a {
   white-space: nowrap;
 }
 
+// ---------- prospective-student invitation ----------
+
+.lab-invite {
+  margin: 1.75rem 0;
+  padding: 0.9rem 1.15rem;
+  border: 1px solid #d8e6e2;
+  border-left: 3px solid $link-color;
+  border-radius: 4px;
+  background: rgba(11, 107, 94, 0.04);
+  max-width: 66ch;
+
+  p { margin: 0; }
+
+  a { font-weight: 600; }
+}
+
 // ---------- publications ----------
 
 .pubs p {
