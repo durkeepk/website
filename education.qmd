@@ -1,0 +1,50 @@
+---
+title: "Education"
+description-meta: "Patrick Durkee's academic background: education and employment history."
+toc: false
+---
+
+::: {.page-intro}
+I went into psychology as an undergraduate at CSU Fullerton thinking that I
+wanted to be a clinical psychologist. Towards the end of my studies, however, I
+became enthralled with interdisciplinary evolutionary approaches to studying
+human behavior and cognition. I quickly switched my focus to research and was
+lucky enough to get into the masters program at CSU Fullerton to continue my
+studies.
+
+After a couple years of hard work and many fortuitous coincidences, I landed the
+opportunity to work towards my PhD at UT Austin with an academic hero of mine,
+Dr. David Buss. While at UT, I published several papers on human social status
+dynamics, provided statistical consulting for non-profits around Austin, and
+taught a graduate-level statistics course at Texas State.
+
+Upon earning my PhD, I took a postdoc research position at the Institute for
+Advanced Study in Toulouse, France. I was fortunate to be able to work with and
+learn from scholars across many fields, including economics, biology,
+anthropology, and political science. But I totally failed at learning French.
+
+I'm excited to return to my roots in the CSU system here at Fresno State. I look
+forward to continuing my research on hierarchy navigation and individual
+differences, while training the next generation of scholars for a diverse range
+of career opportunities.
+:::
+
+## Education
+
+::: {.tworow}
+**Ph.D., Psychology** — The University of Texas at Austin [2021]{.year}
+
+**M.A., Experimental Psychology** — California State University, Fullerton [2017]{.year}
+
+**B.A., Psychology** — California State University, Fullerton [2015]{.year}
+:::
+
+## Employment
+
+::: {.tworow}
+**Assistant Professor of Psychology** — California State University, Fresno [2023 – Present]{.year}
+
+**Research Fellow** — Institute for Advanced Study in Toulouse, France [2022 – 2023]{.year}
+
+**Adjunct Professor of Psychology** — Texas State University [2021 – 2022]{.year}
+:::

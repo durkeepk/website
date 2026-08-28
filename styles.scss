@@ -170,7 +170,7 @@ a {
 
 .tworow p {
   margin-bottom: 0.65rem;
-  padding-right: 4.5rem;
+  padding-right: 8rem;   // wide enough for ranges like "2023 - Present"
   position: relative;
 }
 
@@ -180,6 +180,7 @@ a {
   color: #888;
   font-variant-numeric: tabular-nums;
   font-size: 0.92rem;
+  white-space: nowrap;
 }
 
 // ---------- publications ----------
