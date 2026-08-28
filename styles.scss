@@ -99,26 +99,54 @@ a {
 }
 
 .profile-links {
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 0.5rem;
+  gap: 0.5rem;
+}
 
-  a {
-    display: inline-block;
-    font-size: 0.86rem;
-    padding: 0.24rem 0.7rem;
-    border: 1px solid #dcdcdc;
-    border-radius: 999px;
-    color: #444;
-    transition: border-color 0.15s ease, color 0.15s ease;
+// The sprite holds the <symbol> defs only; it must never occupy space.
+.icon-sprite {
+  display: none;
+}
 
-    &:hover {
-      text-decoration: none;
-      border-color: $link-color;
-      color: $link-color;
-    }
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+  color: #4a4a4a;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: none;
+    border-color: $link-color;
+    color: $link-color;
+    background-color: rgba(11, 107, 94, 0.06);
   }
+
+  .ico {
+    width: 1.05rem;
+    height: 1.05rem;
+    fill: currentColor;
+  }
+}
+
+// Icon-only links still need an accessible name in the DOM.
+.icon-link-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 // ---------- body content ----------
@@ -171,24 +199,53 @@ a {
 
 // ---------- cv page ----------
 
-.btn-cv {
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.btn-cv,
+.btn-cv-ghost {
   display: inline-block;
   padding: 0.5rem 1.1rem;
-  border: 1px solid $link-color;
   border-radius: 4px;
-  color: $link-color;
   font-size: 0.95rem;
+  border: 1px solid $link-color;
+}
 
-  &:hover {
-    background: $link-color;
-    color: #fff;
-    text-decoration: none;
+.btn-cv {
+  background: $link-color;
+  color: #fff;
+
+  &:hover { background: darken($link-color, 7%); color: #fff; text-decoration: none; }
+}
+
+.btn-cv-ghost {
+  color: $link-color;
+
+  &:hover { background: rgba(11, 107, 94, 0.07); text-decoration: none; }
+}
+
+.cv-viewer {
+  margin: 0;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 88vh;
+    min-height: 640px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background: #f7f7f7;
   }
 }
 
-.cv-embed object {
-  border: 1px solid #e2e2e2;
-  border-radius: 4px;
+.cv-note {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #888;
 }
 
 // ---------- footer ----------
@@ -229,5 +286,16 @@ a {
     margin-top: 0.1rem;
   }
 
-  .cv-embed { display: none; }   // embedded PDFs are unusable on phones
+  // Phone browsers don't embed PDFs usefully; the buttons above still work.
+  .cv-viewer { display: none; }
+
+  .cv-note {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .icon-link {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
 }

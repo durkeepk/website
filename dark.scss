@@ -19,13 +19,15 @@ h2 {
 
 .profile-role { color: #a8a8a8; }
 
-.profile-links a {
+.icon-link {
   border-color: #3a3d40;
   color: #b4b4b4;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     border-color: $link-color;
     color: $link-color;
+    background-color: rgba(79, 195, 174, 0.10);
   }
 }
 
@@ -37,16 +39,26 @@ h2 {
 .footnote-note { color: #8b8b8b; }
 
 .btn-cv {
+  background: $link-color;
+  border-color: $link-color;
+  color: #16181a;
+
+  &:hover { background: lighten($link-color, 8%); color: #16181a; }
+}
+
+.btn-cv-ghost {
   border-color: $link-color;
   color: $link-color;
 
-  &:hover {
-    background: $link-color;
-    color: #16181a;
-  }
+  &:hover { background: rgba(79, 195, 174, 0.12); }
 }
 
-.cv-embed object { border-color: #2e3134; }
+.cv-viewer iframe {
+  border-color: #2e3134;
+  background: #202325;
+}
+
+.cv-note { color: #8b8b8b; }
 
 .nav-footer {
   border-top-color: #2e3134;

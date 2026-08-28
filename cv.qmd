@@ -1,16 +1,21 @@
 ---
 title: "Curriculum Vitae"
 description-meta: "Curriculum vitae for Patrick Durkee."
+page-layout: full
 toc: false
 ---
 
-::: {.page-intro}
-[Download CV (PDF)](files/cv/cv.pdf){.btn-cv}
+::: {.cv-actions}
+[Download PDF](files/cv/cv.pdf){.btn-cv download="Durkee-CV.pdf"}
+[Open in new tab](files/cv/cv.pdf){.btn-cv-ghost target="_blank"}
 :::
 
-::: {.cv-embed}
-<object data="files/cv/cv.pdf" type="application/pdf" width="100%" height="900">
-  <p>Your browser can't display embedded PDFs.
-  [Download the CV instead](files/cv/cv.pdf).</p>
-</object>
+::: {.cv-viewer}
+<iframe src="files/cv/cv.pdf#view=FitH"
+        title="Curriculum vitae of Patrick Durkee"
+        loading="lazy"></iframe>
+:::
+
+::: {.cv-note}
+Not displaying? [Open the PDF directly](files/cv/cv.pdf).
 :::
