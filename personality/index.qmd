@@ -1,33 +1,60 @@
----
-title: "Personality Psychology"
-subtitle: "An open access textbook"
----
+<!-- No YAML front matter here, deliberately. A book chapter with a YAML
+     title is always numbered, which would make this page Chapter 1 and
+     shift every cross-reference by one (Chapter 4's figures came out as
+     "Figure 5.1"). An unnumbered H1 with no front matter is how Quarto's
+     own book template does it. -->
 
-An openly accessible Personality Psychology textbook by
+# Welcome {.unnumbered}
+
+An open access Personality Psychology textbook by
 [Patrick Durkee](https://www.pdurkee.com), Assistant Professor of Psychology at
 California State University, Fresno.
 
+The book is free to read online, and licensed so that other instructors and
+students may reuse and adapt it. It is written for an undergraduate
+personality psychology course and assumes no prior background.
+
 ::: {.start-reading}
-[Start reading →](10-motivation-and-personality.qmd){.btn-start}
+[Start reading →](01-foundational-frameworks.qmd){.btn-start}
 :::
+
+## Chapters
+
+| | Chapter | What it covers |
+|--:|:--|:--|
+| 1 | [Foundational Frameworks](01-foundational-frameworks.qmd) | Levels of analysis, Tinbergen's four questions, Marr's three levels |
+| 2 | [Past Perspectives](02-past-perspectives.qmd) | Psychodynamic, neo-Freudian, humanistic and behaviorist approaches |
+| 3 | [Contemporary Perspectives](03-contemporary-perspectives.qmd) | Trait, social-cognitive, biological and evolutionary approaches |
+| 4 | [Measurement Matters](04-measurement-matters.qmd) | Reliability, validity, and measuring personality well |
+| 5 | [Personality Power](05-personality-power.qmd) | How much personality predicts, and how that compares with situations |
+| 6 | [Evolution and Personality](06-evolution-and-personality.qmd) | Adaptations, adaptive problems, psychological mechanisms |
+| 7 | [Genetics and Personality](07-genetics-and-personality.qmd) | Twin studies, heritability, shared and non-shared environments |
+| 8 | [Physiology and Personality](08-physiology-and-personality.qmd) | Neurotransmitters, hormones, and physiological variation |
+| 9 | [Emotions and Personality](09-emotions-and-personality.qmd) | Emotions as evolved mechanisms and their links to traits |
+| 10 | [Motivation and Personality](10-motivation-and-personality.qmd) | Internal regulatory variables and fundamental motives |
+| 11 | [Development and Personality](11-development-and-personality.qmd) | Rank-order stability, mean-level change, maturation |
+| 12 | [Culture and Personality](12-culture-and-personality.qmd) | Cross-cultural structure, cultural dimensions, WEIRD samples |
+| 13 | [Personality Change](13-personality-change.qmd) | Volitional change, interventions, and what change requires |
+
+## Using and reusing this book
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt the material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate whether changes were made.
+
+Suggested attribution:
+
+> Durkee, P. *Personality Psychology: An open access textbook.*
+> Licensed under CC BY 4.0. <https://www.pdurkee.com/personality/>
 
 ## About this edition
 
-This book is being converted from the Word module summaries used in Dr.
-Durkee's Personality Psychology course. It is a work in progress: one module is
-currently available while the conversion process is established, and the
-remaining modules will follow.
+This edition was converted from the chapter summaries written for Dr. Durkee's
+Personality Psychology course. All thirteen chapters are available. The page
+footer shows when the book was last updated.
 
-::: {.callout-note appearance="simple"}
-## Placeholders to resolve
-
-These are unresolved and need a decision before the book is announced:
-
-- **Licence.** No licence has been selected yet. "Open access" currently
-  describes price, not reuse rights. A Creative Commons licence would make the
-  terms explicit.
-- **Full module list.** Thirteen modules exist in draft; only Module 10 has
-  been converted so far.
-- **Citation and version information.** How readers should cite the book, and
-  whether editions should be versioned or dated.
-:::
+Corrections and suggestions are welcome by
+[email](mailto:pdurkee@csufresno.edu).

@@ -1,0 +1,107 @@
+---
+title: "Contemporary Perspectives"
+description: "Trait, social-cognitive, biological, and evolutionary approaches to contemporary personality psychology."
+---
+
+## Too many theories, not enough data
+
+In the last chapter, we learned about the many varied perspectives on personality throughout history. These so-called "theories" were little more than hunches or guesses that people made based on their own experiences with people (e.g., Freud's therapy patients). But individual experiences are severely limited, and often biased. We should not expect that a theory of personality based on any single individual's personal experiences and perceptions will help us understand personality. What we need is a way to pull together many experiences and perceptions in a systematic way. That's where the analytic, data-driven approach to personality comes in.
+
+By collecting data about personality from large groups of people in the populations we aim to understand, we are much more likely to be able to begin to systematically identify and categorize personality traits and processes. In this chapter, we'll examine how the data-driven approach to understanding personality has helped the field of personality science advance over the last 100 or so years. We'll explore the process that led to the current dominant model(s) of personality.
+
+## The dictionary as data
+
+A major goal of personality researchers throughout much of the 1900s was to create a taxonomy of personality traits. A taxonomy allows for systematic identification and categorization of things---whether those things are plants and animals, cars, learning styles, or personality traits. A personality taxonomy would allow researchers to organize and understand how the many thousands of ways that humans are similar and different from one-another in tendencies of thoughts, feelings, and behavior. But with so many potential personality traits where do we even start?
+
+Modern personality research starts in the dictionary. In everyday language, people use words to describe the important differences between people in their social world. Personality theorists reasoned that words that capture important differences about people and their personality traits should therefore become encoded in our lexicon over time. Dictionaries contain words commonly used in a given language, which makes dictionaries a kind of passively data-driven record of many peoples' experiences and perceptions. So, perhaps we can look in the dictionary to get a sense of how many personality traits there are! This line of reasoning---that personality traits are encoded in our language and that trait terms can be used to learn about personality---is called the lexical approach to personality.
+
+### Allport's lexical analysis
+
+Gordon Allport was one of the first researchers to systematically use the dictionary to identify potential personality traits (Feeney, 2020). Allport and his colleague, Henry Odbert, went into the dictionary and recorded \~18,000 words that described human personality and behavior. From this list, they organized words into four categories. The first category identified \~4500 words that describe dispositions (e.g., outgoing). The remaining categories contained words describing behavioral states (e.g., laughing), social evaluations (e.g., high-status), physical traits (e.g., tall), or abilities (e.g., athletic), which Allport did not consider to be personality traits per se.
+
+It seems that over 4000 words would be a pretty good starting point from which to try to systematically organize personality traits. But many of these words are probably synonymous with each other (i.e., they have the same meaning), making them somewhat redundant. We want to figure out how many unique personality traits are out there in real human populations, not just language. This is where collecting data from people becomes necessary.
+
+## People as data
+
+To get a better sense of how many personality traits are being described by 4000 or so trait terms in the dictionary, we need to get a sense of how their use overlaps in the population. That is, we need to be able to see whether people who are commonly described by a given trait adjective term (e.g., outgoing) also tend to be described using other adjectives (e.g., fun-loving, personable). To put it another way, we want to be able to group trait terms together within a taxonomy based on how they overlap---how they are correlated---in the population. The next stage of researchers in the lexical tradition did exactly this to develop taxonomies about personality, which ultimately led to the dominant models of personality structure in contemporary personality research.
+
+### Cattell's Factor Analyses and 16 Factors
+
+Raymond Cattell was the first psychologist to attempt to use a data-driven process to determine how to group the many words that describe personality into more manageable set of clusters (i.e., groups of words that describe similar personality traits). First, Cattell reduced the set of words that Allport and Odbert made from \~4000 down to 171 by eliminating words that he thought were simply synonyms. He then conducted several studies where he gave the list of words to people and had them rate the extent to which each word was true of them. The ratings provided by these subjects allowed Cattell to compute the correlations between each pair of trait terms, resulting in 14,335 correlations. Computers were not yet available for these computations, so Cattell and his assistants had to lay out these correlations on paper on the ground to organize them--- they took up 14 square feet!
+
+Cattell used a statistical method called factor analysis, which he developed along with his advisor, Karl Pearson (creator of the correlation coefficient) to organize the trait terms. A full technical explanation of factor analysis is beyond the scope of this chapter, but it will be important to develop a conceptual understanding of how it works. Simply put, it takes the correlations among variables---in this case traits---and groups based on how strongly correlated they are. For example, if people who rate themselves as outgoing also tend to rate themselves as assertive, sociable, and fun-loving (i.e., these traits are highly correlated), then factor analysis groups them together. These groups are referred to as "factors" in factor analysis literature. The factors are then labelled by the researcher according to their subjective assessment of the content of each cluster (e.g., Extraversion). If most traits are highly correlated, then there will be fewer factors suggested from the factor analysis results; conversely, if most traits are weakly correlated there will be more factors suggested.
+
+Ultimately, after several studies and some somewhat arbitrary revisions and additions, Cattell ended up finding evidence for 16 personality factors. He then developed questionnaires to measure his 16-factor model of personality (i.e., 16PF). But, as we will soon see, the 16-factor model was probably a mistake.
+
+### From 16 factors to the Big Five
+
+Following Cattell's analyses, many other researchers used factor analytic methods to examine how many personality factors there might be (e.g., Fiske, 1949; Tupes & Christal, 1961; Norman, 1963; Digman & Takemoto-Chock, 1981). But they could not reproduce the 16 factors. Science depends on being able to reliably produce a set of results following a set of procedures. So, if the 16 factors could not be reliably reproduced, we can't include them in our scientific understanding of personality structure. Some subsequent investigations of Cattell's methods and analyses suggest that Cattell made a calculation error at some point that led him to the wrong conclusion---which wouldn't be surprising since all this had to be done by hand before computers. However, we can't know for sure what went wrong.
+
+Even though later researchers couldn't find Cattell's 16 factors in their own analyses, a pattern did consistently emerge across studies. These different teams of researchers each tended to find that five factors consistently emerged from the trait rating data. These five factors, which came to be known as the **Big Five**, were typically labelled as surgency, agreeableness, dependability, emotional stability, and culture/intellect. In the following decades, the Big Five factors were morphed and refined through additional studies and debates. The most popular current formulations and labels of the Big Five traits are Extraversion, Agreeableness, Conscientiousness, Neuroticism (or Emotional Stability), and Openness (Diener & Lucas, 2023). People often use a mnemonic like CANOE or OCEAN to remember the Big Five traits based on their first letters.
+
+Each of the Big Five factors represents a continuous distribution, meaning that people differ in the quantitative levels of each trait within a population. Under this model, everyone has some level of each trait---this taxonomy based on categorical or discrete typologies. For example, a given person might be average on Extraversion, be above average on Agreeableness, average on Conscientiousness, be well below average on Neuroticism, and very low on Openness, when compared to others in the population; another person could have very different levels. Under this framework, researchers don't generally refer to people to as "Extraverts" or "Neurotics", but rather refer to levels of Extraversion and Neuroticism (e.g., highly Extraverted people, people low on Neuroticism).
+
+Each factor has a specific description which we will explore below. In some models and measurement scales for the Big Five, the factors are also hierarchically organized so that each factor has smaller subgroups within it. Under the Five Factor Model, for example, each of the five factors has six subgroups called facets. Below, I describe each Big Five factor and its facets.
+
+#### Extraversion
+
+Extraversion refers to a person's sociability, assertiveness, and overall level of energy in social interactions. Those high in extraversion tend to be outgoing, talkative, and enjoy socializing. Those lower on extraversion---often conversationally referred to by laypeople as introverts---may prefer quieter, more solitary activities.
+
+The facets of extraversion are Warmth, Gregariousness, Assertiveness, Activity, Excitement Seeking, and Positive Emotionality. Warmth is characterized by friendliness and the ability to make friends easily. Gregarious individuals enjoy being around people and are often the life of social gatherings. Assertiveness reflects a person's tendency to take charge of social situations. Activity is characterized by a preference for staying busy and always having something to do. Excitement Seeking is marked by a desire for social stimulation and sometimes a willingness to take risks in the pursuit of excitement. Positive emotionality is associated with general cheerfulness and optimism.
+
+#### Conscientiousness
+
+Conscientiousness describes an individual's degree of organization, detail-orientation, responsibility, and resoluteness in striving toward objectives. Those ranking high in conscientiousness typically demonstrate reliability, meticulous attention to detail, and unwavering dedication in the pursuit of their aims. Conversely, those with lower conscientiousness tend to be more spontaneous and exhibit a lower tendency for meticulous planning and orderliness.
+
+The facets of Conscientiousness are Competence, Order, Dutifulness, Achievement Striving, Self-discipline, and Deliberation. Competence reflects a desire to excel and achieve high standards in tasks and responsibilities. Order is characterized by a preference for neatness, organization, and tidiness. Dutifulness involves a strong sense of responsibility and reliability. Achievement Striving represents a drive to set and accomplish challenging goals. Self-Discipline is the ability to control impulses and stay focused on tasks. Deliberation is the tendency to carefully consider decisions before acting.
+
+#### Agreeableness
+
+Agreeableness gauges a person's interpersonal demeanor and relationships with others. Those scoring high in agreeableness are typified by their friendliness, empathic disposition, and predisposition toward cooperation. Conversely, individuals with lower agreeableness may display a heightened competitive spirit or a proclivity for skepticism regarding the intentions of others.
+
+The facets of Agreeableness are Trust, Straightforwardness, Altruism, Compliance, Modesty, and Tendermindedness. Trust involves a belief in the goodness and reliability of others. Straightforwardness is characterized by honesty and a tendency to communicate directly. Altruism reflects a selfless concern for the well-being of others. Compliance involves a willingness to conform and cooperate with others' wishes. Modesty is the tendency to downplay one's own achievements and importance. Tendermindedness represents a sensitivity to the feelings of others and a caring attitude.
+
+#### Neuroticism (Emotional Stability)
+
+Neuroticism, or conversely, emotional stability, represents an individual's emotional resilience and stability amidst stressors and negative situations. High neuroticism individuals are susceptible to heightened levels of anxiety, mood volatility, and may manifest heightened reactivity to stress-inducing stimuli. In contrast, individuals low on neuroticism tend to exude a more tranquil affective disposition and demonstrate superior emotional management capabilities.
+
+The facets of Neuroticism are Anxiety, Hostility, Depression, Self-Consciousness, Impulsiveness, and Vulnerability. Anxiety involves a tendency to worry, feel anxious, and experience nervousness. Hostility reflects a disposition towards anger, irritability, and frustration. Depression represents a susceptibility to feelings of sadness and hopelessness. Self-Consciousness is characterized by a heightened awareness of self and fears of being judged. Impulsiveness involves acting on urges and desires without thinking through consequences. Vulnerability is the degree to which one is sensitive to stress and prone to emotional fluctuations.
+
+#### Openness
+
+Openness signifies an individual's propensity to engage with innovative and unconventional concepts, encounters, and emotions. High scorers in this trait are characterized by their proclivity for imagination, intellectual curiosity, and an eagerness to embrace novel experiences. In contrast, individuals scoring lower in openness tend to exhibit a preference for established routines and the comfort of familiarity in their cognitive and experiential domains.
+
+The facets of Openness are Fantasy, Aesthetics, Feelings, Actions, Ideas, and Liberalism. Fantasy is characterized by a rich inner life, creativity, and a penchant for artistic expression. Aesthetics involves an appreciation for art, music, and aesthetics. Feelings is characterized by a deep emotional engagement with the world, often experiencing intense feelings. Actions reflects a willingness to explore the unknown and try new things. Ideas involves a desire for knowledge, complex or abstract problems, and intellectual pursuits. Liberalism represents a preference for progressive and unconventional beliefs.
+
+## The significance of the Big Five
+
+The emergence and widespread adoption of the Big Five factors as a fundamental framework for comprehending human personality has played a pivotal role in the field of personality psychology. Throughout most of the 1900s, scholars engaged in protracted debates about how to categorize the myriad ways in which individuals differ and resemble one another. The consistent recurrence of the Big Five structure in numerous attempts to organize personality variation offered compelling evidence that it was capturing something essential about the structure of personality.
+
+As the Big Five gained increasing acceptance as a foundational framework for organizing personality traits, particularly during the 1990s and early 2000s, it marked a turning point in the field. This acceptance allowed researchers to move beyond the initial struggle of deciding which traits to investigate and how to arrange them. Instead, they could direct their collective focus on the Big Five personality traits themselves and build up our understanding of these personality dimensions over time. In essence, the Big Five provided a general structure to describe personality, freeing researchers to make substantial progress in other goals of personality science.
+
+## A sixth personality factor?
+
+In the early 2000s, researchers Kibeom Lee and Michael C. Ashton conducted their own lexical analysis studies of personality that included more terms related to ethicality and morality (e.g., greed, fairness, honesty), which were largely excluded from the earlier lexical analyses stemming from Allport's word lists. By including these terms and conducting studies in a wide range of cultures, Lee and Ashton found that six factors were the most appropriate way to describe the structure of human personality variation. For the most part, the factors that they found largely matched with the Big Five factors (albeit with some small differences): **E**motionality (corresponding to Neuroticism), e**X**traversion, **A**greeableness, **C**onscientiousness, and **O**penness to Experience. However, they found one important dimension of personality variation was seemingly missing from the Big Five framework: the factor of **H**onesty-Humility. Together these six factors make up the HEXACO model of personality, which is also growing in popularity as a successor of the Big Five model.
+
+As you might guess based on the extra trait terms included in the analyses, the Honesty-Humility dimension focuses on aspects of personality related to ethical behavior, sincerity, and interpersonal trust. Understanding this dimension can provide insight into how individuals approach moral and ethical choices, as well as how honest and humble they are. I would think this is important information about someone's personality that we would want to know for many types of relationships (e.g., business partner, romantic interests, friends), so it is surprising that it remained essentially "hidden" to personality research for so long.
+
+## So how many personality dimensions are there?
+
+In our quest to understand human personality, it's important to recognize that no single model can claim absolute truth or objectivity in summarizing the entirety of personality variation. These models, whether they propose five or six dimensions, are fundamentally shaped by subjectivity at various stages of their development.
+
+Firstly, subjectivity is inherent in the process of data collection used to inform factor analyses. The terms and measurements employed to capture aspects of personality inevitably rely on individual interpretation and perspective. The subjective judgments about which trait terms to include, for example, influence what data can even inform the statistical tests we run. If we don't put the right terms in, we won't get the right results.
+
+Moreover, subjectivity extends to the interpretation of results derived from factor analyses. Researchers must exercise judgment and discretion when deriving meaning from factor analyses. For example, researchers have to decide how many factors should be retained and there are potentially infinitely many ways of interpreting factor analytic results depending on specifics of the analyses (e.g., the factor rotation methods). Thus, the exact number of personality factors and their interpretation will always be a somewhat arbitrary decision.
+
+## Personality models are useful fictions
+
+Rather than seeing these "big few" personality models as unequivocal "truth" about personality structure, it is more appropriate to view them as useful abstractions. These models are valuable tools for certain purposes, providing a simplified lens through which to explore personality variation.
+
+By recognizing these models as useful tools, we can remain vigilant about their limitations. Relying solely on these broad abstractions can obscure more nuanced approaches to studying personality that may emerge in the future. Many scholars advocate for a shift toward investigating specific, fine-grained patterns of thoughts, feelings, and behaviors, recognizing that these may offer a more comprehensive understanding of individual differences.
+
+For our purposes, however, these broad dimensional models will work well enough. They will provide us a common reference point as we learn about many topics in personality. The remainder of the course will explore these personality dimensions from many angles including evolution, genetics, physiology and neuroscience, motivation, development, and more.
+
+## References
+Diener, E. & Lucas, R. E. (2023). Personality traits. In R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [http://noba.to/96u8ecgw](http://noba.to/96u8ecgw)
+
+Feeney, M. G. (2020). Gordon Allport. The Wiley Encyclopedia of Personality and Individual Differences: Models and Theories, 1-9.

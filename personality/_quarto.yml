@@ -18,12 +18,24 @@ book:
   reader-mode: true
   chapters:
     - index.qmd
+    - 01-foundational-frameworks.qmd
+    - 02-past-perspectives.qmd
+    - 03-contemporary-perspectives.qmd
+    - 04-measurement-matters.qmd
+    - 05-personality-power.qmd
+    - 06-evolution-and-personality.qmd
+    - 07-genetics-and-personality.qmd
+    - 08-physiology-and-personality.qmd
+    - 09-emotions-and-personality.qmd
     - 10-motivation-and-personality.qmd
+    - 11-development-and-personality.qmd
+    - 12-culture-and-personality.qmd
+    - 13-personality-change.qmd
   sidebar:
     style: docked
-    collapse-level: 2
+    collapse-level: 1
   page-footer:
-    center: "Personality Psychology &middot; Patrick Durkee"
+    center: "Personality Psychology &middot; Patrick Durkee &middot; CC BY 4.0"
     border: false
 
 filters:
@@ -40,17 +52,16 @@ format:
     anchor-sections: true
     link-external-newwindow: true
     fig-responsive: true
-    # Chapter numbering stays off until all modules are present in order --
-    # with a single chapter, "Module 10" would be labelled "Chapter 1".
-    number-sections: false
+    # Chapters are numbered 1-13; sections within them are not (number-depth: 0).
+    # Numbering must be on, or index.qmd is counted as a chapter and every
+    # cross-reference shifts by one (Chapter 1's figures became "Figure 2.1").
+    number-sections: true
+    number-depth: 0
     lang: en
 
-# Cross-reference labels follow the author's usage ("Figure 1", "Table 1").
 crossref:
-  # Continuous numbering (Figure 1, 2, 3) matches the Word originals while only
-  # one module exists. With all 13 modules present, consider chapters: true for
-  # per-chapter numbering (Figure 10.1, 10.2, ...).
-  chapters: false
+  # Chapter-based numbering: Figure 4.1, Table 10.2, and so on.
+  chapters: true
   fig-title: Figure
   tbl-title: Table
   fig-prefix: Figure

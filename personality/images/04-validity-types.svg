@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886 200" role="img" aria-labelledby="validity-t validity-d" width="886" height="200">
+  <title id="validity-t">Types of validity</title>
+  <desc id="validity-d">Subjective assessments comprise face validity and content validity. Empirical assessments comprise predictive, concurrent and discriminant validity.</desc>
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="102.0" y="20" width="150" height="58" rx="6" fill="#0a5c51"/>
+    <text font-size="15" font-weight="600" fill="#ffffff"><tspan x="177.0" y="45.1">Subjective</tspan><tspan x="177.0" y="63.4">Assessments</tspan></text>
+    <path d="M 177.0 78 V 96" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 95.0 96 H 259.0" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 95.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="20" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="95.0" y="152.9">Face Validity</tspan></text>
+    <path d="M 259.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="184" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="259.0" y="152.9">Content Validity</tspan></text>
+    <rect x="552.0" y="20" width="150" height="58" rx="6" fill="#0a5c51"/>
+    <text font-size="15" font-weight="600" fill="#ffffff"><tspan x="627.0" y="45.1">Empirical</tspan><tspan x="627.0" y="63.4">Assessments</tspan></text>
+    <path d="M 627.0 78 V 96" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 463.0 96 H 791.0" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 463.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="388" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="463.0" y="152.9">Predictive Validity</tspan></text>
+    <path d="M 627.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="552" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="627.0" y="152.9">Concurrent Validity</tspan></text>
+    <path d="M 791.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="716" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="791.0" y="144.4">Discriminant</tspan><tspan x="791.0" y="161.4">Validity</tspan></text>
+  </g>
+</svg>
