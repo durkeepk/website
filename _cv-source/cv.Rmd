@@ -92,7 +92,7 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \pubitem{27.}{\faBarChart\\\textsuperscript{\faDatabase\faFileCodeO}}{Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … \textit{280 alphabetically-listed contributors including} \me, … Nosek, B. A., \& Errington, T. M. (2026). Investigating the replicability of the social and behavioral sciences. \textit{Nature.}}
 
-\pubitem{26.}{\faLightbulbO\faBarChart\faPencil\\\textsuperscript{\faCheckCircle\faDatabase\faFileCodeO}}{\me, Graves\textsuperscript{\textdagger}, P. A., Rodriguez\textsuperscript{\textdaggerdbl}, N. R. (2026). Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. \textit{Evolution and Human Behavior}.}
+\pubitem{26.}{\faLightbulbO\faBarChart\faPencil\\\textsuperscript{\faCheckCircle\faDatabase\faFileCodeO}}{\me, Graves\textsuperscript{\textdagger}, P. A., Rodriguez\textsuperscript{\textdaggerdbl}, N. R. (2026). \href{https://doi.org/10.1016/j.evolhumbehav.2025.106790}{Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. \textit{Evolution and Human Behavior}.}}
 
 \pubitem{25.}{\faLightbulbO\faPencil}{Costello, W., Sedlacek, A. G. B., \me, Crosby, C. L., Hahnel-Peeters, R. K., \& Buss, D. M. (2026). Beyond Falsifiability: Evolutionary Psychology’s Many Theoretical Strengths. \textit{American Psychologist}. [Response to commentaries]}
 

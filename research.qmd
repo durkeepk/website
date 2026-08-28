@@ -16,7 +16,7 @@ Selected publications are listed below. See my [CV](cv.qmd) for full record.
 
 Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … *280 alphabetically-listed contributors including* **Durkee, P. K.**, … Nosek, B. A., & Errington, T. M. (2026). Investigating the replicability of the social and behavioral sciences. *Nature*.
 
-**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (2026). Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad. *Evolution and Human Behavior*.
+**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (2026). [Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad](https://doi.org/10.1016/j.evolhumbehav.2025.106790){target="_blank"}. *Evolution and Human Behavior*.
 
 Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (2026). Beyond falsifiability: Evolutionary psychology's many theoretical strengths. *American Psychologist*. [Response to commentaries]
 

@@ -20,8 +20,6 @@ website:
   navbar:
     title: "Patrick Durkee"
     left:
-      - href: index.qmd
-        text: About
       - href: research.qmd
         text: Research
   page-footer:
