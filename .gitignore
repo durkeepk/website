@@ -32,3 +32,5 @@ _cv-source/*.tex
 # --- Node (installed by the Netlify build plugin) ---------------------------
 node_modules/
 package-lock.json
+/.venv/
+/textbook-source/_work/
