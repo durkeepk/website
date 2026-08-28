@@ -14,15 +14,15 @@ Selected publications are listed below. See my [CV](cv.qmd) for full record.
 
 ::: {.pubs}
 
-Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … *280 alphabetically-listed contributors including* **Durkee, P. K.**, … Nosek, B. A., & Errington, T. M. (in press). Investigating the replicability of the social and behavioral sciences. *Nature*.
+Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … *280 alphabetically-listed contributors including* **Durkee, P. K.**, … Nosek, B. A., & Errington, T. M. (2026). Investigating the replicability of the social and behavioral sciences. *Nature*.
 
-**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (in press). Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad. *Evolution and Human Behavior*.
+**Durkee, P. K.**, Graves, P. A., Rodriguez, N. R. (2026). Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad. *Evolution and Human Behavior*.
 
-**Durkee, P. K.**, Buss, D. M. (in press). Hierarchy navigation: Individual differences in tactics, strategies, and traits. *Human Nature*.
+Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (2026). Beyond falsifiability: Evolutionary psychology's many theoretical strengths. *American Psychologist*. [Response to commentaries]
 
-Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Beyond falsifiability: Evolutionary psychology's many theoretical strengths. *American Psychologist*. [Response to commentaries]
+Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (2026). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. [Target article]
 
-Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (in press). Evolutionary psychology hypotheses are testable and falsifiable. *American Psychologist*. [Target article]
+**Durkee, P. K.**, Buss, D. M. (2025). Hierarchy navigation: Individual differences in tactics, strategies, and traits. *Human Nature*.
 
 **Durkee, P. K.** (2025). Measuring personality traits: Simulations exploring (mis)alignment between methods and measurands. *Journal of Research in Personality*.
 

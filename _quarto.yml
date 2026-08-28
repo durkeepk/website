@@ -24,8 +24,6 @@ website:
         text: About
       - href: research.qmd
         text: Research
-      - href: cv.qmd
-        text: CV
   page-footer:
     center: "&copy; Patrick Durkee"
     border: false
