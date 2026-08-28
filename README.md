@@ -10,10 +10,15 @@ Personal academic website for Patrick Durkee, built with
 edit .qmd  →  git commit  →  git push origin master  →  Netlify renders  →  live
 ```
 
-Netlify renders the Quarto source itself using the official
-[Quarto Netlify build plugin](https://quarto.org/docs/publishing/netlify.html)
-(declared in `netlify.toml`, installed from `package.json`). The generated
-`_site/` directory is **not** committed.
+Netlify renders the Quarto source itself. `netlify.toml` downloads a pinned
+Quarto release and runs `quarto render`; the generated `_site/` directory is
+**not** committed.
+
+Quarto's documented `@quarto/netlify-plugin-quarto` was tried first and does
+not work — it was last published in 2022 and fails resolving releases through
+the GitHub API (`HttpError: Not Found`). The explicit download in
+`netlify.toml` does the same job deterministically. To upgrade Quarto, bump
+`QUARTO_VERSION` in `netlify.toml` and install the matching version locally.
 
 Netlify servers cannot execute R, Python, or Julia. The site is therefore
 plain Quarto Markdown with no executable code chunks. If a page ever needs
@@ -33,7 +38,7 @@ commit the resulting `_freeze/` directory.
 | `files/cv/` | Published CV PDFs — `/files/cv/cv.pdf` is a long-standing public URL |
 | `files/pubs/` | Publication PDFs — `/files/pubs/*.pdf` are long-standing public URLs |
 | `_cv-source/` | CV **source**. Leading `_` means Quarto ignores it, so it is never published |
-| `netlify.toml` | Build config, legacy-URL redirects, security headers |
+| `netlify.toml` | Build command (pinned Quarto), legacy-URL redirects, security headers |
 
 ## Working on the site
 

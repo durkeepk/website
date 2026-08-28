@@ -1,20 +1,29 @@
 # Netlify build configuration.
 #
-# Netlify renders the Quarto source itself via the official Quarto build
-# plugin (declared here and installed from package.json), so the generated
-# _site/ directory is NOT committed to this repository.
+# Netlify renders the Quarto source itself, so the generated _site/ directory
+# is NOT committed to this repository.
 #
-# See: https://quarto.org/docs/publishing/netlify.html
+# We download and run Quarto explicitly rather than using
+# @quarto/netlify-plugin-quarto. That plugin (last published 2022) resolves
+# releases through the GitHub API and fails here with "HttpError: Not Found".
+# An explicit command is also required to override the stale `hugo` build
+# command still configured in this site's Netlify UI settings.
 
 [build]
   publish = "_site"
+  command = """
+    set -e
+    echo "Installing Quarto $QUARTO_VERSION"
+    curl -fsSL -o quarto.tar.gz "https://github.com/quarto-dev/quarto-cli/releases/download/v$QUARTO_VERSION/quarto-$QUARTO_VERSION-linux-amd64.tar.gz"
+    tar -xzf quarto.tar.gz
+    export PATH="$PWD/quarto-$QUARTO_VERSION/bin:$PATH"
+    quarto --version
+    quarto render
+    """
 
 [build.environment]
   # Pin Quarto so CI matches the local toolchain. Bump this deliberately.
   QUARTO_VERSION = "1.6.42"
-
-[[plugins]]
-  package = "@quarto/netlify-plugin-quarto"
 
 # ---------------------------------------------------------------------------
 # Redirects for URLs that existed on the previous Hugo/Wowchemy site.

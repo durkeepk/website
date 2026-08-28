@@ -1,8 +1,0 @@
-{
-  "name": "pdurkee-website",
-  "private": true,
-  "description": "Build-time dependencies for rendering the Quarto site on Netlify.",
-  "dependencies": {
-    "@quarto/netlify-plugin-quarto": "^0.0.5"
-  }
-}
