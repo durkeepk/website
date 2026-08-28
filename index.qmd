@@ -52,6 +52,8 @@ Assistant Professor of Psychology<br>
 
 ::: {.lead-bio}
 I'm an Assistant Professor of Psychology at California State University, Fresno.
+I earned my PhD at the University of Texas at Austin and postdoc'd at the
+Institute for Advanced Study in Toulouse, France.
 I study personality and hierarchy at multiple levels of analysis.
 :::
 
