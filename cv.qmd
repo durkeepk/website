@@ -12,8 +12,7 @@ toc: false
 
 ::: {.cv-viewer}
 <iframe src="files/cv/cv.pdf#view=FitH"
-        title="Curriculum vitae of Patrick Durkee"
-        loading="lazy"></iframe>
+        title="Curriculum vitae of Patrick Durkee"></iframe>
 :::
 
 ::: {.cv-note}
