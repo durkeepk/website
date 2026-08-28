@@ -7,5 +7,5 @@ toc: false
 That page doesn't exist. It may have moved when this site was rebuilt in 2026.
 
 Try the [homepage](/), the [research](/research.html) page, or the
-[CV](/files/cv/cv.pdf).
+[CV](/files/cv/cv.pdf){target="_blank"}.
 :::

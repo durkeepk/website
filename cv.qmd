@@ -6,8 +6,7 @@ toc: false
 ---
 
 ::: {.cv-actions}
-[Download PDF](files/cv/cv.pdf){.btn-cv download="Durkee-CV.pdf"}
-[Open in new tab](files/cv/cv.pdf){.btn-cv-ghost target="_blank"}
+[Open PDF in new tab](files/cv/cv.pdf){.btn-cv target="_blank"}
 :::
 
 ::: {.cv-viewer}
@@ -16,5 +15,5 @@ toc: false
 :::
 
 ::: {.cv-note}
-Not displaying? [Open the PDF directly](files/cv/cv.pdf).
+Not displaying? [Open the PDF directly](files/cv/cv.pdf){target="_blank"}.
 :::

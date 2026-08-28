@@ -40,6 +40,16 @@ commit the resulting `_freeze/` directory.
 | `_cv-source/` | CV **source**. Leading `_` means Quarto ignores it, so it is never published |
 | `netlify.toml` | Build command (pinned Quarto), legacy-URL redirects, security headers |
 
+## Conventions
+
+PDF links open in a new tab so readers land in the browser's PDF viewer and
+can download from there if they want. Nothing on the site forces a download.
+When adding a publication, append `{target="_blank"}` to the link:
+
+```markdown
+[Title of the paper](files/pubs/Example2026.pdf){target="_blank"}
+```
+
 ## Working on the site
 
 ```bash

@@ -42,7 +42,7 @@ Assistant Professor of Psychology<br>
 <a href="https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl" class="icon-link" aria-label="Google Scholar" title="Google Scholar"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-scholar"/></svg><span class="icon-link-text">Google Scholar</span></a>
 <a href="https://osf.io/zgfnt/" class="icon-link" aria-label="OSF" title="OSF"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-osf"/></svg><span class="icon-link-text">OSF</span></a>
 <a href="https://github.com/durkeepk" class="icon-link" aria-label="GitHub" title="GitHub"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-github"/></svg><span class="icon-link-text">GitHub</span></a>
-<a href="files/cv/cv.pdf" class="icon-link" aria-label="CV (PDF)" title="CV (PDF)"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-cv"/></svg><span class="icon-link-text">CV (PDF)</span></a>
+<a href="files/cv/cv.pdf" target="_blank" rel="noopener" class="icon-link" aria-label="CV (PDF)" title="CV (PDF)"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-cv"/></svg><span class="icon-link-text">CV (PDF)</span></a>
 
 :::
 
