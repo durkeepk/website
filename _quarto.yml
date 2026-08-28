@@ -25,6 +25,8 @@ website:
         text: Background
       - href: research.qmd
         text: Research
+      - href: /personality/
+        text: "Open Access Personality Psychology Textbook"
   page-footer:
     center: "&copy; Patrick Durkee"
     border: false

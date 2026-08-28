@@ -1,0 +1,33 @@
+---
+title: "Personality Psychology"
+subtitle: "An open access textbook"
+---
+
+An openly accessible Personality Psychology textbook by
+[Patrick Durkee](https://www.pdurkee.com), Assistant Professor of Psychology at
+California State University, Fresno.
+
+::: {.start-reading}
+[Start reading →](10-motivation-and-personality.qmd){.btn-start}
+:::
+
+## About this edition
+
+This book is being converted from the Word module summaries used in Dr.
+Durkee's Personality Psychology course. It is a work in progress: one module is
+currently available while the conversion process is established, and the
+remaining modules will follow.
+
+::: {.callout-note appearance="simple"}
+## Placeholders to resolve
+
+These are unresolved and need a decision before the book is announced:
+
+- **Licence.** No licence has been selected yet. "Open access" currently
+  describes price, not reuse rights. A Creative Commons licence would make the
+  terms explicit.
+- **Full module list.** Thirteen modules exist in draft; only Module 10 has
+  been converted so far.
+- **Citation and version information.** How readers should cite the book, and
+  whether editions should be versioned or dated.
+:::

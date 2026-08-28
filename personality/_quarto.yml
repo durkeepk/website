@@ -1,0 +1,57 @@
+project:
+  type: book
+  # Renders to personality/_book, which build.sh then copies to
+  # _site/personality so the book is served from
+  # https://www.pdurkee.com/personality/ by the same Netlify deploy.
+  # (Writing straight into _site does not work: rendering the main site
+  # clears _site/personality.)
+  output-dir: _book
+
+book:
+  title: "Personality Psychology"
+  subtitle: "An open access textbook"
+  author: "Patrick Durkee"
+  date: last-modified
+  date-format: "MMMM YYYY"
+  site-url: "https://www.pdurkee.com/personality/"
+  search: true
+  reader-mode: true
+  chapters:
+    - index.qmd
+    - 10-motivation-and-personality.qmd
+  sidebar:
+    style: docked
+    collapse-level: 2
+  page-footer:
+    center: "Personality Psychology &middot; Patrick Durkee"
+    border: false
+
+filters:
+  - row-headers.lua
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, dark.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    anchor-sections: true
+    link-external-newwindow: true
+    fig-responsive: true
+    # Chapter numbering stays off until all modules are present in order --
+    # with a single chapter, "Module 10" would be labelled "Chapter 1".
+    number-sections: false
+    lang: en
+
+# Cross-reference labels follow the author's usage ("Figure 1", "Table 1").
+crossref:
+  # Continuous numbering (Figure 1, 2, 3) matches the Word originals while only
+  # one module exists. With all 13 modules present, consider chapters: true for
+  # per-chapter numbering (Figure 10.1, 10.2, ...).
+  chapters: false
+  fig-title: Figure
+  tbl-title: Table
+  fig-prefix: Figure
+  tbl-prefix: Table
