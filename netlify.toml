@@ -24,6 +24,9 @@
     export PATH="/tmp/quarto/quarto-$QUARTO_VERSION/bin:$PATH"
     quarto --version
     quarto render
+    quarto render personality
+    rm -rf _site/personality
+    cp -R personality/_book _site/personality
     """
 
 [build.environment]

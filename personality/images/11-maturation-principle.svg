@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 144" role="img" aria-labelledby="matur-t matur-d" width="640" height="144">
+  <title id="matur-t">Summary of the personality maturation principle</title>
+  <desc id="matur-d">Two points: average changes in trait levels are consistent during development; most people become more conscientious, agreeable and emotionally stable with age.</desc>
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="28" y="20" width="284" height="105" rx="8" fill="#0a5c51"/>
+    <text font-size="14" font-weight="500" fill="#ffffff"><tspan x="170.0" y="57.1">There is consistency in the</tspan><tspan x="170.0" y="77.4">average changes in trait</tspan><tspan x="170.0" y="97.7">levels during development</tspan></text>
+    <rect x="328" y="20" width="284" height="105" rx="8" fill="#177a6b"/>
+    <text font-size="14" font-weight="500" fill="#ffffff"><tspan x="470.0" y="57.1">Most people become more</tspan><tspan x="470.0" y="77.4">conscientious, agreeable, and</tspan><tspan x="470.0" y="97.7">emotionally stable with age</tspan></text>
+  </g>
+</svg>

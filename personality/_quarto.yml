@@ -1,0 +1,72 @@
+project:
+  type: book
+  # Renders to personality/_book, which build.sh then copies to
+  # _site/personality so the book is served from
+  # https://www.pdurkee.com/personality/ by the same Netlify deploy.
+  # (Writing straight into _site does not work: rendering the main site
+  # clears _site/personality.)
+  output-dir: _book
+
+book:
+  title: "Personality Psychology"
+  subtitle: "An open access textbook"
+  author: "Patrick Durkee"
+  date: last-modified
+  date-format: "MMMM YYYY"
+  site-url: "https://www.pdurkee.com/personality/"
+  search: true
+  reader-mode: true
+  chapters:
+    # index.qmd deliberately has no YAML front matter and an unnumbered H1.
+    # A chapter with a YAML title is always numbered, which would make the
+    # landing page Chapter 1 and shift every cross-reference by one
+    # (Chapter 4's figures came out as "Figure 5.1"). Do not add front matter.
+    - index.qmd
+    - 01-foundational-frameworks.qmd
+    - 02-past-perspectives.qmd
+    - 03-contemporary-perspectives.qmd
+    - 04-measurement-matters.qmd
+    - 05-personality-power.qmd
+    - 06-evolution-and-personality.qmd
+    - 07-genetics-and-personality.qmd
+    - 08-physiology-and-personality.qmd
+    - 09-emotions-and-personality.qmd
+    - 10-motivation-and-personality.qmd
+    - 11-development-and-personality.qmd
+    - 12-culture-and-personality.qmd
+    - 13-personality-change.qmd
+  sidebar:
+    style: docked
+    collapse-level: 1
+  page-footer:
+    center: "Personality Psychology &middot; Patrick Durkee &middot; CC BY-NC 4.0"
+    border: false
+
+filters:
+  - row-headers.lua
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, dark.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    anchor-sections: true
+    link-external-newwindow: true
+    fig-responsive: true
+    # Chapters are numbered 1-13; sections within them are not (number-depth: 0).
+    # Numbering must be on, or index.qmd is counted as a chapter and every
+    # cross-reference shifts by one (Chapter 1's figures became "Figure 2.1").
+    number-sections: true
+    number-depth: 0
+    lang: en
+
+crossref:
+  # Chapter-based numbering: Figure 4.1, Table 10.2, and so on.
+  chapters: true
+  fig-title: Figure
+  tbl-title: Table
+  fig-prefix: Figure
+  tbl-prefix: Table

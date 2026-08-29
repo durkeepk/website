@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 165" role="img" aria-labelledby="cumcont-t cumcont-d" width="640" height="165">
+  <title id="cumcont-t">Summary of the cumulative continuity principle</title>
+  <desc id="cumcont-d">Two points: rank order of traits becomes more stable through development; people relatively higher in a trait tend to stay higher even as people change.</desc>
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="28" y="20" width="284" height="125" rx="8" fill="#0a5c51"/>
+    <text font-size="14" font-weight="500" fill="#ffffff"><tspan x="170.0" y="67.2">Rank order of personality</tspan><tspan x="170.0" y="87.5">traits becomes more stable</tspan><tspan x="170.0" y="107.8">throughout development</tspan></text>
+    <rect x="328" y="20" width="284" height="125" rx="8" fill="#177a6b"/>
+    <text font-size="14" font-weight="500" fill="#ffffff"><tspan x="470.0" y="57.0">People who are relatively</tspan><tspan x="470.0" y="77.3">higher in a trait tend to stay</tspan><tspan x="470.0" y="97.6">higher, even though people</tspan><tspan x="470.0" y="117.9">change</tspan></text>
+  </g>
+</svg>

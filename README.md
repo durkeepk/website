@@ -53,11 +53,29 @@ When adding a publication, append `{target="_blank"}` to the link:
 ## Working on the site
 
 ```bash
-quarto preview     # live-reloading local preview
-quarto render      # build into _site/
+quarto preview     # live-reloading local preview of the main site
+./build.sh         # full build: main site + textbook into _site/
 ```
 
 Then commit and push to `master`; Netlify does the rest.
+
+## The textbook is a second Quarto project
+
+`personality/` is a separate Quarto **book** project (a Quarto project can only
+have one type, and this one is a website). It renders to `personality/_book`,
+which `build.sh` copies to `_site/personality`, so the book is served from
+<https://www.pdurkee.com/personality/> by the same Netlify deploy.
+
+Order matters and the copy is not optional: rendering the main site **clears**
+`_site/personality`, so the book cannot render straight into `_site`. `build.sh`
+and the Netlify build command both do site → book → copy.
+
+```bash
+quarto preview personality   # live preview of just the book
+```
+
+Word originals live in `textbook-source/word/` and are treated as immutable
+source. Conversion notes are in `textbook-source/CONVERSION.md`.
 
 ## The CV is a separate workflow
 

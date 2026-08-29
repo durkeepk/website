@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 772 188" role="img" aria-labelledby="emoresp-t emoresp-d" width="772" height="188">
+  <title id="emoresp-t">Examples of responses that could be coordinated by emotions</title>
+  <desc id="emoresp-d">Eight response types: goals and motivations, information-gathering, attention, concept construal, perception, memory, physiology, communication.</desc>
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="16" y="16" width="176" height="72" rx="6" fill="#0a5c51"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="104.0" y="56.5">Goals and motivations</tspan></text>
+    <rect x="204" y="16" width="176" height="72" rx="6" fill="#177a6b"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="292.0" y="56.5">Information-gathering</tspan></text>
+    <rect x="392" y="16" width="176" height="72" rx="6" fill="#0a5c51"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="480.0" y="56.5">Attention</tspan></text>
+    <rect x="580" y="16" width="176" height="72" rx="6" fill="#177a6b"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="668.0" y="56.5">Concept construal</tspan></text>
+    <rect x="16" y="100" width="176" height="72" rx="6" fill="#0a5c51"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="104.0" y="140.6">Perception</tspan></text>
+    <rect x="204" y="100" width="176" height="72" rx="6" fill="#177a6b"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="292.0" y="140.6">Memory</tspan></text>
+    <rect x="392" y="100" width="176" height="72" rx="6" fill="#0a5c51"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="480.0" y="140.6">Physiology</tspan></text>
+    <rect x="580" y="100" width="176" height="72" rx="6" fill="#177a6b"/>
+    <text font-size="13" font-weight="600" fill="#ffffff"><tspan x="668.0" y="140.6">Communication</tspan></text>
+  </g>
+</svg>

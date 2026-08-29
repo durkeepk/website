@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 200" role="img" aria-labelledby="tinbergen-t tinbergen-d" width="722" height="200">
+  <title id="tinbergen-t">Tinbergen&#x27;s four questions</title>
+  <desc id="tinbergen-d">Two hierarchies. Ultimate divides into Phylogeny and Function. Proximate divides into Ontogeny and Mechanism.</desc>
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="102.0" y="20" width="150" height="58" rx="6" fill="#0a5c51"/>
+    <text font-size="15" font-weight="600" fill="#ffffff"><tspan x="177.0" y="54.2">Ultimate</tspan></text>
+    <path d="M 177.0 78 V 96" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 95.0 96 H 259.0" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 95.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="20" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="95.0" y="152.9">Phylogeny</tspan></text>
+    <path d="M 259.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="184" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="259.0" y="152.9">Function</tspan></text>
+    <rect x="470.0" y="20" width="150" height="58" rx="6" fill="#0a5c51"/>
+    <text font-size="15" font-weight="600" fill="#ffffff"><tspan x="545.0" y="54.2">Proximate</tspan></text>
+    <path d="M 545.0 78 V 96" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 463.0 96 H 627.0" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <path d="M 463.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="388" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="463.0" y="152.9">Ontogeny</tspan></text>
+    <path d="M 627.0 96 V 116" stroke="#8fc7bd" stroke-width="2" fill="none"/>
+    <rect x="552" y="116" width="150" height="64" rx="6" fill="#177a6b"/>
+    <text font-size="14" font-weight="600" fill="#ffffff"><tspan x="627.0" y="152.9">Mechanism</tspan></text>
+  </g>
+</svg>

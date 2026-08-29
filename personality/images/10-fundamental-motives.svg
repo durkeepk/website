@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img"
+     aria-labelledby="fm-title fm-desc" width="640" height="460">
+  <title id="fm-title">Revised fundamental motives</title>
+  <desc id="fm-desc">A seven-level pyramid. From the base upward: Physiological needs, Self-protection, Affiliation, Status/esteem, Mate acquisition, Mate retention, Parenting.</desc>
+
+  <!-- Level labels reproduce the text of the original Word SmartArt diagram.
+       Drawn as a pyramid to mirror the Maslow figure it revises. -->
+
+  <g stroke="#ffffff" stroke-width="2">
+    <polygon points="89.29,362.86 550.71,362.86 580,420 60,420"           fill="#0a5c51"/>
+    <polygon points="118.57,305.71 521.43,305.71 550.71,362.86 89.29,362.86" fill="#10695d"/>
+    <polygon points="147.86,248.57 492.14,248.57 521.43,305.71 118.57,305.71" fill="#137062"/>
+    <polygon points="177.14,191.43 462.86,191.43 492.14,248.57 147.86,248.57" fill="#167668"/>
+    <polygon points="206.43,134.29 433.57,134.29 462.86,191.43 177.14,191.43" fill="#197d6e"/>
+    <polygon points="235.71,77.14 404.29,77.14 433.57,134.29 206.43,134.29"  fill="#1c8373"/>
+    <polygon points="265,20 375,20 404.29,77.14 235.71,77.14"               fill="#1f8a79"/>
+  </g>
+
+  <g font-family="'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+     font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">
+    <text x="320" y="397">Physiological needs</text>
+    <text x="320" y="340">Self-protection</text>
+    <text x="320" y="283">Affiliation</text>
+    <text x="320" y="226">Status/esteem</text>
+    <text x="320" y="168">Mate acquisition</text>
+    <text x="320" y="111">Mate retention</text>
+    <text x="320" y="54">Parenting</text>
+  </g>
+</svg>

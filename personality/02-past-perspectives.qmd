@@ -1,0 +1,116 @@
+---
+title: "Past Perspectives"
+---
+
+A thorough and systematic understanding of personality will likely require the scientific method. But humans have only been applying something like the scientific method to understand personality and individual differences for a hundred years or so. So, for most of history, ideas about personality have been largely nonscientific. What can we learn from these past perspectives on personality that can give is a better appreciation for scientific approaches to understanding personality?
+
+For one, we might just find it interesting to know how long humans have been trying to understand personality and individual differences. If humans around the world thought about personality for a long time, perhaps this suggests that personality differences have been important to humans for a long time. On the other hand, if caring about personality is a more recent phenomenon, maybe personality differences are only an important factor in the contemporary world for some reason.
+
+Second, getting a sense of how long people have been thinking about personality can help us avoid hindsight bias, which is the feeling that things are obvious or easy after we've already learned about them or finished the task. By learning about past perspectives on personality, we can appreciate just how long people have been trying to understand personality---arguably without making much progress. When we see what past perspectives on personality generally were, it will be clear that things we learn about personality are not in fact obvious.
+
+Third, examining how long people have been trying to understand personality and seeing how little progress has been made can help us appreciate that studying personality, or really any aspect of human psychology, is hard! We humans have unlocked many secrets of the universe: we've sent people into space, we've split the atom, we've created vaccines to nullify many dangerous diseases, we've created machines to talk to people anywhere in the world; but we can barely begin to understand the personalities and psychology of the humans that achieved these feats. Personality is largely still a mystery.
+
+So, how long have humans been thinking about personality? What were some perspectives on personality in the past? Let's explore.
+
+## Is Personality Ancient?
+
+### Personality in the Oldest Written Story
+
+The oldest written story we have evidence for is the *Epic of Gilgamesh*. It is a Mesopotamian story found written on stone tablets that date back to around 2200 BCE --- that's over 4000 years ago! And the story itself was probably transmitted verbally for a long time before it was written down.
+
+The story is about an ancient king, Gilgamesh. In the beginning of the story, Gilgamesh is generally making life miserable for his subjects. The gods create a rival, Enkidu, to stop Gilgamesh. But Gilgamesh ends up beating Enkidu when they fight. So, naturally, they become best buds. Gilgamesh and Enkidu have many epic adventures until Enkidu dies. Gilgamesh then spends the rest of the story grieving and obsessing over his own mortality. He goes through a series of trials and tribulations in search of a way to defeat death, before ultimately making peace with his mortality.
+
+The obvious takeaway from the story is that death is inevitable, and we should enjoy life while we can. But we could also view it as a story about personality change. Gilgamesh's behavior and feelings towards others changes quite a bit from the beginning to end: he started out a terrible person trying to control everyone and everything, and in the end he makes peace with his own mortality. Maybe the real epic of Gilgamesh is the personality change along the way.
+
+But were the ancient humans who wrote down the epic including information about the characters personality? Du et al. (2023) examined the Epic of Gilgamesh to see what personality relevant information it contained and how that information might have changed as it was transcribed over the course of 1000 or so years. They found that even the earliest version of the story contained person descriptor words that are relevant to personality. Moreover, the number of personality descriptor words increased over time in different versions of the story. Thus, it appears that even 2000 years ago, humans wanted to know about others' personality.
+
+### What About Earlier?
+
+The Epic of Gilgamesh is old but not super old. Humans have existed for at least 200,000 years. Did super ancient humans care about individual differences and have ideas about personality? This is a difficult question to answer because we can't look back in time to see what they thought. But I think we can be fairly certain that our ancestors cared about personality for several reasons. Below I outline some reasons to think that personality differences existed and were important enough to care about throughout deep in our evolutionary past.
+
+As far as we know, ancient humans were not clones, so they probably would not have been identical in every way. Individual differences in cognition and behavior would almost certainly have existed. Ancient humans had to make lots of decisions about others that would have impacted their survival and reproductive success: who is a good mate? Who is a good hunting partner? Who is a reliable cooperator? Who is a good worker? Knowing about differences in cognition and behavior between people is information that would be useful for our ancestors to determine the answers to those questions. Because of the way natural selection works (which we'll unpack in a later chapter), it would be surprising if our brains didn't evolve to detect differences between people that are relevant to solving problems of survival and reproduction.
+
+As we'll see in the next chapter, personality as we know it depends largely on language. Language is probably at least 100,000 years old. Once language evolved, it would have become possible, at least in principle, to share information about personality attributes of others. Moreover, as language became more refined, our ability to communicate and think about the small differences between people would have become more refined as well. Thus, language and personality concepts could have coevolved culturally in a feedback loop: more fine-grained language could make it possible to identify small differences, and identifying small differences could lead to more fine-grained language concepts.
+
+Of course, this is all a "just-so-story". But I can't really come up with a good reason why our ancestors wouldn't have paid attention to personality, and why personality concepts wouldn't have emerged in language fairly early on. Ultimately, I think it's pretty safe to say that humans have been thinking about personality and individual differences, at least implicitly or unconsciously, for a very very very long time. But what can we know about what these ancient humans thought about personality?
+
+## A Nonexhaustive History of Historical Personality Perspectives
+
+### A Note on Missing Data
+
+Personality doesn't fossilize. We can only learn about what ancient humans thought about personality if those ancient humans happened to record their thoughts on material that would last long enough for us to find it. The overwhelming majority of personality-relevant information about cultures from around the world are lost to time.
+
+So, we don't have data on what most cultures thought of personality. For example, we don't have good evidence for what indigenous Californians thought about personality in the thousands of years before colonization. But absence of evidence is not evidence of absence.
+
+It is important to appreciate that the cultures we do have data from may not be representative of all human cultures that have ever existed. Still, by looking at the data we do have, perhaps we can start to get a sense of what sorts of things ancient humans might have thought about personality.
+
+### Ideal Personalities
+
+Ancient Confucian writings going back to 500 BCE discuss the concept of *Junzi*, which could be thought of as the closest any individual person could get to the ideal personality. Junzi has three components: *Ren* (benevolence), *Zhi* (wisdom), and *Yong* (courage). Under this view, people could cultivate different levels of each component and each component is causally related to one's behavior and thought. In contrast to Junzi, Confucian writings also discuss a personality concept of small-mindedness or pettiness, called *xiaoren.*
+
+The Bhagavad-Gita, an ancient Hindu text going back to around 200 BCE talks about personality being composed of three "modes", the *Tri Gunas*. The three modes are: *sattva* (holiness), *rajas* (desire), and *tamas* (darkness). In this belief system, a person's actions are determined by the dominant mode. The relative dominance of each mode could be attributed to many things: mystic formulas, occupation, birth, ancestry, thought, etc.
+
+### Humorous Humorism
+
+Humorism is the belief that illnesses and differences in behavior correspond to the balance of four fluids ("humors") in the body: yellow bile in the liver; black bile from the kidneys; phlegm from the lungs; and blood from the heart. This belief system is often attributed to the ancient Greek physician-philosophers Hippocrates and Galen. But beliefs like humourism may actually go back further to ancient Mesopotamia or Egypt.
+
+Under this view, each of the four humors corresponded to a different "temperament", or characteristic patterns of behavior---much like a personality trait. Too much yellow bile supposedly leads to a choleric temperament, which is passionate, brave, and determined. Too much black bile leads to a melancholic temperament, which consists of being detached, worried, or unhappy. Too much blood led to sanguine temperament, which tends to be joyful, eager, and optimistic. And too much phlegm led to a phlegmatic temperament of peace, dependability, and thoughtfulness. So, next time you feel sad, just find a way to increase your blood-to-black-bile ratio.
+
+These beliefs might sound humorous to us now, but humorism was prevalent for over 1,000 years and continued to be popular through the Middle Ages. It wasn't until the theory of germs was developed that humourism's influence on medicine was remedied. This is good opportunity to reflect with humility on our own popular theories and beliefs; there could be many popular ideas about personality today that could seem as ridiculous to future generations as humorism does to us.
+
+### Freud and the Neo-Freudians
+
+#### Freud's Model of the Mind
+
+Freud is probably the one personality theorist most people could name off the top of their head, which is a little strange given how little of his specific theory has survived contact with evidence. His influence and his evidence are two different things, and it helps to keep them apart.
+
+Freud's central idea was that much of mental life happens outside of awareness, and that personality comes out of conflict between motives we cannot fully see. He described that conflict using three parts of the mind. The **id** holds our most primitive urges---hunger, thirst, sex, aggression---and wants them satisfied immediately, whatever the consequences. The **superego** is the set of social rules we absorb from parents and culture; it works as a conscience, producing pride when we meet its standards and guilt when we fall short. The **ego** sits between the two, trying to get the id what it wants in ways the world will actually tolerate.
+
+A healthy personality, on this account, is one where the ego manages that negotiation well. When it doesn't, Freud thought the result was anxiety and neurosis. A person ruled by the id would be impulsive and self-centered; a person ruled by the superego would be rigid and guilt-ridden, denying themselves even ordinary pleasures. Freud also proposed that the ego protects itself with **defense mechanisms**: unconscious tactics like repression, which pushes threatening thoughts out of awareness, or projection, which pins our own unacceptable impulses on somebody else.
+
+Underneath all of it, Freud placed the sex drive, or *libido*, as the main engine of human motivation. That assumption did an enormous amount of work in his theory, and it is the first thing his followers threw out.
+
+#### Psychosexual Stages
+
+Freud also argued that personality is largely settled in early childhood, as the id's pleasure-seeking moves through a fixed sequence of bodily focuses. If a child's needs at a given stage were handled badly---too much indulgence or too little---the person would stay *fixated* there, and it would show up in their adult personality.
+
+The stages are the **oral** stage (birth to about 1 year), centered on the mouth and feeding; the **anal** stage (about 1 to 3), centered on bowel control and toilet training; the **phallic** stage (about 3 to 6), centered on the genitals and on the child's relationship with each parent; a **latency** period from about 6 to puberty, when Freud thought sexual interest goes quiet; and the **genital** stage from puberty onward, when those interests return and get directed outside the family.
+
+The phallic stage carried the most theoretical weight. Freud proposed that boys desire their mother and treat their father as a rival---the **Oedipus complex**---and resolve the problem by identifying with the father rather than competing with him. His account of girls ran through *penis envy*: the idea that a girl registers the anatomical difference as something she lacks, and that this shapes her development. The term *Electra complex* is often used for the female parallel and just as often credited to Freud, but it was Jung's coinage, and Freud never took it up.
+
+All of this rested on a very narrow evidence base. Freud worked from his own recollections and from his interpretations of what his patients told him about their lives and dreams, and he treated that as enough to establish that these stages were universal features of childhood. By any modern standard it isn't. Introspection and clinical impression are a perfectly reasonable way to come up with a hypothesis; they are not a way to test one, and Freud mostly did not test his.
+
+So why does Freud still get a section? Because the general shape of his thinking outlasted the specifics. The ideas that mental life is partly unconscious, that people are pulled by motives that conflict with one another, and that early experience matters for later personality are all still live in personality psychology, usually in forms Freud would not recognize, and resting on evidence he never collected.
+
+#### Neo-Freudians
+
+Freud's ideas were influential largely through the disagreements they provoked. The psychologists who followed him, usually called neo-Freudians, generally accepted that unconscious motives matter and that development shapes personality, but rejected his insistence that sex was the engine driving all of it. Three are worth knowing.
+
+##### Alfred Adler: Inferiority and Striving
+
+Adler swapped Freud's master motive for a different one: the drive to be superior to others, or at least to avoid being inferior to them. On this view, much of what we do is compensation for the places we feel we fall short.
+
+Adler also proposed that birth order shapes personality. Oldest children, having lost their parents' undivided attention, become overachievers; youngest children are indulged; middle children are left to work out something in between. The idea is memorable and has been repeated for a century. It has not held up especially well. Research has provided little support for systematic birth-order effects on personality.
+
+##### Karen Horney: Anxiety and Security
+
+Horney, one of the first women trained as a psychoanalyst, went straight at Freud's claim that girls envy boys' anatomy. Any such envy, she argued, is far more plausibly about privilege than about anatomy: in a patriarchal society, boys simply get more. She added that one could just as easily claim men envy women's ability to give birth, which is a fairly efficient demonstration of how much these claims depend on what the theorist assumed going in.
+
+Her own account put anxiety, rather than sex, at the center of personality development. Children whose needs go unmet, who experience loneliness or isolation, develop a basic anxiety they then have to manage, and they seek belonging and security in response. Horney described three ways of doing it: moving toward people, moving away from people, and moving against them. All three are ordinary strategies that everyone uses. The problem, in her account, is rigidity: leaning on one of them regardless of what the situation actually calls for.
+
+##### Carl Jung: The Collective Unconscious and Introversion
+
+Jung broke with Freud on the same point as the others---he did not accept that sex was the primary motivator---and also on the scope of the unconscious. Freud's unconscious was personal, assembled out of an individual's own history. Jung proposed that underneath it sits a **collective unconscious**: inherited patterns, which he called **archetypes**, shared by everyone. He pointed to recurring figures in the myths and folklore of unconnected cultures---the hero, the maiden, the sage, the trickster---as evidence that the same themes are handed down biologically. It is a striking idea that has attracted very little empirical support, and the inference is shaky: cultures separated by an ocean can end up telling similar stories for reasons much simpler than inherited memory.
+
+Jung's more durable contribution was far less exotic. He described two orientations toward the world, **extraversion** and **introversion**, distinguished by whether a person's energy comes from engaging with other people or from their own inner activity. Some version of this distinction shows up in nearly every modern model of personality, which arguably makes it the most successful idea to come out of this whole tradition. He also described the *persona*, the face we present in public, which he treated as a compromise between who we actually are and what other people expect us to be.
+
+Jung's types are also the reason for one of the most widely used personality tests in the world. The *Myers-Briggs Type Indicator* (MBTI) was built loosely on his ideas, sorting people on introversion versus extraversion, thinking versus feeling, intuition versus sensation, and judging versus perceiving. It is popular on dating websites and in workplaces, and its central problem is structural rather than a matter of the individual questions. The MBTI reports a *typology*, sorting people into discrete categories, but the traits underneath it are continuously distributed. Any set of categories therefore has to cut arbitrary lines through the middle of real distributions, which means two people sitting just either side of a cutoff get labelled as different types despite being nearly identical---and someone close to a boundary can come out as a different type on a retest without their personality having changed. Measuring where a person falls along a continuum, rather than which box they belong in, has a much stronger psychometric case. These are concepts we will learn more about in a later chapter.
+
+## Conclusion
+
+Humans have probably cared about personality for very long time. And we've been trying to understand personality for at least a few thousand years. However, as this chapter shows, many historical approaches to understanding personality have been non-scientific. Most of the historical beliefs and so-called theories about personality were based on self-reflection and opinions about what makes a healthy or virtuous person. But this approach to understanding personality leaves out a lot of the variation in human behavior that makes up the many diverse personalities that exist. The scientific approach to understanding personality that we will explore throughout the rest of the chapters brings large amounts of data to allow us to systematically study personality, while hopefully making it harder for our own subjective biases and beliefs to creep in.
+
+## References
+Du, A. H., Karl, J. A., Fetvadjiev, V., Luczak-Roesch, M., Pirngruber, R., & Fischer, R. (2023). Tracing the evolution of personality cognition in early human civilisations: A computational analysis of the Gilgamesh epic. *European Journal of Personality*.
+
+Earlier versions of the sections on Freud and the neo-Freudians were adapted from the [*Psychology, Personality* materials on OER Commons](https://oercommons.org/courseware/unit/8482), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). No authors are listed for those materials. Those sections have since been rewritten.

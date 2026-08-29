@@ -1,0 +1,2312 @@
+[
+  {
+    "file": "10_Motivation and Personality.docx",
+    "size": 142520,
+    "body_words_including_tables": 2804,
+    "paragraphs": 44,
+    "heading_count": 9,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Motivation and Personality"
+      },
+      {
+        "index": 3,
+        "style": "heading 1",
+        "text": "What are motivations?"
+      },
+      {
+        "index": 11,
+        "style": "heading 1",
+        "text": "What goals are motivations for?"
+      },
+      {
+        "index": 13,
+        "style": "heading 2",
+        "text": "Early motivation theorists"
+      },
+      {
+        "index": 17,
+        "style": "heading 2",
+        "text": "Maslow’s hierarchy of Needs"
+      },
+      {
+        "index": 25,
+        "style": "heading 2",
+        "text": "The Revised Fundamental Motives Framework"
+      },
+      {
+        "index": 31,
+        "style": "heading 3",
+        "text": "Linking fundamental motives to personality constructs"
+      },
+      {
+        "index": 34,
+        "style": "heading 3",
+        "text": "Limitations of current motive measures"
+      },
+      {
+        "index": 40,
+        "style": "heading 1",
+        "text": "Closing thoughts about motivations and personality"
+      }
+    ],
+    "style_counts": {
+      "(none)": 31,
+      "caption": 4,
+      "heading 1": 3,
+      "heading 2": 3,
+      "heading 3": 2,
+      "Title": 1
+    },
+    "tables_count": 2,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 11,
+        "cols_max": 6,
+        "cells": [
+          [
+            "",
+            "E",
+            "A",
+            "C",
+            "N",
+            "O"
+          ],
+          [
+            "Self-Protection",
+            ".04",
+            ".03",
+            ".09*",
+            ". 17*",
+            ".06*"
+          ],
+          [
+            "Disease Avoidance",
+            "-.07*",
+            "-.10*",
+            ".10*",
+            ".10*",
+            "-.03"
+          ],
+          [
+            "Affiliation (Group)",
+            ".41*",
+            ".45*",
+            ".21*",
+            "-.22*",
+            ". 14 *"
+          ],
+          [
+            "Affiliation (Exclusion Concern)",
+            "-.14*",
+            "-.14*",
+            "-.25*",
+            ".43*",
+            "-.08*"
+          ],
+          [
+            "Status",
+            ".26*",
+            "-.06*",
+            ".03",
+            ".06",
+            ".12*"
+          ],
+          [
+            "Mate Seeking",
+            "-.01",
+            "-.16*",
+            "-.13*",
+            ".05",
+            ".03"
+          ],
+          [
+            "Mate Retention (General)",
+            ".03",
+            ".29*",
+            ".29*",
+            "-.09*",
+            ".12*"
+          ],
+          [
+            "Mate Retention (Breakup Concern)",
+            "-.13*",
+            "-.25*",
+            "-.31*",
+            ".37*",
+            "-.03"
+          ],
+          [
+            "Kin Care (Family)",
+            ".21*",
+            ".42*",
+            ".29*",
+            "-.15*",
+            ".11*"
+          ],
+          [
+            "Kin Care (Child)",
+            ".02",
+            ".23*",
+            ".19*",
+            ".03",
+            ".08"
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "rows": 11,
+        "cols_max": 2,
+        "cells": [
+          [
+            "Subscale",
+            "Sample item"
+          ],
+          [
+            "Self-Protection",
+            "I think a lot about how to stay safe from dangerous people."
+          ],
+          [
+            "Disease Avoidance",
+            "I avoid people who might have a contagious illness."
+          ],
+          [
+            "Affiliation (Group)",
+            "I like being part of a team."
+          ],
+          [
+            "Affiliation (Exclusion Concern)",
+            "I would be extremely hurt if a friend excluded me."
+          ],
+          [
+            "Status Seeking",
+            "I want to be in a position of leadership."
+          ],
+          [
+            "Mate Seeking",
+            "I am interested in finding a new romantic/sexual partner."
+          ],
+          [
+            "Mate Retention",
+            "It is important to me that my partner is emotionally loyal to me."
+          ],
+          [
+            "Breakup Concern",
+            "I often think about whether my partner will leave me."
+          ],
+          [
+            "Kin Care (Family)",
+            "Caring for family members is important to me."
+          ],
+          [
+            "Kin Care (Children)",
+            "I like to spend time with my children."
+          ]
+        ]
+      }
+    ],
+    "drawings": 4,
+    "legacy_picts": 1,
+    "media_count": 1,
+    "media": [
+      "word/media/image1.jpeg"
+    ],
+    "diagram_file_count": 10,
+    "diagram_files": [
+      "word/diagrams/colors1.xml",
+      "word/diagrams/colors2.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/data2.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/drawing2.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/layout2.xml",
+      "word/diagrams/quickStyle1.xml",
+      "word/diagrams/quickStyle2.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "Belonging",
+          "Security",
+          "Physiological",
+          "Esteem",
+          "Actualization"
+        ]
+      },
+      {
+        "file": "word/diagrams/data2.xml",
+        "labels": [
+          "Mate acquisition",
+          "Status/esteem",
+          "Parenting",
+          "Mate retention",
+          "Affiliation",
+          "Self-protection",
+          "Physiological needs"
+        ]
+      }
+    ],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": "  N ote that psychologists use  “goals”,  “motivations” ,  and “needs” pretty much interchangeably ."
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [
+      "https://www.flickr.com/photos/internetarchivebookimages/21264161425/in/photostream/",
+      "https://www.flickr.com/photos/internetarchivebookimages/21264161425/in/photostream/"
+    ],
+    "fields": [
+      "SEQ Figure \\* ARABIC",
+      "SEQ Figure \\* ARABIC",
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "11_Development and Personality.docx",
+    "size": 104097,
+    "body_words_including_tables": 1823,
+    "paragraphs": 35,
+    "heading_count": 5,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Personality Development"
+      },
+      {
+        "index": 2,
+        "style": "heading 1",
+        "text": "Temperament versus personality"
+      },
+      {
+        "index": 6,
+        "style": "heading 1",
+        "text": "The Little six?"
+      },
+      {
+        "index": 11,
+        "style": "heading 1",
+        "text": "General principles of personality development"
+      },
+      {
+        "index": 29,
+        "style": "heading 1",
+        "text": "Normative trends aren’t “one size fits all”"
+      }
+    ],
+    "style_counts": {
+      "(none)": 28,
+      "heading 1": 4,
+      "caption": 2,
+      "Title": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 2,
+    "legacy_picts": 0,
+    "media_count": 8,
+    "media": [
+      "word/media/image1.png",
+      "word/media/image2.svg",
+      "word/media/image3.png",
+      "word/media/image4.svg",
+      "word/media/image5.png",
+      "word/media/image6.svg",
+      "word/media/image7.png",
+      "word/media/image8.svg"
+    ],
+    "diagram_file_count": 14,
+    "diagram_files": [
+      "word/diagrams/_rels/data1.xml.rels",
+      "word/diagrams/_rels/data2.xml.rels",
+      "word/diagrams/_rels/drawing1.xml.rels",
+      "word/diagrams/_rels/drawing2.xml.rels",
+      "word/diagrams/colors1.xml",
+      "word/diagrams/colors2.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/data2.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/drawing2.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/layout2.xml",
+      "word/diagrams/quickStyle1.xml",
+      "word/diagrams/quickStyle2.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "Rank order of personality traits becomes more stable throughout development",
+          "People who are relatively higher in a trait tend to stay higher, even though people change"
+        ]
+      },
+      {
+        "file": "word/diagrams/data2.xml",
+        "labels": [
+          "There is consistency in the average changes in trait levels during development",
+          "Most people become more conscientious, agreeable, and emotionally stable with age"
+        ]
+      }
+    ],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [
+      "http://noba.to/sjvtxbwd"
+    ],
+    "fields": [],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "12_Culture.docx",
+    "size": 64109,
+    "body_words_including_tables": 2589,
+    "paragraphs": 36,
+    "heading_count": 6,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Culture and Personality"
+      },
+      {
+        "index": 5,
+        "style": "heading 1",
+        "text": "Common pitfalls to avoid"
+      },
+      {
+        "index": 14,
+        "style": "heading 1",
+        "text": "Elements of culture"
+      },
+      {
+        "index": 23,
+        "style": "heading 1",
+        "text": "Fundamental dimensions of culture"
+      },
+      {
+        "index": 29,
+        "style": "heading 1",
+        "text": "Interplay between culture and personality"
+      },
+      {
+        "index": 34,
+        "style": "heading 2",
+        "text": "Culture  Personality"
+      }
+    ],
+    "style_counts": {
+      "(none)": 29,
+      "heading 1": 4,
+      "Title": 1,
+      "caption": 1,
+      "heading 2": 1
+    },
+    "tables_count": 1,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 7,
+        "cols_max": 3,
+        "cells": [
+          [
+            "Dimension",
+            "Description of High End",
+            "Description of Low End"
+          ],
+          [
+            "Power Distance",
+            "Acceptance of hierarchical structures and centralized decision-making. Less powerful members of society defer to authority figures and expect clear delineation between social classes or ranks.",
+            "Preference for more egalitarian relationships. Individuals challenge authority and expect a participatory decision-making process."
+          ],
+          [
+            "Individualism vs. Collectivism",
+            "Emphasis on personal freedom, autonomy, and achievement. People prioritize their own goals and assert their individuality.",
+            "Emphasis on group harmony and cooperation. Individuals prioritize the needs and goals of the group over individual desires."
+          ],
+          [
+            "Masculinity vs. Femininity",
+            "Emphasis on traditionally masculine values such as competitiveness, assertiveness, and achievement. Success is often defined in terms of material wealth and status.",
+            "Emphasis on nurturing relationships, quality of life, and work-life balance. Success is often defined in terms of social welfare and personal fulfillment."
+          ],
+          [
+            "Uncertainty Avoidance",
+            "Preference for rules, structure, and conformity to minimize uncertainty. People avoid ambiguous situations and seek security through adherence to traditions and established norms.",
+            "Tolerance for ambiguity and a willingness to take risks. People are more open to change, innovation, and experimentation."
+          ],
+          [
+            "Long-Term Orientation vs. Short-Term Orientation",
+            "Emphasis on long-term planning, perseverance, and thriftiness. People prioritize long-term goals and are willing to sacrifice short-term gains for future success.",
+            "Emphasis on short-term gratification, tradition, and respect for social norms. People focus on enjoying the present moment and may prioritize short-term gains over long-term planning."
+          ],
+          [
+            "Indulgence vs. Restraint",
+            "Emphasis on enjoying life, freedom of expression, and indulging in personal desires. People prioritize leisure, pleasure, and self-expression.",
+            "Emphasis on self-discipline, modesty, and adherence to social norms. People restrain their desires and adhere to strict social codes of conduct."
+          ]
+        ]
+      }
+    ],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Table \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "12_Culture_and_Personality_Full.docx",
+    "size": 72992,
+    "body_words_including_tables": 5765,
+    "paragraphs": 96,
+    "heading_count": 16,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Culture and Personality"
+      },
+      {
+        "index": 5,
+        "style": "heading 1",
+        "text": "Common pitfalls to avoid"
+      },
+      {
+        "index": 14,
+        "style": "heading 1",
+        "text": "Elements of culture"
+      },
+      {
+        "index": 24,
+        "style": "heading 2",
+        "text": "Levels of culture and cultural identities"
+      },
+      {
+        "index": 27,
+        "style": "heading 1",
+        "text": "dimensions of culture"
+      },
+      {
+        "index": 33,
+        "style": "heading 1",
+        "text": "Interplay between culture and personality"
+      },
+      {
+        "index": 38,
+        "style": "heading 2",
+        "text": "Culture -> Personality"
+      },
+      {
+        "index": 41,
+        "style": "heading 3",
+        "text": "Culture and personality development"
+      },
+      {
+        "index": 45,
+        "style": "heading 3",
+        "text": "Cultural experiences and acculturation"
+      },
+      {
+        "index": 48,
+        "style": "heading 3",
+        "text": "Problems with comparing personality across cultures"
+      },
+      {
+        "index": 51,
+        "style": "heading 2",
+        "text": "Personality -> Culture"
+      },
+      {
+        "index": 55,
+        "style": "heading 1",
+        "text": "Ecological factors"
+      },
+      {
+        "index": 60,
+        "style": "heading 1",
+        "text": "Cultural variation in personality structure"
+      },
+      {
+        "index": 65,
+        "style": "heading 2",
+        "text": "The Tsimane case study"
+      },
+      {
+        "index": 69,
+        "style": "heading 2",
+        "text": "The niche diversity hypothesis"
+      },
+      {
+        "index": 76,
+        "style": "heading 1",
+        "text": "Closing thoughts about culture and personality"
+      }
+    ],
+    "style_counts": {
+      "(none)": 79,
+      "heading 1": 7,
+      "heading 2": 5,
+      "heading 3": 3,
+      "Title": 1,
+      "caption": 1
+    },
+    "tables_count": 1,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 7,
+        "cols_max": 3,
+        "cells": [
+          [
+            "Dimension",
+            "Description of High End",
+            "Description of Low End"
+          ],
+          [
+            "Power Distance",
+            "Acceptance of hierarchical structures and centralized decision-making. Less powerful members of society defer to authority figures and expect clear delineation between social classes or ranks.",
+            "Preference for more egalitarian relationships. Individuals challenge authority and expect a participatory decision-making process."
+          ],
+          [
+            "Individualism vs. Collectivism",
+            "Emphasis on personal freedom, autonomy, and achievement. People prioritize their own goals and assert their individuality.",
+            "Emphasis on group harmony and cooperation. Individuals prioritize the needs and goals of the group over individual desires."
+          ],
+          [
+            "Masculinity vs. Femininity",
+            "Emphasis on traditionally masculine values such as competitiveness, assertiveness, and achievement. Success is often defined in terms of material wealth and status.",
+            "Emphasis on nurturing relationships, quality of life, and work-life balance. Success is often defined in terms of social welfare and personal fulfillment."
+          ],
+          [
+            "Uncertainty Avoidance",
+            "Preference for rules, structure, and conformity to minimize uncertainty. People avoid ambiguous situations and seek security through adherence to traditions and established norms.",
+            "Tolerance for ambiguity and a willingness to take risks. People are more open to change, innovation, and experimentation."
+          ],
+          [
+            "Long-Term Orientation vs. Short-Term Orientation",
+            "Emphasis on long-term planning, perseverance, and thriftiness. People prioritize long-term goals and are willing to sacrifice short-term gains for future success.",
+            "Emphasis on short-term gratification, tradition, and respect for social norms. People focus on enjoying the present moment and may prioritize short-term gains over long-term planning."
+          ],
+          [
+            "Indulgence vs. Restraint",
+            "Emphasis on enjoying life, freedom of expression, and indulging in personal desires. People prioritize leisure, pleasure, and self-expression.",
+            "Emphasis on self-discipline, modesty, and adherence to social norms. People restrain their desires and adhere to strict social codes of conduct."
+          ]
+        ]
+      }
+    ],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Table \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "13_Personality_Change.docx",
+    "size": 92097,
+    "body_words_including_tables": 3130,
+    "paragraphs": 57,
+    "heading_count": 9,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Personality Change"
+      },
+      {
+        "index": 4,
+        "style": "heading 1",
+        "text": "Many people want to change their personality"
+      },
+      {
+        "index": 8,
+        "style": "heading 1",
+        "text": "From personality states to personality traits"
+      },
+      {
+        "index": 16,
+        "style": "heading 1",
+        "text": "Participant attributes that may affect change"
+      },
+      {
+        "index": 22,
+        "style": "heading 1",
+        "text": "Intervention attributes that may affect change"
+      },
+      {
+        "index": 28,
+        "style": "heading 1",
+        "text": "Evidence from psychotherapy and clinical intervention"
+      },
+      {
+        "index": 32,
+        "style": "heading 1",
+        "text": "Evidence from volitional personality change studies"
+      },
+      {
+        "index": 38,
+        "style": "heading 1",
+        "text": "How much change is possible?"
+      },
+      {
+        "index": 43,
+        "style": "heading 1",
+        "text": "Closing thoughts about personality change"
+      }
+    ],
+    "style_counts": {
+      "(none)": 47,
+      "heading 1": 8,
+      "Title": 1,
+      "caption": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 1,
+    "legacy_picts": 0,
+    "media_count": 1,
+    "media": [
+      "word/media/image1.emf"
+    ],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "1_Foundational Frameworks.docx",
+    "size": 77474,
+    "body_words_including_tables": 4530,
+    "paragraphs": 79,
+    "heading_count": 6,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Foundational Frameworks"
+      },
+      {
+        "index": 3,
+        "style": "heading 1",
+        "text": "Navigating Questions and Explanations"
+      },
+      {
+        "index": 11,
+        "style": "heading 2",
+        "text": "Ultimate versus Proximate and Tinbergen’s Four"
+      },
+      {
+        "index": 21,
+        "style": "heading 2",
+        "text": "Levels of Analysis"
+      },
+      {
+        "index": 46,
+        "style": "heading 1",
+        "text": "Connecting to personality"
+      },
+      {
+        "index": 72,
+        "style": "heading 1",
+        "text": "Wrapping up and building on these foundations"
+      }
+    ],
+    "style_counts": {
+      "(none)": 65,
+      "List Paragraph": 6,
+      "heading 1": 3,
+      "caption": 2,
+      "heading 2": 2,
+      "Title": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 2,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 10,
+    "diagram_files": [
+      "word/diagrams/colors1.xml",
+      "word/diagrams/colors2.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/data2.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/drawing2.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/layout2.xml",
+      "word/diagrams/quickStyle1.xml",
+      "word/diagrams/quickStyle2.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "Ultimate",
+          "Phylogeny",
+          "Function",
+          "Proximate",
+          "Ontogeny",
+          "Mechanism"
+        ]
+      },
+      {
+        "file": "word/diagrams/data2.xml",
+        "labels": [
+          "Computational Level",
+          "Algorithmic Level",
+          "Implementational Level"
+        ]
+      }
+    ],
+    "omath_count": 1,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": "  This question is essentially assuming that pessimism is a non-functional  byproduct  of other traits that do have a function. We’ll learn more about this in future chapters."
+      },
+      {
+        "id": "2",
+        "text": "  Since I don’t have any real data to back either of these claims, they are currently “just-so” stories (or ,  if you’re feeling generous, they’re hypotheses). But if I generate and test some novel predictions, I could potentially see which story about the function of pessimism seems more likely, or which gives the most new insight about pessimism."
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Figure \\* ARABIC",
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml",
+      "word/header2.xml",
+      "word/header3.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml",
+      "word/footer3.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "2_Past Perspectives.docx",
+    "size": 47257,
+    "body_words_including_tables": 4195,
+    "paragraphs": 67,
+    "heading_count": 20,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Past Perspectives on Personality"
+      },
+      {
+        "index": 6,
+        "style": "heading 1",
+        "text": "Is personality ancient?"
+      },
+      {
+        "index": 7,
+        "style": "heading 2",
+        "text": "Personality in the oldest written story"
+      },
+      {
+        "index": 12,
+        "style": "heading 2",
+        "text": "What about earlier?"
+      },
+      {
+        "index": 17,
+        "style": "heading 1",
+        "text": "A nonexhaustive history of historical personality perspectives"
+      },
+      {
+        "index": 18,
+        "style": "heading 2",
+        "text": "A note on missing data"
+      },
+      {
+        "index": 22,
+        "style": "heading 2",
+        "text": "Ideal personalities"
+      },
+      {
+        "index": 25,
+        "style": "heading 2",
+        "text": "humourous humorism"
+      },
+      {
+        "index": 29,
+        "style": "heading 2",
+        "text": "Freud and the Neo-Freudians"
+      },
+      {
+        "index": 30,
+        "style": "heading 3",
+        "text": "Freud and psychosexual stages of personality development"
+      },
+      {
+        "index": 37,
+        "style": "heading 4",
+        "text": "Oral Stage"
+      },
+      {
+        "index": 39,
+        "style": "heading 4",
+        "text": "Anal Stage"
+      },
+      {
+        "index": 41,
+        "style": "heading 4",
+        "text": "Phallic Stage"
+      },
+      {
+        "index": 44,
+        "style": "heading 4",
+        "text": "Latency Period"
+      },
+      {
+        "index": 46,
+        "style": "heading 4",
+        "text": "Genital Stage"
+      },
+      {
+        "index": 48,
+        "style": "heading 3",
+        "text": "Neo-freudians"
+      },
+      {
+        "index": 50,
+        "style": "heading 4",
+        "text": "Alfred Adler: inferiority avoidance"
+      },
+      {
+        "index": 53,
+        "style": "heading 4",
+        "text": "Karen Horney: Need for security and support"
+      },
+      {
+        "index": 56,
+        "style": "heading 4",
+        "text": "Carl Jung: Archetypes, Attitudes,"
+      },
+      {
+        "index": 62,
+        "style": "heading 1",
+        "text": "Conclusion"
+      }
+    ],
+    "style_counts": {
+      "(none)": 47,
+      "heading 4": 8,
+      "heading 2": 6,
+      "heading 1": 3,
+      "heading 3": 2,
+      "Title": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [
+      "https://oercommons.org/courseware/unit/8482"
+    ],
+    "fields": [],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "3_Contemporary Perspectives.docx",
+    "size": 47514,
+    "body_words_including_tables": 3072,
+    "paragraphs": 53,
+    "heading_count": 16,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Contemporary Perspectives on Personality"
+      },
+      {
+        "index": 1,
+        "style": "heading 1",
+        "text": "Too many theories, not enough data"
+      },
+      {
+        "index": 4,
+        "style": "heading 1",
+        "text": "The dictionary as data"
+      },
+      {
+        "index": 7,
+        "style": "heading 2",
+        "text": "Allport’s lexical analysis"
+      },
+      {
+        "index": 10,
+        "style": "heading 1",
+        "text": "People as data"
+      },
+      {
+        "index": 12,
+        "style": "heading 2",
+        "text": "Cattell’s Factor Analyses and 16 Factors"
+      },
+      {
+        "index": 16,
+        "style": "heading 2",
+        "text": "From 16 factors to the Big Five"
+      },
+      {
+        "index": 21,
+        "style": "heading 3",
+        "text": "Extraversion"
+      },
+      {
+        "index": 24,
+        "style": "heading 3",
+        "text": "Conscientiousness"
+      },
+      {
+        "index": 27,
+        "style": "heading 3",
+        "text": "Agreeableness"
+      },
+      {
+        "index": 30,
+        "style": "heading 3",
+        "text": "Neuroticism (Emotional Stability)"
+      },
+      {
+        "index": 33,
+        "style": "heading 3",
+        "text": "Openness"
+      },
+      {
+        "index": 36,
+        "style": "heading 1",
+        "text": "The significance of the Big Five"
+      },
+      {
+        "index": 39,
+        "style": "heading 1",
+        "text": "A sixth personality factor?"
+      },
+      {
+        "index": 42,
+        "style": "heading 1",
+        "text": "So how many personality dimensions are there?"
+      },
+      {
+        "index": 46,
+        "style": "heading 1",
+        "text": "Personality models are useful fictions"
+      }
+    ],
+    "style_counts": {
+      "(none)": 37,
+      "heading 1": 7,
+      "heading 3": 5,
+      "heading 2": 3,
+      "Title": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [
+      "http://noba.to/96u8ecgw"
+    ],
+    "fields": [],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "4_Measurement Matters.docx",
+    "size": 78700,
+    "body_words_including_tables": 4611,
+    "paragraphs": 82,
+    "heading_count": 15,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Measurement Matters"
+      },
+      {
+        "index": 8,
+        "style": "heading 1",
+        "text": "The Relationship Between Reliability and Validity"
+      },
+      {
+        "index": 19,
+        "style": "heading 1",
+        "text": "Reliability Assessment"
+      },
+      {
+        "index": 24,
+        "style": "heading 2",
+        "text": "Test-retest reliability"
+      },
+      {
+        "index": 39,
+        "style": "heading 2",
+        "text": "Inter-item reliability"
+      },
+      {
+        "index": 50,
+        "style": "heading 2",
+        "text": "Inter-rater reliability"
+      },
+      {
+        "index": 64,
+        "style": "heading 1",
+        "text": "Validity assessments"
+      },
+      {
+        "index": 72,
+        "style": "heading 2",
+        "text": "Subjective validity assessments"
+      },
+      {
+        "index": 75,
+        "style": "heading 3",
+        "text": "Face validity"
+      },
+      {
+        "index": 82,
+        "style": "heading 3",
+        "text": "Content validity"
+      },
+      {
+        "index": 87,
+        "style": "heading 2",
+        "text": "Empirical validity assessments"
+      },
+      {
+        "index": 90,
+        "style": "heading 3",
+        "text": "Criterion (Predictive) validity"
+      },
+      {
+        "index": 107,
+        "style": "heading 3",
+        "text": "Concurrent (Convergent) validity"
+      },
+      {
+        "index": 122,
+        "style": "heading 3",
+        "text": "Discriminant (Divergent) validity"
+      },
+      {
+        "index": 132,
+        "style": "heading 1",
+        "text": "What’s the verdict? Do personality inventories measure what they intend to?"
+      }
+    ],
+    "style_counts": {
+      "(none)": 61,
+      "caption": 6,
+      "heading 2": 5,
+      "heading 3": 5,
+      "heading 1": 4,
+      "Title": 1
+    },
+    "tables_count": 5,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 6,
+        "cols_max": 3,
+        "cells": [
+          [
+            "Dimension",
+            "Average test-retest r across 74 studies",
+            "SD of r across studies"
+          ],
+          [
+            "Extraversion",
+            "0.834",
+            "0.081"
+          ],
+          [
+            "Agreeableness",
+            "0.766",
+            "0.097"
+          ],
+          [
+            "Conscientiousness",
+            "0.817",
+            "0.067"
+          ],
+          [
+            "Neuroticism",
+            "0.802",
+            "0.089"
+          ],
+          [
+            "Openness",
+            "0.802",
+            "0.077"
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "rows": 6,
+        "cols_max": 2,
+        "cells": [
+          [
+            "Dimension",
+            "Inter-item reliability ( α )"
+          ],
+          [
+            "Extraversion",
+            "0.91"
+          ],
+          [
+            "Agreeableness",
+            "0.7 0"
+          ],
+          [
+            "Conscientiousness",
+            "0.78"
+          ],
+          [
+            "Neuroticism",
+            "0.77"
+          ],
+          [
+            "Openness",
+            "0.8 0"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": 6,
+        "cols_max": 6,
+        "cells": [
+          [
+            "",
+            "Self-rated Extraversion",
+            "Self -rated Agreeableness",
+            "Self-rated Conscientiousness",
+            "Self-rated Neuroticism",
+            "Self-rated Openness"
+          ],
+          [
+            "Peer-rated Extraversion",
+            "0.47",
+            "0.35",
+            "0.23",
+            "0.01",
+            "0.33"
+          ],
+          [
+            "Peer-rated Agreeableness",
+            "0.15",
+            "0.26",
+            "0.19",
+            "0.15",
+            "0.07"
+          ],
+          [
+            "Peer-rated Conscientiousness",
+            "0.22",
+            "0.17",
+            "0 .00",
+            "0.18",
+            "0.12"
+          ],
+          [
+            "Peer-rated Neuroticism",
+            "0.11",
+            "0.16",
+            "0.06",
+            "0.24",
+            "0.01"
+          ],
+          [
+            "Peer-rated Openness",
+            "0.22",
+            "0.25",
+            "0.15",
+            "0.18s",
+            "0.08"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": 6,
+        "cols_max": 3,
+        "cells": [
+          [
+            "Big Five Scale",
+            "Example Criterion Acts",
+            "Mean r"
+          ],
+          [
+            "Extraversion",
+            "Dancing in a crowd, telling jokes",
+            "0.51"
+          ],
+          [
+            "Agreeableness",
+            "Offered to help a friend move, glared at a stranger (-)",
+            "0.53"
+          ],
+          [
+            "Conscientiousness",
+            "Didn’t review work (-), saved money",
+            "0.54"
+          ],
+          [
+            "Neuroticism",
+            "Worried about something out of control, put self down",
+            "0.37"
+          ],
+          [
+            "Openness",
+            "Went to an art exhibit, discussed an issue from multiple points of view",
+            "0.45"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "rows": 8,
+        "cols_max": 6,
+        "cells": [
+          [
+            "",
+            "Big Five scales"
+          ],
+          [
+            "HEXACO scales",
+            "Neuroticism",
+            "Extraversion",
+            "Agreeableness",
+            "Conscientiousness",
+            "Openness"
+          ],
+          [
+            "Honesty-Humility",
+            "-0.08",
+            "-0.14",
+            "0.28",
+            "0.09",
+            "0.13"
+          ],
+          [
+            "Emotionality",
+            "0.55",
+            "0.01",
+            "0.34",
+            "-0.06",
+            "0.11"
+          ],
+          [
+            "Extraversion",
+            "-0.14",
+            "0.74",
+            "0.13",
+            "0.1",
+            "0.21"
+          ],
+          [
+            "Agreeableness",
+            "-0.37",
+            "-0.16",
+            "0.52",
+            "-0.09",
+            "0.03"
+          ],
+          [
+            "Conscientiousness",
+            "0.02",
+            "0.03",
+            "0.01",
+            "0.7",
+            "0.2"
+          ],
+          [
+            "Openness",
+            "-0.03",
+            "0.07",
+            "0.12",
+            "-0.1",
+            "0.76"
+          ]
+        ]
+      }
+    ],
+    "drawings": 1,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 5,
+    "diagram_files": [
+      "word/diagrams/colors1.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/quickStyle1.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "Subjective",
+          "Assessments",
+          "Face",
+          "Validity",
+          "Content",
+          "Validity",
+          "Empirical",
+          "Assessments",
+          "Predictive",
+          "Validity",
+          "Concurrent",
+          "Validity",
+          "Discriminant",
+          "Validity"
+        ]
+      }
+    ],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": "  The n ame for this module  is  shamelessly  borrowed  from:  https://www.psychologicalscience.org/observer/measurement-matters  "
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "5_Personality Power.docx",
+    "size": 47075,
+    "body_words_including_tables": 2088,
+    "paragraphs": 44,
+    "heading_count": 9,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Personality Power"
+      },
+      {
+        "index": 3,
+        "style": "heading 1",
+        "text": "The person-situation debate"
+      },
+      {
+        "index": 5,
+        "style": "heading 2",
+        "text": "Person (trait) Position"
+      },
+      {
+        "index": 8,
+        "style": "heading 2",
+        "text": "Situation Position"
+      },
+      {
+        "index": 11,
+        "style": "heading 1",
+        "text": "Walter Mischel’s critique of personality"
+      },
+      {
+        "index": 17,
+        "style": "heading 1",
+        "text": "The power of the situation"
+      },
+      {
+        "index": 24,
+        "style": "heading 1",
+        "text": "The power of personality"
+      },
+      {
+        "index": 29,
+        "style": "heading 3",
+        "text": "Aside: prediction versus (causal) explanation"
+      },
+      {
+        "index": 31,
+        "style": "heading 1",
+        "text": "Resolving the person situation debate"
+      }
+    ],
+    "style_counts": {
+      "(none)": 35,
+      "heading 1": 5,
+      "heading 2": 2,
+      "Title": 1,
+      "heading 3": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [],
+    "endnotes": [],
+    "hyperlinks": [
+      "https://emoriebeck.shinyapps.io/Big-5-Prediction/"
+    ],
+    "fields": [],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "6_Evolution and Personality.docx",
+    "size": 127093,
+    "body_words_including_tables": 2535,
+    "paragraphs": 51,
+    "heading_count": 18,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Evolution and Personality"
+      },
+      {
+        "index": 3,
+        "style": "heading 1",
+        "text": "Darwin’s Big Ideas"
+      },
+      {
+        "index": 5,
+        "style": "heading 2",
+        "text": "Natural Selection"
+      },
+      {
+        "index": 7,
+        "style": "heading 3",
+        "text": "Variation"
+      },
+      {
+        "index": 9,
+        "style": "heading 3",
+        "text": "Differential reproduction"
+      },
+      {
+        "index": 12,
+        "style": "heading 3",
+        "text": "Inheritance"
+      },
+      {
+        "index": 16,
+        "style": "heading 2",
+        "text": "Natural Selection in Action"
+      },
+      {
+        "index": 20,
+        "style": "heading 2",
+        "text": "Sexual Selection"
+      },
+      {
+        "index": 23,
+        "style": "heading 3",
+        "text": "intra-sexual Competition"
+      },
+      {
+        "index": 26,
+        "style": "heading 3",
+        "text": "Inter-sexual choice"
+      },
+      {
+        "index": 29,
+        "style": "heading 1",
+        "text": "Products of evolution"
+      },
+      {
+        "index": 31,
+        "style": "heading 2",
+        "text": "Adaptations"
+      },
+      {
+        "index": 33,
+        "style": "heading 2",
+        "text": "Byproducts"
+      },
+      {
+        "index": 35,
+        "style": "heading 2",
+        "text": "Noise"
+      },
+      {
+        "index": 37,
+        "style": "heading 1",
+        "text": "The power of evolutionary theory"
+      },
+      {
+        "index": 39,
+        "style": "heading 1",
+        "text": "Applying Darwin’s Ideas to Humans: Evolutionary Psychology"
+      },
+      {
+        "index": 41,
+        "style": "heading 2",
+        "text": "What the #@%! is a psychological mechanism?"
+      },
+      {
+        "index": 50,
+        "style": "heading 2",
+        "text": "What the #@%! is an adaptive problem?"
+      }
+    ],
+    "style_counts": {
+      "(none)": 32,
+      "heading 2": 8,
+      "heading 3": 5,
+      "heading 1": 4,
+      "Title": 1,
+      "caption": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 1,
+    "legacy_picts": 0,
+    "media_count": 1,
+    "media": [
+      "word/media/image1.png"
+    ],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Yes, these really are the names for groups of these animals!"
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [],
+    "fields": [
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "7_Genetics and Personality.docx",
+    "size": 71926,
+    "body_words_including_tables": 6652,
+    "paragraphs": 110,
+    "heading_count": 28,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Genetics and Personality"
+      },
+      {
+        "index": 4,
+        "style": "heading 1",
+        "text": "Notes of caution"
+      },
+      {
+        "index": 6,
+        "style": "heading 2",
+        "text": "Genetic differences in context"
+      },
+      {
+        "index": 10,
+        "style": "heading 2",
+        "text": "Genes are probabilistic, not deterministic!"
+      },
+      {
+        "index": 12,
+        "style": "heading 1",
+        "text": "Nature and nurture(s)"
+      },
+      {
+        "index": 18,
+        "style": "heading 1",
+        "text": "Estimating the contributions of genetics and environments with twin studies"
+      },
+      {
+        "index": 20,
+        "style": "heading 2",
+        "text": "Two types of twins"
+      },
+      {
+        "index": 25,
+        "style": "heading 2",
+        "text": "Heritability and Falconer’s formula"
+      },
+      {
+        "index": 32,
+        "style": "heading 2",
+        "text": "Heritability of personality"
+      },
+      {
+        "index": 38,
+        "style": "heading 2",
+        "text": "Environmental influences on personality"
+      },
+      {
+        "index": 44,
+        "style": "heading 2",
+        "text": "The genetic influence on personality changes through development"
+      },
+      {
+        "index": 48,
+        "style": "heading 1",
+        "text": "Getting at the genes through molecular genetics"
+      },
+      {
+        "index": 52,
+        "style": "heading 2",
+        "text": "The shortcomings of candidate gene research"
+      },
+      {
+        "index": 59,
+        "style": "heading 2",
+        "text": "The promise of genome wide association studies (GWAS)"
+      },
+      {
+        "index": 68,
+        "style": "heading 2",
+        "text": "Missing heritability(?)"
+      },
+      {
+        "index": 73,
+        "style": "heading 2",
+        "text": "Limitations of GWAS"
+      },
+      {
+        "index": 75,
+        "style": "heading 3",
+        "text": "Population Stratification"
+      },
+      {
+        "index": 79,
+        "style": "heading 3",
+        "text": "Lack of Diversity"
+      },
+      {
+        "index": 82,
+        "style": "heading 3",
+        "text": "Ascertainment Bias"
+      },
+      {
+        "index": 85,
+        "style": "heading 3",
+        "text": "Gene-Environment Correlations"
+      },
+      {
+        "index": 87,
+        "style": "heading 1",
+        "text": "Conclusions about genetics and personality heritability"
+      },
+      {
+        "index": 89,
+        "style": "heading 1",
+        "text": "Potential evolutionary explanations"
+      },
+      {
+        "index": 91,
+        "style": "heading 2",
+        "text": "Functional explanations"
+      },
+      {
+        "index": 92,
+        "style": "heading 3",
+        "text": "Fluctuating/balancing selection"
+      },
+      {
+        "index": 94,
+        "style": "heading 3",
+        "text": "Frequency dependent selection"
+      },
+      {
+        "index": 96,
+        "style": "heading 2",
+        "text": "Non-functional explanations"
+      },
+      {
+        "index": 97,
+        "style": "heading 3",
+        "text": "Selective neutrality"
+      },
+      {
+        "index": 99,
+        "style": "heading 3",
+        "text": "Mutation-selection balance"
+      }
+    ],
+    "style_counts": {
+      "(none)": 81,
+      "heading 2": 13,
+      "heading 3": 8,
+      "heading 1": 6,
+      "Title": 1,
+      "caption": 1
+    },
+    "tables_count": 1,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 7,
+        "cols_max": 2,
+        "cells": [
+          [
+            "Trait",
+            ""
+          ],
+          [
+            "Extraversion",
+            ".55"
+          ],
+          [
+            "Agreeableness",
+            ".41"
+          ],
+          [
+            "Conscientiousness",
+            ".44"
+          ],
+          [
+            "Neuroticism",
+            ".41"
+          ],
+          [
+            "Openness",
+            ".34"
+          ],
+          [
+            "Honesty-Humility",
+            ".40"
+          ]
+        ]
+      }
+    ],
+    "drawings": 0,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 0,
+    "diagram_files": [],
+    "diagrams": [],
+    "omath_count": 11,
+    "omath_para_count": 1,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Studies based on twins raised in the same home  are often  referred to as “Classical Twin Studies” ."
+      },
+      {
+        "id": "2",
+        "text": "  I updated this  Fall 202 5 . I should update this each semester or year to see what has changed.  Bug me if I haven’t!"
+      },
+      {
+        "id": "3",
+        "text": " But note that similar investigations of other traits, like cognitive ability and educational attainment, found evidence of bias from gene-environment correlations in estimates of SNP-based heritability of these traits."
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [
+      "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation?utm_source=chatgpt.com"
+    ],
+    "fields": [],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "8_Physiology and Personality.docx",
+    "size": 86970,
+    "body_words_including_tables": 6099,
+    "paragraphs": 104,
+    "heading_count": 17,
+    "headings": [
+      {
+        "index": 0,
+        "style": "Title",
+        "text": "Physiology and Personality"
+      },
+      {
+        "index": 5,
+        "style": "heading 1",
+        "text": "BRains"
+      },
+      {
+        "index": 6,
+        "style": "heading 2",
+        "text": "What is a brain?"
+      },
+      {
+        "index": 12,
+        "style": "heading 2",
+        "text": "Neurotransmitters and personality"
+      },
+      {
+        "index": 18,
+        "style": "heading 3",
+        "text": "Limited evidence for links between neurotransmitters and personality"
+      },
+      {
+        "index": 21,
+        "style": "heading 3",
+        "text": "Complicated relationships may obscure associations"
+      },
+      {
+        "index": 29,
+        "style": "heading 2",
+        "text": "Brain region size, connectedness, and actIvity"
+      },
+      {
+        "index": 34,
+        "style": "heading 4",
+        "text": "brain structure"
+      },
+      {
+        "index": 41,
+        "style": "heading 4",
+        "text": "Brain Activity"
+      },
+      {
+        "index": 48,
+        "style": "heading 3",
+        "text": "Tentative conlcusions about the state of personality neuroscience"
+      },
+      {
+        "index": 53,
+        "style": "heading 1",
+        "text": "Bodies"
+      },
+      {
+        "index": 55,
+        "style": "heading 2",
+        "text": "the role(s) of Hormones"
+      },
+      {
+        "index": 64,
+        "style": "heading 3",
+        "text": "Hormones and personality"
+      },
+      {
+        "index": 69,
+        "style": "heading 2",
+        "text": "Does anything about our physiology predict personality?"
+      },
+      {
+        "index": 71,
+        "style": "heading 3",
+        "text": "Facultative calibration!?"
+      },
+      {
+        "index": 75,
+        "style": "heading 3",
+        "text": "Empirical support for facultative calibration of personality traits"
+      },
+      {
+        "index": 85,
+        "style": "heading 1",
+        "text": "Conclusions about physiology and personality"
+      }
+    ],
+    "style_counts": {
+      "(none)": 86,
+      "heading 3": 6,
+      "heading 2": 5,
+      "heading 1": 3,
+      "heading 4": 2,
+      "Title": 1,
+      "caption": 1
+    },
+    "tables_count": 0,
+    "tables": [],
+    "drawings": 1,
+    "legacy_picts": 0,
+    "media_count": 0,
+    "media": [],
+    "diagram_file_count": 5,
+    "diagram_files": [
+      "word/diagrams/colors1.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/quickStyle1.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "The speed of action potenial (",
+          "mylenation",
+          ")",
+          "Amount of neurotransmitters released",
+          "Number of receptors available to take up neurotransmitters",
+          "Efficiency of postsynaptic receptor uptake",
+          "Enzymes available to get rid of excess neurotransmitters",
+          "Efficiency of reuptake from presynaptic dendrite",
+          "Neurotrasnmitter production",
+          "(having more or less)",
+          "Size of synaptic cleft",
+          "(space between neurons)",
+          "Synaptic fluid viscosity",
+          "Size or number of vesicles",
+          "Number of close postsynaptic nearons that may accidentially pick up floating neurotransmitters",
+          "..."
+        ]
+      }
+    ],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " Remember  our   mantra: genes are probabilistic, not deterministic!"
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [
+      "http://www.nomadresearchlab.org/",
+      "https://psycnet.apa.org/doi/10.1037/per0000238"
+    ],
+    "fields": [
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  },
+  {
+    "file": "9_Emotions and Personality.docx",
+    "size": 152962,
+    "body_words_including_tables": 3436,
+    "paragraphs": 60,
+    "heading_count": 15,
+    "headings": [
+      {
+        "index": 1,
+        "style": "Title",
+        "text": "Emotions and Personality"
+      },
+      {
+        "index": 5,
+        "style": "heading 1",
+        "text": "An evolutionary framework for studying emotions"
+      },
+      {
+        "index": 19,
+        "style": "heading 2",
+        "text": "Emotions coordinate many processes"
+      },
+      {
+        "index": 26,
+        "style": "heading 2",
+        "text": "Emotions have a species typical design"
+      },
+      {
+        "index": 29,
+        "style": "heading 1",
+        "text": "Individual differences in emotions"
+      },
+      {
+        "index": 31,
+        "style": "heading 2",
+        "text": "Many moving parts"
+      },
+      {
+        "index": 33,
+        "style": "heading 2",
+        "text": "Many sources of variation"
+      },
+      {
+        "index": 35,
+        "style": "heading 2",
+        "text": "The social relevance of differences in emotions"
+      },
+      {
+        "index": 39,
+        "style": "heading 1",
+        "text": "Reverse engineering personality constructs via emotions"
+      },
+      {
+        "index": 41,
+        "style": "heading 2",
+        "text": "Bottom-up: From emotions to personality constructs"
+      },
+      {
+        "index": 43,
+        "style": "heading 2",
+        "text": "Top-Down: From personality constructs to emotions"
+      },
+      {
+        "index": 45,
+        "style": "heading 2",
+        "text": "Empirical examples"
+      },
+      {
+        "index": 47,
+        "style": "heading 3",
+        "text": "Anger and Agreeableness"
+      },
+      {
+        "index": 49,
+        "style": "heading 3",
+        "text": "Jealousy and Neuroticism"
+      },
+      {
+        "index": 51,
+        "style": "heading 1",
+        "text": "Emotions provide insight into lexical personality constructs"
+      }
+    ],
+    "style_counts": {
+      "(none)": 42,
+      "heading 2": 8,
+      "heading 1": 4,
+      "caption": 3,
+      "heading 3": 2,
+      "Title": 1
+    },
+    "tables_count": 1,
+    "tables": [
+      {
+        "index": 0,
+        "rows": 5,
+        "cols_max": 3,
+        "cells": [
+          [
+            "Adaptive Problem",
+            "Cues",
+            "Solutions"
+          ],
+          [
+            "Depleted nutritional state",
+            "L ow blood sugar, empty stomach",
+            "F ind food, eat"
+          ],
+          [
+            "Predator threats",
+            "F angs, large paw prints , growling",
+            "E scape, fight, heightened caution"
+          ],
+          [
+            "Devaluation by conspecifics",
+            "A voidance, harm, not sharing",
+            "A ttempt to regain value"
+          ],
+          [
+            "Losing valued cooperation partners",
+            "Death of cooperator, mate left",
+            "Attempt to regain partner, seek new partner"
+          ]
+        ]
+      }
+    ],
+    "drawings": 2,
+    "legacy_picts": 0,
+    "media_count": 1,
+    "media": [
+      "word/media/image1.png"
+    ],
+    "diagram_file_count": 5,
+    "diagram_files": [
+      "word/diagrams/colors1.xml",
+      "word/diagrams/data1.xml",
+      "word/diagrams/drawing1.xml",
+      "word/diagrams/layout1.xml",
+      "word/diagrams/quickStyle1.xml"
+    ],
+    "diagrams": [
+      {
+        "file": "word/diagrams/data1.xml",
+        "labels": [
+          "Goals and motivations",
+          "Information-gathering",
+          "Attention",
+          "Concept construal",
+          "Perception",
+          "Memory",
+          "Physiology",
+          "Communication"
+        ]
+      }
+    ],
+    "omath_count": 0,
+    "omath_para_count": 0,
+    "footnotes": [
+      {
+        "id": "1",
+        "text": " This means that emotions should not be expected to produce the perfect ly adaptive  behavior in every situation or every person , even when they are functioning just as they are “supposed” to .  Instead,  the responses that are produced can be expected to be those that have worked most frequently across most situations  throughout evolutionary history . "
+      },
+      {
+        "id": "2",
+        "text": " See the lexical studies discussed in the “Contemporary Personality Perspectives” lecture for a refresher."
+      }
+    ],
+    "endnotes": [],
+    "hyperlinks": [
+      "https://www.logicallyfallacious.com/logicalfallacies/Circular-Reasoning"
+    ],
+    "fields": [
+      "SEQ Figure \\* ARABIC",
+      "SEQ Table \\* ARABIC",
+      "SEQ Figure \\* ARABIC"
+    ],
+    "headers": [
+      "word/header1.xml"
+    ],
+    "footers": [
+      "word/footer1.xml",
+      "word/footer2.xml"
+    ],
+    "comments": false
+  }
+]

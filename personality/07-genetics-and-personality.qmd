@@ -1,0 +1,238 @@
+---
+title: "Genetics and Personality"
+---
+
+The winnowing effects of evolutionary processes tend to remove genetic variation from populations over generations. Because of this, any personality differences that are rooted in genetic differences would require us to develop an understanding of how or why evolutionary processes maintained this variation. But if personality isn't heritable then there is no real puzzle to solve.
+
+So, is personality heritable? In this chapter, we'll explore behavioral genetics research that provides some insight into this question. In short, we will see that all personality traits---and likely all psychological traits---have a nontrivial genetic component. I'll present evidence from twin studies and molecular genetics that support this point. Finally, we'll consider how this genetic variation might be maintained by evolutionary processes.
+
+## Notes of Caution
+
+Some people view talking about genetic influences to be controversial or taboo. It shouldn't be. If we want to understand how and why people are different or similar from one another, we must examine how genetics contributes to those differences. Part of the reluctance to examine the role of genetics might come down to some basic misunderstandings about what genetic differences mean and how genes influence traits. Let's try to address a couple of these issues before we dive into research on the heritability of personality.
+
+### Genetic Differences in Context
+
+This chapter necessarily puts a lot of focus on genetic differences. But it is important to put these genetic differences in context. According to the [National Human Genome Research Institute (2025),](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation?utm_source=chatgpt.com) humans are on average \~99.6% genetically identical! We are overwhelmingly the same due to our very recent (in evolutionary terms) common ancestry. Less than 0.4% of the human genome (i.e., all of the DNA that codes for a human) differs between people.
+
+The tiny fraction of genes in the genome that varies from person to person are referred to as *polymorphic genes*. These genes are what is being studied in the behavioral genetics research we are discussing in this chapter. Although it is just a tiny fraction of the genome, we'll see that this variation may have significant influences on human physiology, behavior, and cognition.
+
+In behavior genetics, the outcomes being studied are referred to as phenotypes. It is important to note that because we are studying the small (\<1%) part of the genome that *varies* across individuals that behavior genetics can only inform our understanding of *variation* in phenotypes; it does not tell us why an average level of the phenotype is observed. For example, behavior genetics does not help explain why the average height of a male in the USA is 5 foot 9 inches, but it can provide insight into the genetic and environmental contributions to differences in height between individuals.
+
+### Genes Are Probabilistic, Not Deterministic!
+
+Although we will see that genes contribute a great deal to population variation in personality traits (and all other psychological traits that we have studied so far), we must appreciate that genes are not deterministic. Our genetics may predispose us towards certain characteristics, but only in a probabilistic sense via a complicated and cascading causal pathway. That means that genes only increase the odds of certain traits or outcomes---they don't cause them directly with any certainty in most cases. Further, the effects of genes on phenotypes depends on the environment: genes can have different effects under different environmental conditions. By recognizing that genes have probabilistic rather than deterministic effects, we can avoid falling into thinking that outcomes are inevitable and instead focus on how we might change environments to affect the likelihood of different outcomes.
+
+## Nature and Nurture(s)
+
+Humans have debated for centuries whether behavioral differences are the result of nature or nurture. As with most debates, the extremes of either side are almost certainly incorrect. Behavioral differences are not likely to be completely due to differences in genetics; nor are they likely to be totally because of differences in upbringing. It is more fruitful to think of personality differences as arising from an interaction of genetic factors and environmental factors.
+
+Moreover, the environment is not just one thing. We can distinguish between shared environmental features and non-shared environmental features.
+
+When people think of the nurture side of the debate, they are probably thinking of the *shared environment.* The shared environment is made up of features of the environment in a person's upbringing that is shared across other family members (e.g., siblings). Common examples are things like parenting styles, socioeconomic status, or the number of books on the shelves in the house where a person grows up.
+
+The *non-shared environment*, in contrast, is made up of all the experiences across development that are unique or different across family members. Some examples of the non-shared environment would be friend groups, different pop culture influences, random life events (e.g., accidents, illnesses, injuries). But even things like parenting styles or socioeconomic status or books on the shelf could become part of the nonshared environment if different siblings are exposed to different levels or types of these factors. For example, if parents read a parenting book that changed their parenting style between their first born and second born child, then parenting style could be part of the nonshared environment for each child. Finally, the non-shared environment also includes completely random noise and mutations that arise through development, as well as any errors in our ability to measure the trait of interest (i.e., differences in reliability and validity). In psychological research, where most of our measurements can be expected to contain a great deal of error, this is a big deal.
+
+Until about 100 years ago, the nature-nurture debate was dependent on anecdotal evidence. There was not systematic research to inform the debate about the roles of genes and environments. But twin studies changed that.
+
+## Estimating the Contributions of Genetics and Environments with Twin Studies
+
+Over the past 100 years or so, researchers have taken advantage of the nature of twins to estimate the influence that genetics and environments---both shared and non-shared---have on a variety of physiological and psychological traits. Twins are essentially a natural experiment that allows us to examine the roles of nature and nurture. What is it about twins that allows this?
+
+### Two Types of Twins
+
+You are probably aware that there are two types of twins: identical and fraternal. These lay terms for twin types correspond to twins that are *monozygotic* and *dizygotic*, respectively. Unless twins are separated at birth or sometime in their childhood, we can assume that they experience pretty much the same "nurture" growing up. That is, they have the same parents with the same parenting styles, socioeconomic status, and number of books on the shelf. This is true of both monozygotic twins and dizygotic twins. However, the two types of twins both have very different genetic similarities because of the way the twins are conceived. Most of the research on twins is conducted on twins raised in the same home[^1].
+
+*Monozygotic* twins are the result of one ovum that has been fertilized by one sperm, which then happens to split into two zygotes. This creates two (mostly) genetically identical embryos. Roughly two-thirds of monozygotic twins also share a placental sac (i.e., chorion) in the womb. That means they are genetically identical, *and* most monozygotic twins are exposed to the same environmental factors throughout their embryonic development. So, they only thing that can contribute to their differences are post-birth non-shared environmental differences (e.g., randomness, different friends, different classrooms).
+
+*Dizygotic* twins, on the other hand, result from two different ovum being fertilized by two different sperm, creating two different zygotes. They only share 50% of the DNA at polymorphic gene loci: of the 0.1% of the genome that varies between people, they have the same genes for half of those differences and different genes for the other half. Which 50% of the polymorphic loci are shared or variable is itself random. That means they are no more genetically similar than the average pair of siblings who are not twins. The resulting embryos then develop in a separate chorion. So, their differences can arise from non-shared environments (e.g., hormone exposure in the womb) and genetic differences, but not from aspects of the shared environment (e.g., parenting) which is assumed to be the same for each twin.
+
+These differences essentially make dizygotic twins analogous to a "control group" in a typical experiment. By comparing the similarity of monozygotic twins to the control group of dizygotic twins we can ask what the effect is of having the same genes (i.e., how heritable the trait is) on various phenotypes (e.g., height, religiosity, personality). Heritability is estimated by using Falconer's formula.
+
+### Heritability and Falconer's Formula
+
+Heritability in twin studies refers to a very specific estimate: $h^{2}$. This value is an estimate of the average amount of variance in a trait within the population being studied that can be attributed to variance in shared genetics. The heritability estimate we get from twin studies can lead to confusion if not interpreted correctly.
+
+Because it is an estimate of the average contribution of genetics, it cannot be applied to individuals. So, if we learn that a trait is 50% heritable, it does not mean that your standing on that trait is 50% caused by your genes---it could be 30% or just about any other number. It only says that, on average, the contribution of genes to the trait is 50% across *all* individuals in the population.
+
+Further, because the estimate only applies to the population sampled, the heritability of traits can differ across cultures and across time. The heritability of traits can be affected by many things. A classic example is that the heritability of height shrinks in environments where differences in malnutrition is common. In such environments, a person can have genes that predispose them to be tall, but malnutrition can stunt their growth. In places where there is plentiful food resources and low malnutrition in development, however, genetics contribute more to the population variation in height because nutritional differences between people can be smaller. Because heritability is specific to the population being studied, it is important to recognize that twin studied cannot be used to make inferences about differences between groups. Rather, they only inform our understanding of average contributions within a particular group and, as noted above, these average contributions still should not be applied to the individual.
+
+In twin studies, heritability is estimated with *Falconer's Formula*: $2\left( r_{MZ} -  r_{DZ} \right) = h^{2}$. In this formula, $r_{MZ}$ is the correlation between monozygotic twin pairs on the trait of interest, and $r_{DZ}$ is the correlation between dizygotic twin pairs on the same trait. Because the only difference between monozygotic twins and dizygotic twins, on average, is assumed to be genetic similarity, then twice the difference in their similarities is the estimated effect of genetic variation.
+
+If we wanted to find the heritability of height, we would collect data on the heights of a large sample of monozygotic twins and a large sample of dizygotic twins. We would then compute the correlations between height for twin 1 and twin 2 the monozygotic twins and do the same for the dizygotic twins. Then we simply plug those values into the formula. For example, if researchers estimate the correlation between the heights of male monozygotic twins in Australia to be .84 and the correlation between the heights of male Australian dizygotic twins to be .45, the heritability estimate for height would be $h^{2}$$= .78 = 2(.84 -  .45)$. Thus, about 78% of the population variance in height can be attributed to variance in shared genetics.
+
+But we must keep in mind that this doesn't mean that any given individuals height is 78% percent due to their genetics; nor does it mean that height in New Zealand or China is 78% heritable; nor even that the height of female Australians is 78% heritable. We only apply the heritability estimate to the population it was estimated in. We'd have to measure the heights of Australian female twins or Chinese twins to get their respective heritability estimates.
+
+### Heritability of Personality
+
+Now that we understand the rationale behind estimating and interpreting heritability, we can discuss the heritability of personality traits. Across many studies with samples representing many populations, the heritability estimates for personality traits ranges from around 30-60%. The table below shows some representative heritability estimates from studies of the Big Five traits and Honesty-Humility.
+
+| Trait | $h^{2}$ |
+|:---|:---:|
+| Extraversion | .55 |
+| Agreeableness | .41 |
+| Conscientiousness | .44 |
+| Neuroticism | .41 |
+| Openness | .34 |
+| *Honesty-Humility* | .40 |
+
+: Representative examples heritability $h^{2}$ estimates for Big Five traits and Honesty-Humility {#tbl-heritability}
+
+Note: Big Five data from Jang et al. 1996; Honesty-Humility data from Lewis & Bates 2014. Don't take these as the absolute truth, just examples of what these estimates typically look like.
+
+### Environmental Influences on Personality
+
+If personality is about 30-60% heritable, what roles do the shared and non-shared environments play? To get the total environmental contribution we just subtract the estimated heritability from 100. So, if we use the estimate for the heritability of Extraversion in the table above, the environment explains about 45% of the variability in Extraversion on average (i.e., $1 -  .55 = .45$). To parse the total environmental influence into shared environmental effects and non-shared environmental effects, we go back to our assumptions about similarities between monozygotic twins.
+
+Because we assume that monozygotic twins are essentially identical in genes and the features of their shared environment (e.g., parenting, socioeconomic status, number of books in the house), then the only thing that can make them different is the non-shared environment. So, we just look at the difference between the correlation between dizygotic twins and a perfect correlation: $1 - r_{MZ}$. In the case of personality, the effect of the non-shared environment is estimated to be between 30-50%.
+
+It is important to note again that the non-shared environment can include things like random noise and even measurement error---which is especially an issue in measuring psychological traits like personality. So, things like peer groups, teachers, and life experiences don't necessarily contribute the full 30-50% on average. A lot of the variation attributed to the non-shared environment could just be noise and measurement error.
+
+If the non-shared environment explains about 30-50% of personality on average, and shared genetics explain 30-60% on average, that leaves only 5-10% left to explain on average. That remainder can be attributed to the shared environments. It can also be calculated by taking the difference between the monozygotic twin correlation and the heritability estimate: $r_{mz} - h^{2}$. This is because we assume that the only things that could make twins similar and explain the correlation between twins are genetics and shared environments. By subtracting out the estimated genetic effects, we are left with an estimate of the contribution by the shared environment.
+
+In sum, it would appear from the research to date that there is a substantial genetic contribution to personality differences on average. And while the combined contribution of environments to personality variation is quite large as well, only the non-shared environment seems to contribute very much while the shared environment contributes relatively little. This is in striking contrast to what most peoples' intuitions are about the roles of nature and nurture in personality.
+
+### The Genetic Influence on Personality Changes Through Development
+
+Twin studies of personality traits have been going on for decades now, so we can estimate heritability at different ages. In meta-analysis of twin studies across different ages, Briley and Tucker-Drob (2017) showed that the influence of genetics on personality declines throughout the lifespan, while the influence of the non-shared environment increases over time. They estimated the contribution of the shared environment to be essentially zero throughout the lifespan. Genetic influences account for most of the variation in personality from birth to about 25 years of age, when the non-shared environment contribution is equal. After about age 25, the non-shared environment overtakes genetic contributions to personality variation.
+
+This is striking because some psychological traits, such as intelligence, show a different pattern whereby the effect of genetics increase throughout development. To me, this suggests that personality unfolds over time through differences in life experiences as we learn to adapt to the unique circumstances that we find ourselves in.
+
+Again, these results only apply to a population of people, not to individuals within the population. For some people, the genetic influences may start off weaker and overtake the non-shared environment; for others the genetic influences may remain stronger than the non-shared environment over time; and others may exhibit different patterns of influence over development. Perhaps one day it will be possible to understand these individual differences in the trajectory of genetic and environmental influences on personality development.
+
+## Getting at the Genes Through Molecular Genetics
+
+While twin studies allow us to estimate the extent to which variability in traits is related to variability in genetics, they don't measure any genes directly. So twin studies don't give us indication of how the genetics of personality work, or how many genes are associated with a given personality traits. To learn about the genetics of personality, we need to measure genes directly.
+
+That's where molecular genetics comes in. There are two major forms of molecular genetics in personality research. The first is candidate gene research, which is hypothesis driven. The second is genome wide association studies, which is largely hypothesis free. We'll explore more about what this means each below.
+
+Let's quickly review some key genetic concepts. *Genes* are segments of DNA that code for how to make a specific protein, and each gene is made up of multiple (often thousands) of *alleles*. There are also large regions of DNA that are referred to as either non-coding or intergenic regions, which do not directly code for proteins, but are made up of these same alleles. However, recent evidence from molecular genetic studies indicate that these non-coding regions may be among the most relevant for individual differences in traits like personality, likely because of their effect on the degree to which a gene is expressed (i.e., how much of a protein the gene is making). Alleles may vary across individuals, and these variations can affect individual differences in traits or characteristics. Genetics research focuses on these *polymorphic* variants that vary across individuals.
+
+### The Shortcomings of Candidate Gene Research
+
+Candidate gene research of personality was popular in the late 1990s, but they've been out of fashion for several years now. So why are we talking about them? While this sort of research basically failed to find reliable associations between specific genes and personality traits, I think their failures provide important context for understanding the complexity of the genetics of personality.
+
+Candidate gene studies attempted to examine how specific genes relate to personality traits. Until recently, collecting DNA and sequencing large portions of the genome was time consuming and expensive. So, researchers relied on theory to guide their selection of which genes to look at. Specifically, researchers looked at small numbers of specific genes that previous research suggested may be related to various biological functions that could affect personality.
+
+For example, researchers learned that a polymorphism on the *5-HTTLPR* was involved in serotonin transport. Because evidence suggested that serotonin was related to mood and feelings of happiness, researchers hypothesized that variation in serotonin-related genes would predict differences in personality traits like Neuroticism and Emotional Stability.
+
+Many initial studies found the predicted association between the polymorphism and personality. However, over time the picture became much less clear because many studies did not find the link between the *5-HTTLPR* gene polymorphism and personality. This discrepancy may be because early studies were based on small samples that are likely to lead to false positives (i.e., finding an association between things that are actually unrelated). Studies with much larger samples have failed to find any reliable relationship between the polymorphism on the *5-HTTLPR* gene on Neuroticism or any other personality traits (e.g., Terracciano et al. 2009).
+
+This pattern of early initial support followed by failures to replicate and inconclusive findings is very common in the candidate gene research on personality variation. Researchers now mostly recognize that the candidate gene approach is flawed because it assumes that personality trait variation will match closely with biological differences that can be explained by few genes with relatively large effects. But if many genes affect personality traits and each gene has only a small effect, then collecting data on only a small number of genes will never give us the whole picture.
+
+### The Promise of Genome Wide Association Studies (GWAS)
+
+As researchers were realizing that the candidate gene approach was likely too narrow, genetic sequencing was also getting substantially more efficient and less expensive. Researchers could now measure larger portions of the genome in larger groups of people. This technological advancement fostered the emergence of genome wide association studies (GWAS; pronounced "jee-was"), which provide an alternative way to gain insight into the underlying genetics of personality.
+
+The GWAS approach to prospecting for genes is hypothesis free---it doesn't rely on researchers making guesses about which small number of genes to look at. Instead, GWAS studies measure larger portions of the \~.4% genome that differs between people (remember that \~99.6% of genome is identical from person to person) and explore which genes are associated with personality. If we use mining as an analogy, candidate gene studies are like using a pickaxe to start excavating in a specific place where someone told you gold might be, while GWAS research is like using explosives to blow a hole in the mountain to find the gold more quickly.
+
+GWAS researchers measure portions of the genome that differ between individuals. This often involved studying the effects of *single-nucleotide polymorphisms*. Single nucleotide polymorphisms, which are often referred to as SNPs (often pronounced, "snips") contain different alleles across different individuals within a population. If your genome is like a book, the alleles are the individual letters than make up different words. When these letters differ from person to person, we have a SNP. By examining variation in many SNPs, research can see how variability of SNPs on specific genes relates to variation in personality traits. Importantly, most GWAS researchers still don't measure the entire genome, especially SNPs that are very rare, because it's still not quite cost effective.
+
+GWAS studies have been going on since at least 2008. Early on, sample sizes were still relatively small but in last decade most GWAS studies have been based on samples with hundreds of thousands or even millions of people. As the sample sizes have gotten bigger, researchers have been able to identify more and more genetic variants that are reliably associated with personality traits.
+
+The main finding of GWAS research to date is that personality traits---and really any complex trait---are *extremely polygenic.* That means there are many, many genes that are associated with any given trait. Typically, dozens or hundreds or thousands of genes are reliably associated with any given trait, and each gene has only a very small effect size. According to a GWAS study of over 600,000 people, the estimated SNP-based heritability for Big Five traits is roughly 10--16% with contributions from over 1,000 genes, most of which are novel variants (Schwaba et al., 2025).
+
+So, it doesn't really make sense to talk about which specific genes may cause which personality traits. In fact, many genes are associated with more than one personality trait! Even though personality traits are roughly independent when we measure them using popular scales, the underlying genetics of each personality trait are correlated, meaning that many of the genes that are associated with one personality trait are also associated with other personality traits (Lo et al. 2017).
+
+Going forward, GWAS studies provide a promising avenue from which to identify genes that are reliably associated with traits. This will provide a more reliable foundation from which researchers can focus more directly on the biological functions of those sets of genes that predict personality. Ultimately, this may give us a firmer understanding of the underlying biology of personality. One thing appears certain: genetics won't map onto complex traits like personality in simple ways.
+
+###
+
+### Missing Heritability(?)
+
+Because twin studies estimate that population variation in personality is somewhere between 30 and 60% explained by genetics, we should eventually be able measure all the genetic variation in genomes within a population and explain 30-60% of the variation in personality using those genes. But so far, our best heritability estimates for personality variation in GWAS studies only explain about at most 16% of the population variation in personality traits. This discrepancy between what twin studies say *should* be explained by genes and what we can *actually* explain by measuring genes has been dubbed the "missing heritability" problem. Where might this missing heritability be?
+
+One potential explanation has to do with the fact that GWAS studies are currently not based on the entire portion of the genome that varies---just a small portion of it where some *common* mutations are found. But there are other genes that vary from person to person because of *rare* mutations. It's likely that these rare mutations also have effects on complex traits like personality. Some recent work is beginning to find evidence for contributions from these rare genes (Wu et al., 2024), and future studies that rely on whole-genome sequencing ultimately fill in the missing heritability. Time will tell[^2].
+
+An alternative explanation is that twin studies may be overestimating heritability. As we discussed earlier, twin studies only provide accurate estimation under some very stringent assumptions that may not be completely satisfied by real world twins. For example, twin studies assume that monozygotic and (same sex) dizygotic twins have the same similarity of environments, but if monozygotic twins' environments are more similar, then this will lead to overestimation of heritability. Additionally, if genes and environments are correlated (a phenomenon we'll explore more below), then heritability will be overestimated. In short, it's possible that the heritability is not "missing" to the degree that current twin estimates would imply.
+
+### Limitations of GWAS
+
+Although GWAS research is delivering useful insights and promises to continue to do so, there are still some major limitations that need to be addressed. It is important to recognize these limitations so you can think critically about GWAS findings. Doing so may be necessary to make informed personal and policy decisions in the not-too-distant future with the developments happening in personalized genetic testing for medical interventions and gene-editing technology (e.g., CRISPR). Let's examine the most pressing limitations: population stratification, lack of diversity, acquiescence bias, gene-environment correlations.
+
+#### Population Stratification
+
+Population stratification refers to the presence of systematic differences in genetic ancestry or allele frequencies among subpopulations within a larger population. In GWAS, this can be a confounding factor because it can lead to false associations between genetic variants and traits if not properly accounted for.
+
+Consider a genetic variant that shows population stratification to the extent that it has become more common due to recent genetic ancestry in western Europe and is less common in the United States. Across these geographic regions, there are going to be both these kinds of genetic differences due to population stratification in addition to culturally driven differences in certain traits. For example, soccer is the dominant sport in western Europe but not the United States. If we then conduced a GWAS of soccer playing ability using participants from both regions, and did not control for population stratification, we would falsely conclude that the genetic variant that varies due to ancestry causes increased soccer ability. This is a false conclusion because these genetic variants are merely *confounded* with soccer playing ability, which would be primarily influenced by cultural differences across these two groups.
+
+To ensure that the observed genetic associations are indeed related to the trait being studied, rather than serving as a confound for differences in genetic ancestry, researchers typically focus on just one population that has recent common ancestry and attempt to control for genetic differences due to population stratification in their statistical analyses. But this approach can still leave subtle differences in population stratification that bias estimates of genetic effects. A recent study suggests that populations stratification may not be a major issue in personality genomics, at least in populations with recent European ancestry (Schwaba et al., 2025).
+
+#### Lack of Diversity
+
+Researchers typically try to address confounding from population stratification by focusing on relatively homogenous samples with recent shared ancestry. In practice this means that most of the samples collected in GWAS research are composed predominantly of people with recent European ancestry. This may be largely because such samples have historically been easier for researchers, who are predominantly working in the USA and UK, to access.
+
+This lack of diversity can severely limit the generalizability of GWAS findings to other populations with different recent ancestry. Genes may have different associations with outcomes (e.g., disease, personality) across different populations, so the lack of generalizability may perpetuate inequalities. From the limited tests that we do have examining how well findings from one population generalize to another (e.g., Gupta et al., 2024; Schwaba et al., 2025), it seems it seems like there are important differences in the genetics of personality across human populations. Representation has slowly improved in recent years, but over 80% of GWAS samples are still conducted in populations with recent European ancestry, even though such populations represent only 16% of the world population (Mills & Rahal, 2019).
+
+#### Ascertainment Bias
+
+Ascertainment bias occurs when the selection of participants for a study is not random or representative of the larger population. In the context of GWAS, ascertainment bias can arise when the selection of individuals is influenced by certain characteristics or conditions related to the trait being studied. This bias can skew the results and make them less applicable to the broader population.
+
+For example, if agreeing give DNA to anonymous faceless researchers or companies for research is in part determined by personality (e.g., agreeableness, neuroticism, openness), then this can bias estimates of the associations between genes and personality. Further, even within the pool of people who are willing to give their genetic data to research, there is probably still non-random genetic influences on whether people are willing to answer long lists of questions in psychological scales. This can further bias the results of GWAS studies, potentially leading to finding spurious correlations between genes and traits. Recent examinations of ascertainment bias find that this may be a significant issue because genetics predicts both personality and survey participation (Schwaba et al., 2025).
+
+#### Gene-Environment Correlations
+
+Gene-environment correlations refer to the interplay between an individual's genetic makeup and their environment. These correlations can be passive, evocative, or active. In the context of GWAS, researchers recognize that an individual's genetic predispositions can influence the environments they are exposed to or the choices they make, which in turn can affect their personality. So, it becomes difficult to disentangle the effects of genetics and environments because environments are related to genetics. A recent large-scale GWAS study used sophisticated statistical methods to examine the extent of bias introduced by gene-environment correlations but found very little evidence that this is a problem for genetic inference when it comes to personality traits[^3] (Schwaba et al., 2025).
+
+## Conclusions About Genetics and Personality Heritability
+
+This chapter examined whether and how genetics are related to personality. We learned that the differences in genetic similarity between monozygotic and dizygotic twins provide a natural experiment for researchers to estimate the relative contribution of genes, shared environments, and nonshared environments to personality variation. These so-called twin studies suggest that somewhere between 30 and 60% of the variation in personality traits within a population can be attributed to similarity in genetics. The remaining 40-70% of the variation in personality can be attributed to environmental influences. But very little of that variation can be attributed to shared environments---most of the variation in personality is attributed to the non-shared environment. Genome wide association studies allow us to explore the genetic underpinnings of heritability. They show that personality traits are extremely polygenic, meaning that thousands of genes influence personality in very small ways. Further, GWAS studies suggest that many supposedly distinct personality traits have overlapping genetic underpinnings. Although there are still many issues to work out before we can hope to understand the complex genetic underpinnings of personality, there is lots of promise. Ultimately, it is important to recognize that even though humans are 99.9% genetically identical, our small genetic differences may still play an important role in driving the diversification of human personality.
+
+## Potential Evolutionary Explanations
+
+Let's return now to the evolutionary puzzle of personality we started this chapter with: if personality is heritable, why (or how) has it been maintained by evolutionary processes that tend to remove genetic and phenotypic variability from populations over time? Personality does indeed seem to be heritable, so an explanation for why is needed. There are several potential explanations, which we will explore below. In general, there are two types of explanations: functional and non-functional.
+
+### Functional Explanations
+
+#### Fluctuating/balancing Selection
+
+If some level of trait is always better for survival and reproductive success, then selection will tend to remove variation around that optimal value. However, if the fitness benefits of a trait differ across environments (e.g., cultural contexts) over time, then there is no optimal level for evolution to zero in on. This is called *fluctuating* or *balancing* selection because the fitness of certain traits fluctuates. For example, it could be that Extraversion is a trait that is beneficial in environments where there are low risks of getting sick from interacting with people, extraversion may be harmful on average to survival and reproduction in environments with increased risk of contracting illnesses from interactions (e.g., pathogen rich environments). Daniel Nettle, an evolutionary psychologist, used cost-benefit analysis to examine the potential fitness impacts of different personality traits across variable environments and concluded that fluctuating selection could maintain the personality variation that we observe today (Nettle, 2006). This is one of the most popular hypotheses for the evolution of personality traits, but as we will see later, recent genomic evidence casts doubt on this story.
+
+#### Frequency Dependent Selection
+
+Another way personality variation could be maintained is through a process called frequency dependent selection. Under frequency dependent selection, the evolutionary fitness of a trait depends on the relative proportions of the trait in the population. Some traits or behavioral strategies are only good for fitness when others in the population have different traits or are playing different behavioral strategies. Some psychologists have suggested that traits like sociopathy---which is characterized by callouses, lack of empathy, and willingness to cheat others---might be maintained via frequency dependent selection. The argument is that people with sociopathic traits can only effectively manipulate or exploit other people who do not have those traits because other sociopaths are more difficult to manipulate. That means that sociopathic traits would only be maintained at low frequencies in the population. I don't know of any clear tests of this hypothesis, but it is possible.
+
+### Non-Functional Explanations
+
+#### Selective Neutrality
+
+Selective neutrality means that a trait is neutral with respect to its susceptibility to evolutionary selection pressures. Essentially, a trait would have to have to be completely unassociated with survival and reproductive success in order to be selectively neutral. This explanation seems particularly unlikely for personality traits given that there are many obvious (and probably many nonobvious) ways that personality traits can influence survival and mating success. Humans even select mates based on their personality traits, so it would be very unlikely that personality traits are invisible to selection.
+
+#### Mutation-Selection Balance
+
+Another non-functional alternative is that personality traits are not adaptations in themselves but reflect variation in adaptations that arise through random mutations. Because each generation has its own unique set of random, mostly deleterious mutations that arise, selection processes can never completely remove genetic variation from the population. (and in fact, these random mutations are the raw ingredients of evolution). This means that personality variation might just be a product of noise from mutations that make subtle differences in behavior and cognition between people. But these differences are important to other humans for predicting how people will act and deciding who to interact with, so it is possible that the difference detecting mechanisms to think about personality and develop lexical concepts to describe differences may itself be an adaptation (cultural and/or genic).
+
+As of updating this chapter in Fall 2025, there have been a few advances in genomics that can help us begin to rule out some these potential hypotheses about the evolution and maintenance of personality variation in humans. New large-scale GWAS research (e.g., Schwaba et al., 2025) suggests that the DNA influences on Big Five traits mostly sit in brain-neuron genes that don't tolerate damaging changes. That pattern is a hallmark of purifying (negative) selection---harmful changes tend to get weeded out. This argues against balancing/fluctuating selection as the main genome-wide reason personality differences persist and fits better with mutation--selection balance: new small mutations appear each generation, the worst are removed, and lots of tiny effects remain. In a recent review of the genomic evidence to date, the author concluded, "there is no evidence that balancing selection has substantively shaped complex traits, and strong evidence that it has not" (Zietsch, 2024, p.1).
+
+Recent genomic studies sharpen what's plausible and what's not, but they don't crown a single winner. They do, however, shift the default toward "non-functional" baselines (mutation--selection balance) with room for local functional effects in specific contexts. Ultimately, more research is needed to understand the genetics of personality and to explain why heritable differences in personality have persisted throughout human evolution. But this puzzle highlights the importance of examining any phenomenon from both ultimate and proximate research programs. The ultimate research that explores the evolution of personality is complimented by the proximate research that explores the contemporary genetics of personality.
+
+## References
+Briley, D. A., & Tucker‐Drob, E. M. (2017). Comparing the developmental genetics of cognition and personality over the life span. *Journal of Personality*, *85*(1), 51-64.
+
+Gupta, P., Galimberti, M., Liu, Y., Beck, S., Wingo, A., Wingo, T., \... & Levey, D. F. (2024). A genome-wide investigation into the underlying genetic architecture of personality traits and overlap with psychopathology. *Nature human behaviour*, *8*(11), 2235-2249.
+
+Lewis, G. J., & Bates, T. C. (2014). How genes influence personality: Evidence from multi-facet twin analyses of the HEXACO dimensions. *Journal of Research in Personality*, *51*, 9-17.
+
+Lo, M. T., Hinds, D. A., Tung, J. Y., Franz, C., Fan, C. C., Wang, Y., \... & Chen, C. H. (2017). Genome-wide analyses for personality traits identify six genomic loci and show correlations with psychiatric disorders. *Nature genetics*, *49*(1), 152-156.
+
+Mills, M. C., & Rahal, C. (2019). A scientometric review of genome-wide association studies. *Communications biology*, *2*(1), 9.
+
+Nettle, D. (2006). The evolution of personality variation in humans and other animals. *American Psychologist*, *61*(6), 622.
+
+Terracciano, A., Balaci, L., Thayer, J., Scally, M., Kokinos, S., Ferrucci, L., \... & Costa Jr, P. T. (2009). Variants of the serotonin transporter gene and NEO‐PI‐R Neuroticism: No association in the BLSA and SardiNIA samples. *American Journal of Medical Genetics Part B: Neuropsychiatric Genetics*, *150*(8), 1070-107
+
+Jang, K. L., Livesley, W. J., & Vernon, P. A. (1996). Heritability of the big five personality dimensions and their facets: A twin study. *Journal of personality*, *64*(3), 577-592.
+
+Wu, X. R., Li, Z. Y., Yang, L., Liu, Y., Fei, C. J., Deng, Y. T., \... & Yu, J. T. (2025). Large-scale exome sequencing identified 18 novel genes for neuroticism in 394,005 UK-based individuals. *Nature Human Behaviour*, *9*(2), 406-419.
+
+Zietsch, B. P. (2024). Genomic findings and their implications for the evolutionary social sciences. *Evolution and Human Behavior*, *45*(4), 106596.
+
+**Acknowledgements**:
+
+Huge thanks to Dr. Andrew Grotzinger, assistant professor at The University of Colorado Boulder, for providing extensive feedback on this chapter. Also, thanks to Dr. Ted Schwaba for providing feedback on interpretations of his 2025 study.
+
+[^1]:
+Studies based on twins raised in the same home are often referred to as "Classical Twin Studies".
+[^2]:
+I updated this Fall 2025. I should update this each semester or year to see what has changed. Bug me if I haven't!
+[^3]:
+But note that similar investigations of other traits, like cognitive ability and educational attainment, found evidence of bias from gene-environment correlations in estimates of SNP-based heritability of these traits.
