@@ -49,16 +49,43 @@ a { text-decoration: none; &:hover { text-decoration: underline; } }
 
 // ---------- landing page ----------
 
-.btn-start {
-  display: inline-block;
+// Start reading plus the two downloads, as one group. Flex with wrap so the
+// three sit on a line at desktop widths and stack instead of overflowing on
+// narrow screens.
+.start-reading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   margin: 0.5rem 0 1.5rem 0;
+}
+
+.btn-start,
+.btn-download {
+  display: inline-block;
   padding: 0.55rem 1.2rem;
-  background: $link-color;
-  color: #fff;
+  border: 1px solid $link-color;
   border-radius: 4px;
   font-size: 1rem;
+  line-height: 1.3;
+  white-space: nowrap;
 
-  &:hover { background: darken($link-color, 7%); color: #fff; text-decoration: none; }
+  &:hover { text-decoration: none; }
+}
+
+.btn-start {
+  background: $link-color;
+  color: #fff;
+
+  &:hover { background: darken($link-color, 7%); border-color: darken($link-color, 7%); color: #fff; }
+}
+
+// Secondary weight: the downloads sit beside the primary action without
+// competing with it.
+.btn-download {
+  background: transparent;
+  color: $link-color;
+
+  &:hover { background: $link-color; color: #fff; }
 }
 
 // ---------- figures ----------

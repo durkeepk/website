@@ -2,6 +2,8 @@
 
 ::: {.start-reading}
 [Start reading →](01-foundational-frameworks.qmd){.btn-start}
+[Download PDF](Personality-Psychology.pdf){.btn-download}
+[Download EPUB](Personality-Psychology.epub){.btn-download}
 :::
 
 ## Contents

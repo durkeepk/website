@@ -20,11 +20,21 @@ figcaption,
   background: rgba(185, 139, 74, 0.10);
 }
 
+.btn-start,
+.btn-download { border-color: $link-color; }
+
 .btn-start {
   background: $link-color;
   color: #16181a;
 
-  &:hover { background: lighten($link-color, 8%); color: #16181a; }
+  &:hover { background: lighten($link-color, 8%); border-color: lighten($link-color, 8%); color: #16181a; }
+}
+
+.btn-download {
+  background: transparent;
+  color: $link-color;
+
+  &:hover { background: $link-color; color: #16181a; }
 }
 
 table.table,
