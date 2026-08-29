@@ -176,11 +176,12 @@ subsections were collapsed into one compact treatment.
 Chapter 10 refers back to this material — Freud on libido, Horney on belonging
 and security, Adler on superiority — and all three claims are preserved.
 
-## An orphan citation, pre-existing
+## An orphan citation — resolved
 
-Chapter 2 cites **Jung & Kerenyi (1963)** in the text, for the point that the
-Electra complex and "penis envy" were Jung's ideas rather than Freud's, but no
-matching entry appears in the chapter's reference list. This predates the
-rewrite; the citation was inherited from the source material. It has been kept
-because the attribution is worth making, but the reference entry needs adding.
-No bibliographic details were invented for it.
+Chapter 2 previously cited **Jung & Kerenyi (1963)** with no matching entry in
+its reference list, inherited from the source material. The sentence it
+supported also misattributed *penis envy* to Jung. That sentence has been
+corrected — Jung coined the term *Electra complex*, which Freud never adopted;
+penis envy is Freud's own concept — and the revised sentence makes a plain
+attributional claim that needs no citation at this level. The citation was
+removed rather than completed, so no bibliographic details were invented.
