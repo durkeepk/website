@@ -4,22 +4,23 @@ Matters that need the author's judgement. Obvious typos corrected during
 conversion are **not** listed here — see `CONVERSION.md` for the fixes applied
 mechanically. Everything below was left as found in the Word sources.
 
-## Licence discrepancy — needs a decision
+## Licence — settled
 
-**Chapter 1's** Word file carries a **CC-BY-NC** footer. The other twelve
-sources carry only a page number. (An earlier version of this note said every
-source carried the footer; that was wrong.) The footer does not survive
-conversion — pandoc drops headers and footers — so no NC claim reaches the
-rendered book from it.
+The book is released under **CC BY-NC 4.0** (Attribution-NonCommercial 4.0
+International). You retain copyright and may separately sell the book, license
+a commercial edition, or grant a publisher commercial rights.
 
-The book is being published under **CC BY 4.0**, which drops the NonCommercial
-restriction. You can relicense your own material freely, but Chapter 1's source
-document and any copies already given to students still say NC. Worth deciding
-whether to re-export it so the two agree.
+**Chapter 1's** Word file carries a CC-BY-NC footer; the other twelve sources
+carry only a page number. (An earlier version of this note said every source
+carried the footer; that was wrong.) Pandoc drops headers and footers, so it
+never reaches the rendered book — but Chapter 1's source document and any
+copies already given to students still show it, which now happens to agree with
+the book's licence.
 
-Separately, and more seriously, Chapter 2 incorporates non-commercial-licensed
-third-party material that you cannot relicense. See
-`LICENSE_AUDIT.md` — that one blocks a CC BY 4.0 release until resolved.
+Chapter 2's OER source was checked directly and is **CC BY 4.0** — no
+NonCommercial, no ShareAlike — not the non-commercial licence the source
+document described. See `LICENSE_AUDIT.md`. The chapter's attribution note has
+been corrected accordingly. This is no longer a blocker.
 
 ## Unexplained notation in tables
 

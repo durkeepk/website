@@ -45,10 +45,12 @@ changed.
 
 ## License
 
-This book is freely available under a
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-license. You may share and adapt it, including for commercial purposes, as long
-as you give credit and indicate any changes.
+Except where otherwise noted, this work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to read, share, and adapt this book for noncommercial purposes,
+as long as you give credit and indicate any changes. Commercial rights are
+reserved.
 
 Corrections and suggestions are welcome by
 [email](mailto:pdurkee@csufresno.edu).

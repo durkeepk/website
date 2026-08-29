@@ -39,7 +39,7 @@ book:
     style: docked
     collapse-level: 1
   page-footer:
-    center: "Personality Psychology &middot; Patrick Durkee &middot; CC BY 4.0"
+    center: "Personality Psychology &middot; Patrick Durkee &middot; CC BY-NC 4.0"
     border: false
 
 filters:
