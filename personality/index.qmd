@@ -1,28 +1,5 @@
 # Welcome {.unnumbered}
 
-This is an open access textbook on personality psychology. It asks what
-personality differences actually are, how we know they exist, where they come
-from, and what they do — and it tries to be honest about how much of that we
-can currently answer.
-
-## About This Book
-
-This book starts with description — here are the Big Five, here is how we
-measure them, here is what they predict — but it does not stop there. I treat trait
-models as useful abstractions rather than as facts about how the mind is built,
-and spend most of the book asking what sits underneath them.
-
-The organizing idea comes from the first chapter: questions about behavior can
-be asked at different levels, and answers at one level do not substitute for
-answers at another. Knowing that a trait is heritable is not the same as
-knowing what it is for, and knowing what it is for is not the same as knowing
-how it works. With that framing in place, the book works through historical and
-contemporary perspectives, measurement, and how much personality actually
-predicts, then turns to causes and mechanisms — evolution, genetics,
-physiology, emotion, and motivation. It closes with how personality develops
-over a life, how it varies across cultures, and whether it can be deliberately
-changed.
-
 ::: {.start-reading}
 [Start reading →](01-foundational-frameworks.qmd){.btn-start}
 :::
