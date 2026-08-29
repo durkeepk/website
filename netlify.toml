@@ -24,9 +24,15 @@
     export PATH="/tmp/quarto/quarto-$QUARTO_VERSION/bin:$PATH"
     quarto --version
     quarto render
-    quarto render personality
+    # HTML only. The PDF needs a LaTeX installation and rsvg-convert for the
+    # SVG figures; neither is in this image and apt-get here has no root.
+    # Both downloads are built locally by scripts/build-downloads.sh and
+    # committed under personality/_downloads, then copied in below.
+    quarto render personality --to html
     rm -rf _site/personality
     cp -R personality/_book _site/personality
+    cp personality/_downloads/Personality-Psychology.pdf _site/personality/
+    cp personality/_downloads/Personality-Psychology.epub _site/personality/
     """
 
 [build.environment]
