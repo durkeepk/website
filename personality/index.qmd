@@ -7,9 +7,8 @@ can currently answer.
 
 ## About This Book
 
-Most introductions to personality begin and end with description: here are the
-Big Five, here is how we measure them, here is what they predict. Description
-is where this book starts too, but it is not where it stops. I treat trait
+This book starts with description — here are the Big Five, here is how we
+measure them, here is what they predict — but it does not stop there. I treat trait
 models as useful abstractions rather than as facts about how the mind is built,
 and spend most of the book asking what sits underneath them.
 
@@ -23,8 +22,6 @@ predicts, then turns to causes and mechanisms — evolution, genetics,
 physiology, emotion, and motivation. It closes with how personality develops
 over a life, how it varies across cultures, and whether it can be deliberately
 changed.
-
-The book assumes no prior background beyond an introductory psychology course.
 
 ::: {.start-reading}
 [Start reading →](01-foundational-frameworks.qmd){.btn-start}

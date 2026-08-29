@@ -6,11 +6,20 @@ mechanically. Everything below was left as found in the Word sources.
 
 ## Licence discrepancy — needs a decision
 
-Every page of every Word source carries a **CC-BY-NC** footer. The book is
-being published under **CC BY 4.0**, which drops the NonCommercial restriction.
-As the copyright holder you can relicense freely, but the source documents and
-any copies already distributed to students still say NC. Worth deciding whether
-to re-export the Word files so the two agree.
+**Chapter 1's** Word file carries a **CC-BY-NC** footer. The other twelve
+sources carry only a page number. (An earlier version of this note said every
+source carried the footer; that was wrong.) The footer does not survive
+conversion — pandoc drops headers and footers — so no NC claim reaches the
+rendered book from it.
+
+The book is being published under **CC BY 4.0**, which drops the NonCommercial
+restriction. You can relicense your own material freely, but Chapter 1's source
+document and any copies already given to students still say NC. Worth deciding
+whether to re-export it so the two agree.
+
+Separately, and more seriously, Chapter 2 incorporates non-commercial-licensed
+third-party material that you cannot relicense. See
+`LICENSE_AUDIT.md` — that one blocks a CC BY 4.0 release until resolved.
 
 ## Unexplained notation in tables
 
@@ -131,9 +140,20 @@ title case, with acronyms (GWAS, HEXACO), proper nouns and deliberate notation
 "humourous humorism" became "Humorous Humorism" — *humourous* is a misspelling
 in British and American English alike; the wordplay is unchanged.
 
-## Mobile header overflows slightly
+## Mobile header overflows slightly — confirmed, and left alone
 
-Every page scrolls about 13px horizontally on a 375px-wide viewport. The cause
-is Quarto's own fixed mobile header, not the book's content, and it predates
-this review. Table 12.1 is not involved — it scrolls within its own container,
-as wide tables should. Left alone as a framework matter.
+Pages scroll a little horizontally on a 375px-wide viewport: about 13px on a
+text-only chapter, 2px on Chapter 12. Measured directly in the browser at that
+width, the diagnosis holds:
+
+- The `<main>` content fits the viewport (right edge 348px of 375px).
+- Table 12.1 scrolls inside its own container, and that container fits.
+- Every element inside `<main>` that exceeds the viewport is a descendant of
+  that scroll container, which is exactly how a wide table should behave.
+- The only genuine offenders sit outside `<main>`: Quarto's own
+  `header.headroom.fixed-top`, `nav.quarto-secondary-nav`, and
+  `div.quarto-sidebar-collapse-item`.
+
+This is framework chrome, not book content, and it is cosmetic. Deliberately
+not patched — a CSS override targeting Quarto's internal header classes would
+be brittle across Quarto upgrades for a few pixels of gain.
