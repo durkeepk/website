@@ -49,10 +49,11 @@ a { text-decoration: none; &:hover { text-decoration: underline; } }
 
 // ---------- landing page ----------
 
-// Start reading plus the two downloads, as one group. Flex with wrap so the
-// three sit on a line at desktop widths and stack instead of overflowing on
-// narrow screens.
-.start-reading {
+// Start reading plus the two downloads, as one group. Quarto wraps the links
+// in a <p>, so the flex has to live on that paragraph rather than the div, or
+// the gap and wrapping never reach the buttons. Wrap so the three sit on a
+// line at desktop widths and stack instead of overflowing on narrow screens.
+.start-reading > p {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
