@@ -4,7 +4,7 @@ title: "Physiology and Personality"
 
 In the last chapter, we learned that genetics explains a significant portion of variation in personality and that the genetics of personality are far from simple. There are many, many genes that influence personality---and any single gene has only a very tiny effect.
 
-The effects of genetics on personality must be mediated by our physiology. Genes are simply rough instructions for making proteins that build our brain and body[^1]. The resulting subtle differences in our physiology contribute to personality differences. Put another way, physiological differences in brains and bodies are what links genetic differences to personality differences.
+The effects of genetics on personality must be mediated by our physiology. Genes are simply rough instructions for making proteins that build our brain and body[^c08-1]. The resulting subtle differences in our physiology contribute to personality differences. Put another way, physiological differences in brains and bodies are what links genetic differences to personality differences.
 
 In this chapter, we'll begin to explore how physiology relates to personality. Unfortunately, it will soon become clear that there are usually not easy or simple answers when it comes to how differences in brains and bodies are related to average differences in thoughts, feelings, and behavior. But I think it's important to recognize this complexity to avoid falling for overly simplistic explanations that boil personality differences down to simple physiological factors. Personality traits are complex phenomenon, and we should probably not expect that their physiological underpinnings are simple or straightforward.
 
@@ -207,5 +207,5 @@ Sugiyama, L. S. (2015). Physical attractiveness in adaptationist perspective. *
 
 Zietsch, B. P. (2016). Individual differences as the output of evolved calibration mechanisms: does the theory make sense in view of empirical observations? *Current Opinion in Psychology*, *7*, 71-75.
 
-[^1]:
+[^c08-1]:
 Remember our mantra: genes are probabilistic, not deterministic!

@@ -40,7 +40,7 @@ Over the past 100 years or so, researchers have taken advantage of the nature of
 
 ### Two Types of Twins
 
-You are probably aware that there are two types of twins: identical and fraternal. These lay terms for twin types correspond to twins that are *monozygotic* and *dizygotic*, respectively. Unless twins are separated at birth or sometime in their childhood, we can assume that they experience pretty much the same "nurture" growing up. That is, they have the same parents with the same parenting styles, socioeconomic status, and number of books on the shelf. This is true of both monozygotic twins and dizygotic twins. However, the two types of twins both have very different genetic similarities because of the way the twins are conceived. Most of the research on twins is conducted on twins raised in the same home[^1].
+You are probably aware that there are two types of twins: identical and fraternal. These lay terms for twin types correspond to twins that are *monozygotic* and *dizygotic*, respectively. Unless twins are separated at birth or sometime in their childhood, we can assume that they experience pretty much the same "nurture" growing up. That is, they have the same parents with the same parenting styles, socioeconomic status, and number of books on the shelf. This is true of both monozygotic twins and dizygotic twins. However, the two types of twins both have very different genetic similarities because of the way the twins are conceived. Most of the research on twins is conducted on twins raised in the same home[^c07-1].
 
 *Monozygotic* twins are the result of one ovum that has been fertilized by one sperm, which then happens to split into two zygotes. This creates two (mostly) genetically identical embryos. Roughly two-thirds of monozygotic twins also share a placental sac (i.e., chorion) in the womb. That means they are genetically identical, *and* most monozygotic twins are exposed to the same environmental factors throughout their embryonic development. So, they only thing that can contribute to their differences are post-birth non-shared environmental differences (e.g., randomness, different friends, different classrooms).
 
@@ -141,7 +141,7 @@ Going forward, GWAS studies provide a promising avenue from which to identify ge
 
 Because twin studies estimate that population variation in personality is somewhere between 30 and 60% explained by genetics, we should eventually be able measure all the genetic variation in genomes within a population and explain 30-60% of the variation in personality using those genes. But so far, our best heritability estimates for personality variation in GWAS studies only explain about at most 16% of the population variation in personality traits. This discrepancy between what twin studies say *should* be explained by genes and what we can *actually* explain by measuring genes has been dubbed the "missing heritability" problem. Where might this missing heritability be?
 
-One potential explanation has to do with the fact that GWAS studies are currently not based on the entire portion of the genome that varies---just a small portion of it where some *common* mutations are found. But there are other genes that vary from person to person because of *rare* mutations. It's likely that these rare mutations also have effects on complex traits like personality. Some recent work is beginning to find evidence for contributions from these rare genes (Wu et al., 2024), and future studies that rely on whole-genome sequencing ultimately fill in the missing heritability. Time will tell[^2].
+One potential explanation has to do with the fact that GWAS studies are currently not based on the entire portion of the genome that varies---just a small portion of it where some *common* mutations are found. But there are other genes that vary from person to person because of *rare* mutations. It's likely that these rare mutations also have effects on complex traits like personality. Some recent work is beginning to find evidence for contributions from these rare genes (Wu et al., 2024), and future studies that rely on whole-genome sequencing ultimately fill in the missing heritability. Time will tell[^c07-2].
 
 An alternative explanation is that twin studies may be overestimating heritability. As we discussed earlier, twin studies only provide accurate estimation under some very stringent assumptions that may not be completely satisfied by real world twins. For example, twin studies assume that monozygotic and (same sex) dizygotic twins have the same similarity of environments, but if monozygotic twins' environments are more similar, then this will lead to overestimation of heritability. Additionally, if genes and environments are correlated (a phenomenon we'll explore more below), then heritability will be overestimated. In short, it's possible that the heritability is not "missing" to the degree that current twin estimates would imply.
 
@@ -171,7 +171,7 @@ For example, if agreeing give DNA to anonymous faceless researchers or companies
 
 #### Gene-Environment Correlations
 
-Gene-environment correlations refer to the interplay between an individual's genetic makeup and their environment. These correlations can be passive, evocative, or active. In the context of GWAS, researchers recognize that an individual's genetic predispositions can influence the environments they are exposed to or the choices they make, which in turn can affect their personality. So, it becomes difficult to disentangle the effects of genetics and environments because environments are related to genetics. A recent large-scale GWAS study used sophisticated statistical methods to examine the extent of bias introduced by gene-environment correlations but found very little evidence that this is a problem for genetic inference when it comes to personality traits[^3] (Schwaba et al., 2025).
+Gene-environment correlations refer to the interplay between an individual's genetic makeup and their environment. These correlations can be passive, evocative, or active. In the context of GWAS, researchers recognize that an individual's genetic predispositions can influence the environments they are exposed to or the choices they make, which in turn can affect their personality. So, it becomes difficult to disentangle the effects of genetics and environments because environments are related to genetics. A recent large-scale GWAS study used sophisticated statistical methods to examine the extent of bias introduced by gene-environment correlations but found very little evidence that this is a problem for genetic inference when it comes to personality traits[^c07-3] (Schwaba et al., 2025).
 
 ## Conclusions About Genetics and Personality Heritability
 
@@ -230,9 +230,9 @@ Zietsch, B. P. (2024). Genomic findings and their implications for the evolution
 
 Huge thanks to Dr. Andrew Grotzinger, assistant professor at The University of Colorado Boulder, for providing extensive feedback on this chapter. Also, thanks to Dr. Ted Schwaba for providing feedback on interpretations of his 2025 study.
 
-[^1]:
+[^c07-1]:
 Studies based on twins raised in the same home are often referred to as "Classical Twin Studies".
-[^2]:
+[^c07-2]:
 I updated this Fall 2025. I should update this each semester or year to see what has changed. Bug me if I haven't!
-[^3]:
+[^c07-3]:
 But note that similar investigations of other traits, like cognitive ability and educational attainment, found evidence of bias from gene-environment correlations in estimates of SNP-based heritability of these traits.

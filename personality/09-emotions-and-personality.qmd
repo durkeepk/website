@@ -10,7 +10,7 @@ What are emotions? You undoubtedly have some experience with emotions, and you m
 
 ## An Evolutionary Framework for Studying Emotions
 
-Emotions can be viewed as adaptations that coordinate a wide array of cognitive and physiological processes within organisms in response to specific adaptive problems (Cosmides & Tooby, 2000). Under this perspective, the features of many emotions are expected to have been designed through the iterative tinkering processes of natural selection and sexual selection, so that their features would *on average*[^1] produce behavior that helps to solve adaptive problems, and ultimately, increase evolutionary fitness. Different emotions are expected to have evolved in response to different adaptive challenges, each producing different adaptive responses. After all, what counts as fitness-enhancing behavior differs depending on the adaptive problem being faced --- hugging an approaching predator almost certainly isn't an adaptive response, but hugging an approaching loved one probably often is.
+Emotions can be viewed as adaptations that coordinate a wide array of cognitive and physiological processes within organisms in response to specific adaptive problems (Cosmides & Tooby, 2000). Under this perspective, the features of many emotions are expected to have been designed through the iterative tinkering processes of natural selection and sexual selection, so that their features would *on average*[^c09-1] produce behavior that helps to solve adaptive problems, and ultimately, increase evolutionary fitness. Different emotions are expected to have evolved in response to different adaptive challenges, each producing different adaptive responses. After all, what counts as fitness-enhancing behavior differs depending on the adaptive problem being faced --- hugging an approaching predator almost certainly isn't an adaptive response, but hugging an approaching loved one probably often is.
 
 ![Emotions as a particular class of psychological mechanisms.](images/09-emotion-system.png){#fig-emotion-system fig-alt="Flow diagram: Inputs feed into Computational/Logical Algorithms, which feed into Outputs; a brace beneath the whole sequence labels it the Emotion system." width="620"}
 
@@ -68,7 +68,7 @@ As with any trait, differences in emotion systems can arise through genetics or 
 
 Regardless of how the differences in emotion systems arise, the differences can be expected to result in differences in patterns of thoughts, feelings, and behavior (i.e., personality). Some people will experience emotions (e.g., anger, pride, shame, gratitude, guilt, fear) and their associated outputs (e.g., behavior, feelings) more easily or more often than others. These individual differences are useful for others and ourselves to recognize and label because this information may help us predict *future* behavior, which could allow us to make better decisions about social interactions. For example, if you know someone gets really angry really easily, you know to avoid doing anything to make them angry. Or if you know someone gets scared very easily, they may not be the best person to invite on a dangerous expedition.
 
-Thus, the words that have emerged in the language may effectively capture socially relevant individual differences in emotions. Because words are the basic building blocks of the abstract personality descriptions that are popular in contemporary personality research[^2] (e.g., Big Five and HEXACO), personality trait constructs may ultimately capture socially relevant variation in emotion systems.
+Thus, the words that have emerged in the language may effectively capture socially relevant individual differences in emotions. Because words are the basic building blocks of the abstract personality descriptions that are popular in contemporary personality research[^c09-2] (e.g., Big Five and HEXACO), personality trait constructs may ultimately capture socially relevant variation in emotion systems.
 
 We should therefore expect that individual differences in emotion systems and individual differences in personality constructs should share a lot of overlap. Armed with this appreciation, we can start to develop predictions about how variation in emotion systems might relate to behavior, social judgments, and ultimately broad personality traits like those in the Big Five or HEXACO models.
 
@@ -131,7 +131,7 @@ Sznycer, D., Tooby, J., Cosmides, L., Porat, R., Shalvi, S., & Halperin, E. (201
 
 Tybur, J. M., Lieberman, D., Kurzban, R., & DeScioli, P. (2013). Disgust: evolved function and structure. *Psychological review*, *120*(1), 65.
 
-[^1]:
+[^c09-1]:
 This means that emotions should not be expected to produce the perfectly adaptive behavior in every situation or every person, even when they are functioning just as they are "supposed" to. Instead, the responses that are produced can be expected to be those that have worked most frequently across most situations throughout evolutionary history.
-[^2]:
+[^c09-2]:
 See the lexical studies discussed in the "Contemporary Personality Perspectives" lecture for a refresher.

@@ -6,7 +6,7 @@ Some sort of quantification of the thing we want to study is necessary if we wan
 
 Personality inventories are typically made up of a set of questions or statements (items) that are designed to assess thoughts, behaviors, and feelings (e.g., "I often feel scared"). Respondents are typically asked to rate their agreement with each item on a Likert-style scale (e.g., strongly agree, agree, neutral, disagree, or strongly disagree); these categorical judgements are then assigned numbers by researchers for analysis (e.g., 1, 2, 3, 4, 5). The numerical values for responses to items that are intended to measure a common personality trait are aggregated together to obtain a score for each subject on the set of personality traits measured by the inventory.
 
-But do these inventories measure the Big Five traits as intended?[^1] How can we know? In this chapter, we'll discuss measurement matters---mainly reliability and validity---because measurement matters if we want accurate estimates of a person's personality. We'll first examine the concepts of reliability and validity. Then we'll explore some common tests for evaluating each and see how common Big Five inventories fare in these tests.
+But do these inventories measure the Big Five traits as intended?[^c04-1] How can we know? In this chapter, we'll discuss measurement matters---mainly reliability and validity---because measurement matters if we want accurate estimates of a person's personality. We'll first examine the concepts of reliability and validity. Then we'll explore some common tests for evaluating each and see how common Big Five inventories fare in these tests.
 
 ## The Relationship Between Reliability and Validity
 
@@ -232,5 +232,5 @@ Vazire, S., & Carlson, E. N. (2010). Self‐knowledge of personality: Do people 
 
 Watson, D., Hubbard, B., & Wiese, D. (2000). Self--other agreement in personality and affectivity: The role of acquaintanceship, trait visibility, and assumed similarity. *Journal of personality and social psychology*, *78*(3), 546.
 
-[^1]:
+[^c04-1]:
 The name for this chapter is shamelessly borrowed from: [https://www.psychologicalscience.org/observer/measurement-matters](https://www.psychologicalscience.org/observer/measurement-matters)

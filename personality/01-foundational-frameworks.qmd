@@ -88,9 +88,9 @@ Pick a personality trait to think about for this exercise. I'm going to go with 
 
 How might we apply Tinbergen's Four Questions to \[pessimism / your trait\]? Let's start with the ultimate questions concerning function and phylogeny.
 
-For **function**, we want to ask questions and seek answers that allow us to understand why the trait evolved. We could also ask questions like: What is the purpose of \[pessimism\]? How might \[pessimism\] have helped our ancestors survive and reproduce? How might traits that aided our ancestors' survival and reproduction create patterns of thought, feeling, and behavior that we label as \[pessimism\][^1]. Insert your own trait term into the brackets to see how to ask functional questions for your trait.
+For **function**, we want to ask questions and seek answers that allow us to understand why the trait evolved. We could also ask questions like: What is the purpose of \[pessimism\]? How might \[pessimism\] have helped our ancestors survive and reproduce? How might traits that aided our ancestors' survival and reproduction create patterns of thought, feeling, and behavior that we label as \[pessimism\][^c01-1]. Insert your own trait term into the brackets to see how to ask functional questions for your trait.
 
-I could tentatively argue that the evolutionary purpose of pessimism is to prevent individuals from engaging in activities that are unlikely to succeed, which may prevent unnecessary energy expenditure. Or perhaps the purpose of pessimism is to magnify the worst in things so that they can be more easily identified and improved, which may result in things improving over time. Either of these will conjectures[^2] will do for now. What potential purposes can you think of for the trait you are analyzing?
+I could tentatively argue that the evolutionary purpose of pessimism is to prevent individuals from engaging in activities that are unlikely to succeed, which may prevent unnecessary energy expenditure. Or perhaps the purpose of pessimism is to magnify the worst in things so that they can be more easily identified and improved, which may result in things improving over time. Either of these will conjectures[^c01-2] will do for now. What potential purposes can you think of for the trait you are analyzing?
 
 For **phylogeny**, we want to ask questions and find answers that help us understand how the trait evolved over time. For example, we could ask: When did pessimism first arise in human evolution history? Do any non-human animals exhibit a trait like pessimism?
 
@@ -157,7 +157,7 @@ Nesse, R. M. (2019). Tinbergen's four questions: Two proximate, two evolutionary
 
 Tinbergen, N. (1963). On aims and methods of ethology. *Zeitschrift für tierpsychologie*, *20*(4), 410-433.
 
-[^1]:
+[^c01-1]:
 This question is essentially assuming that pessimism is a non-functional *byproduct* of other traits that do have a function. We'll learn more about this in future chapters.
-[^2]:
+[^c01-2]:
 Since I don't have any real data to back either of these claims, they are currently "just-so" stories (or, if you're feeling generous, they're hypotheses). But if I generate and test some novel predictions, I could potentially see which story about the function of pessimism seems more likely, or which gives the most new insight about pessimism.

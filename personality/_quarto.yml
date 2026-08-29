@@ -41,6 +41,11 @@ book:
   page-footer:
     center: "Personality Psychology &middot; Patrick Durkee &middot; CC BY-NC 4.0"
     border: false
+  # Quarto's built-in download controls; no custom buttons or JavaScript.
+  downloads: [pdf, epub]
+
+# Carried into EPUB metadata as dc:rights and available to other formats.
+rights: "© Patrick Durkee. Licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)."
 
 filters:
   - row-headers.lua
@@ -59,6 +64,23 @@ format:
     # Chapters are numbered 1-13; sections within them are not (number-depth: 0).
     # Numbering must be on, or index.qmd is counted as a chapter and every
     # cross-reference shifts by one (Chapter 1's figures became "Figure 2.1").
+    number-sections: true
+    number-depth: 0
+    lang: en
+
+  pdf:
+    documentclass: scrreprt
+    papersize: letter
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 0
+    colorlinks: true
+    fig-pos: "H"
+    lang: en
+
+  epub:
+    toc: true
     number-sections: true
     number-depth: 0
     lang: en

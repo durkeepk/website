@@ -16,7 +16,7 @@ Natural selection depends on three conditions: *variation*, *differential reprod
 
 #### Variation
 
-In any population (e.g., a crash of rhinos, an exaltation of larks, a tower of giraffes[^1]), individuals are slightly different from one another. Individuals within populations differ from one another in countless ways: body size, musculature, hunger, adventurousness, aggressiveness, furriness, speed, sleepiness, etc. All the traits that an organism possesses make up its *phenotype*. So, individuals within populations have somewhat different phenotypes. This phenotypic variation eventually leads to some traits becoming more prominent in a population because of differential selection and inheritance.
+In any population (e.g., a crash of rhinos, an exaltation of larks, a tower of giraffes[^c06-1]), individuals are slightly different from one another. Individuals within populations differ from one another in countless ways: body size, musculature, hunger, adventurousness, aggressiveness, furriness, speed, sleepiness, etc. All the traits that an organism possesses make up its *phenotype*. So, individuals within populations have somewhat different phenotypes. This phenotypic variation eventually leads to some traits becoming more prominent in a population because of differential selection and inheritance.
 
 #### Differential Reproduction
 
@@ -102,5 +102,5 @@ Adaptive problems refer to the challenges and obstacles to survival and reproduc
 
 Evolutionary Psychology posits that solving these adaptive problems would require a sophisticated array of psychological mechanisms, each of which are designed to solve a particular subproblem. EP attempts to reverse engineer these psychological programs by conducting task analyses---a step by step set of instructions for all the little subgoals that need to be met in order to solve the broader adaptive problem. These task analyses can lead to novel predictions about the features of the human mind that can be tested in empirical studies. Ultimately, using adaptive problems to guide our study of human psychology sheds light on the evolved traits and behaviors that continue to shape human cognition and actions in contemporary societies.
 
-[^1]:
+[^c06-1]:
 Yes, these really are the names for groups of these animals!

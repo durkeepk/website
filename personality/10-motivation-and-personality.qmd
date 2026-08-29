@@ -36,7 +36,7 @@ These theories of motivation appear to overlook the fact that there are likely t
 
 ### Maslow's Hierarchy of Needs
 
-One of the first proposals of a list of multiple fundamental motives was developed by Abraham Maslow in 1943, which is referred to as Maslow's Hierarchy of Needs[^1]. @fig-maslow shows the typical representation of Maslow's hierarchy as a pyramid. According to Maslow, behavior will be geared towards addressing whichever goal is currently being worked on, and the lower-order needs at the bottom of the hierarchy must be fulfilled before the higher-order needs (higher on the pyramid) can be achieved.
+One of the first proposals of a list of multiple fundamental motives was developed by Abraham Maslow in 1943, which is referred to as Maslow's Hierarchy of Needs[^c10-1]. @fig-maslow shows the typical representation of Maslow's hierarchy as a pyramid. According to Maslow, behavior will be geared towards addressing whichever goal is currently being worked on, and the lower-order needs at the bottom of the hierarchy must be fulfilled before the higher-order needs (higher on the pyramid) can be achieved.
 
 ![Maslow's Hierarchy of Needs depicted as a pyramid, with lower-level primary needs at the bottom and higher-order secondary needs towards to the top.](images/10-maslow-hierarchy.svg){#fig-maslow fig-alt="Five-level pyramid. From the base upward: Physiological, Security, Belonging, Esteem, Actualization." width="470"}
 
@@ -116,4 +116,4 @@ Neel, R., Kenrick, D. T., White, A. E., & Neuberg, S. L. (2016). Individual diff
 
 Tooby, J., Cosmides, L., Sell, A., Lieberman, D., & Sznycer, D. (2008). Internal regulatory variables and the design of human motivation: A computational and evolutionary approach. *Handbook of approach and avoidance motivation*, *15*, 251.
 
-[^1]: Note that psychologists use "goals", "motivations", and "needs" pretty much interchangeably.
+[^c10-1]: Note that psychologists use "goals", "motivations", and "needs" pretty much interchangeably.

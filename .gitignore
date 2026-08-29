@@ -3,6 +3,7 @@
 /.quarto/
 /_freeze/
 /personality/_book/
+# personality/_downloads is deliberately TRACKED (see scripts/build-downloads.sh)
 /personality/.quarto/
 
 # --- macOS ------------------------------------------------------------------
