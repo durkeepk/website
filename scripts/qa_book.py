@@ -21,6 +21,12 @@ ORDER = [
 ]
 BOOK = pathlib.Path("_site/personality")
 
+# Chapters that intentionally diverge from their Word source, with the words
+# deliberately removed. Chapter 2's Freud and neo-Freudian sections were
+# rewritten from 2,252 words to 1,324, so its ratio is expected to sit near
+# 0.78 rather than 1.00.
+INTENTIONAL_CUTS = {"02-past-perspectives": 928}
+
 def text_of(h):
     m = re.search(r"<main.*?</main>", h, re.S)
     body = m.group(0) if m else h
@@ -36,7 +42,8 @@ for i, (src, slug) in enumerate(ORDER, 1):
     h = page.read_text()
     words = len(text_of(h).split())
     sw = r["body_words_including_tables"]
-    ratio = words / sw if sw else 0
+    adj = sw - INTENTIONAL_CUTS.get(slug, 0)
+    ratio = words / adj if adj else 0
     figs = len(re.findall(r'<figure class="[^"]*quarto-float-fig[^"]*"', h))
     tbls = len(re.findall(r"<table", h))
     eqs  = len(re.findall(r'class="math', h))
@@ -45,10 +52,11 @@ for i, (src, slug) in enumerate(ORDER, 1):
     if slug == "09-emotions-and-personality":    exp_fig = 2
     if slug == "06-evolution-and-personality":   exp_fig = 1
     hd = len(re.findall(r"<h[2-6][ >]", h))
-    print(f"{i:>3} {slug:32} {sw:>6} {words:>6} {ratio:>6.2f} "
+    print(f"{i:>3} {slug:32} {sw:>6} {words:>6} {ratio:>6.2f}{'*' if slug in INTENTIONAL_CUTS else ' '}"
           f"{figs:>3}/{exp_fig:<3} {tbls:>3}/{r['tables_count']:<3} "
           f"{eqs:>3}/{r['omath_count']:<3} {hd:>4}")
     if ratio < 0.90: issues.append(f"ch{i} word ratio {ratio:.2f} (possible content loss)")
+    if slug in INTENTIONAL_CUTS: note = " (ratio adjusted for the intentional rewrite)"
     if figs != exp_fig: issues.append(f"ch{i} figures {figs} vs {exp_fig} expected")
     if tbls != r["tables_count"]: issues.append(f"ch{i} tables {tbls} vs {r['tables_count']} expected")
 

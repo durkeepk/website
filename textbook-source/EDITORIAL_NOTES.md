@@ -158,3 +158,29 @@ width, the diagnosis holds:
 This is framework chrome, not book content, and it is cosmetic. Deliberately
 not patched — a CSS override targeting Quarto's internal header classes would
 be brittle across Quarto upgrades for a few pixels of gain.
+
+
+---
+
+# Found during the Chapter 2 rewrite
+
+## Chapter 2's psychodynamic sections were rewritten
+
+The Freud and neo-Freudian sections were rewritten in fresh prose, from 2,252
+words to roughly 1,300. Concepts retained: unconscious motivation, id/ego/
+superego and the conflict between them, defense mechanisms, the psychosexual
+stages and fixation, the Oedipus complex, Freud's evidentiary problem, and
+Adler's, Horney's and Jung's departures from him. The five separate stage
+subsections were collapsed into one compact treatment.
+
+Chapter 10 refers back to this material — Freud on libido, Horney on belonging
+and security, Adler on superiority — and all three claims are preserved.
+
+## An orphan citation, pre-existing
+
+Chapter 2 cites **Jung & Kerenyi (1963)** in the text, for the point that the
+Electra complex and "penis envy" were Jung's ideas rather than Freud's, but no
+matching entry appears in the chapter's reference list. This predates the
+rewrite; the citation was inherited from the source material. It has been kept
+because the attribution is worth making, but the reference entry needs adding.
+No bibliographic details were invented for it.

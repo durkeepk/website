@@ -48,13 +48,19 @@ Consequences:
   that would force a particular license on the adaptation.
 - **No ShareAlike means no obligation to use CC BY-NC-SA.**
 - CC BY 4.0 does require attribution, a license link, and an indication that
-  changes were made. Chapter 2's note has been corrected to state the actual
-  license and link to it; it already said the material was "largely reproduced
-  with minor changes," which satisfies the indication-of-changes requirement.
-  The author's caveat that no authors are listed is preserved — attribution is
-  given to the extent the source makes possible.
+  changes were made.
 
-This item no longer blocks release.
+**These sections have since been rewritten.** The Freud and neo-Freudian
+material was rewritten in the author's own prose (2,252 words to roughly 1,300),
+so the chapter no longer reproduces the source. A short attribution is retained
+because the scope and selection of topics were informed by it:
+
+> Earlier versions of the sections on Freud and the neo-Freudians were adapted
+> from the *Psychology, Personality* materials on OER Commons, licensed under
+> CC BY 4.0. No authors are listed for those materials. Those sections have
+> since been rewritten.
+
+This item does not block release.
 
 ---
 
@@ -72,25 +78,22 @@ This item no longer blocks release.
 | 10 | 10.1 Pulley system | Caption states public domain, links to Internet Archive Book Images on Flickr | Public domain | Yes | None; keep the caption's link |
 | 10 | 10.2 Maslow's hierarchy | Author's SmartArt of Maslow's model | Author's own diagram | Yes | None |
 | 10 | 10.3 Revised fundamental motives | Author's SmartArt; depicts Kenrick et al. (2010) | Author's own diagram; the published figure is not reproduced | Yes | Consider citing Kenrick et al. in the caption |
-| 11 | 11.1 Cumulative continuity | Author's SmartArt **containing stock pictogram icons** | See note | **Unclear** | Confirm icon rights, or drop the icons |
-| 11 | 11.2 Maturation principle | Author's SmartArt **containing stock pictogram icons** | See note | **Unclear** | Confirm icon rights, or drop the icons |
+| 11 | 11.1 Cumulative continuity | Author's diagram; **stock icons removed** | Author's own | Yes | Resolved |
+| 11 | 11.2 Maturation principle | Author's diagram; **stock icons removed** | Author's own | Yes | Resolved |
 | 13 | 13.1 Personality change framework | No attribution; prose calls it "one way to think about this process" | Presumed author-created | Presumed yes | Confirm it is not adapted from a published figure |
 
-### Note on the Chapter 11 icons
+### Note on the Chapter 11 icons — resolved
 
-The two Chapter 11 diagrams embed four monochrome pictograms (abacus, zigzag,
-elevator, staircase) carried over from the Word SmartArt. They hold no metadata
-identifying a library but are consistent with Microsoft Office's built-in icon
-set, whose terms permit use inside documents you create rather than
-redistribution as part of an openly licensed work.
+The two Chapter 11 diagrams previously embedded four monochrome pictograms
+(abacus, zigzag, elevator, staircase) carried over from the Word SmartArt.
+They held no metadata identifying a library but were consistent with Microsoft
+Office's built-in icon set, whose terms cover use inside documents you create
+rather than redistribution as part of an openly licensed work.
 
-Moving to CC BY-NC **reduces** this concern, since Microsoft's restrictions are
-aimed principally at commercial redistribution, but does not remove it: any CC
-license lets downstream users extract and reuse individual components.
-
-The icons are **decorative only** — marked `aria-hidden="true"`, with the
-adjacent text carrying the entire meaning of both figures. Removing them would
-cost nothing substantive.
+They were decorative only, so they have been **removed**, and the four image
+files deleted from the repository. Each statement now sits in a panel in the
+same palette as the book's other diagrams. All label text, captions, alt text,
+figure ids and numbering are unchanged.
 
 ---
 
@@ -106,7 +109,7 @@ cost nothing substantive.
 | 7 | 7.1 Heritability estimates | "Big Five data from Jang et al. 1996; Honesty-Humility data from Lewis & Bates 2014" | Third-party values, selected and assembled by the author | Likely | None beyond the existing note |
 | 9 | 9.1 Adaptive problems, cues, solutions | No source given; illustrative | Presumed author-written | Presumed yes | None |
 | 10 | 10.1 Motives and Big Five correlations | Caption: "from Neel et al. (2016)" | Third-party data, attributed | Likely | Confirm reuse |
-| 10 | 10.2 Fundamental motives questionnaire items | **No attribution on the table.** Items appear to come from the Fundamental Motives Inventory (Neel et al., 2016), cited elsewhere in the chapter | Third-party **expressive text**, not data — a stronger copyright question than a table of numbers | **Unclear** | Attribute the scale explicitly; confirm the items may be reproduced |
+| 10 | 10.2 Fundamental motives questionnaire items | Caption now reads "Items from Neel et al. (2016)." | Third-party **expressive text**, now attributed | Likely | Confirm the items may be reproduced |
 | 12 | 12.1 Hofstede's six dimensions | Dimension names are Hofstede's; descriptions read as the author's paraphrase | Presumed author-written | Presumed yes | Consider citing Hofstede & Bond (1984), already cited in the text |
 
 Reproducing tables of published data with attribution is ordinary practice for
@@ -133,9 +136,11 @@ reaches the rendered book.
 ## Summary
 
 - **No blocking items.** The Chapter 2 source is CC BY 4.0 with no ShareAlike,
-  so CC BY-NC 4.0 is a valid license for the book.
-- **2 unclear items**: the Chapter 11 stock icons and the Chapter 10
-  questionnaire items. Neither prevents release; both deserve a decision.
+  so CC BY-NC 4.0 is a valid license for the book, and those sections have now
+  been rewritten in any case.
+- **Chapter 11 icons: removed.** No longer an open question.
+- **Chapter 10 questionnaire items: now attributed** to Neel et al. (2016).
+  Worth confirming the items may be reproduced, but no longer unattributed.
 - **3 to confirm with the author**: whether he drew Figures 6.1/9.1 and 13.1,
   and whether the Chapter 4 student data may be published.
 - **5 third-party data tables** reproduced with attribution.

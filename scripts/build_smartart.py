@@ -9,7 +9,7 @@ Text is real <text>, never paths, so it is selectable and screen-readable.
 No information is carried by colour alone -- every element is labelled.
 """
 from __future__ import annotations
-import base64, html, pathlib, textwrap
+import html, pathlib, textwrap
 
 OUT = pathlib.Path("personality/images")
 FONT = ("'Source Sans Pro', -apple-system, 'Segoe UI', Roboto, "
@@ -95,26 +95,29 @@ def steps(items, title, desc, slug, bw=300, bh=52, dx=46, dy=62):
     return svg(W, H, title, desc, b, slug)
 
 
-def icon_pairs(pairs, title, desc, slug, cw=290, fs=14):
-    """An icon above its caption, side by side -- the Chapter 11 layout.
+def statement_pairs(pairs, title, desc, slug, cw=300, fs=14):
+    """Two statements side by side -- the Chapter 11 layout.
 
-    Icons are the originals extracted from the .docx, embedded so the SVG
-    stays self-contained. They are decorative; the text carries the meaning.
+    The Word original placed a decorative pictogram above each statement. Those
+    icons carried no information (the text says everything) and their rights
+    were unclear, so they were removed. Each statement now sits in a panel in
+    the same palette as the book's other diagrams, so the figure still reads as
+    a deliberate diagram rather than stray text.
     """
-    W, H = cw * len(pairs) + 40, 250
+    wrapped = [wrap(label, 30) for _, label in pairs]
+    lines_max = max(len(w) for w in wrapped)
+    lh = fs * 1.45
+    ph = lines_max * lh + 44
+    W, H = cw * len(pairs) + 40, int(ph + 40)
     b = ""
-    for i, (png, label) in enumerate(pairs):
+    for i, ((_, _label), lines) in enumerate(zip(pairs, wrapped)):
         x = 20 + i * cw
-        data = base64.b64encode(pathlib.Path(png).read_bytes()).decode()
-        b += (f'    <image x="{x + cw / 2 - 46:.0f}" y="24" width="92" height="92" '
-              f'preserveAspectRatio="xMidYMid meet" aria-hidden="true" '
-              f'xlink:href="data:image/png;base64,{data}" '
-              f'href="data:image/png;base64,{data}"/>\n')
-        lines = wrap(label, 34)
-        b += (f'    <text font-size="{fs}" fill="#123" font-weight="500">'
-              f'{tspans(lines, x + cw / 2, 146, fs * 1.35)}</text>\n')
-    s = svg(W, H, title, desc, b, slug)
-    return s.replace("<svg ", '<svg xmlns:xlink="http://www.w3.org/1999/xlink" ', 1)
+        b += (f'    <rect x="{x + 8}" y="20" width="{cw - 16}" height="{ph:.0f}" '
+              f'rx="8" fill="{PARENT if i % 2 == 0 else CHILD}"/>\n')
+        y0 = 20 + ph / 2 - (len(lines) - 1) * lh / 2 + fs * 0.35
+        b += (f'    <text font-size="{fs}" font-weight="500" fill="{INK}">'
+              f'{tspans(lines, x + cw / 2, y0, lh)}</text>\n')
+    return svg(W, H, title, desc, b, slug)
 
 
 def write(name, content):
@@ -181,20 +184,20 @@ write("09-emotion-responses.svg", grid([
     "emoresp", bh=72))
 
 # --- Chapter 11 ------------------------------------------------------------
-write("11-cumulative-continuity.svg", icon_pairs([
-    ("personality/images/11-icon-1.png",
+write("11-cumulative-continuity.svg", statement_pairs([
+    (None,
      "Rank order of personality traits becomes more stable throughout development"),
-    ("personality/images/11-icon-3.png",
+    (None,
      "People who are relatively higher in a trait tend to stay higher, even though people change"),
 ], "Summary of the cumulative continuity principle",
     "Two points: rank order of traits becomes more stable through development; "
     "people relatively higher in a trait tend to stay higher even as people change.",
     "cumcont"))
 
-write("11-maturation-principle.svg", icon_pairs([
-    ("personality/images/11-icon-5.png",
+write("11-maturation-principle.svg", statement_pairs([
+    (None,
      "There is consistency in the average changes in trait levels during development"),
-    ("personality/images/11-icon-7.png",
+    (None,
      "Most people become more conscientious, agreeable, and emotionally stable with age"),
 ], "Summary of the personality maturation principle",
     "Two points: average changes in trait levels are consistent during "

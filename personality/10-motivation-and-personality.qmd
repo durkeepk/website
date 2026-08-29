@@ -92,7 +92,7 @@ Moreover, because both personality questionnaires and the fundamental motives qu
 | Kin Care (Family) | Caring for family members is important to me. |
 | Kin Care (Children) | I like to spend time with my children. |
 
-: Example questions from the fundamental motives questionnaire. {#tbl-fm-items}
+: Example questions from the fundamental motives questionnaire. Items from Neel et al. (2016). {#tbl-fm-items}
 
 In my own research (Durkee et al., 2023), I've also used self-report scales to measure HEXACO traits and status motivations in samples of participants in India and the USA (Ns \> 800). I found that higher status motivations were reliably connected to higher Extraversion and lower Honesty-Humility in both countries. In India, higher status motivations were also linked to higher Conscientiousness and higher Openness. These findings add some additional evidence that motivational priorities are reliably linked to personality traits. But they also suggest that some of these connections may differ depending on the cultural interpretations of motivations and their manifest behavior, thoughts, and feelings.
 
