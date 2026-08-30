@@ -33,9 +33,12 @@ website:
 
 format:
   html:
+    # PROTOTYPE (branch theme-editorial-prototype): litera is a quieter base
+    # than cosmo, and theme-editorial.scss layers the monograph treatment on
+    # top. Remove the two theme-editorial files to return to production.
     theme:
-      light: [cosmo, styles.scss]
-      dark: [cosmo, styles.scss, dark.scss]
+      light: [litera, styles.scss, theme-editorial.scss]
+      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss]
     toc: false
     anchor-sections: false
     link-external-newwindow: true

@@ -1,76 +1,88 @@
 ---
 title: "Research"
-description-meta: "Peer-reviewed articles, chapters, and preprints by Patrick Durkee."
+description-meta: "Patrick Durkee studies the psychological mechanisms behind social cognition, status hierarchies, emotion, and personality."
 toc: true
 toc-title: "Jump to"
 toc-location: right
 ---
 
+::: {.research-statement}
+My research aims to develop mechanistic explanations of human social cognition and personality. I use evolutionary theory to identify recurrent social problems, develop and test models of the cognitive mechanisms that help solve them, and examine how individual differences in those mechanisms relate to broader patterns of personality and behavior.
+
+Much of my work focuses on hierarchy navigation and social influence. I study how people estimate the status consequences of actions and characteristics, what information those judgments depend on, and how emotions such as pride and shame are involved in this process. I also use these mechanistic models to better understand individual differences and broad personality dimensions, which I view as descriptive patterns in need of explanation rather than as explanations themselves. Related work examines how people infer socially relevant characteristics from others and how those judgments contribute to person perception and social evaluation.
+:::
+
 ::: {.page-intro}
-Selected publications are listed below. See my [CV](cv.qmd) for full record.
+Representative publications are grouped by theme below; the themes overlap, and many papers speak to more than one.
 :::
 
-::: {.lab-invite}
-Students interested in getting involved in my research can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
-:::
+## Personality & Individual Differences
 
-## Peer-reviewed articles
+::: {.theme-intro}
+I study how variation in underlying psychological mechanisms can help explain broad patterns of personality and individual differences.
+:::
 
 ::: {.pubs}
 
-Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … *280 alphabetically-listed contributors including* **Durkee, P. K.**, … Nosek, B. A., & Errington, T. M. (2026). [Investigating the replicability of the social and behavioral sciences](https://doi.org/10.1038/s41586-025-10078-y){target="_blank"}. *Nature*.
-
-**Durkee, P. K.**, Graves^†^, P. A., Rodriguez^‡^, N. R. (2026). [Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad](https://doi.org/10.1016/j.evolhumbehav.2025.106790){target="_blank"}. *Evolution and Human Behavior*.
-
-Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (2026). [Beyond falsifiability: Evolutionary psychology's many theoretical strengths](https://doi.org/10.1037/amp0001603){target="_blank"}. *American Psychologist*. [Response to commentaries]
-
-Costello, W., Sedlacek, A. G. B., **Durkee, P. K.**, Crosby, C. L., Hahnel-Peeters, R. K., & Buss, D. M. (2026). [Evolutionary psychology hypotheses are testable and falsifiable](https://doi.org/10.1037/amp0001529){target="_blank"}. *American Psychologist*. [Target article]
-
-**Durkee, P. K.**, Buss, D. M. (2025). [Hierarchy navigation: Individual differences in tactics, strategies, and traits](https://doi.org/10.1007/s12110-025-09506-9){target="_blank"}. *Human Nature*.
-
-**Durkee, P. K.** (2025). [Measuring personality traits: Simulations exploring (mis)alignment between methods and measurands](https://doi.org/10.1016/j.jrp.2025.104601){target="_blank"}. *Journal of Research in Personality*.
-
-Alger, I., Gavrilets, S., **Durkee, P. K.** (2024). [Proximate and ultimate drivers of norms and norm change](https://doi.org/10.1016/j.copsyc.2024.101916){target="_blank"}. *Current Opinion in Psychology*.
-
-Landers, M., Sznycer, D., **Durkee, P. K.** (2024). [Are self-conscious emotions about the self? Testing competing theories of shame and guilt across two disparate cultures](files/pubs/LandersSznycerDurkee2024.pdf){target="_blank"}. *Emotion*.
-
-**Durkee, P. K.**, Lukaszewski, A. W. (2024). [Deconstructing "dominance" to refine leadership research](https://www.sciencedirect.com/science/article/pii/S1090513824000461?dgcid=author). *Evolution and Human Behavior*.
-
-Alberhasky, M., **Durkee, P. K.** (2024). [Songs tell a story: The arc of narrative for music](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0303188). *PLoS ONE*.
-
-**Durkee, P. K.** (2023). [Status in Himba pastoralists: Are causal claims warranted?](files/pubs/Durkee2023_HimbaStatusComment.pdf){target="_blank"} *Evolution and Human Behavior*.
-
-Lukaszewski, A. W., Patton, J. Q., **Durkee, P. K.**, Zerbe, J. G., & Bowser, B. J. (2023). [Calibration and fitness-linked correlates of personality in Conambo, Ecuador](files/pubs/PersonalityConambo2023.pdf){target="_blank"}. *Evolution and Human Behavior*.
-
-**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2023). [Status-impact assessment: Is accuracy linked with status motivations?](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16454C7E058347A01F94E64565CBF19/S2513843X23000129a.pdf){target="_blank"} *Evolutionary Human Sciences*.
-
-Manson, J. H., Chua, K. J., Rodriguez, N. N., Barlev, M., **Durkee, P. K.**, Lukaszewski, A. W. (2023). [Sex differences in fearful personality traits are mediated by physical strength](files/pubs/Mansonetal_2022.pdf){target="_blank"}. *Social Psychological and Personality Science*.
+Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., Buss, D. M. (2020). [An adaptationist framework for personality science](files/pubs/AnAdaptationistFrameworkPersonality.pdf){target="_blank"}. *European Journal of Personality*.
 
 **Durkee, P. K.**, Lukaszewski, A. W., von Rueden, C., Gurven, M., Buss, D. M., Tucker-Drob, E. M. (2022). [Niche diversity predicts personality structure across 115 nations](files/pubs/Durkee_etal_2022_PsychScience.pdf){target="_blank"}. *Psychological Science*.
 
-Michaelides, M. P., **Durkee, P. K.** (2021). [Self-regulation versus self-discipline in predicting achievement: A replication study with secondary data](files/pubs/Michaelides&Durkee.pdf){target="_blank"}. *Frontiers in Education*.
+**Durkee, P. K.**, Graves^†^, P. A., Rodriguez^‡^, N. R. (2026). [Toward a mechanistic account of personality: A case study of competitor derogation accuracy and the Dark Triad](https://doi.org/10.1016/j.evolhumbehav.2025.106790){target="_blank"}. *Evolution and Human Behavior*.
 
-**Durkee, P. K.**, Ayers, J. D. (2021). [Is facial width-to-height ratio reliably associated with social inferences?](files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf){target="_blank"} *Evolution and Human Behavior*.
+**Durkee, P. K.** (2025). [Measuring personality traits: Simulations exploring (mis)alignment between methods and measurands](https://doi.org/10.1016/j.jrp.2025.104601){target="_blank"}. *Journal of Research in Personality*.
 
-Crosby, C. L.\*, **Durkee, P. K.**\*, Sedlacek, A. G. B., Buss, D. M. (2021). [Mate availability and sexual disgust](files/pubs/Crosby_et_al-2021-Adaptive_Human_Behavior_and_Physiology.pdf){target="_blank"}. *Adaptive Human Behavior and Physiology*.
+:::
 
-**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2021). [Reply to Cheng et al.: Benefit generation dominates cost infliction in explaining cross-national status allocations](https://doi.org/10.1073/pnas.2105037118){target="_blank"}. *Proceedings of the National Academy of Sciences*.
+## Status & Hierarchy
 
-**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2020). [Psychological foundations of human status allocation](files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf){target="_blank"}. *Proceedings of the National Academy of Sciences*.
+::: {.theme-intro}
+I study the psychological mechanisms people use to navigate status hierarchies, including how people estimate, pursue, and confer social status.
+:::
 
-Lukaszewski, A. W., Lewis, D. M. G., **Durkee, P. K.**, Sell, A., Sznycer, D., Buss, D. M. (2020). [An adaptationist framework for personality science](files/pubs/AnAdaptationistFrameworkPersonality.pdf){target="_blank"}. *European Journal of Personality*.
+::: {.pubs}
 
 Buss, D. M.\*, **Durkee, P. K.**\*, Shackelford, T. K., Schmitt, D. P., Bowdle, B. F., Brase, G. L., Choe, J. C., Trofimova, I. (2020). [Human status criteria: Sex differences and similarities across 14 nations](files/pubs/Buss&Durkee_etal_HumanStatusCriteria.pdf){target="_blank"}. *Journal of Personality and Social Psychology*.
 
-Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimensions of sexual disgust](https://labs.la.utexas.edu/mestonlab/files/2019/12/1-s2.0-S0191886919306543-main.pdf){target="_blank"}. *Personality and Individual Differences*.
+**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2020). [Psychological foundations of human status allocation](files/pubs/DurkeeLukaszewskiBuss2020_PsychologicalFoundationsofHumanStatusAllocation.pdf){target="_blank"}. *Proceedings of the National Academy of Sciences*.
+
+**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2023). [Status-impact assessment: Is accuracy linked with status motivations?](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16454C7E058347A01F94E64565CBF19/S2513843X23000129a.pdf){target="_blank"} *Evolutionary Human Sciences*.
+
+**Durkee, P. K.**, Buss, D. M. (2025). [Hierarchy navigation: Individual differences in tactics, strategies, and traits](https://doi.org/10.1007/s12110-025-09506-9){target="_blank"}. *Human Nature*.
+
+:::
+
+## Emotion & Social Regulation
+
+::: {.theme-intro}
+I study how emotions such as pride and shame regulate behavior and provide information about social evaluation and status.
+:::
+
+::: {.pubs}
 
 **Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2019). [Pride and shame: Key components of a culturally universal status management system](files/pubs/DurkeeLukaszewskiBuss_PrideShame_2019.pdf){target="_blank"}. *Evolution and Human Behavior*.
+
+Landers, M., Sznycer, D., **Durkee, P. K.** (2024). [Are self-conscious emotions about the self? Testing competing theories of shame and guilt across two disparate cultures](files/pubs/LandersSznycerDurkee2024.pdf){target="_blank"}. *Emotion*.
+
+**Durkee, P. K.** (2024). [Emotions and status hierarchies](https://osf.io/hukwr). In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackelford). Oxford University Press.
+
+:::
+
+## Person Perception & Social Evaluation
+
+::: {.theme-intro}
+I study how people use observable cues to infer socially relevant characteristics and evaluate others.
+:::
+
+::: {.pubs}
+
+**Durkee, P. K.**\*, Goetz, A. T.\*, Lukaszewski, A. W. (2018). [Formidability assessment mechanisms: Examining their speed and automaticity](files/pubs/DurkeeGoetzLukaszewski_2018.pdf){target="_blank"}. *Evolution and Human Behavior*.
+
+**Durkee, P. K.**, Ayers, J. D. (2021). [Is facial width-to-height ratio reliably associated with social inferences?](files/pubs/Durkee&Ayers2021_fWHR_EHB.pdf){target="_blank"} *Evolution and Human Behavior*.
 
 **Durkee, P. K.** (2019). [Do the Maasai perceive weak walkers to be stronger and more attractive than strong walkers? A re-analysis of Fink et al. (2019)](files/pubs/Durkee_2019.pdf){target="_blank"}. *Biology Letters*.
 
 **Durkee, P. K.**, Polo, P., Muñoz-Reyes, J. A., Rodríguez-Ruiz, C., Losada-Pérez, M., Fernández-Martínez, A. B., Turiégano, E., Buss, D. M., Pita, M. (2019). [Men's bodily attractiveness: Muscles as fitness indicators](files/pubs/Durkee_etal_2019.pdf){target="_blank"}. *Evolutionary Psychology*.
-
-**Durkee, P. K.**\*, Goetz, A. T.\*, Lukaszewski, A. W. (2018). [Formidability assessment mechanisms: Examining their speed and automaticity](files/pubs/DurkeeGoetzLukaszewski_2018.pdf){target="_blank"}. *Evolution and Human Behavior*.
 
 :::
 
@@ -78,30 +90,11 @@ Crosby, C. L., **Durkee, P. K.**, Meston, C. M., Buss, D. M. (2020). [Six dimens
 \* Shared first authorship &nbsp;·&nbsp; ^†^ Undergraduate mentee &nbsp;·&nbsp; ^‡^ Graduate mentee
 :::
 
-## Edited volume contributions
-
-::: {.pubs}
-
-**Durkee, P. K.** (2024). [Emotions and status hierarchies](https://osf.io/hukwr). In *The Oxford Handbook of Evolution and the Emotions* (eds. L. Al-Shawaf & T. K. Shackelford). Oxford University Press.
-
-**Durkee, P. K.**, Lukaszewski, A. W. (2023). [Pride and the psychology of prestige](https://doi.org/10.4135/9781071840801.n232){target="_blank"}. In *The SAGE Encyclopedia of Leadership Studies* (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.
-
+::: {.lab-apply}
+[Apply to get involved in my research](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){.btn-apply target="_blank" rel="noopener"}
 :::
 
-## Preprints and working papers
-
-::: {.pubs}
-
-**Durkee, P. K.** (2023, June). [Measuring a personality trait is harder than I thought: Simulations exploring the interplay between measurands, mechanisms, and measurement in personality research](http://dx.doi.org/10.2139/ssrn.4482488). *SSRN*.
-
-**Durkee, P. K.**, Lukaszewski, A. W., Buss, D. M. (2021, April). [Status foundations: Further consideration of the role of 'dominance' and the relative importance of cost infliction and benefit generation](https://psyarxiv.com/4gvt5/). *PsyArXiv*.
-
-:::
-
-## Other
-
-::: {.pubs}
-
-**Durkee, P. K.** Instructor's manual and test bank for *Evolutionary Psychology: The New Science of the Mind*. Routledge, 2024.
-
+::: {.pub-record}
+The publications above are selected examples. See my [CV](cv.qmd) or
+[Google Scholar](https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl){target="_blank"} for a complete publication record.
 :::

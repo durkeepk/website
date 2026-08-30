@@ -1,0 +1,214 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// Editorial / academic monograph prototype -- MAIN SITE
+//
+// An experimental layer stacked on top of styles.scss. Nothing here is
+// required by the site: removing this file from the theme list in _quarto.yml
+// restores the production appearance exactly.
+//
+// Direction: university-press printed matter translated to screen. Paper-toned
+// ground, ink-toned text, one muted slate-blue accent, serif for anything that
+// behaves like a title, sans for anything that behaves like text or interface.
+// =============================================================================
+
+// --- type ---------------------------------------------------------------
+// System and web-safe faces only. No webfont request, so nothing to fail.
+$font-family-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  "Book Antiqua", "Times New Roman", serif !default;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: 600 !default;
+$font-size-root: 17px !default;
+
+// --- colour -------------------------------------------------------------
+$paper:       #faf8f4 !default;   // warm off-white ground
+$ink:         #23211e !default;   // dark charcoal, not black
+$ink-muted:   #625d55 !default;   // secondary text
+$rule:        #ddd7cd !default;   // hairline rules, warm grey
+$accent:      #33556e !default;   // one muted slate-blue, used sparingly
+
+$body-bg:     $paper !default;
+$body-color:  $ink !default;
+$link-color:  $accent !default;
+$navbar-bg:   $paper !default;
+$navbar-fg:   $ink !default;
+
+/*-- scss:rules --*/
+
+// ---------- ground ----------
+
+body {
+  background: $paper;
+  color: $ink;
+  line-height: 1.62;
+}
+
+// Square the corners the framework rounds by default. Scoped to interface
+// chrome; content images are left alone so book figures are unaffected.
+.btn, .btn-apply, .card, .form-control, input, select, textarea,
+.quarto-title-block, .callout { border-radius: 0 !important; }
+
+// The portrait keeps its circular crop from styles.scss. The corner-squaring
+// above is scoped to interface chrome and deliberately does not reach it.
+
+// litera sets `p { font-family: $font-family-serif }` of its own accord, so
+// redefining that variable turns every paragraph on the site serif. The site
+// is short bibliographic pages, where the sans reads crisper and keeps the
+// serif meaningful as a title face; the book is where the serif body belongs.
+p, li, dd, .lead-bio, .interests, .page-intro, .pubs p, figcaption, caption,
+label, input, button, .btn { font-family: $font-family-sans-serif; }
+
+// ---------- titles ----------
+
+h1, h2, h3, h4, h5 { font-family: $font-family-serif; color: $ink; }
+
+h1, .title {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  letter-spacing: -0.012em;
+  line-height: 1.18;
+}
+
+// Section headings become small caps-ish rules rather than shouty uppercase.
+h2 {
+  font-family: $font-family-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-variant: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  color: $ink;
+  margin-top: 2.9rem;
+  margin-bottom: 1.05rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.9rem; }
+
+// ---------- navigation: quieter ----------
+
+.navbar {
+  background: $paper !important;
+  border-bottom: 1px solid $rule;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.navbar .navbar-title {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 1.06rem;
+  letter-spacing: 0.005em;
+}
+
+.navbar .nav-link {
+  font-size: 0.9rem;
+  color: $ink-muted !important;
+  padding-left: 0.85rem !important;
+  padding-right: 0.85rem !important;
+
+  &:hover, &:focus-visible { color: $accent !important; }
+}
+
+// ---------- links: bibliographic rather than buttony ----------
+
+a { color: $accent; }
+
+a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-underline-offset: 0.14em; }
+
+// ---------- profile header ----------
+
+.profile-role a { color: $ink-muted; }
+
+// Circular, to sit with the circular portrait. The rest of the interface
+// chrome stays squared; these controls and the photo are the exception.
+.icon-link {
+  border: 1px solid $rule;
+  border-radius: 50%;
+  color: $ink-muted;
+  // The CV control holds text rather than an <svg>, which has a baseline and
+  // would otherwise sit low; centre both kinds of content the same way.
+  line-height: 1;
+
+  &:hover, &:focus-visible {
+    border-color: $accent;
+    color: $accent;
+    background-color: rgba(51, 85, 110, 0.05);
+  }
+}
+
+.lead-bio {
+  font-size: 1.08rem;
+  color: $ink;
+}
+
+// ---------- body content ----------
+
+.interests { color: $ink-muted; }
+
+.page-intro { color: $ink-muted; }
+
+// Set an editorial rule above the invitation instead of a tinted callout box.
+// The application button takes the theme's squared corners and muted slate
+// accent through $link-color; only the closing note needs restating here.
+.pub-record { color: $ink-muted; }
+
+// ---------- publications: reference-list treatment ----------
+
+.pubs p {
+  border-bottom: 1px solid rgba(221, 215, 205, 0.6);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+
+  &:last-child { border-bottom: 0; }
+}
+
+.pubs a { text-decoration: none; }
+.pubs a:hover { text-decoration: underline; }
+
+.footnote-note { color: $ink-muted; }
+
+// ---------- footer ----------
+
+.nav-footer {
+  border-top: 1px solid $rule;
+  color: $ink-muted;
+  font-size: 0.85rem;
+}
+
+// ---------- research page ----------
+
+// The research statement is the primary element on the page: set a little
+// larger than body copy and given room, so the themes below read as support
+// rather than as the point.
+.research-statement {
+  font-size: 1.06rem;
+  line-height: 1.68;
+  max-width: 34rem;
+  margin: 0.4rem 0 1.9rem 0;
+
+  p + p { margin-top: 1rem; }
+}
+
+// One sentence under each theme heading. Muted so it introduces the citations
+// without competing with them.
+.theme-intro {
+  color: $ink-muted;
+  font-size: 0.96rem;
+  max-width: 34rem;
+  margin: -0.35rem 0 1.2rem 0;
+}
+
+// Themes are separated by the h2 rule that already exists; citations inside a
+// theme need less separation than the flat list did, so the per-entry rule is
+// dropped in favour of plain spacing with the hanging indent doing the work.
+.pubs p {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.85rem;
+}

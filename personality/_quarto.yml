@@ -52,9 +52,11 @@ filters:
 
 format:
   html:
+    # PROTOTYPE (branch theme-editorial-prototype): litera base plus the
+    # monograph layer. Remove the two theme-editorial files to revert.
     theme:
-      light: [cosmo, styles.scss]
-      dark: [cosmo, styles.scss, dark.scss]
+      light: [litera, styles.scss, theme-editorial.scss]
+      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss]
     toc: true
     toc-depth: 3
     toc-title: "On this page"
