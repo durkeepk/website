@@ -52,3 +52,13 @@ table.table, .table {
 }
 
 .footnotes { color: $ink-muted; border-top-color: $rule; }
+
+// Focused reading mode: the pinned tools strip sits on the page ground.
+@media (min-width: 992px) {
+  body:has(.quarto-reader-toggle.reader) #quarto-sidebar {
+    background: none;
+    border-right: 0;
+  }
+}
+
+.quarto-reader-toggle.reader { color: $accent; }

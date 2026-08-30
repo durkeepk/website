@@ -167,3 +167,87 @@ table.table, .table {
 
 // Math should not shrink against the serif body.
 .math { font-size: 1.02em; }
+
+// ---------- focused reading mode ----------
+//
+// Quarto's own reader toggle stores its state in localStorage and re-applies a
+// `reader` class to the toggle button on every page load, so the mode persists
+// as you move between chapters. What it does *not* do is remove the rails: its
+// implementation only dims a sidebar's children when that sidebar physically
+// overlaps the prose, which never happens at desktop widths. Toggling reader
+// mode on a wide screen therefore changed nothing.
+//
+// These rules hang off Quarto's own class via :has(), so the native toggle,
+// its state and its persistence all still drive the behaviour -- no JavaScript
+// and no second control. Below 992px Quarto exits reader mode by itself (it
+// watches body width and calls quartoToggleReader), so this is desktop-only.
+
+@media (min-width: 992px) {
+  body:has(.quarto-reader-toggle.reader) {
+
+    // The left rail keeps only its tools strip, pinned out of the grid so the
+    // column reserves no width. The strip is what lets the reader restore
+    // navigation, so it must survive.
+    #quarto-sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: auto;
+      min-width: 0;
+      max-width: none;
+      padding: 0.55rem 0 0 0.7rem;
+      background: none;
+      // !important: litera's own .sidebar-navigation border wins otherwise,
+      // leaving a stray hairline beside the pinned tools.
+      border-right: 0 !important;
+      overflow: visible;
+      z-index: 1030;
+
+      // search box and the chapter list
+      > .mt-2.flex-shrink-0,
+      > .sidebar-menu-container { display: none; }
+
+      // the book title, which would read as a stray heading once the rail goes
+      .sidebar-title > a { display: none; }
+      .sidebar-header { margin: 0; padding: 0; }
+    }
+
+    // The right rail goes entirely.
+    #quarto-margin-sidebar { display: none; }
+
+    // Once the rail is pinned, Quarto treats it as overlapping the prose and
+    // runs its convertToMenu path: it injects a floating .quarto-sidebar-toggle
+    // box and zeroes the real children with inline styles. In focused mode we
+    // want neither, so the box goes and the header is forced back -- !important
+    // is needed only because those styles are inline.
+    .quarto-sidebar-toggle { display: none !important; }
+
+    #quarto-sidebar .sidebar-header {
+      opacity: 1 !important;
+      overflow: visible !important;
+      pointer-events: auto !important;
+    }
+
+    // Prose spans the whole grid and centres the measure it already had,
+    // rather than stretching to fill the reclaimed width.
+    #quarto-document-content {
+      grid-column: screen-start / screen-end;
+      max-width: 34rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // Previous/next keeps the same measure so it stays under the prose.
+    .nav-page {
+      max-width: 34rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+// Make the control legible as a state, not just a button.
+.quarto-reader-toggle.reader {
+  color: $accent;
+  opacity: 1;
+}
