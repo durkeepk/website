@@ -112,7 +112,7 @@ h4 { font-size: 1rem; margin-top: 1.6rem; color: $ink-muted; font-style: italic;
 }
 
 // Contents set as a book's table of contents rather than a bulleted list.
-#contents + ol {
+section#contents > ol {
   list-style: none;
   padding-left: 0;
   counter-reset: chap;

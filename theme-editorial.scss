@@ -57,6 +57,13 @@ body {
   border-radius: 0 !important;
 }
 
+// litera sets `p { font-family: $font-family-serif }` of its own accord, so
+// redefining that variable turns every paragraph on the site serif. The site
+// is short bibliographic pages, where the sans reads crisper and keeps the
+// serif meaningful as a title face; the book is where the serif body belongs.
+p, li, dd, .lead-bio, .interests, .page-intro, .pubs p, figcaption, caption,
+label, input, button, .btn { font-family: $font-family-sans-serif; }
+
 // ---------- titles ----------
 
 h1, h2, h3, h4, h5 { font-family: $font-family-serif; color: $ink; }

@@ -41,8 +41,8 @@ h4 { color: $ink-muted; }
 
 .dl-link { color: $ink-muted; &:hover, &:focus-visible { color: $accent; } }
 
-#contents + ol li { border-bottom-color: rgba(58, 55, 51, 0.85); }
-#contents + ol li::before { color: $ink-muted; }
+section#contents > ol li { border-bottom-color: rgba(58, 55, 51, 0.85); }
+section#contents > ol li::before { color: $ink-muted; }
 
 figcaption, .figure-caption, caption { color: $ink-muted !important; }
 
