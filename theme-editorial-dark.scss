@@ -32,10 +32,20 @@ h2 { border-bottom-color: $rule; }
 
 a { color: $accent; }
 
-.icon-link {
-  border-color: $rule;
+// Scoped to .profile-links deliberately. The light editorial layer is also
+// compiled into the dark bundle, and at equal specificity its .icon-link rule
+// wins here -- verified by A/B: with a plain .icon-link rule the control keeps
+// the light border in dark mode; scoped, it takes the dark one.
+.profile-links .icon-link {
+  border: 1px solid $rule;
+  border-radius: 50%;
   color: $ink-muted;
-  &:hover, &:focus-visible { border-color: $accent; color: $accent; background-color: rgba(143, 179, 204, 0.10); }
+
+  &:hover, &:focus-visible {
+    border-color: $accent;
+    color: $accent;
+    background-color: rgba(143, 179, 204, 0.10);
+  }
 }
 
 .lead-bio { color: $ink; }

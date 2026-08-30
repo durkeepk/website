@@ -124,10 +124,15 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
 
 .profile-role a { color: $ink-muted; }
 
+// Circular, to sit with the circular portrait. The rest of the interface
+// chrome stays squared; these controls and the photo are the exception.
 .icon-link {
   border: 1px solid $rule;
-  border-radius: 0;             // squared, to match the print feel
+  border-radius: 50%;
   color: $ink-muted;
+  // The CV control holds text rather than an <svg>, which has a baseline and
+  // would otherwise sit low; centre both kinds of content the same way.
+  line-height: 1;
 
   &:hover, &:focus-visible {
     border-color: $accent;
