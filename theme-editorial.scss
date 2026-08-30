@@ -47,7 +47,7 @@ body {
 
 // Square the corners the framework rounds by default. Scoped to interface
 // chrome; content images are left alone so book figures are unaffected.
-.btn, .card, .form-control, input, select, textarea,
+.btn, .btn-apply, .card, .form-control, input, select, textarea,
 .quarto-title-block, .callout { border-radius: 0 !important; }
 
 // The portrait keeps its circular crop from styles.scss. The corner-squaring
@@ -153,16 +153,9 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
 .page-intro { color: $ink-muted; }
 
 // Set an editorial rule above the invitation instead of a tinted callout box.
-.lab-invite {
-  background: none;
-  border: 0;
-  border-top: 1px solid $rule;
-  border-bottom: 1px solid $rule;
-  border-left: 0;
-  padding: 0.9rem 0;
-  color: $ink-muted;
-  font-size: 0.95rem;
-}
+// The application button takes the theme's squared corners and muted slate
+// accent through $link-color; only the closing note needs restating here.
+.pub-record { color: $ink-muted; }
 
 // ---------- publications: reference-list treatment ----------
 

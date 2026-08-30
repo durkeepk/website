@@ -13,11 +13,7 @@ Much of my work focuses on hierarchy navigation and social influence. I study ho
 :::
 
 ::: {.page-intro}
-Representative publications are grouped by theme below; the themes overlap, and many papers speak to more than one. See my [CV](cv.qmd) for the full publication record.
-:::
-
-::: {.lab-invite}
-Students interested in getting involved in my research can [fill out an application](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){target="_blank"}.
+Representative publications are grouped by theme below; the themes overlap, and many papers speak to more than one.
 :::
 
 ## Personality & Individual Differences
@@ -92,4 +88,13 @@ I study how people use observable cues to infer socially relevant characteristic
 
 ::: {.footnote-note}
 \* Shared first authorship &nbsp;·&nbsp; ^†^ Undergraduate mentee &nbsp;·&nbsp; ^‡^ Graduate mentee
+:::
+
+::: {.lab-apply}
+[Apply to get involved in my research](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){.btn-apply target="_blank" rel="noopener"}
+:::
+
+::: {.pub-record}
+The publications above are selected examples. See my [CV](cv.qmd) or
+[Google Scholar](https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl){target="_blank"} for a complete publication record.
 :::

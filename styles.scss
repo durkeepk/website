@@ -201,18 +201,52 @@ a {
 
 // ---------- prospective-student invitation ----------
 
-.lab-invite {
-  margin: 1.75rem 0;
-  padding: 0.9rem 1.15rem;
-  border: 1px solid #d8e6e2;
-  border-left: 3px solid $link-color;
-  border-radius: 4px;
-  background: rgba(11, 107, 94, 0.04);
-  max-width: 66ch;
+// Student application. A compact, outlined action deliberately kept at the
+// scale of a link-with-a-box: recognisably a button, but not a callout card
+// competing with the publications above it.
+.lab-apply {
+  margin: 2.4rem 0 1.15rem 0;
 
   p { margin: 0; }
+}
 
-  a { font-weight: 600; }
+.btn-apply {
+  display: inline-block;
+  padding: 0.42rem 1rem;
+  border: 1px solid $link-color;
+  border-radius: 3px;
+  background: none;
+  color: $link-color;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  // Hover and focus share the filled state so the affordance reads the same
+  // to a pointer and to a keyboard; focus adds a ring on top of it.
+  &:hover,
+  &:focus {
+    background: $link-color;
+    color: $body-bg;
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+// Where the complete record lives. Plain running text, not a promotion.
+.pub-record {
+  color: #5a5a5a;
+  font-size: 0.95rem;
+  max-width: 34rem;
+  margin: 0;
+
+  p { margin: 0; }
 }
 
 // ---------- publications ----------
