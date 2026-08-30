@@ -16,10 +16,12 @@ toc-location: right
 My research aims to develop mechanistic explanations of human social cognition and personality. I use evolutionary theory to identify recurrent social problems, develop and test models of the cognitive mechanisms that help solve them, and examine how individual differences in those mechanisms relate to broader patterns of personality and behavior.
 
 Much of my work focuses on hierarchy navigation and social influence. I study how people estimate the status consequences of actions and characteristics, what information those judgments depend on, and how emotions such as pride and shame are involved in this process. I also use these mechanistic models to better understand individual differences and broad personality dimensions, which I view as descriptive patterns in need of explanation rather than as explanations themselves. Related work examines how people infer socially relevant characteristics from others and how those judgments contribute to person perception and social evaluation.
+
+[Students interested in my working with me should check out some of the my selected publications below and fill out an application here](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){.btn-apply target="_blank" rel="noopener"}
 :::
 
 ::: {.page-intro}
-Representative publications are grouped by theme below; the themes overlap, and many papers speak to more than one.
+Representative publications are grouped (semi)thematically below. I also link to data and code repositories for each empirical project. See my [CV](cv.qmd) or [Google Scholar](https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl){target="_blank"} for my complete publication record.
 :::
 
 ## Personality & Individual Differences
@@ -94,11 +96,6 @@ I study how people use observable cues to infer socially relevant characteristic
 \* Shared first authorship &nbsp;·&nbsp; ^†^ Undergraduate mentee &nbsp;·&nbsp; ^‡^ Graduate mentee
 :::
 
-::: {.lab-apply}
-[Apply to get involved in my research](https://docs.google.com/forms/d/e/1FAIpQLScPmIPf_zk-Sj9ks85t6sEDPtbnno242oUNHzNVWNxK4w4Dvw/viewform?usp=header){.btn-apply target="_blank" rel="noopener"}
-:::
 
-::: {.pub-record}
-The publications above are selected examples. See my [CV](cv.qmd) or
-[Google Scholar](https://scholar.google.com/citations?user=uj4K4rQAAAAJ&hl){target="_blank"} for a complete publication record.
-:::
+
+
