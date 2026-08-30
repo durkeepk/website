@@ -53,6 +53,17 @@ a { color: $accent; }
 
 .pub-record { color: $ink-muted; }
 
+.pub-link {
+  color: rgba($ink-muted, 0.9);
+
+  &:hover,
+  &:focus {
+    color: $accent;
+    border-color: $rule;
+    background-color: rgba($accent, 0.12);
+  }
+}
+
 .pubs p { border-bottom-color: rgba(58, 55, 51, 0.8); }
 
 .nav-footer { border-top-color: $rule; color: $ink-muted; }

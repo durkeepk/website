@@ -157,6 +157,21 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
 // accent through $link-color; only the closing note needs restating here.
 .pub-record { color: $ink-muted; }
 
+// Resource icons take the editorial palette and its squared corners.
+.pub-link {
+  border-radius: 0;
+  color: rgba($ink-muted, 0.85);
+
+  &:hover,
+  &:focus {
+    color: $accent;
+    border-color: $rule;
+    background-color: rgba($accent, 0.07);
+  }
+
+  &:focus-visible { outline-color: $accent; }
+}
+
 // ---------- publications: reference-list treatment ----------
 
 .pubs p {

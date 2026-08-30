@@ -258,6 +258,61 @@ a {
   line-height: 1.55;
 }
 
+// Resource links under each citation: the paper, and the repository when the
+// reproducibility audit verified a public one. They sit on their own line, so
+// they land at the hanging-indent edge and read as apparatus rather than as
+// calls to action -- quiet until pointed at.
+.pub-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.3rem;
+  // The reference hanging indent must not drag the icon row out of line.
+  text-indent: 0;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #8a8a8a;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  .bi { font-size: 0.95rem; line-height: 1; }
+
+  .ico {
+    width: 0.95rem;
+    height: 0.95rem;
+    fill: currentColor;
+    display: block;
+  }
+
+  &:hover,
+  &:focus {
+    color: $link-color;
+    border-color: #dcdcdc;
+    background-color: rgba(11, 107, 94, 0.06);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 1px;
+  }
+}
+
+// Touch targets want more room than a pointer does.
+@media (max-width: 575.98px) {
+  .pub-links { gap: 0.5rem; }
+  .pub-link  { width: 2rem; height: 2rem; }
+}
+
 .footnote-note {
   font-size: 0.85rem;
   color: #777;

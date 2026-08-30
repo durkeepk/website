@@ -33,6 +33,13 @@ h2 {
 
 .pub-record { color: #b8b8b8; }
 
+.pub-link {
+  color: #8f8f8f;
+
+  &:hover,
+  &:focus { color: $link-color; border-color: #3a3a3a; background-color: rgba(79, 195, 174, 0.1); }
+}
+
 .lead-bio    { color: #cfcfcf; }
 .page-intro  { color: #b8b8b8; }
 .interests   { color: #b8b8b8; }
