@@ -187,3 +187,35 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
   color: $ink-muted;
   font-size: 0.85rem;
 }
+
+// ---------- research page ----------
+
+// The research statement is the primary element on the page: set a little
+// larger than body copy and given room, so the themes below read as support
+// rather than as the point.
+.research-statement {
+  font-size: 1.06rem;
+  line-height: 1.68;
+  max-width: 34rem;
+  margin: 0.4rem 0 1.9rem 0;
+
+  p + p { margin-top: 1rem; }
+}
+
+// One sentence under each theme heading. Muted so it introduces the citations
+// without competing with them.
+.theme-intro {
+  color: $ink-muted;
+  font-size: 0.96rem;
+  max-width: 34rem;
+  margin: -0.35rem 0 1.2rem 0;
+}
+
+// Themes are separated by the h2 rule that already exists; citations inside a
+// theme need less separation than the flat list did, so the per-entry rule is
+// dropped in favour of plain spacing with the hanging indent doing the work.
+.pubs p {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.85rem;
+}
