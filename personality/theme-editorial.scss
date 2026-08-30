@@ -1,0 +1,169 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// Editorial / academic monograph prototype -- TEXTBOOK
+//
+// Companion to the main site's theme-editorial.scss, stacked on top of the
+// book's styles.scss. Removing this file from the theme list in
+// personality/_quarto.yml restores the production appearance exactly.
+//
+// The book differs from the main site in one respect: its body text is set in
+// the serif too. The site is short bibliographic pages, where a sans body is
+// crisper; the book is long-form reading, where the serif is the point.
+// =============================================================================
+
+$font-family-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  "Book Antiqua", "Times New Roman", serif !default;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+// Body copy is the serif; interface chrome stays sans.
+$font-family-base:      $font-family-serif !default;
+$headings-font-family:  $font-family-serif !default;
+$headings-font-weight:  600 !default;
+
+// Slightly smaller than the sans equivalent: Georgia runs large.
+$font-size-root: 17.5px !default;
+
+$paper:      #faf8f4 !default;
+$ink:        #23211e !default;
+$ink-muted:  #625d55 !default;
+$rule:       #ddd7cd !default;
+$accent:     #33556e !default;
+
+$body-bg:    $paper !default;
+$body-color: $ink !default;
+$link-color: $accent !default;
+
+/*-- scss:rules --*/
+
+body {
+  background: $paper;
+  color: $ink;
+  font-family: $font-family-serif;
+  line-height: 1.68;
+}
+
+// ---------- reading measure ----------
+
+main.content, #quarto-document-content {
+  max-width: 34rem;          // ~66 characters of Georgia
+}
+
+// ---------- headings ----------
+
+h1, h2, h3, h4, h5, .title {
+  font-family: $font-family-serif;
+  color: $ink;
+  letter-spacing: -0.005em;
+}
+
+h1, .title { font-size: 1.95rem; line-height: 1.2; font-weight: 600; }
+
+h2 {
+  font-size: 1.32rem;
+  margin-top: 2.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 { font-size: 1.12rem; margin-top: 2rem; }
+h4 { font-size: 1rem; margin-top: 1.6rem; color: $ink-muted; font-style: italic; font-weight: 600; }
+
+// ---------- interface chrome stays sans and quiet ----------
+
+.sidebar, .sidebar-navigation, #quarto-sidebar,
+#TOC, .toc-actions, .nav-page, .quarto-title-meta, .nav-footer {
+  font-family: $font-family-sans-serif;
+}
+
+#quarto-sidebar { background: $paper; border-right: 1px solid $rule; }
+
+.sidebar-item-text { font-size: 0.86rem; color: $ink-muted; }
+.sidebar-item-text.active, .sidebar-link.active { color: $accent !important; }
+
+#TOC { font-size: 0.84rem; }
+#TOC .nav-link { color: $ink-muted; }
+#TOC .nav-link.active { color: $accent; }
+
+.quarto-title-meta { color: $ink-muted; }
+
+// ---------- landing page: book front matter ----------
+
+// The primary action is a rule-bounded label, not a filled button.
+.btn-start {
+  background: none;
+  border: 1px solid $accent;
+  border-radius: 0;
+  color: $accent;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  padding: 0.5rem 1.1rem;
+
+  &:hover, &:focus-visible { background: $accent; color: $paper; border-color: $accent; }
+}
+
+.dl-link {
+  font-family: $font-family-sans-serif;
+  color: $ink-muted;
+
+  &:hover, &:focus-visible { color: $accent; }
+}
+
+// Contents set as a book's table of contents rather than a bulleted list.
+#contents + ol {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: chap;
+
+  li {
+    counter-increment: chap;
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    padding: 0.42rem 0;
+    border-bottom: 1px solid rgba(221, 215, 205, 0.55);
+
+    &::before {
+      content: counter(chap);
+      font-family: $font-family-sans-serif;
+      font-size: 0.78rem;
+      color: $ink-muted;
+      min-width: 1.4rem;
+      text-align: right;
+    }
+
+    &:last-child { border-bottom: 0; }
+  }
+}
+
+// ---------- figures, tables, notes ----------
+
+figure { margin-top: 2.2rem; margin-bottom: 2.2rem; }
+
+figcaption, .figure-caption, caption {
+  font-family: $font-family-sans-serif !important;
+  font-size: 0.82rem !important;
+  color: $ink-muted !important;
+  line-height: 1.45;
+}
+
+table.table, .table {
+  font-family: $font-family-sans-serif;
+  font-size: 0.86rem;
+
+  th { border-bottom: 1px solid $ink; font-weight: 600; }
+  td, th { border-color: $rule; }
+}
+
+.footnotes {
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  color: $ink-muted;
+  border-top: 1px solid $rule;
+  padding-top: 0.8rem;
+}
+
+// Math should not shrink against the serif body.
+.math { font-size: 1.02em; }

@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+// Dark counterpart to personality/theme-editorial.scss.
+
+$font-family-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  "Book Antiqua", "Times New Roman", serif !default;
+$font-family-base:     $font-family-serif !default;
+$headings-font-family: $font-family-serif !default;
+
+$paper:      #1b1a18 !default;
+$ink:        #ddd8d0 !default;
+$ink-muted:  #a09a91 !default;
+$rule:       #3a3733 !default;
+$accent:     #8fb3cc !default;
+
+$body-bg:    $paper !default;
+$body-color: $ink !default;
+$link-color: $accent !default;
+
+/*-- scss:rules --*/
+
+body { background: $paper; color: $ink; font-family: $font-family-serif; }
+
+h1, h2, h3, h4, h5, .title { color: $ink; }
+h2 { border-bottom-color: $rule; }
+h4 { color: $ink-muted; }
+
+#quarto-sidebar { background: $paper; border-right-color: $rule; }
+.sidebar-item-text { color: $ink-muted; }
+.sidebar-item-text.active, .sidebar-link.active { color: $accent !important; }
+#TOC .nav-link { color: $ink-muted; }
+#TOC .nav-link.active { color: $accent; }
+.quarto-title-meta { color: $ink-muted; }
+
+.btn-start {
+  background: none;
+  border-color: $accent;
+  color: $accent;
+  &:hover, &:focus-visible { background: $accent; color: $paper; }
+}
+
+.dl-link { color: $ink-muted; &:hover, &:focus-visible { color: $accent; } }
+
+#contents + ol li { border-bottom-color: rgba(58, 55, 51, 0.85); }
+#contents + ol li::before { color: $ink-muted; }
+
+figcaption, .figure-caption, caption { color: $ink-muted !important; }
+
+table.table, .table {
+  th { border-bottom-color: $ink; }
+  td, th { border-color: $rule; }
+}
+
+.footnotes { color: $ink-muted; border-top-color: $rule; }

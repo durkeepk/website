@@ -1,0 +1,181 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// Editorial / academic monograph prototype -- MAIN SITE
+//
+// An experimental layer stacked on top of styles.scss. Nothing here is
+// required by the site: removing this file from the theme list in _quarto.yml
+// restores the production appearance exactly.
+//
+// Direction: university-press printed matter translated to screen. Paper-toned
+// ground, ink-toned text, one muted slate-blue accent, serif for anything that
+// behaves like a title, sans for anything that behaves like text or interface.
+// =============================================================================
+
+// --- type ---------------------------------------------------------------
+// System and web-safe faces only. No webfont request, so nothing to fail.
+$font-family-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  "Book Antiqua", "Times New Roman", serif !default;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: 600 !default;
+$font-size-root: 17px !default;
+
+// --- colour -------------------------------------------------------------
+$paper:       #faf8f4 !default;   // warm off-white ground
+$ink:         #23211e !default;   // dark charcoal, not black
+$ink-muted:   #625d55 !default;   // secondary text
+$rule:        #ddd7cd !default;   // hairline rules, warm grey
+$accent:      #33556e !default;   // one muted slate-blue, used sparingly
+
+$body-bg:     $paper !default;
+$body-color:  $ink !default;
+$link-color:  $accent !default;
+$navbar-bg:   $paper !default;
+$navbar-fg:   $ink !default;
+
+/*-- scss:rules --*/
+
+// ---------- ground ----------
+
+body {
+  background: $paper;
+  color: $ink;
+  line-height: 1.62;
+}
+
+// Square the corners the framework rounds by default. Scoped to interface
+// chrome; content images are left alone so book figures are unaffected.
+.btn, .card, .form-control, input, select, textarea,
+.quarto-title-block, .callout { border-radius: 0 !important; }
+
+// The portrait is squared deliberately: a rectangular author plate reads as
+// printed matter, where the circular crop reads as a social profile. This is
+// the one presentational change to the image; the file is untouched.
+.profile-header img, .profile-photo img, .profile-header .profile-photo {
+  border-radius: 0 !important;
+}
+
+// ---------- titles ----------
+
+h1, h2, h3, h4, h5 { font-family: $font-family-serif; color: $ink; }
+
+h1, .title {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  letter-spacing: -0.012em;
+  line-height: 1.18;
+}
+
+// Section headings become small caps-ish rules rather than shouty uppercase.
+h2 {
+  font-family: $font-family-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-variant: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  color: $ink;
+  margin-top: 2.9rem;
+  margin-bottom: 1.05rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.9rem; }
+
+// ---------- navigation: quieter ----------
+
+.navbar {
+  background: $paper !important;
+  border-bottom: 1px solid $rule;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.navbar .navbar-title {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 1.06rem;
+  letter-spacing: 0.005em;
+}
+
+.navbar .nav-link {
+  font-size: 0.9rem;
+  color: $ink-muted !important;
+  padding-left: 0.85rem !important;
+  padding-right: 0.85rem !important;
+
+  &:hover, &:focus-visible { color: $accent !important; }
+}
+
+// ---------- links: bibliographic rather than buttony ----------
+
+a { color: $accent; }
+
+a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-underline-offset: 0.14em; }
+
+// ---------- profile header ----------
+
+.profile-role a { color: $ink-muted; }
+
+.icon-link {
+  border: 1px solid $rule;
+  border-radius: 0;             // squared, to match the print feel
+  color: $ink-muted;
+
+  &:hover, &:focus-visible {
+    border-color: $accent;
+    color: $accent;
+    background-color: rgba(51, 85, 110, 0.05);
+  }
+}
+
+.lead-bio {
+  font-size: 1.08rem;
+  color: $ink;
+}
+
+// ---------- body content ----------
+
+.interests { color: $ink-muted; }
+
+.page-intro { color: $ink-muted; }
+
+// Set an editorial rule above the invitation instead of a tinted callout box.
+.lab-invite {
+  background: none;
+  border: 0;
+  border-top: 1px solid $rule;
+  border-bottom: 1px solid $rule;
+  border-left: 0;
+  padding: 0.9rem 0;
+  color: $ink-muted;
+  font-size: 0.95rem;
+}
+
+// ---------- publications: reference-list treatment ----------
+
+.pubs p {
+  border-bottom: 1px solid rgba(221, 215, 205, 0.6);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+
+  &:last-child { border-bottom: 0; }
+}
+
+.pubs a { text-decoration: none; }
+.pubs a:hover { text-decoration: underline; }
+
+.footnote-note { color: $ink-muted; }
+
+// ---------- footer ----------
+
+.nav-footer {
+  border-top: 1px solid $rule;
+  color: $ink-muted;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+
+// Dark counterpart to theme-editorial.scss. Same editorial logic, inverted:
+// warm near-black ground rather than pure black, softened ink, and a lighter
+// slate-blue so the single accent keeps adequate contrast.
+
+$font-family-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  "Book Antiqua", "Times New Roman", serif !default;
+$headings-font-family: $font-family-serif !default;
+
+$paper:      #1b1a18 !default;
+$ink:        #ddd8d0 !default;
+$ink-muted:  #a09a91 !default;
+$rule:       #3a3733 !default;
+$accent:     #8fb3cc !default;
+
+$body-bg:    $paper !default;
+$body-color: $ink !default;
+$link-color: $accent !default;
+$navbar-bg:  $paper !default;
+$navbar-fg:  $ink !default;
+
+/*-- scss:rules --*/
+
+body { background: $paper; color: $ink; }
+
+h1, h2, h3, h4, h5, .title { color: $ink; font-family: $font-family-serif; }
+h2 { border-bottom-color: $rule; }
+
+.navbar { background: $paper !important; border-bottom: 1px solid $rule; }
+.navbar .nav-link { color: $ink-muted !important; &:hover, &:focus-visible { color: $accent !important; } }
+
+a { color: $accent; }
+
+.icon-link {
+  border-color: $rule;
+  color: $ink-muted;
+  &:hover, &:focus-visible { border-color: $accent; color: $accent; background-color: rgba(143, 179, 204, 0.10); }
+}
+
+.lead-bio { color: $ink; }
+.interests, .page-intro, .footnote-note { color: $ink-muted; }
+
+.lab-invite { border-top-color: $rule; border-bottom-color: $rule; color: $ink-muted; }
+
+.pubs p { border-bottom-color: rgba(58, 55, 51, 0.8); }
+
+.nav-footer { border-top-color: $rule; color: $ink-muted; }
