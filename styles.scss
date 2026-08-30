@@ -114,6 +114,11 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  // Align these by their box, not by whatever is inside them. An inline-flex
+  // box takes its baseline from its first child, so the CV control -- which
+  // holds text rather than an <svg> -- was being pushed about 4px below the
+  // icons beside it.
+  vertical-align: middle;
   width: 2.35rem;
   height: 2.35rem;
   border: 1px solid #dcdcdc;
