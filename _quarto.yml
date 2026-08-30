@@ -38,7 +38,7 @@ format:
     # top. Remove the two theme-editorial files to return to production.
     theme:
       light: [litera, styles.scss, theme-editorial.scss]
-      dark: [litera, styles.scss, dark.scss, theme-editorial-dark.scss]
+      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss]
     toc: false
     anchor-sections: false
     link-external-newwindow: true

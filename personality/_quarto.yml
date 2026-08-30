@@ -56,7 +56,7 @@ format:
     # monograph layer. Remove the two theme-editorial files to revert.
     theme:
       light: [litera, styles.scss, theme-editorial.scss]
-      dark: [litera, styles.scss, dark.scss, theme-editorial-dark.scss]
+      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss]
     toc: true
     toc-depth: 3
     toc-title: "On this page"

@@ -50,12 +50,8 @@ body {
 .btn, .card, .form-control, input, select, textarea,
 .quarto-title-block, .callout { border-radius: 0 !important; }
 
-// The portrait is squared deliberately: a rectangular author plate reads as
-// printed matter, where the circular crop reads as a social profile. This is
-// the one presentational change to the image; the file is untouched.
-.profile-header img, .profile-photo img, .profile-header .profile-photo {
-  border-radius: 0 !important;
-}
+// The portrait keeps its circular crop from styles.scss. The corner-squaring
+// above is scoped to interface chrome and deliberately does not reach it.
 
 // litera sets `p { font-family: $font-family-serif }` of its own accord, so
 // redefining that variable turns every paragraph on the site serif. The site
