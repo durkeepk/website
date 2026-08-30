@@ -134,6 +134,17 @@ a {
     height: 1.05rem;
     fill: currentColor;
   }
+
+  // The CV control carries a short word rather than a glyph. Sized and
+  // weighted to read at the same density as the 1.05rem icons beside it, so
+  // the row still looks like one set.
+  .ico-text {
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: currentColor;
+  }
 }
 
 // Icon-only links still need an accessible name in the DOM.
