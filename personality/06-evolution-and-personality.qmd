@@ -4,7 +4,7 @@ title: "Evolution and Personality"
 
 Now that we have a decent taxonomy of personality traits for focusing our attention (i.e., the Big Five), we can begin to ask interesting questions about them. In this chapter we will turn our focus to an *ultimate* question: Why do these personality differences exist?
 
-To begin to answer this question, we need to first have an understanding evolution. This is because evolution is the best scientific theory developed for explaining why living things are the way they are. Humans have long observed that living organisms, like plants and animals, are typically very well suited to survive and reproduce in the habits they live in. It often seems as though organisms are *designed* for their specific habitats. Evolutionary theory provides us a framework for understanding why this is the case.
+To begin to answer this question, we need to first have an understanding of evolution. This is because evolution is the best scientific theory developed for explaining why living things are the way they are. Humans have long observed that living organisms, like plants and animals, are typically very well suited to survive and reproduce in the habitats they live in. It often seems as though organisms are *designed* for their specific habitats. Evolutionary theory provides us a framework for understanding why this is the case.
 
 ## Darwin's Big Ideas
 
@@ -76,7 +76,7 @@ Noise refers to variation in traits that evolves and is not selected out by evol
 
 ## The Power of Evolutionary Theory
 
-Understanding the mechanisms and products of evolution, particularly natural and sexual selection, unveils the intricate tapestry of life. It allows us to comprehend how and why living organisms seem to fit so well within their natural habitats. Natural selection illustrates how subtle variations, advantageous or otherwise, influence survival and reproduction, shaping species over generations. Moreover, sexual selection illuminates the role of mate preferences and competition, driving the development of striking traits and behaviors that might seem unrelated to survival but profoundly impact a species' evolutionary trajectory. Together, these mechanisms produce adaptations, byproducts, and noise. Evolutionary theory provides a powerful lens through which we can fully appreciate the breathtaking diversity and complex interplay of life on Earth. In the next section, we will explore how it may also allow us to better human psychology as well.
+Understanding how natural and sexual selection work, and what they produce, helps explain why organisms fit their habitats so well. Natural selection explains how small differences between individuals add up over many generations, as traits that help individuals survive and reproduce become more common in a population. Sexual selection explains how mate preferences and mating competition can push traits in directions that have little to do with survival---and that sometimes work against it---while still becoming more common. Together, these processes produce adaptations, byproducts, and noise. In the next section, we'll explore how these same ideas may help us better understand human psychology as well.
 
 ## Applying Darwin's Ideas to Humans: Evolutionary Psychology
 
