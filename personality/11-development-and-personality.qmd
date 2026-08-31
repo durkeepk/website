@@ -46,7 +46,7 @@ The stability of personality is far from perfect, though. Research on the stabil
 
 ![Summary of the personality maturation principle.](images/11-maturation-principle.svg){#fig-maturation fig-alt="Two points: there is consistency in the average changes in trait levels during development; most people become more conscientious, agreeable, and emotionally stable with age." width="620"}
 
-There is one caveat to the maturity principle. Researchers have found that the biological, social, and psychological changes that occur during the transition from childhood to adolescence can lead to temporary dips in agreeableness, conscientiousness, and emotional stability (Soto & Tackett, 2015). For most, puberty is the period of life characterized by the most turbulent personality change. This idea of *personality disruption* will come as no surprise to any parents of teenagers reading this.
+There is one caveat to the maturity principle. Researchers have found that the biological, social, and psychological changes that occur during the transition from childhood to adolescence can lead to temporary dips in agreeableness, conscientiousness, and openness to experience (Soto & Tackett, 2015). For most, puberty is the period of life characterized by the most turbulent personality change. This idea of *personality disruption* will come as no surprise to any parents of teenagers reading this.
 
 ## Normative Trends Aren't "One Size Fits All"
 
