@@ -11,7 +11,10 @@ book:
   title: "Personality Psychology"
   subtitle: "An open access textbook"
   author: "Patrick Durkee"
-  date: last-modified
+  # Fixed publication date; the landing page carries the last-updated date
+  # separately, so the title block stops advancing every time anything is
+  # rendered.
+  date: "2026-08-28"
   date-format: "MMMM YYYY"
   site-url: "https://www.pdurkee.com/personality/"
   # Puts "Edit this page" and "Report an issue" on every chapter. The edit

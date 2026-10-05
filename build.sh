@@ -22,6 +22,17 @@ if [ _cv-source/cv.Rmd -nt files/cv/cv.pdf ]; then
     echo "cv:           Re-knit cv.Rmd, or your CV edits will not go live."
 fi
 
+# Stamp the book's last-updated date from git, so it reflects the last time a
+# chapter actually changed rather than the last time anything was rendered.
+# Quarto has no book-level date-modified field (the book: key rejects it), and
+# `date: last-modified` would advance the published date on every build, which
+# is why this is done here. BSD sed syntax: build.sh is the local build only,
+# and netlify.toml ships whatever was committed.
+UPDATED=$(git log -1 --format=%ad --date='format:%B %Y' -- 'personality/*.qmd' 2>/dev/null || true)
+if [ -n "$UPDATED" ]; then
+    sed -i '' -E "s/^\*Last updated .*\*$/*Last updated $UPDATED.*/" personality/index.qmd
+fi
+
 quarto render
 quarto render personality --to html
 rm -rf _site/personality

@@ -14,6 +14,7 @@ This is meant to be a living document. I plan to update it every so often as new
 <a class="dl-link" href="Personality-Psychology.epub" aria-label="Download EPUB"><i class="bi bi-journal" aria-hidden="true"></i>EPUB</a>
 :::
 
+::: {.content-visible when-format="html:js"}
 ## Contents
 
 1. [Foundational Frameworks](01-foundational-frameworks.qmd)
@@ -30,6 +31,23 @@ This is meant to be a living document. I plan to update it every so often as new
 12. [Culture and Personality](12-culture-and-personality.qmd)
 13. [Personality Change](13-personality-change.qmd)
 
+:::
+
+## Acknowledgements
+
+Several colleagues have improved this book by reading chapters and sending
+feedback:
+
+- **Dr. Andrew Grotzinger**, University of Colorado Boulder, for extensive
+  feedback on [Genetics and Personality](07-genetics-and-personality.qmd).
+- **Dr. Chris Miller**, Fresno State, whose comments and additions greatly
+  improved [Physiology and Personality](08-physiology-and-personality.qmd).
+- **Dr. Ted Schwaba** for feedback on the interpretation of his 2025 study in
+  [Genetics and Personality](07-genetics-and-personality.qmd).
+
+Anyone who sends a correction or suggests an improvement from here on will be
+acknowledged here too.
+
 ## License
 
 Except where otherwise noted, this work is licensed under a
@@ -38,3 +56,5 @@ Except where otherwise noted, this work is licensed under a
 You are free to read, share, and adapt this book for noncommercial purposes,
 as long as you give credit and indicate any changes. Commercial rights are
 reserved.
+
+*Last updated October 2026.*
