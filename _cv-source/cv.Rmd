@@ -176,7 +176,9 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \textcolor{light-gray}{Invited Talks}
 
-\pubitem{14.}{}{\me{} (October, 2025). \textit{Prediction and Causal Inference as Subtasks of Adaptive Challenges}. Talk given to the Center for the Study of Human Nature, CSU Fullerton.}
+\pubitem{15.}{}{\me{} (October, 2025). \textit{Prediction and Causal Inference as Subtasks of Adaptive Challenges}. Talk given to the Center for the Study of Human Nature, CSU Fullerton.}
+
+\pubitem{14.}{}{\me{} (July, 2025). \textit{Emotions and Personality}. Talk given at the Friends of IAST Conference, Institute for Advanced Study in Toulouse, France.}
 
 \pubitem{13.}{}{\me{} (March, 2025). \textit{Differentiating hierarchy navigation emotions}. Talk given at the Oklahoma Center for Evolutionary Analysis (OCEAN) at OK State.}
 
@@ -210,11 +212,13 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \textcolor{light-gray}{Podium Presentations}
 
+\pubitem{15.}{}{\me{} (2026, May). \textit{Prediction and Causal Inference as Subtasks of Adaptive Problems}. Podium presentation at the 37th Annual Meeting of the Human Behavior and Evolution Society, Rabat, Morocco.}
+
 \pubitem{14.}{}{\me{} (2025, February). \textit{Navigating hierarchies: Cross-national examination of cues informing status criteria inference}. Podium presentation at the 25th Annual Meeting of the Society for Personality and Social Psychology (SPSP), Denver, CO.}
 
 \pubitem{13.}{}{\href{https://www.youtube.com/watch?v=CLGuF_fBM0o&list=PL6Fi8qOQlSrj7v5Kj7C_aekqXco9Cnljk&index=9}{\me{} (February, 2024). \textit{Simulations exploring the interplay between measurands, mechanisms, and measurement in personality research}. Pre-recorded data blitz presentation for the SPSP Personality Preconference.\ \faPlay}}
 
-\pubitem{12.}{}{\me{} (2023, June). \textit{Status impact assessment: Is accuracy linked with status motives?}. Podium presentation at the 33rd Annual Meeting of the Human Behavior and Evolution Society, Palm Springs. [Finalist for Postdoctoral Research Award]}
+\pubitem{12.}{}{\me{} (2023, June). \textit{Status impact assessment: Is accuracy linked with status motives?}. Podium presentation at the 34th Annual Meeting of the Human Behavior and Evolution Society, Palm Springs. [Finalist for Postdoctoral Research Award]}
 
 \pubitem{11.}{}{\me{} (2021, June). \textit{Niche Diversity and Personality Structure}. Virtual podium presentation at the 32nd Annual Meeting of the Human Behavior and Evolution Society.}
 
@@ -234,12 +238,18 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \pubitem{3.}{}{Lukaszewski, A. W., Lewis, D. M. G., \me{}, Sell, A., Sznycer, D., Buss, D. M. (2019, May). \textit{Anger is the mechanistic core of the folk-lexical construct “Agreeableness”}. Podium presentation at the 31st Annual Meeting of the Association for Psychological Science, Washington, DC.}
 
-\pubitem{2.}{}{\me{}, Lukaszewski, A. L., Buss, D. M. (2018, July). \textit{How humans assess and allocate social status}. Podium presentation at the 31st Annual Meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.}
+\pubitem{2.}{}{\me{}, Lukaszewski, A. L., Buss, D. M. (2018, July). \textit{How humans assess and allocate social status}. Podium presentation at the 30th Annual Meeting of the Human Behavior and Evolution Society, Amsterdam, Netherlands.}
 
 \pubitem{1.}{}{\me{}, Goetz, A. T., Lukaszewski, A. L. (2017, June). \textit{Examining the speed and automaticity of formidability assessment mechanisms}. Podium presentation at the 29th Annual Meeting of the Human Behavior and Evolution Society, Boise, Idaho.}
 
 
 \textcolor{light-gray}{Poster Presentations}
+
+\pubitem{40.}{}{Chumley\textsuperscript{\textdaggerdbl}, M., \me{} (2026, April). \textit{Individual Jealousy Differences and Personality Perceptions}. Poster presented at the Western Psychological Association Annual Conference, Tacoma, WA.}
+
+\pubitem{39.}{}{Avera\textsuperscript{\textdagger}, K., \me{} (2026, April). \textit{Understanding Shame and Guilt in the Doctors Office: Evaluating Functionalist and Attributionalist Perspectives}. Poster presented at the Western Psychological Association Annual Conference, Tacoma, WA.}
+
+\pubitem{38.}{}{Do\textsuperscript{\textdagger}, L., \me{} (2026, April). \textit{Explaining Guilt and Shame: A Comparative Analysis of Competing Theories}. Poster presented at the Western Psychological Association Annual Conference, Tacoma, WA.}
 
 \pubitem{37.}{}{\me{} (2025, May). \textit{Differentiating hierarchy navigation emotions}. Poster presented at the California Workshop for Evolutionary Social Sciences, UCSB.}
 
