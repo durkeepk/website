@@ -253,7 +253,7 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \pubitem{37.}{}{\me{} (2025, May). \textit{Differentiating hierarchy navigation emotions}. Poster presented at the California Workshop for Evolutionary Social Sciences, UCSB.}
 
-\pubitem{36.}{}{Chumley\textsuperscript{\textdagger}, M., \me{} (2025, May). \textit{Jealousy and Personality}. Poster presented at the California Workshop for Evolutionary Social Sciences, UCSB.}
+\pubitem{36.}{}{Chumley\textsuperscript{\textdaggerdbl}, M., \me{} (2025, May). \textit{Jealousy and Personality}. Poster presented at the California Workshop for Evolutionary Social Sciences, UCSB.}
 
 \pubitem{35.}{}{Do\textsuperscript{\textdagger}, L., \me{} (2025, May). \textit{Gratitude and Personality}. Poster presented at the Western Psychological Association Annual Conference, Las Vegas, NV.}
 
@@ -432,4 +432,5 @@ Upper Ninety Positive Youth Development Program, Austin TX
 # PROFESSIONAL AFFILIATIONS
 
 Society for Personality and Social Psychology (SPSP) \newline
-Human Behavior and Evolution Society (HBES)
+Human Behavior and Evolution Society (HBES) \newline
+Council on Undergraduate Research (CUR)
