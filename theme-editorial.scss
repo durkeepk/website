@@ -155,6 +155,23 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
 // Set an editorial rule above the invitation instead of a tinted callout box.
 // The application button takes the theme's squared corners and muted slate
 // accent through $link-color; only the closing note needs restating here.
+// Inline code. Bootstrap's default is a magenta on a near-white chip, hardcoded
+// in both bundles by `p code:not(.sourceCode) { background-color: #f8f9fa }` at
+// specificity (0,1,2). On a dark page that reads as bright white boxes scattered
+// through the text, so match Quarto's own selectors and theme both the colour
+// and the chip. This sheet is later in the theme list, so equal specificity
+// resolves here.
+p code:not(.sourceCode),
+li code:not(.sourceCode),
+td code:not(.sourceCode),
+:not(pre) > code {
+  color: $body-color;
+  background: rgba($ink-muted, 0.14);
+  padding: 0.1em 0.32em;
+  border-radius: 0;
+  font-size: 0.88em;
+}
+
 .pub-record { color: $ink-muted; }
 
 // Resource icons take the editorial palette and its squared corners.
