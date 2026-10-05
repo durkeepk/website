@@ -46,7 +46,27 @@ feedback:
   [Genetics and Personality](07-genetics-and-personality.qmd).
 
 Anyone who sends a correction or suggests an improvement from here on will be
-acknowledged here too.
+added to this list. If you would rather contribute without being named, that is
+fine too---just say so.
+
+## A note on AI
+
+I drafted and revised these chapters myself over a couple of semesters in 2023
+and 2024. I occasionally used large language models to get past writer's block,
+or to rephrase something more clearly for students. I did the research and
+organization myself, and I take responsibility for any omissions or
+inaccuracies.
+
+Three of the later chapters had more AI involvement than the rest. Development
+and Culture were built out from earlier incomplete drafts of mine---in Culture's
+case, the main thing left to write was the section on my own research.
+Personality Change was the one chapter I had not drafted at all beforehand. I
+revised all three myself.
+
+More recently I used AI tools to convert my Word chapters and figures into the
+HTML, PDF, and EPUB versions here, and to publish them on this site. During that
+process I also accepted some suggested edits for clarity and consistency, each
+of which I reviewed before keeping.
 
 ## License
 
