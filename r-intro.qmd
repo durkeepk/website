@@ -8,7 +8,7 @@ format:
 
 This is a tutorial activity that will introduce you to the basics of R programming. It goes over running code and storing results, working with vectors, building and pulling pieces out of data frames, how folders and file paths work, and how to read a data file into R. It finishes with links for installing R on your own computer.
 
-Each section has a short activity where you edit and run real code. Nothing to install --- it all runs here in your browser. Click **Run** to run whatever is in the box, and **Check** when you think you've got it right. If you get stuck, **Show hint** will point you in the right direction. Your progress saves on this device, so you can stop partway and come back.
+Every code box on this page runs, including the examples --- change them and re-run them if you want to see what happens. Nothing to install --- it all runs here in your browser. Click **Run** to run whatever is in the box, and **Check** when you think you've got it right. If you get stuck, **Show hint** will point you in the right direction. Your progress saves on this device, so you can stop partway and come back.
 
 You should expect to spend around 10 minutes on this activity.
 
@@ -40,9 +40,16 @@ R is a calculator that remembers things. You type an expression, R evaluates it,
 
 The part that makes R useful is storing results. The arrow `<-` assigns a value to a name, and from then on that name stands in for the value.
 
-```r
-x <- 10
-x * 3     # 30
+```{=html}
+<div class="rx-demo">
+  <textarea class="rx-code" aria-label="Example R code you can run and edit" rows="2" spellcheck="false">x &lt;- 10
+x * 3     # 30</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-secondary rx-run" type="button">Run</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+</div>
 ```
 
 Names are case sensitive, can't start with a number, and shouldn't contain spaces. `mean_age` works; `Mean Age` doesn't.
@@ -85,9 +92,16 @@ root</textarea>
 
 A single number isn't much use when you have 200 participants. R's basic container is the *vector*, which holds several values of the same type. You build one with `c()`, for "combine".
 
-```r
-ages <- c(19, 22, 20, 25)
-length(ages)   # 4
+```{=html}
+<div class="rx-demo">
+  <textarea class="rx-code" aria-label="Example R code you can run and edit" rows="2" spellcheck="false">ages &lt;- c(19, 22, 20, 25)
+length(ages)   # 4</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-secondary rx-run" type="button">Run</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+</div>
 ```
 
 Functions like `mean()`, `sd()`, `min()` and `max()` take a whole vector and return one number. This is the part of R that makes it feel different from a spreadsheet: you describe what you want, not which cells to click.
@@ -140,10 +154,19 @@ mean_age</textarea>
 
 The dollar sign hands you a whole column. Square brackets let you ask for particular rows *and* particular columns, and the order inside the brackets is always rows first, then columns:
 
-```r
+```{=html}
+<div class="rx-demo">
+  <textarea class="rx-code" aria-label="Example R code you can run and edit" rows="5" spellcheck="false">participants &lt;- data.frame(id = 1:4, age = c(19, 22, 20, 25))
+
 participants[2, ]        # row 2, every column
 participants[, "age"]    # every row, just the age column
-participants[2, "age"]   # row 2 of the age column
+participants[2, "age"]   # row 2 of the age column</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-secondary rx-run" type="button">Run</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+</div>
 ```
 
 Leaving a slot empty means "give me all of them". The comma does the work here, so `participants[2, ]` and `participants[, 2]` ask for completely different things --- the second row versus the second column.

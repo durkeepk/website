@@ -64,25 +64,6 @@
 
   .rx-task { margin: 0 0 0.7rem 0; }
 
-  .rx-code {
-    width: 100%;
-    font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-    font-size: 0.86rem;
-    line-height: 1.55;
-    color: $body-color;
-    background: rgba($ink-muted, 0.06);
-    border: 1px solid $rule;
-    border-radius: 0;
-    padding: 0.7rem 0.8rem;
-    resize: vertical;
-    tab-size: 2;
-
-    &:focus {
-      outline: 2px solid $link-color;
-      outline-offset: -1px;
-      border-color: $link-color;
-    }
-  }
 
   .rx-bar {
     display: flex;
@@ -119,6 +100,108 @@
     color: $ink-muted;
     margin: 0.5rem 0 0 0;
     p { margin: 0; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Editable code with live syntax highlighting.
+//
+// A highlighted <pre> renders the colours; a transparent <textarea> sits exactly
+// on top and does the real editing, so selection, caret and undo all behave
+// natively. The two layers must agree on every metric that affects where a glyph
+// lands, hence the shared mixin -- any divergence shows up as drifting text.
+// ---------------------------------------------------------------------------
+@mixin rx-code-metrics {
+  font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  letter-spacing: 0;
+  tab-size: 2;
+  padding: 0.7rem 0.8rem;
+  margin: 0;
+  border: 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.rx-editor {
+  position: relative;
+  background: rgba($ink-muted, 0.06);
+  border: 1px solid $rule;
+  border-radius: 0;
+
+  &:focus-within {
+    border-color: $link-color;
+    box-shadow: inset 0 0 0 1px $link-color;
+  }
+
+  pre.rx-hl, textarea.rx-code {
+    @include rx-code-metrics;
+    display: block;
+    width: 100%;
+    background: none;
+  }
+
+  // Outrank Quarto's own pre.sourceCode rules without touching its colours:
+  // the token spans inside still inherit the syntax stylesheet.
+  pre.rx-hl {
+    color: $body-color;
+    pointer-events: none;
+    overflow: hidden;
+    min-height: calc(1.55em + 1.4rem);
+
+    code, code.sourceCode {
+      @include rx-code-metrics;
+      padding: 0;
+      display: block;
+      background: none;
+      color: inherit;
+    }
+  }
+
+  textarea.rx-code {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    color: transparent;
+    -webkit-text-fill-color: transparent;   // Safari ignores `color` here
+    caret-color: $body-color;
+    resize: none;
+    overflow: hidden;
+    &:focus { outline: none; }
+    &::selection { background: rgba($link-color, 0.28); }
+  }
+}
+
+// The fill-in blank, so it reads as something to replace rather than code.
+.rx-editor .rx-blank {
+  color: $link-color;
+  font-weight: 700;
+  border-bottom: 2px solid rgba($link-color, 0.45);
+}
+
+// Runnable illustrative examples: same editor, no checking, not counted.
+.rx-demo {
+  margin: 1.2rem 0 1.6rem 0;
+  .rx-bar { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
+  .rx-status {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: $ink-muted;
+  }
+  .rx-out {
+    font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    background: rgba($ink-muted, 0.06);
+    border: 0;
+    border-left: 2px solid $rule;
+    padding: 0.6rem 0.8rem;
+    margin: 0.6rem 0 0 0;
+    color: $body-color;
+    &.err { border-left-color: #a4452f; }
   }
 }
 

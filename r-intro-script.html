@@ -24,6 +24,111 @@ const CSV = `id,age,condition,score
 8,24,treatment,17
 `;
 
+// ---------------------------------------------------------------------------
+// Syntax highlighting for the editable boxes.
+//
+// Emits Pandoc's own token classes (co, st, dv, ot, fu, kw, sc) inside a
+// <pre class="sourceCode r">, so the editors inherit Quarto's syntax stylesheet
+// verbatim -- including its light and dark variants, which Quarto swaps with
+// the rest of the theme. Nothing here hard-codes a colour.
+//
+// The highlighted <pre> sits underneath a transparent <textarea>: the textarea
+// keeps real editing, selection and caret behaviour, and only its text is
+// invisible. Both share identical font metrics and padding so the glyphs line up.
+// ---------------------------------------------------------------------------
+const R_KEYWORDS = /^(if|else|for|while|repeat|function|return|in|next|break|TRUE|FALSE|NULL|NA|NaN|Inf)$/;
+
+function esc(t) {
+  return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+const R_TOKENS = new RegExp([
+  '(#[^\\n]*)',                                   // 1 comment
+  '("(?:\\\\.|[^"\\\\])*"|\'(?:\\\\.|[^\'\\\\])*\')', // 2 string
+  '(\\b\\d+(?:\\.\\d+)?\\b)',                     // 3 number
+  '(<<-|<-|->>|->)',                              // 4 assignment
+  '(_{2,})',                                      // 5 the fill-in blank
+  '([A-Za-z.][A-Za-z0-9._]*)(?=\\s*\\()',         // 6 function call
+  '([A-Za-z.][A-Za-z0-9._]*)',                    // 7 identifier / keyword
+  '([+\\-*/^$@!&|<>~?:,;%=\\[\\]{}()]+)'          // 8 operator
+].join('|'), 'g');
+
+// Quarto wraps every source line in its own <span>, which makes token spans
+// grandchildren of <code>. Its stylesheet relies on that: `pre > code.sourceCode
+// > span` sets the default colour and, at specificity (0,1,3), outranks
+// `code span.dv`. Emitting tokens as direct children of <code> therefore paints
+// everything one colour. Mirroring the line-span structure restores the cascade.
+function highlight(src) {
+  return src.split('\n')
+            .map(line => '<span>' + highlightLine(line) + '</span>')
+            .join('\n');
+}
+
+function highlightLine(src) {
+  let out = '', last = 0, m;
+  R_TOKENS.lastIndex = 0;
+  while ((m = R_TOKENS.exec(src)) !== null) {
+    out += esc(src.slice(last, m.index));
+    const t = m[0];
+    let cls = null;
+    if (m[1]) cls = 'co';
+    else if (m[2]) {
+      // A blank inside a string, as in file.path("____", ...), is a string to R
+      // but is still a blank to the student. Keep both readings.
+      if (/_{2,}/.test(t)) {
+        out += '<span class="st">' +
+               esc(t).replace(/(_{2,})/g, '<span class="rx-blank">$1</span>') +
+               '</span>';
+        last = m.index + t.length;
+        continue;
+      }
+      cls = 'st';
+    }
+    else if (m[3]) cls = 'dv';
+    else if (m[4]) cls = 'ot';
+    else if (m[5]) cls = 'rx-blank';
+    else if (m[6]) cls = 'fu';
+    else if (m[7]) cls = R_KEYWORDS.test(t) ? 'kw' : null;
+    else if (m[8]) cls = 'sc';
+    out += cls ? '<span class="' + cls + '">' + esc(t) + '</span>' : esc(t);
+    last = m.index + t.length;
+  }
+  return out + esc(src.slice(last));
+}
+
+// Wraps a plain textarea in the highlight overlay and keeps the two in sync.
+function makeEditor(ta) {
+  const wrap = document.createElement('div');
+  wrap.className = 'rx-editor';
+  const pre = document.createElement('pre');
+  pre.className = 'sourceCode r rx-hl';
+  pre.setAttribute('aria-hidden', 'true');
+  const code = document.createElement('code');
+  code.className = 'sourceCode r';
+  pre.appendChild(code);
+  ta.parentNode.insertBefore(wrap, ta);
+  wrap.appendChild(pre);
+  wrap.appendChild(ta);
+  ta.removeAttribute('rows');
+
+  // The trailing newline gives the final (possibly empty) line height, so the
+  // box does not clip the last row as you type.
+  const paint = () => { code.innerHTML = highlight(ta.value) + '\n'; };
+  ta.addEventListener('input', paint);
+  ta.addEventListener('scroll', () => { pre.scrollTop = ta.scrollTop; pre.scrollLeft = ta.scrollLeft; });
+  // Tab should indent rather than leave the editor.
+  ta.addEventListener('keydown', e => {
+    if (e.key !== 'Tab' || e.shiftKey) return;
+    e.preventDefault();
+    const a = ta.selectionStart, b = ta.selectionEnd;
+    ta.value = ta.value.slice(0, a) + '  ' + ta.value.slice(b);
+    ta.selectionStart = ta.selectionEnd = a + 2;
+    paint();
+  });
+  ta.__paint = paint;
+  paint();
+}
+
 // --- progress, persisted per browser ---------------------------------------
 const store = {
   read() {
@@ -145,7 +250,10 @@ function wire(el) {
   const id     = el.dataset.id;
 
   // Restore a passing answer so returning to the page keeps your work.
-  if (state[id] && state[id].code) code.value = state[id].code;
+  if (state[id] && state[id].code) {
+    code.value = state[id].code;
+    if (code.__paint) code.__paint();
+  }
 
   const show = (text, isErr) => {
     out.hidden = false;
@@ -200,6 +308,27 @@ function wire(el) {
   }
 }
 
+// Illustrative examples: runnable, but not graded and not counted in progress.
+function wireDemo(el) {
+  const code   = el.querySelector('.rx-code');
+  const out    = el.querySelector('.rx-out');
+  const status = el.querySelector('.rx-status');
+  const runBtn = el.querySelector('.rx-run');
+  runBtn.addEventListener('click', async () => {
+    runBtn.disabled = true;
+    status.textContent = webR ? 'Running\u2026'
+                              : 'Getting set up\u2026 this takes a few seconds the first time';
+    status.className = 'rx-status';
+    try {
+      const r = await runR(code.value);
+      out.hidden = false;
+      out.textContent = r.out || '(no output)';
+      out.classList.toggle('err', !!r.err);
+      status.textContent = '';
+    } finally { runBtn.disabled = false; }
+  });
+}
+
 // --- certificate name -------------------------------------------------------
 function wireCert() {
   const cert = document.querySelector('.rx-cert');
@@ -227,7 +356,10 @@ function wireCert() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Editors first: wire() repaints restored code through the overlay.
+  document.querySelectorAll('.rx-code').forEach(makeEditor);
   all().forEach(wire);
+  document.querySelectorAll('.rx-demo').forEach(wireDemo);
   wireCert();
   refresh(true);
 });
