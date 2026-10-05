@@ -8,6 +8,7 @@ project:
     - background.qmd
     - research.qmd
     - cv.qmd
+    - r-workshop.qmd
     - 404.qmd
   resources:
     - files/**
@@ -27,6 +28,8 @@ website:
         text: Research
       - href: /personality/
         text: "Open Access Personality Psychology Textbook"
+      - href: r-workshop.qmd
+        text: "R Workshop Materials"
   page-footer:
     center: "&copy; Patrick Durkee"
     border: false

@@ -1,0 +1,34 @@
+---
+title: "R Workshop Materials"
+description-meta: "Download the project folder for Patrick Durkee's R workshop, with setup instructions for students."
+---
+
+Download everything you'll need for the workshop using the download button below. We'll set it up together at the start of the session; the steps are written out here so you can find them again later.
+
+::: {.lab-apply}
+[Download the workshop folder (.zip)](files/r-workshop/r-workshop-1.zip){.btn-apply}
+:::
+
+The zip contains a single folder, `r-workshop-1`, holding three things:
+
+``` text
+r-workshop-1/
+├── R-Workshop-1.Rproj          the RStudio project file
+├── workshop1_student.qmd       the workbook you'll write in
+└── data/
+    └── workshop1_survey.csv    the dataset (250 responses)
+```
+
+## Setting it up
+
+We'll walk through this together, but here it is in writing.
+
+**1. Unzip it.** On a Mac, double-clicking the download is all you need to do --- it unzips into a folder right next to it. On Windows, double-clicking only shows you what's inside, so open the zip and choose *Extract All*. If you work inside that preview instead of extracting, nothing you do will save.
+
+**2. Move the whole folder somewhere you'll find it again.** Not Downloads. Put `r-workshop-1` in your Documents folder, or wherever you keep coursework. We'll work out of this same folder for the rest of the workshop, and Downloads is the first place things get lost or auto-cleared.
+
+**3. Open it by double-clicking `R-Workshop-1.Rproj`.** Not the `.qmd` file. Opening the `.Rproj` is what tells RStudio which folder is the project, and that's what makes `data/workshop1_survey.csv` work as a path. If you open the workbook on its own, the data won't load.
+
+## Keep the folder together
+
+The three items have to stay in the same folder, arranged the way they arrived. The workbook asks R to read `data/workshop1_survey.csv`, which means "starting from the project folder, look inside `data` for that file."

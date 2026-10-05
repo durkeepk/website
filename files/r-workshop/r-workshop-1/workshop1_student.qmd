@@ -1,0 +1,520 @@
+---
+title: "R Workshop 1: From Files to a Reproducible Report"
+subtitle: "Student workbook"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## What you will be able to do
+
+By the end of today, you will be able to find your project files, write and run basic R code, import and inspect a dataset, calculate simple summaries, and render a reproducible HTML report.
+
+This document is both the lesson and your workbook. Save your code here. The **Console** is useful for quick experiments; this Quarto document is where your reproducible analysis should live.
+
+You can always open RStudio’s keyboard-shortcut reference with **Windows: Alt+Shift+K** or **Mac: Option+Shift+K**. Shortcuts in this workbook list Windows first and Mac second.
+
+## 1. Files, folders, and projects
+
+### A concrete map
+
+- A **file** is one saved item, such as a dataset or document.
+- A **folder** (or **directory**) contains files and possibly other folders.
+- A **file extension** is the ending after the final dot. It often indicates the file type.
+- A **path** describes where a file is located.
+
+Our project folder should look like this:
+
+``` text
+r-workshop-1/
+├── data/
+│   └── workshop1_survey.csv
+├── generate_workshop1_data.R
+├── workshop1_student.qmd
+└── R-Workshop-1.Rproj
+```
+
+The extensions used today are:
+
+| Extension | Meaning                                            |
+|-----------|----------------------------------------------------|
+| `.csv`    | A plain-text table of comma-separated values       |
+| `.qmd`    | A Quarto source document containing prose and code |
+| `.html`   | A rendered web page                                |
+| `.R`      | An R script                                        |
+| `.Rproj`  | An RStudio Project file                            |
+
+An **absolute path** starts from a drive or the top of the file system and identifies one location on one computer. A **relative path** starts from a known folder—here, the project folder.
+
+If `r-workshop-1/` is the project root, this relative path:
+
+``` r
+read_csv("data/workshop1_survey.csv")
+```
+
+means “look in the project’s `data` folder for `workshop1_survey.csv`.” Relative paths keep working when the entire project folder is moved to another computer.
+
+The **current working directory** is the folder R currently treats as its starting point. Opening the `.Rproj` file makes the project folder the working directory. We will not use `setwd()` as our normal workflow.
+
+::: callout-important
+A file visible in Downloads is stored on your computer. It is not yet loaded into R or easily available. R can only use it when your code gives R a valid path to it. To make things easy, keep the whole unzipped workshop folder together and open the `.Rproj` file.
+:::
+
+### Do this together
+
+1.  Locate the downloaded workshop folder in Finder or File Explorer.
+2.  If it is a `.zip` file, unzip it first.
+3.  Identify the `.csv`, `.qmd`, `.R`, and `.Rproj` files.
+4.  Double-click `R-Workshop-1.Rproj`.
+5.  In RStudio’s **Files** pane, open `workshop1_student.qmd`.
+
+Save the document with **Windows: Ctrl+S** or **Mac: Command+S**.
+
+Run the following line. The result should be the path to the project folder.
+
+```{r}
+getwd()
+```
+
+### Your turn: read a path
+
+In the path `data/workshop1_survey.csv`:
+
+- What is the folder name? **\[Write here\]**
+- What is the file name? **\[Write here\]**
+- What is the extension? **\[Write here\]**
+- Is this path absolute or relative? **\[Write here\]**
+
+## 2. RStudio anatomy
+
+The main areas you need today are:
+
+- **Source/Editor:** the Quarto file you are writing and saving.
+- **Console:** temporary interaction with R and messages from R.
+- **Environment:** objects that currently exist in memory.
+- **Files:** files and folders in the project.
+- **Plots/Help:** graphs and documentation.
+
+To run a line of code, place your cursor on the line and click **Run**. The shortcut is **Windows: Ctrl+Enter** or **Mac: Command+Return**. You can also select several lines and use the same shortcut.
+
+```{r}
+2 + 2
+```
+
+To run a whole chunk, click the Run Chunk button (the small triangle at the chunk’s upper-right). The shortcut is **Windows: Ctrl+Alt+C** or **Mac: Option+Command+C**.
+
+```{r}
+10 / 4
+3^2
+```
+
+You may clear the Console display with **Ctrl+L on both Windows and Mac**, but clearing it does not delete objects. Objects remain until removed or the R session ends. Look in the Environment after running this chunk:
+
+```{r}
+practice_object <- 42
+```
+
+::: callout-important
+## Save reusable code in the document
+
+Code typed only in the Console is temporary and is not part of your saved analysis. Put any code you want to reuse, check later, share, or include in the report inside the Quarto document. Rendering starts a fresh R session, so the document must contain the code needed to recreate every result.
+:::
+
+### Comments in R code
+
+R ignores everything after `#` on a line. This creates a **code comment**: a note for a person reading the code.
+
+```{r}
+# Convert four quiz scores into one vector.
+quiz_scores <- c(8, 10, 7, 9)
+mean(quiz_scores) # Average across the four quizzes
+```
+
+Useful comments explain **why** a step exists, clarify a choice, or mark the purpose of a short section. Avoid comments that merely repeat obvious code. Keep comments current when the code changes.
+
+To comment or uncomment the current line or a selection, use **Windows: Ctrl+Shift+C** or **Mac: Shift+Command+C**.
+
+## 3. Basic R
+
+### Arithmetic
+
+R can act as a calculator.
+
+```{r}
+2 + 2
+10 / 4
+3^2
+```
+
+### Your turn: arithmetic
+
+Write R code below to calculate $8 \times 7$, then calculate $(10 + 2) / 3$.
+
+```{r}
+
+```
+
+### Objects and assignment
+
+An **object** is a named value stored in R’s memory. The assignment operator `<-` puts the value on its right into the name on its left. You can type `<-` directly or use **Windows: Alt+-** or **Mac: Option+-**.
+
+```{r}
+age <- 20
+age
+```
+
+Object names are case-sensitive: `age` and `Age` would be different names. Use short, descriptive names and **snake_case**: lowercase words separated by underscores, such as `course_units` or `grip_strength_kg`. Avoid spaces and vague names such as `x` or `thing` when a meaningful name is available.
+
+### Your turn: create an object
+
+Create an object named `course_units` containing your current number of units. Then print it by running its name.
+
+```{r}
+# course_units <- ...
+# course_units
+```
+
+### Functions and arguments
+
+A **function** performs an action. A function call has a name, parentheses, and sometimes one or more **arguments** (inputs).
+
+```{r}
+sqrt(16)
+round(3.14159, digits = 2)
+```
+
+In the second line, `round` is the function; `3.14159` and `digits = 2` are arguments. Naming an argument makes its role explicit.
+
+### Your turn: use a function
+
+Use `sqrt()` to find the square root of 81. Use `round()` to round 12.678 to one decimal place.
+
+```{r}
+# Write your function calls here.
+```
+
+If R reports an error, first check spelling, capitalization, quotation marks, commas, and matching parentheses.
+
+### Vectors
+
+A **vector** is a sequence of values of the same basic type. The `c()` function combines values.
+
+```{r}
+scores <- c(4, 7, 9, 3, 8)
+scores
+mean(scores)
+length(scores)
+```
+
+### Your turn: make a vector
+
+Create `study_hours` containing `2`, `5`, `3`, and `6`. Find its mean and length.
+
+```{r}
+# study_hours <- c(...)
+# mean(...)
+# length(...)
+```
+
+### Basic data types
+
+```{r}
+age <- 20
+major <- "Psychology"
+is_student <- TRUE
+
+typeof(age)
+typeof(major)
+typeof(is_student)
+```
+
+- **Numeric** values are numbers used in calculations.
+- **Character** values are text and need quotation marks.
+- **Logical** values are `TRUE` or `FALSE` and do not use quotation marks.
+
+### Comparisons
+
+Comparisons produce logical values.
+
+```{r}
+age >= 18
+age == 20
+age != 19
+major %in% c("Psychology", "Sociology")
+```
+
+Use `==` to test equality. A single `<-` assigns a value; it does not test equality.
+
+### Your turn: compare
+
+Write a comparison that tests whether `age` is less than 21. Then test whether `major` equals `"Psychology"`.
+
+```{r}
+# Write your comparisons here.
+```
+
+### Missing values
+
+`NA` means a value is missing or unavailable. It is not the same as zero.
+
+```{r}
+scores_with_missing <- c(4, 5, NA, 3)
+mean(scores_with_missing)
+mean(scores_with_missing, na.rm = TRUE)
+```
+
+The first mean is `NA` because R cannot calculate it without instructions about the missing value. `na.rm = TRUE` tells `mean()` to remove missing values for this calculation.
+
+### Your turn: handle a missing value
+
+Find the mean of `c(10, NA, 8, 6)` while ignoring the missing value.
+
+```{r}
+# mean(c(...), na.rm = ...)
+```
+
+## 4. Packages
+
+A **package** adds functions, documentation, and sometimes datasets to R.
+
+Installation usually happens once per computer or R installation:
+
+```{r}
+#| eval: false
+install.packages("tidyverse")
+```
+
+Loading happens once per R session and belongs in your analysis document:
+
+```{r}
+library(tidyverse)
+```
+
+We do not put `install.packages()` in a normal executed analysis chunk because rendering should not reinstall software. If `library(tidyverse)` says there is no package called `tidyverse`, install it once using the Console, then run the `library()` line again.
+
+**Short answer:** In one sentence, how are installing and loading a package different? **\[Write here\]**
+
+## 5. Importing and inspecting data
+
+### Import the CSV
+
+A CSV is a file on your computer's disk drive. `read_csv()` reads it and creates an R object. A **data frame** is a rectangular table: each row is an observation and each column is a variable.
+
+```{r}
+dat <- read_csv("data/workshop1_survey.csv")
+```
+
+The assignment matters: the file remains on disk, while `dat` is the in-memory data frame that R created from it.
+
+### Inspect before analyzing
+
+```{r}
+glimpse(dat)
+```
+
+```{r}
+names(dat)
+```
+
+```{r}
+head(dat)
+```
+
+```{r}
+summary(dat)
+```
+
+```{r}
+nrow(dat)
+ncol(dat)
+```
+
+Ask these questions whenever you meet a dataset:
+
+1.  What does one row represent? **\[Write here\]**
+2.  What does one column represent? **\[Write here\]**
+3.  How many observations and variables are there? **\[Write here\]**
+4.  Which variables are numeric? Which are categorical? **\[Write examples here\]**
+5.  Where do you see missing values? **\[Write examples here\]**
+
+### Count categories and use the pipe
+
+```{r}
+count(dat, gender)
+```
+
+The native R pipe `|>` can express the same operation:
+
+```{r}
+dat |>
+  count(gender)
+```
+
+Read this as: “Take `dat` and pass it into `count(gender)`.” You may encounter `%>%` in older examples. We will use the native `|>` pipe. To insert `|>`, use **Windows: Ctrl+Shift+M** or **Mac: Shift+Command+M**.
+
+### Your turn: transfer the idea
+
+Use a pipe to count participants by `relationship_status`.
+
+```{r}
+# dat |>
+#   count(...)
+```
+
+## 6. Simple summaries
+
+The `$` operator selects one variable from a data frame.
+
+```{r}
+mean(dat$age)
+```
+
+### Your turn: one-variable summaries
+
+Calculate mean height, ignoring missing values.
+
+```{r}
+# mean(dat$..., na.rm = TRUE)
+```
+
+Calculate the mean and standard deviation of grip strength, ignoring missing values.
+
+```{r}
+# mean(...)
+# sd(...)
+```
+
+### Summarize several values
+
+```{r}
+dat |>
+  summarize(
+    mean_age = mean(age),
+    mean_grip = mean(grip_strength_kg, na.rm = TRUE)
+  )
+```
+
+Inside `summarize()`, variable names refer to columns in `dat`, so `$` is not needed.
+
+### Your turn: modify a summary
+
+Complete a summary containing mean age and the mean and standard deviation of grip strength.
+
+```{r}
+#| eval: false
+dat |>
+  summarize(
+    mean_age = mean(age),
+    mean_grip = mean(_____, na.rm = TRUE),
+    sd_grip = sd(_____, na.rm = TRUE)
+  )
+```
+
+Remove the `#| eval: false` line after replacing both blanks.
+
+### Grouped summaries
+
+```{r}
+dat |>
+  group_by(gender) |>
+  summarize(
+    mean_height = mean(height_cm, na.rm = TRUE),
+    mean_grip = mean(grip_strength_kg, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+This is descriptive. Several gender categories have only a few observations, so their means are unstable and should not support broad conclusions or comparisons.
+
+## 7. Quarto and reproducibility
+
+The lines between `---` at the top are the **YAML header**. They define document-level settings such as the title and output format. Headings beginning with `#` organize prose. Code between ```` ```{r} ```` and ```` ``` ```` is an R code chunk.
+
+To insert a new R code chunk, use the **Insert** button or **Windows: Ctrl+Alt+I** / **Mac: Option+Command+I**.
+
+When you click **Render** or use **Windows: Ctrl+Shift+K** / **Mac: Shift+Command+K**, Quarto starts a fresh R session and runs the document from top to bottom. It then combines your prose, code, and output into an `.html` file.
+
+::: callout-warning
+If a later chunk needs an object, the code that creates that object must appear earlier in this document. Creating it only in the Console is not reproducible and can make rendering fail.
+:::
+
+### Quick reproducibility check
+
+Suppose a chunk contains `mean(my_scores)`, but `my_scores` was created only in the Console. What will probably happen during rendering, and how would you fix it? **\[Write here\]**
+
+## Final activity: create a small reproducible report
+
+Complete the prompts below, then render this document to HTML. Use the examples above when you need a model. Your goal is a report that works from beginning to end.
+
+### A. Confirm the import
+
+The import code must use the relative path. Re-run it here so this final section can be read on its own.
+
+```{r}
+# dat <- read_csv("...")
+```
+
+### B. Report the size
+
+Use code to report the numbers of rows and columns.
+
+```{r}
+# nrow(...)
+# ncol(...)
+```
+
+### C. Identify variables
+
+List at least five variables and briefly explain what each represents.
+
+1.  **\[Variable and meaning\]**
+2.  **\[Variable and meaning\]**
+3.  **\[Variable and meaning\]**
+4.  **\[Variable and meaning\]**
+5.  **\[Variable and meaning\]**
+
+### D. Calculate overall summaries
+
+Calculate mean age and the mean and standard deviation of grip strength. Remember the missing values in grip strength.
+
+```{r}
+# Write your summary code here.
+```
+
+### E. Count relationship status
+
+Use a pipe and `count()`.
+
+```{r}
+# Write your count code here.
+```
+
+### F. Summarize by gender
+
+Calculate mean height and mean grip strength for each gender category. Use `na.rm = TRUE` for both means. Treat results for categories with very few participants as descriptive only.
+
+```{r}
+# Write your grouped summary here.
+```
+
+### G. Describe
+
+Write 2–3 sentences describing patterns you observe in the counts and summaries.
+
+**\[Write 2–3 sentences here.\]**
+
+### H. Render
+
+Save the `.qmd` with **Windows: Ctrl+S** or **Mac: Command+S**. Then click **Render**, or use **Windows: Ctrl+Shift+K** / **Mac: Shift+Command+K**. Confirm that `workshop1_student.html` appears in the project folder and opens successfully.
+
+Before you finish, check:
+
+- The document imports the data using `data/workshop1_survey.csv`.
+- All necessary code is in the document, in the order it is needed.
+- Every chunk runs without an error.
+- Code, output, and prose appear in the HTML report.
