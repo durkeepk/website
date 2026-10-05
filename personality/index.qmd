@@ -1,5 +1,13 @@
 # Welcome {.unnumbered}
 
+As the name implies, this is an open access textbook on personality psychology. I wrote it because I wanted a free resource for my students and couldn't find a good one. The goal is to give an up-to-date introduction to personality research from a scientific perspective.
+
+I start with a chapter on frameworks I think are useful for orienting our questions about personality. Then I pay some lip service to historical figures like Freud and Jung, who had a lot to say about personality without much data to back it up. With that out of the way, we turn to the perspectives that largely inform contemporary approaches---and to current models like the Big Five and HEXACO, which we use as a reference point for the rest of the book. After working through some matters of measurement, and glossing over a debate that wasted literal decades in psychology, we shift to a more topical approach.
+
+From there we examine how evolutionary theory helps us understand personality, and what cutting-edge genetics and neuroscience research can tell us about it. We look at how personality relates to other psychological phenomena like emotions and motivations, how personality develops, and the interplay between personality and culture. Finally, we ask whether and how personality can be voluntarily changed.
+
+This is meant to be a living document. I plan to update it every so often as new research advances or changes our understanding of these topics. I hope you find it useful!
+
 ::: {.start-reading}
 [Start reading →](01-foundational-frameworks.qmd){.btn-start}
 <a class="dl-link" href="Personality-Psychology.pdf" aria-label="Download PDF"><i class="bi bi-file-pdf" aria-hidden="true"></i>PDF</a>
