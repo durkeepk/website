@@ -155,6 +155,21 @@ a:hover, a:focus-visible { color: $accent; text-decoration: underline; text-unde
 // Set an editorial rule above the invitation instead of a tinted callout box.
 // The application button takes the theme's squared corners and muted slate
 // accent through $link-color; only the closing note needs restating here.
+// Fenced code blocks. Bootstrap sets `pre { color: #000 }` and Quarto gives
+// `div.sourceCode` a near-white background (rgba(233,236,239,.65)); neither is
+// themed, so an unhighlighted block -- a plain ``` text block, say -- renders as
+// black text in a pale box on a dark page. Syntax-highlighted blocks escaped
+// notice because their token spans carry their own colours.
+div.sourceCode {
+  background-color: rgba($ink-muted, 0.08);
+  border-color: $rule;
+}
+
+pre {
+  color: $body-color;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 // Inline code. Bootstrap's default is a magenta on a near-white chip, hardcoded
 // in both bundles by `p code:not(.sourceCode) { background-color: #f8f9fa }` at
 // specificity (0,1,2). On a dark page that reads as bright white boxes scattered
