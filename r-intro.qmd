@@ -302,7 +302,7 @@ If you want to keep going before we talk, [R for Data Science](https://r4ds.hadl
     <p style="margin-top:1.2rem">
       <input class="rx-name" type="text" placeholder="Type your name" aria-label="Your name">
     </p>
-    <p class="rx-cert-meta">Print this page, or screenshot it, and bring it when we meet.</p>
+    <p class="rx-cert-meta">Screenshot this certificate to show you completed the tutorial before applying to my lab.</p>
     <p style="margin-top:0.8rem">
       <button class="rx-btn rx-secondary rx-reset" type="button">Clear my progress</button>
     </p>

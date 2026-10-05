@@ -174,11 +174,16 @@
   }
 }
 
-// The fill-in blank, so it reads as something to replace rather than code.
+// The fill-in blank. Deliberately not a token colour: it was previously the
+// theme accent, which sits close enough to the function indigo that typing a
+// function name into a blank looked like nothing had changed. A muted fill with
+// a dashed rule reads as an empty slot instead, and the moment you type, the
+// text takes whatever colour its token actually deserves.
 .rx-editor .rx-blank {
-  color: $link-color;
-  font-weight: 700;
-  border-bottom: 2px solid rgba($link-color, 0.45);
+  color: $ink-muted;
+  background: rgba($ink-muted, 0.2);
+  border-bottom: 2px dashed rgba($ink-muted, 0.8);
+  font-weight: 600;
 }
 
 // Runnable illustrative examples: same editor, no checking, not counted.

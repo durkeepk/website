@@ -43,57 +43,71 @@ function esc(t) {
 }
 
 const R_TOKENS = new RegExp([
-  '(#[^\\n]*)',                                   // 1 comment
-  '("(?:\\\\.|[^"\\\\])*"|\'(?:\\\\.|[^\'\\\\])*\')', // 2 string
-  '(\\b\\d+(?:\\.\\d+)?\\b)',                     // 3 number
-  '(<<-|<-|->>|->)',                              // 4 assignment
-  '(_{2,})',                                      // 5 the fill-in blank
-  '([A-Za-z.][A-Za-z0-9._]*)(?=\\s*\\()',         // 6 function call
-  '([A-Za-z.][A-Za-z0-9._]*)',                    // 7 identifier / keyword
-  '([+\\-*/^$@!&|<>~?:,;%=\\[\\]{}()]+)'          // 8 operator
+  '(#[^\\n]*)',                                        // 1 comment
+  '("(?:\\\\.|[^"\\\\])*"|\'(?:\\\\.|[^\'\\\\])*\')',  // 2 string (may span lines)
+  '(\\b\\d+(?:\\.\\d+)?\\b)',                          // 3 number
+  '(<<-|<-|->>|->)',                                   // 4 assignment
+  '(_{2,})',                                           // 5 the fill-in blank
+  '([A-Za-z.][A-Za-z0-9._]*)(?=\\s*\\()',              // 6 name before "(" -- call or keyword
+  '(`[^`]*`|[A-Za-z.][A-Za-z0-9._]*)',                 // 7 identifier, backticked name, keyword
+  '(%[A-Za-z0-9._]*%)',                                // 8 %in%, %%, %*%
+  '([+\\-*/^$@!&|<>~?:,;=\\[\\]{}()%]+)'               // 9 operator
 ].join('|'), 'g');
+
+// Tokenise the whole source in one pass rather than line by line, so a string
+// that spans lines is seen as a single token.
+function tokenize(src) {
+  const toks = [];
+  let last = 0, m;
+  R_TOKENS.lastIndex = 0;
+  while ((m = R_TOKENS.exec(src)) !== null) {
+    if (m.index > last) toks.push({ t: src.slice(last, m.index), cls: null });
+    const t = m[0];
+    let cls = null;
+    if (m[1]) cls = 'co';
+    else if (m[2]) cls = 'st';
+    else if (m[3]) cls = 'dv';
+    else if (m[4]) cls = 'ot';
+    else if (m[5]) cls = 'rx-blank';
+    // `if (`, `for (` and `function (` are keywords that happen to be followed
+    // by a paren, so check the keyword list before calling it a function.
+    else if (m[6]) cls = R_KEYWORDS.test(t) ? 'kw' : 'fu';
+    else if (m[7]) cls = R_KEYWORDS.test(t) ? 'kw' : null;
+    else if (m[8]) cls = 'sc';
+    else if (m[9]) cls = 'sc';
+    toks.push({ t, cls });
+    last = m.index + t.length;
+  }
+  if (last < src.length) toks.push({ t: src.slice(last), cls: null });
+  return toks;
+}
+
+// A blank can sit inside a string, as in file.path("____", ...). R reads one
+// string token there; the student still needs to see a blank.
+function renderToken(k) {
+  if (k.cls === 'st' && /_{2,}/.test(k.t)) {
+    return '<span class="st">' +
+           esc(k.t).replace(/(_{2,})/g, '<span class="rx-blank">$1</span>') +
+           '</span>';
+  }
+  return k.cls ? '<span class="' + k.cls + '">' + esc(k.t) + '</span>' : esc(k.t);
+}
 
 // Quarto wraps every source line in its own <span>, which makes token spans
 // grandchildren of <code>. Its stylesheet relies on that: `pre > code.sourceCode
 // > span` sets the default colour and, at specificity (0,1,3), outranks
 // `code span.dv`. Emitting tokens as direct children of <code> therefore paints
-// everything one colour. Mirroring the line-span structure restores the cascade.
+// everything one colour. A token carrying newlines is split across line spans.
 function highlight(src) {
-  return src.split('\n')
-            .map(line => '<span>' + highlightLine(line) + '</span>')
-            .join('\n');
-}
-
-function highlightLine(src) {
-  let out = '', last = 0, m;
-  R_TOKENS.lastIndex = 0;
-  while ((m = R_TOKENS.exec(src)) !== null) {
-    out += esc(src.slice(last, m.index));
-    const t = m[0];
-    let cls = null;
-    if (m[1]) cls = 'co';
-    else if (m[2]) {
-      // A blank inside a string, as in file.path("____", ...), is a string to R
-      // but is still a blank to the student. Keep both readings.
-      if (/_{2,}/.test(t)) {
-        out += '<span class="st">' +
-               esc(t).replace(/(_{2,})/g, '<span class="rx-blank">$1</span>') +
-               '</span>';
-        last = m.index + t.length;
-        continue;
-      }
-      cls = 'st';
-    }
-    else if (m[3]) cls = 'dv';
-    else if (m[4]) cls = 'ot';
-    else if (m[5]) cls = 'rx-blank';
-    else if (m[6]) cls = 'fu';
-    else if (m[7]) cls = R_KEYWORDS.test(t) ? 'kw' : null;
-    else if (m[8]) cls = 'sc';
-    out += cls ? '<span class="' + cls + '">' + esc(t) + '</span>' : esc(t);
-    last = m.index + t.length;
+  const lines = [[]];
+  for (const k of tokenize(src)) {
+    const parts = k.t.split('\n');
+    parts.forEach((part, i) => {
+      if (i > 0) lines.push([]);
+      if (part) lines[lines.length - 1].push({ t: part, cls: k.cls });
+    });
   }
-  return out + esc(src.slice(last));
+  return lines.map(toks => '<span>' + toks.map(renderToken).join('') + '</span>').join('\n');
 }
 
 // Wraps a plain textarea in the highlight overlay and keeps the two in sync.
