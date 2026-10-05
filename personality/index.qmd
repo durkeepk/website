@@ -57,11 +57,9 @@ or to rephrase something more clearly for students. I did the research and
 organization myself, and I take responsibility for any omissions or
 inaccuracies.
 
-Three of the later chapters had more AI involvement than the rest. Development
-and Culture were built out from earlier incomplete drafts of mine---in Culture's
-case, the main thing left to write was the section on my own research.
-Personality Change was the one chapter I had not drafted at all beforehand. I
-revised all three myself.
+Three of the later chapters---Development, Culture, and Personality
+Change---had more AI involvement than the rest, mostly building out earlier
+incomplete drafts of mine. I revised all three myself.
 
 More recently I used AI tools to convert my Word chapters and figures into the
 HTML, PDF, and EPUB versions here, and to publish them on this site. During that
