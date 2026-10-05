@@ -27,6 +27,8 @@
 *.toc
 # knitr writes an intermediate .tex beside each CV .Rmd, but the Pandoc
 # template rap-latex-cv.tex is source and must stay tracked.
+# Knit output; the published copy is files/cv/cv.pdf, which build.sh syncs.
+_cv-source/cv.pdf
 _cv-source/*.tex
 !_cv-source/rap-latex-cv.tex
 
