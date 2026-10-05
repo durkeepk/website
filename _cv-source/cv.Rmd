@@ -254,9 +254,9 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \pubitem{36.}{}{Chumley\textsuperscript{\textdaggerdbl}, M., \me{} (2025, May). \textit{Jealousy and Personality}. Poster presented at the California Workshop for Evolutionary Social Sciences, UCSB.}
 
-\pubitem{35.}{}{Do\textsuperscript{\textdagger}, L., \me{} (2025, May). \textit{Gratitude and Personality}. Poster presented at the Western Psychological Association Annual Conference, Las Vegas, NV.}
+\pubitem{35.}{}{Do\textsuperscript{\textdagger}, L., \me{} (2025, May). \textit{The Effect of Gratitude on Perceptions of Personality}. Poster presented at the Western Psychological Association Annual Conference, Las Vegas, NV.}
 
-\pubitem{34.}{}{Ahmed\textsuperscript{\textdagger}, H., \me{} (2025, May). \textit{How do dominance and prestige relate to physical formidability?} Poster presented at the Western Psychological Association Annual Conference, Las Vegas, NV.}
+\pubitem{34.}{}{Ahmed\textsuperscript{\textdagger}, H., \me{} (2025, May). \textit{Men Who Think They Are Physically Strong Tend to Be Pursuing Status via Both Dominant and Prestigious Strategies}. Poster presented at the Western Psychological Association Annual Conference, Las Vegas, NV.}
 
 \pubitem{33.}{}{Morales\textsuperscript{\textdagger}, J., \me{} (2024, April). \textit{Guilt and Personality}. Poster presented at the Western Psychological Association Annual Conference, San Francisco, CA.}
 
