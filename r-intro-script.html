@@ -1,0 +1,234 @@
+<script type="module">
+// ---------------------------------------------------------------------------
+// Interactive R introduction.
+//
+// Real R runs in the browser via webR, a WebAssembly build of R. The runtime is
+// ~30 MB, so it is fetched lazily on the first Run or Check rather than on page
+// load, and every exercise shares one R session: variables defined in an early
+// exercise are still there later, which is how a real console behaves.
+// ---------------------------------------------------------------------------
+
+const WEBR_URL = 'https://webr.r-wasm.org/latest/webr.mjs';
+const STORE    = 'r-intro-progress-v1';
+
+// Seeded into webR's virtual filesystem so the reading-data section has a real
+// file to read. mean(score) is 15.5, which the last exercise checks.
+const CSV = `id,age,condition,score
+1,19,control,12
+2,22,treatment,18
+3,20,control,14
+4,25,treatment,20
+5,21,control,11
+6,23,treatment,19
+7,20,control,13
+8,24,treatment,17
+`;
+
+// --- progress, persisted per browser ---------------------------------------
+const store = {
+  read() {
+    try { return JSON.parse(localStorage.getItem(STORE)) || {}; }
+    catch { return {}; }           // private mode, blocked storage, bad JSON
+  },
+  write(v) { try { localStorage.setItem(STORE, JSON.stringify(v)); } catch {} }
+};
+let state = store.read();
+
+// --- webR boot --------------------------------------------------------------
+let webR = null, booting = null;
+const engineEls = () => document.querySelectorAll('.rx-engine');
+
+function engine(msg, isErr) {
+  engineEls().forEach(el => { el.textContent = msg; el.classList.toggle('err', !!isErr); });
+}
+
+function boot() {
+  if (booting) return booting;
+  booting = (async () => {
+    engine('Starting R in your browser (about 30 MB, one time)…');
+    const { WebR } = await import(WEBR_URL);
+    const w = new WebR({ interactive: false });
+    await w.init();
+    try {
+      await w.FS.mkdir('/home/web_user/data');
+    } catch { /* already there on a repeat boot */ }
+    await w.FS.writeFile('/home/web_user/data/responses.csv', new TextEncoder().encode(CSV));
+    const sh = await new w.Shelter();
+    await sh.captureR('setwd("/home/web_user")');
+    await sh.purge();
+    webR = w;
+    engine('R is ready.');
+    return w;
+  })().catch(e => {
+    booting = null;                 // let a later click retry
+    engine('Could not start R: ' + (e && e.message ? e.message : e), true);
+    throw e;
+  });
+  return booting;
+}
+
+// Run code in the shared session and return its printed output.
+async function runR(code) {
+  const w = await boot();
+  const sh = await new w.Shelter();
+  try {
+    const res = await sh.captureR(code, {
+      withAutoprint: true, captureStreams: true, captureConditions: false
+    });
+    return { out: res.output.map(o => o.data).join('\n') };
+  } catch (e) {
+    return { out: String((e && e.message) || e), err: true };
+  } finally {
+    await sh.purge();
+  }
+}
+
+// A check is an R expression that must evaluate to TRUE. Printed rather than
+// returned so this relies only on captureR, which keeps it robust across webR
+// versions.
+async function checkR(expr) {
+  const r = await runR(`cat(isTRUE(tryCatch({${expr}}, error = function(e) FALSE)))`);
+  return !r.err && r.out.trim().endsWith('TRUE');
+}
+
+// --- progress bar -----------------------------------------------------------
+const all = () => Array.from(document.querySelectorAll('.rx'));
+
+// `firstPaint` suppresses the width transition on initial load: restored
+// progress should simply be there, not animate in. It also means the bar shows
+// the right width even where transitions are paused, as in a hidden tab.
+function refresh(firstPaint) {
+  const items = all();
+  const done = items.filter(el => state[el.dataset.id]).length;
+  const pct  = items.length ? (done / items.length) * 100 : 0;
+  const fill  = document.querySelector('.rx-fill');
+  const count = document.querySelector('.rx-count');
+  if (fill) {
+    if (firstPaint) {
+      fill.style.transition = 'none';
+      fill.style.width = pct + '%';
+      void fill.offsetWidth;               // flush, then let transitions resume
+      fill.style.transition = '';
+    } else {
+      fill.style.width = pct + '%';
+    }
+  }
+  if (count) count.textContent = `${done} of ${items.length} complete`;
+  items.forEach(el => el.classList.toggle('rx-done', !!state[el.dataset.id]));
+
+  const cert = document.querySelector('.rx-cert');
+  if (cert) {
+    const finished = items.length > 0 && done === items.length;
+    cert.dataset.state = finished ? 'done' : 'locked';
+    const lock = cert.querySelector('.rx-cert-lock');
+    if (lock && !finished) {
+      lock.textContent = `Finish all ${items.length} exercises to unlock your completion record. ${done} done so far.`;
+    }
+    if (finished) {
+      const d = cert.querySelector('.rx-cert-date');
+      if (d && !d.textContent) {
+        state._date = state._date || new Date().toLocaleDateString(undefined,
+          { year: 'numeric', month: 'long', day: 'numeric' });
+        store.write(state);
+        d.textContent = state._date;
+      }
+    }
+  }
+}
+
+// --- wire up each exercise --------------------------------------------------
+function wire(el) {
+  const code   = el.querySelector('.rx-code');
+  const out    = el.querySelector('.rx-out');
+  const status = el.querySelector('.rx-status');
+  const runBtn = el.querySelector('.rx-run');
+  const chkBtn = el.querySelector('.rx-check');
+  const hintBtn= el.querySelector('.rx-hint-btn');
+  const hint   = el.querySelector('.rx-hint');
+  const id     = el.dataset.id;
+
+  // Restore a passing answer so returning to the page keeps your work.
+  if (state[id] && state[id].code) code.value = state[id].code;
+
+  const show = (text, isErr) => {
+    out.hidden = false;
+    out.textContent = text || '(no output)';
+    out.classList.toggle('err', !!isErr);
+  };
+
+  const busy = (on, label) => {
+    [runBtn, chkBtn].forEach(b => b.disabled = on);
+    if (on) status.textContent = label, status.className = 'rx-status';
+  };
+
+  runBtn.addEventListener('click', async () => {
+    busy(true, 'Running…');
+    try {
+      const r = await runR(code.value);
+      show(r.out, r.err);
+      status.textContent = r.err ? 'That raised an error — read it and adjust.' : '';
+      status.className = 'rx-status' + (r.err ? ' bad' : '');
+    } finally { busy(false); }
+  });
+
+  chkBtn.addEventListener('click', async () => {
+    busy(true, 'Checking…');
+    try {
+      const r = await runR(code.value);           // user's code defines things
+      show(r.out, r.err);
+      const pass = !r.err && await checkR(el.dataset.check);
+      if (pass) {
+        state[id] = { code: code.value };
+        store.write(state);
+        status.textContent = '✓ Correct';
+        status.className = 'rx-status ok';
+      } else {
+        status.textContent = r.err ? 'Fix the error above, then check again.'
+                                   : 'Not quite — try again.';
+        status.className = 'rx-status bad';
+      }
+      refresh();
+    } finally { busy(false); }
+  });
+
+  if (hintBtn && hint) {
+    hintBtn.addEventListener('click', () => {
+      const open = !hint.hidden;
+      hint.hidden = open;
+      hintBtn.textContent = open ? 'Show hint' : 'Hide hint';
+    });
+  }
+}
+
+// --- certificate name -------------------------------------------------------
+function wireCert() {
+  const cert = document.querySelector('.rx-cert');
+  if (!cert) return;
+  const input = cert.querySelector('.rx-name');
+  const shown = cert.querySelector('.rx-cert-name');
+  if (!input || !shown) return;
+  const paint = () => { shown.textContent = input.value.trim() || ' '; };
+  input.value = state._name || '';
+  paint();
+  input.addEventListener('input', () => {
+    state._name = input.value;
+    store.write(state);
+    paint();
+  });
+  const reset = cert.querySelector('.rx-reset');
+  if (reset) reset.addEventListener('click', () => {
+    if (!confirm('Clear your saved progress for this tutorial?')) return;
+    state = {}; store.write(state);
+    document.querySelectorAll('.rx-status').forEach(s => { s.textContent=''; s.className='rx-status'; });
+    document.querySelectorAll('.rx-out').forEach(o => o.hidden = true);
+    input.value = ''; paint();
+    refresh();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  all().forEach(wire);
+  wireCert();
+  refresh(true);
+});
+</script>

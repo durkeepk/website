@@ -8,6 +8,7 @@ project:
     - background.qmd
     - research.qmd
     - cv.qmd
+    - r-intro.qmd
     - 404.qmd
   resources:
     - files/**
@@ -27,6 +28,8 @@ website:
         text: Research
       - href: /personality/
         text: "Open Access Personality Psychology Textbook"
+      - href: r-intro.qmd
+        text: "Intro to R"
   page-footer:
     center: "&copy; Patrick Durkee"
     border: false
@@ -37,8 +40,8 @@ format:
     # than cosmo, and theme-editorial.scss layers the monograph treatment on
     # top. Remove the two theme-editorial files to return to production.
     theme:
-      light: [litera, styles.scss, theme-editorial.scss]
-      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss]
+      light: [litera, styles.scss, theme-editorial.scss, r-intro.scss]
+      dark: [litera, styles.scss, dark.scss, theme-editorial.scss, theme-editorial-dark.scss, r-intro.scss]
     toc: false
     anchor-sections: false
     link-external-newwindow: true

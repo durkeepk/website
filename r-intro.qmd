@@ -1,0 +1,237 @@
+---
+title: "Intro to R"
+description-meta: "A short, hands-on introduction to R for students interested in joining the lab. Runs entirely in the browser."
+format:
+  html:
+    include-after-body: r-intro-script.html
+---
+
+Most of what we do in the lab runs on [R](https://www.r-project.org/). You don't need to know R before you join, but you do need to have seen it, so this page walks through the basics and asks you to write a little code yourself.
+
+Everything here runs in your browser. There's nothing to install and nothing to submit --- your progress saves on this device as you go, and the last section explains how to get R onto your own computer. Budget about twenty minutes.
+
+```{=html}
+<div class="rx-progress">
+  <div class="rx-progress-row">
+    <span class="rx-count">0 of 7 complete</span>
+    <span class="rx-track"><span class="rx-fill"></span></span>
+  </div>
+  <p class="rx-engine">R starts the first time you run something.</p>
+</div>
+```
+
+## 1. Running code
+
+R is a calculator that remembers things. You type an expression, R evaluates it, and prints the answer. Try running the code below --- it's already complete, so just press **Run**.
+
+```{=html}
+<div class="rx" data-id="warmup" data-check="TRUE">
+  <p class="rx-task">Press <strong>Run</strong>. The first run downloads R, so give it a moment.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">2 + 2</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+</div>
+```
+
+The part that makes R useful is storing results. The arrow `<-` assigns a value to a name, and from then on that name stands in for the value.
+
+```r
+x <- 10
+x * 3     # 30
+```
+
+Names are case sensitive, can't start with a number, and shouldn't contain spaces. `mean_age` works; `Mean Age` doesn't.
+
+```{=html}
+<div class="rx" data-id="ex1" data-check='exists("answer") &amp;&amp; answer == 42'>
+  <p class="rx-task">Replace the blank so that <code>answer</code> holds the number 42.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">answer &lt;- ____
+answer</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>The blank is just the number itself: <code>answer &lt;- 42</code>.</p></div>
+</div>
+```
+
+Most of the work in R happens through *functions*. A function has a name, and you give it input in parentheses. `sqrt(9)` returns 3, `round(3.14159, 2)` returns 3.14.
+
+```{=html}
+<div class="rx" data-id="ex2" data-check='exists("root") &amp;&amp; root == 8'>
+  <p class="rx-task">Use a function to take the square root of 64 and store it in <code>root</code>.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">root &lt;- ____(64)
+root</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>Square root is <code>sqrt</code>.</p></div>
+</div>
+```
+
+## 2. Vectors
+
+A single number isn't much use when you have 200 participants. R's basic container is the *vector*, which holds several values of the same type. You build one with `c()`, for "combine".
+
+```r
+ages <- c(19, 22, 20, 25)
+length(ages)   # 4
+```
+
+Functions like `mean()`, `sd()`, `min()` and `max()` take a whole vector and return one number. This is the part of R that makes it feel different from a spreadsheet: you describe what you want, not which cells to click.
+
+```{=html}
+<div class="rx" data-id="ex3" data-check='exists("scores") &amp;&amp; length(scores) == 4 &amp;&amp; mean(scores) == 7.5'>
+  <p class="rx-task">Build a vector called <code>scores</code> holding 7, 9, 4 and 10, then take its mean.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">scores &lt;- ____(7, 9, 4, 10)
+mean(scores)</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>The combine function is <code>c</code>, so the line starts <code>scores &lt;- c(</code>.</p></div>
+</div>
+```
+
+## 3. Data frames
+
+Real data has several variables at once, so vectors get stacked side by side into a *data frame*: rows are participants, columns are variables. This is what a dataset looks like in R.
+
+You pull out one column with a dollar sign. If `participants` is the data frame and `age` is a column, then `participants$age` is the vector of ages, and you can hand that straight to `mean()`.
+
+```{=html}
+<div class="rx" data-id="ex4" data-check='exists("mean_age") &amp;&amp; mean_age == 21.5'>
+  <p class="rx-task">Fill in the column name so <code>mean_age</code> is the average age.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="7" spellcheck="false">participants &lt;- data.frame(
+  id = 1:4,
+  age = c(19, 22, 20, 25),
+  condition = c("control", "treatment", "control", "treatment")
+)
+
+mean_age &lt;- mean(participants$____)
+mean_age</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>You want the <code>age</code> column, so <code>participants$age</code>.</p></div>
+</div>
+```
+
+Useful first moves with any new data frame: `nrow()` for the number of rows, `names()` for the column names, `head()` for the first few rows, and `summary()` for a quick description of every column.
+
+## 4. Folders and file paths
+
+This is where people usually get stuck, and it has nothing to do with statistics.
+
+R is always sitting in some folder, called the *working directory*. When you ask it to open a file, it looks starting from there. `getwd()` tells you where you are.
+
+An *absolute* path spells out the location from the root of your computer, like `/Users/you/Documents/lab-study/data/responses.csv`. It works on your machine and nobody else's. A *relative* path starts from the working directory instead --- `data/responses.csv` --- and keeps working when you send the folder to me, which is why we use relative paths for everything.
+
+So we keep each study in one self-contained folder:
+
+```{=html}
+<div class="rx-tree">lab-study/
+├── lab-study.Rproj      the project file; opening it sets the working directory
+├── data/
+│   └── responses.csv    raw data, never edited by hand
+├── scripts/
+│   └── analysis.R       the code
+└── output/
+    └── figure-1.png     things the code produces</div>
+```
+
+Open `lab-study.Rproj` and R's working directory becomes `lab-study/`, so `data/responses.csv` points at the right file on any computer. `file.path()` joins the pieces with the right separator, which is how you avoid the slash-versus-backslash problem between Mac and Windows.
+
+```{=html}
+<div class="rx" data-id="ex5" data-check='exists("path") &amp;&amp; path == "data/responses.csv"'>
+  <p class="rx-task">Fill in the folder name so <code>path</code> is <code>"data/responses.csv"</code>.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">path &lt;- file.path("____", "responses.csv")
+path</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>Look at the tree above: the file sits in the <code>data</code> folder.</p></div>
+</div>
+```
+
+## 5. Reading in data
+
+Once the path is right, reading a CSV is one line. `read.csv()` takes a path and hands back a data frame.
+
+There's a real file waiting at `data/responses.csv` in this browser session --- eight participants, with `id`, `age`, `condition` and `score` columns. Run the first two lines to look at it before you fill in the blank.
+
+```{=html}
+<div class="rx" data-id="ex6" data-check='exists("mean_score") &amp;&amp; round(mean_score, 2) == 15.5'>
+  <p class="rx-task">Read the file, then fill in the column name so <code>mean_score</code> is the average score.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="5" spellcheck="false">responses &lt;- read.csv("data/responses.csv")
+head(responses)
+
+mean_score &lt;- mean(responses$____)
+mean_score</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p><code>head()</code> prints the column names. The one you want is <code>score</code>.</p></div>
+</div>
+```
+
+If a `read.csv()` call fails, the problem is almost always the path rather than the file. Check `getwd()` first, then check the spelling.
+
+## 6. Getting R on your own computer
+
+The browser version is a teaching tool. For actual work you want both of these, installed in this order:
+
+1. **[R](https://cloud.r-project.org/)** --- the language itself.
+2. **[RStudio Desktop](https://posit.co/download/rstudio-desktop/)** --- the editor most people use to write R. Free, and it expects R to already be there.
+
+Then make a project rather than a loose script: in RStudio, **File → New Project → New Directory**, and lay it out like the tree in section 4.
+
+If you want to keep going before we talk, [R for Data Science](https://r4ds.hadley.nz/) is free online and is where I'd start.
+
+## Done?
+
+```{=html}
+<div class="rx-cert" data-state="locked">
+  <p class="rx-cert-lock">Finish all 7 steps to unlock your completion record.</p>
+  <div class="rx-cert-body">
+    <div class="rx-cert-mark">&#10003;</div>
+    <h3>Intro to R &mdash; completed</h3>
+    <div class="rx-cert-name">&nbsp;</div>
+    <p class="rx-cert-meta">Completed <span class="rx-cert-date"></span></p>
+    <p class="rx-cert-meta">Durkee Lab &middot; California State University, Fresno</p>
+    <p style="margin-top:1.2rem">
+      <input class="rx-name" type="text" placeholder="Type your name" aria-label="Your name">
+    </p>
+    <p class="rx-cert-meta">Print this page, or screenshot it, and bring it when we meet.</p>
+    <p style="margin-top:0.8rem">
+      <button class="rx-btn rx-secondary rx-reset" type="button">Clear my progress</button>
+    </p>
+  </div>
+</div>
+```
