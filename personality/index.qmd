@@ -40,4 +40,9 @@ as long as you give credit and indicate any changes. Commercial rights are
 reserved.
 
 Corrections and suggestions are welcome by
-[email](mailto:pdurkee@csufresno.edu).
+[email](mailto:pdurkee@csufresno.edu). Even better, you can suggest a change
+directly. Every chapter has an **Edit this page** link that opens the text on
+GitHub---fix a typo, reword a sentence, or add a study you think belongs, and
+GitHub will walk you through sending it to me. You will need a free GitHub
+account, but nothing else. If you would rather flag something than fix it,
+**Report an issue** on any chapter does that.

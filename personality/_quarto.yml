@@ -14,6 +14,15 @@ book:
   date: last-modified
   date-format: "MMMM YYYY"
   site-url: "https://www.pdurkee.com/personality/"
+  # Puts "Edit this page" and "Report an issue" on every chapter. The edit
+  # link opens GitHub's web editor, which forks the repo and opens a pull
+  # request for anyone without write access, so a reader can propose a
+  # rewording without cloning anything. repo-subdir is needed because the
+  # book sits in personality/ rather than at the repository root.
+  repo-url: "https://github.com/durkeepk/website"
+  repo-branch: master
+  repo-subdir: personality
+  repo-actions: [edit, issue]
   search: true
   reader-mode: true
   chapters:
