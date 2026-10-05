@@ -423,32 +423,3 @@ Upper Ninety Positive Youth Development Program, Austin TX
 
 Society for Personality and Social Psychology (SPSP) \newline
 Human Behavior and Evolution Society (HBES)
-
-\newpage
-
-# ACADEMIC REFERENCES
-
-\textbf{David Buss, Ph.D.} \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: dbuss@austin.utexas.edu
-
-\textbf{Cristine Legare, Ph.D.} \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: legare@austin.utexas.edu
-
-\textbf{Aaron Lukaszewski, Ph.D.} \newline
-Associate Professor of Psychology \newline
-California State University, Fullerton \newline
-Email: alukaszewski@fullerton.edu
-
-\textbf{Elizabeth Pillsworth, Ph.D.} \newline
-Professor of Anthropology \newline
-California State University, Fullerton \newline
-Email: epillsworth@fullerton.edu
-
-\textbf{Elliot Tucker-Drob, Ph.D.} \newline
-Professor of Psychology \newline
-The University of Texas at Austin \newline
-Email: tuckerdrob@utexas.edu
