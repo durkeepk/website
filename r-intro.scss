@@ -10,9 +10,18 @@
 // on the page that isn't from the editorial palette. The R intro is the only
 // page on the site that uses inline code at all, so this is effectively scoped
 // to it. `:not(pre) > code` leaves highlighted fenced blocks alone.
+// Quarto hardcodes a near-white chip for inline code in BOTH bundles:
+//   p code:not(.sourceCode) { background-color: #f8f9fa }
+// at specificity (0,1,2). Recolouring the text alone, at (0,0,2), lost that
+// fight and left light text on a white chip in dark mode. Matching Quarto's own
+// selectors themes the background too; this sheet is last in the theme list, so
+// equal specificity resolves in its favour.
+p code:not(.sourceCode),
+li code:not(.sourceCode),
+td code:not(.sourceCode),
 :not(pre) > code {
   color: $body-color;
-  background: rgba($ink-muted, 0.1);
+  background: rgba($ink-muted, 0.14);
   padding: 0.1em 0.32em;
   border-radius: 0;
   font-size: 0.88em;
