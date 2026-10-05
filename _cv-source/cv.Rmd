@@ -90,9 +90,13 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \textcolor{light-gray}{Peer Reviewed Articles}
 
-\pubitem{27.}{\faBarChart\\\textsuperscript{\faDatabase\faFileCodeO}}{Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … \textit{280 alphabetically-listed contributors including} \me, … Nosek, B. A., \& Errington, T. M. (2026). Investigating the replicability of the social and behavioral sciences. \textit{Nature.}}
+\pubitem{29.}{\faPencil}{Lewis, D. M. G., Lukaszewski, A. W., \me, Sell, A. N., Sznycer, D., Buss, D. M., Al-Shawaf, L., Dale, S. P. (2026). \href{https://doi.org/10.1016/j.evolhumbehav.2026.106981}{Applying an Adaptationist Framework to Personality Science: Jealousy as a Mechanistic Basis of Emotionality. \textit{Evolution and Human Behavior}.}}
 
-\pubitem{26.}{\faLightbulbO\faBarChart\faPencil\\\textsuperscript{\faCheckCircle\faDatabase\faFileCodeO}}{\me, Graves\textsuperscript{\textdagger}, P. A., Rodriguez\textsuperscript{\textdaggerdbl}, N. R. (2026). \href{https://doi.org/10.1016/j.evolhumbehav.2025.106790}{Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. \textit{Evolution and Human Behavior}.}}
+\pubitem{28.}{\faBarChart\\\textsuperscript{\faDatabase\faFileCodeO}}{Tyner, A. H., Abatayo, A. L., Daley, M., Field, S., Fox, N., Haber, N. A., Hahn, K. M., Kline Struhl, M., Mawhinney, B., Miske, O., Silverstein, P., Soderberg, C. K., Stankov, T., … \textit{280 alphabetically-listed contributors including} \me, … Nosek, B. A., \& Errington, T. M. (2026). Investigating the replicability of the social and behavioral sciences. \textit{Nature.}}
+
+\pubitem{27.}{\faPencil}{Rodriguez, N. N., Lukaszewski, A. W., \me{} (2026). \href{https://doi.org/10.1016/j.evolhumbehav.2025.106808}{Self-Assessment Biases and Motivations: An Error Management Approach. \textit{Evolution and Human Behavior}.}}
+
+\pubitem{26.}{\faLightbulbO\faBarChart\faPencil\\\textsuperscript{\faCheckCircle\faDatabase\faFileCodeO}}{\me, Graves\textsuperscript{\textdagger}, P. A., Rodriguez\textsuperscript{\textdaggerdbl}, N. N. (2026). \href{https://doi.org/10.1016/j.evolhumbehav.2025.106790}{Toward a Mechanistic Account of Personality: A Case Study of Competitor Derogation Accuracy and the Dark Triad. \textit{Evolution and Human Behavior}.}}
 
 \pubitem{25.}{\faLightbulbO\faPencil}{Costello, W., Sedlacek, A. G. B., \me, Crosby, C. L., Hahnel-Peeters, R. K., \& Buss, D. M. (2026). Beyond Falsifiability: Evolutionary Psychology’s Many Theoretical Strengths. \textit{American Psychologist}. [Response to commentaries]}
 
@@ -146,6 +150,8 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 
 \textcolor{light-gray}{Edited Volume Contributions}
 
+\pubitem{3.}{\faPencil}{von Rueden, C., \me, Garfield, Z. H. (in press). \href{https://osf.io/t8dx6}{The Psychological Foundations and Socioecological Variability of Human Social Status. In \textit{The Oxford Handbook of Evolutionary Psychology} (ed. G. Geher). Oxford University Press.}}
+
 \pubitem{2.}{\faLightbulbO\faPencil}{\me{} (2024). \href{https://osf.io/hukwr}{Emotions and Status Hierarchies. In \textit{The Oxford Handbook of Evolution and the Emotions} (eds. L. Al-Shawaf \& T. K. Shackleford). Oxford University Press.}}
 
 \pubitem{1.}{\faLightbulbO\faPencil}{\me{}, Lukaszewski, A. L. (2023). Pride and the Psychology of Prestige. In \textit{The SAGE Encyclopedia of Leadership Studies} (eds. G. R. Goethals, S. T. Allison, G. J. Sorenson). SAGE Publications.}
@@ -159,6 +165,8 @@ B.A., Psychology, \textit{California State University, Fullerton} \hfill \textco
 \pubitem{1.}{\faLightbulbO\faBarChart\faPencil\\\textsuperscript{\faFileCodeO}}{\me{}, Lukaszewski, A. L., Buss, D. M. (2021, April). \href{https://psyarxiv.com/4gvt5/}{Status foundations: Further consideration of the role of ‘dominance’ and the relative importance of cost infliction and benefit generation. \textit{PsyArXiv}.}}
 
 \textcolor{light-gray}{Other Publications}
+
+\pubitem{2.}{}{\me{} (2026). \href{https://www.pdurkee.com/personality/}{\textit{Personality Psychology: An Open Access Textbook}.}}
 
 \pubitem{1.}{}{\me{} Instructor's Manual and Test Bank for \textit{Evolutionary Psychology: The New Science of The Mind}. Routledge, 2024.}
 
