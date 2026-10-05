@@ -6,7 +6,7 @@ I start with a chapter on frameworks I think are useful for orienting our questi
 
 From there we examine how evolutionary theory helps us understand personality ([Ch. 6](06-evolution-and-personality.qmd)), and what cutting-edge genetics ([Ch. 7](07-genetics-and-personality.qmd)) and neuroscience ([Ch. 8](08-physiology-and-personality.qmd)) research can tell us about it. We look at how personality relates to other psychological phenomena like emotions ([Ch. 9](09-emotions-and-personality.qmd)) and motivations ([Ch. 10](10-motivation-and-personality.qmd)), how personality develops ([Ch. 11](11-development-and-personality.qmd)), and the interplay between personality and culture ([Ch. 12](12-culture-and-personality.qmd)). Finally, we ask whether and how personality can be voluntarily changed ([Ch. 13](13-personality-change.qmd)).
 
-This is meant to be a living document. I plan to update it every so often as new research advances or changes our understanding of these topics. I hope you find it useful!
+This is meant to be a living document. I plan to update it every so often as new research advances or changes our understanding of these topics. Corrections and suggestions are welcome by [email](mailto:pdurkee@csufresno.edu), or you can suggest a change directly: every chapter has an **Edit this page** link that opens the text on GitHub, where you can fix a typo, reword something, or add a study you think belongs. It takes a free GitHub account and nothing else, and GitHub walks you through sending it to me. If you would rather flag something than fix it, **Report an issue** does that. I hope you find it useful!
 
 ::: {.start-reading}
 [Start reading →](01-foundational-frameworks.qmd){.btn-start}
@@ -38,11 +38,3 @@ Except where otherwise noted, this work is licensed under a
 You are free to read, share, and adapt this book for noncommercial purposes,
 as long as you give credit and indicate any changes. Commercial rights are
 reserved.
-
-Corrections and suggestions are welcome by
-[email](mailto:pdurkee@csufresno.edu). Even better, you can suggest a change
-directly. Every chapter has an **Edit this page** link that opens the text on
-GitHub---fix a typo, reword a sentence, or add a study you think belongs, and
-GitHub will walk you through sending it to me. You will need a free GitHub
-account, but nothing else. If you would rather flag something than fix it,
-**Report an issue** on any chapter does that.
