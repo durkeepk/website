@@ -154,15 +154,6 @@
   }
 }
 
-// Engine status line while the R runtime downloads.
-.rx-engine {
-  font-family: $font-family-sans-serif;
-  font-size: 0.82rem;
-  color: $ink-muted;
-  margin: 0.4rem 0 0 0;
-  &.err { color: #a4452f; }
-}
-
 // A file-tree illustration for the paths section.
 .rx-tree {
   font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;

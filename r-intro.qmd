@@ -6,17 +6,18 @@ format:
     include-after-body: r-intro-script.html
 ---
 
-Most of what we do in the lab runs on [R](https://www.r-project.org/). You don't need to know R before you join, but you do need to have seen it, so this page walks through the basics and asks you to write a little code yourself.
+This is a tutorial activity that will introduce you to the basics of R programming. It goes over running code and storing results, working with vectors, building and pulling pieces out of data frames, how folders and file paths work, and how to read a data file into R. It finishes with links for installing R on your own computer.
 
-Everything here runs in your browser. There's nothing to install and nothing to submit --- your progress saves on this device as you go, and the last section explains how to get R onto your own computer. Budget about twenty minutes.
+Each section has a short activity where you edit and run real code. Nothing to install --- it all runs here in your browser. Click **Run** to run whatever is in the box, and **Check** when you think you've got it right. If you get stuck, **Show hint** will point you in the right direction. Your progress saves on this device, so you can stop partway and come back.
+
+You should expect to spend around 10 minutes on this activity.
 
 ```{=html}
 <div class="rx-progress">
   <div class="rx-progress-row">
-    <span class="rx-count">0 of 7 complete</span>
+    <span class="rx-count">0 of 9 complete</span>
     <span class="rx-track"><span class="rx-fill"></span></span>
   </div>
-  <p class="rx-engine">R starts the first time you run something.</p>
 </div>
 ```
 
@@ -26,7 +27,7 @@ R is a calculator that remembers things. You type an expression, R evaluates it,
 
 ```{=html}
 <div class="rx" data-id="warmup" data-check="TRUE">
-  <p class="rx-task">Press <strong>Run</strong>. The first run downloads R, so give it a moment.</p>
+  <p class="rx-task">Press <strong>Run</strong>. The first one takes a few seconds to get going.</p>
   <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">2 + 2</textarea>
   <div class="rx-bar">
     <button class="rx-btn rx-run" type="button">Run</button>
@@ -135,6 +136,38 @@ mean_age</textarea>
 </div>
 ```
 
+### Pulling pieces out with brackets
+
+The dollar sign hands you a whole column. Square brackets let you ask for particular rows *and* particular columns, and the order inside the brackets is always rows first, then columns:
+
+```r
+participants[2, ]        # row 2, every column
+participants[, "age"]    # every row, just the age column
+participants[2, "age"]   # row 2 of the age column
+```
+
+Leaving a slot empty means "give me all of them". The comma does the work here, so `participants[2, ]` and `participants[, 2]` ask for completely different things --- the second row versus the second column.
+
+If you can remember **RC Cola**, you can remember the order: **R**ows, then **C**olumns.
+
+```{=html}
+<div class="rx" data-id="ex5" data-check='exists("third_age") &amp;&amp; third_age == 20'>
+  <p class="rx-task">Fill in the blank so <code>third_age</code> is the age of the third participant.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="4" spellcheck="false">participants &lt;- data.frame(id = 1:4, age = c(19, 22, 20, 25))
+
+third_age &lt;- participants[____, "age"]
+third_age</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>RC Cola: rows first. You want row 3, so <code>participants[3, "age"]</code>.</p></div>
+</div>
+```
+
 Useful first moves with any new data frame: `nrow()` for the number of rows, `names()` for the column names, `head()` for the first few rows, and `summary()` for a quick description of every column.
 
 ## 4. Folders and file paths
@@ -161,7 +194,7 @@ So we keep each study in one self-contained folder:
 Open `lab-study.Rproj` and R's working directory becomes `lab-study/`, so `data/responses.csv` points at the right file on any computer. `file.path()` joins the pieces with the right separator, which is how you avoid the slash-versus-backslash problem between Mac and Windows.
 
 ```{=html}
-<div class="rx" data-id="ex5" data-check='exists("path") &amp;&amp; path == "data/responses.csv"'>
+<div class="rx" data-id="ex6" data-check='exists("path") &amp;&amp; path == "data/responses.csv"'>
   <p class="rx-task">Fill in the folder name so <code>path</code> is <code>"data/responses.csv"</code>.</p>
   <textarea class="rx-code" aria-label="R code for this exercise" rows="2" spellcheck="false">path &lt;- file.path("____", "responses.csv")
 path</textarea>
@@ -180,16 +213,14 @@ path</textarea>
 
 Once the path is right, reading a CSV is one line. `read.csv()` takes a path and hands back a data frame.
 
-There's a real file waiting at `data/responses.csv` in this browser session --- eight participants, with `id`, `age`, `condition` and `score` columns. Run the first two lines to look at it before you fill in the blank.
+There's a real file waiting at `data/responses.csv` in this browser session: eight participants, with `id`, `age`, `condition` and `score` columns.
 
 ```{=html}
-<div class="rx" data-id="ex6" data-check='exists("mean_score") &amp;&amp; round(mean_score, 2) == 15.5'>
-  <p class="rx-task">Read the file, then fill in the column name so <code>mean_score</code> is the average score.</p>
-  <textarea class="rx-code" aria-label="R code for this exercise" rows="5" spellcheck="false">responses &lt;- read.csv("data/responses.csv")
-head(responses)
+<div class="rx" data-id="ex7" data-check='exists("responses") &amp;&amp; nrow(responses) == 8'>
+  <p class="rx-task">Read the file in, then look at the first few rows.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="3" spellcheck="false">responses &lt;- read.csv("data/responses.csv")
 
-mean_score &lt;- mean(responses$____)
-mean_score</textarea>
+head(responses)</textarea>
   <div class="rx-bar">
     <button class="rx-btn rx-run" type="button">Run</button>
     <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
@@ -197,7 +228,27 @@ mean_score</textarea>
     <span class="rx-status" role="status" aria-live="polite"></span>
   </div>
   <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
-  <div class="rx-hint" hidden><p><code>head()</code> prints the column names. The one you want is <code>score</code>.</p></div>
+  <div class="rx-hint" hidden><p>This one's already complete --- just press <strong>Run</strong>, then <strong>Check</strong>.</p></div>
+</div>
+```
+
+`head()` prints the column names along the top, which is usually how you find out what you're actually working with. Now pull one of those columns out and summarise it.
+
+```{=html}
+<div class="rx" data-id="ex8" data-check='exists("avg_age") &amp;&amp; round(avg_age, 2) == 21.75'>
+  <p class="rx-task">Fill in the column name so <code>avg_age</code> is the average age of the eight participants.</p>
+  <textarea class="rx-code" aria-label="R code for this exercise" rows="4" spellcheck="false">responses &lt;- read.csv("data/responses.csv")
+
+avg_age &lt;- mean(responses$____)
+avg_age</textarea>
+  <div class="rx-bar">
+    <button class="rx-btn rx-run" type="button">Run</button>
+    <button class="rx-btn rx-secondary rx-check" type="button">Check</button>
+    <button class="rx-btn rx-secondary rx-hint-btn" type="button">Show hint</button>
+    <span class="rx-status" role="status" aria-live="polite"></span>
+  </div>
+  <pre class="rx-out" role="status" aria-live="polite" hidden></pre>
+  <div class="rx-hint" hidden><p>Run the chunk above to see the column names. The one you want is <code>age</code>.</p></div>
 </div>
 ```
 
@@ -218,7 +269,7 @@ If you want to keep going before we talk, [R for Data Science](https://r4ds.hadl
 
 ```{=html}
 <div class="rx-cert" data-state="locked">
-  <p class="rx-cert-lock">Finish all 7 steps to unlock your completion record.</p>
+  <p class="rx-cert-lock">Finish all 9 steps to unlock your completion record.</p>
   <div class="rx-cert-body">
     <div class="rx-cert-mark">&#10003;</div>
     <h3>Intro to R &mdash; completed</h3>

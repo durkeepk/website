@@ -36,16 +36,10 @@ let state = store.read();
 
 // --- webR boot --------------------------------------------------------------
 let webR = null, booting = null;
-const engineEls = () => document.querySelectorAll('.rx-engine');
-
-function engine(msg, isErr) {
-  engineEls().forEach(el => { el.textContent = msg; el.classList.toggle('err', !!isErr); });
-}
 
 function boot() {
   if (booting) return booting;
   booting = (async () => {
-    engine('Starting R in your browser (about 30 MB, one time)…');
     const { WebR } = await import(WEBR_URL);
     const w = new WebR({ interactive: false });
     await w.init();
@@ -57,11 +51,9 @@ function boot() {
     await sh.captureR('setwd("/home/web_user")');
     await sh.purge();
     webR = w;
-    engine('R is ready.');
     return w;
   })().catch(e => {
     booting = null;                 // let a later click retry
-    engine('Could not start R: ' + (e && e.message ? e.message : e), true);
     throw e;
   });
   return booting;
@@ -69,7 +61,12 @@ function boot() {
 
 // Run code in the shared session and return its printed output.
 async function runR(code) {
-  const w = await boot();
+  let w;
+  try {
+    w = await boot();
+  } catch {
+    return { out: "Couldn't start R in this browser. Check your connection and try again.", err: true };
+  }
   const sh = await new w.Shelter();
   try {
     const res = await sh.captureR(code, {
@@ -160,9 +157,12 @@ function wire(el) {
     [runBtn, chkBtn].forEach(b => b.disabled = on);
     if (on) status.textContent = label, status.className = 'rx-status';
   };
+  // The first click has to fetch the R runtime, which is not instant. Say so in
+  // plain terms rather than naming the machinery.
+  const label = verb => webR ? verb : 'Getting set up\u2026 this takes a few seconds the first time';
 
   runBtn.addEventListener('click', async () => {
-    busy(true, 'Running…');
+    busy(true, label('Running\u2026'));
     try {
       const r = await runR(code.value);
       show(r.out, r.err);
@@ -172,7 +172,7 @@ function wire(el) {
   });
 
   chkBtn.addEventListener('click', async () => {
-    busy(true, 'Checking…');
+    busy(true, label('Checking\u2026'));
     try {
       const r = await runR(code.value);           // user's code defines things
       show(r.out, r.err);
