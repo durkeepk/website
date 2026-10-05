@@ -12,7 +12,6 @@ fontawesome: yes
 email: pdurkee@csufresno.edu
 web: pdurkee.com
 github: durkeepk
-twitter: durkeepk
 updated: yes
 
 keywords: RMarkdown, academic CV, template
@@ -422,12 +421,6 @@ Upper Ninety Positive Youth Development Program, Austin TX
 \textit{SAGE Open};
 \textit{Scandinavian Journal of Psychology}
 
-
-# TECHNICAL SKILLS
-
-\textbf{Statistical and Data Management Software:} R, Mplus, LIWC, Python, JASP, SPSS, EQS, CEFA, Excel, FlexMIRT, MATLAB
-
-\textbf{Stimulus Presentation Software:} formr, PsychoPy, Qualtrics
 
 # PROFESSIONAL AFFILIATIONS
 
