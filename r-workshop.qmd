@@ -3,7 +3,7 @@ title: "R Workshop Materials"
 description-meta: "Download the project folder for Patrick Durkee's R workshop, with setup instructions for students."
 ---
 
-Everything you need for the workshop is in one download. Get it before we start, and follow the three setup steps below --- the last one matters more than it looks.
+Everything for the workshop is in one download. We'll set it up together at the start of the session, so there's nothing you need to do in advance. The steps are written out below so you can find them again later, or redo the setup on another computer.
 
 ::: {.lab-apply}
 [Download the workshop folder (.zip)](files/r-workshop/r-workshop-1.zip){.btn-apply}
@@ -21,6 +21,8 @@ r-workshop-1/
 
 ## Setting it up
 
+We'll walk through this together, but here it is in writing.
+
 **1. Unzip it.** Double-click the download. On Windows, open the zip and choose *Extract All* --- if you skip this and work inside the zip preview, nothing will save properly.
 
 **2. Move the whole folder somewhere you'll find it again.** Not Downloads. Put `r-workshop-1` in your Documents folder, or wherever you keep coursework. We'll work out of this same folder for the rest of the workshop, and Downloads is the first place things get lost or auto-cleared.
@@ -33,14 +35,14 @@ The three items have to stay in the same folder, arranged the way they arrived. 
 
 You can move or rename the whole `r-workshop-1` folder freely --- that's the point of a project. Just move it as one piece.
 
-## Before you arrive
+## Installing R and RStudio
 
-You'll need both of these installed, in this order:
+If you don't already have them, you need both, in this order:
 
 1. **[R](https://cloud.r-project.org/)** --- the language itself.
 2. **[RStudio Desktop](https://posit.co/download/rstudio-desktop/)** --- the editor we'll use. It expects R to already be there.
 
-Then open RStudio and run this line in the Console to install the packages we'll use:
+The packages we use get installed by running this line in the RStudio Console:
 
 ```r
 install.packages("tidyverse")
@@ -54,4 +56,4 @@ It takes a few minutes and prints a lot of text. That's normal.
 - **`cannot open file 'data/workshop1_survey.csv'`** --- you almost certainly opened the `.qmd` directly instead of the `.Rproj`. Close RStudio, double-click `R-Workshop-1.Rproj`, and reopen the workbook from the Files pane.
 - **Nothing saves, or files keep disappearing** --- you're working inside the zip. Extract it properly and move the folder out of Downloads.
 
-Bring a laptop with all of this done. If you get stuck on setup, email me beforehand rather than spending the first half of the workshop on it.
+Just bring a laptop. We'll handle the rest in the session.
