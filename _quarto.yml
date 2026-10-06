@@ -27,7 +27,7 @@ website:
       - href: research.qmd
         text: Research
       - href: /personality/
-        text: "Open Access Personality Psychology Textbook"
+        text: "Personality Textbook"
       - href: r-workshop.qmd
         text: "R Workshop Materials"
   page-footer:

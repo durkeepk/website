@@ -34,7 +34,6 @@ Our project folder should look like this:
 r-workshop-1/
 ├── data/
 │   └── workshop1_survey.csv
-├── generate_workshop1_data.R
 ├── workshop1_student.qmd
 └── R-Workshop-1.Rproj
 ```
