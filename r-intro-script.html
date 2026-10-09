@@ -1,0 +1,380 @@
+<script type="module">
+// ---------------------------------------------------------------------------
+// Interactive R introduction.
+//
+// Real R runs in the browser via webR, a WebAssembly build of R. The runtime is
+// ~30 MB, so it is fetched lazily on the first Run or Check rather than on page
+// load, and every exercise shares one R session: variables defined in an early
+// exercise are still there later, which is how a real console behaves.
+// ---------------------------------------------------------------------------
+
+const WEBR_URL = 'https://webr.r-wasm.org/latest/webr.mjs';
+const STORE    = 'r-intro-progress-v1';
+
+// Seeded into webR's virtual filesystem so the reading-data section has a real
+// file to read. mean(score) is 15.5, which the last exercise checks.
+const CSV = `id,age,condition,score
+1,19,control,12
+2,22,treatment,18
+3,20,control,14
+4,25,treatment,20
+5,21,control,11
+6,23,treatment,19
+7,20,control,13
+8,24,treatment,17
+`;
+
+// ---------------------------------------------------------------------------
+// Syntax highlighting for the editable boxes.
+//
+// Emits Pandoc's own token classes (co, st, dv, ot, fu, kw, sc) inside a
+// <pre class="sourceCode r">, so the editors inherit Quarto's syntax stylesheet
+// verbatim -- including its light and dark variants, which Quarto swaps with
+// the rest of the theme. Nothing here hard-codes a colour.
+//
+// The highlighted <pre> sits underneath a transparent <textarea>: the textarea
+// keeps real editing, selection and caret behaviour, and only its text is
+// invisible. Both share identical font metrics and padding so the glyphs line up.
+// ---------------------------------------------------------------------------
+const R_KEYWORDS = /^(if|else|for|while|repeat|function|return|in|next|break|TRUE|FALSE|NULL|NA|NaN|Inf)$/;
+
+function esc(t) {
+  return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+const R_TOKENS = new RegExp([
+  '(#[^\\n]*)',                                        // 1 comment
+  '("(?:\\\\.|[^"\\\\])*"|\'(?:\\\\.|[^\'\\\\])*\')',  // 2 string (may span lines)
+  '(\\b\\d+(?:\\.\\d+)?\\b)',                          // 3 number
+  '(<<-|<-|->>|->)',                                   // 4 assignment
+  '(_{2,})',                                           // 5 the fill-in blank
+  '([A-Za-z.][A-Za-z0-9._]*)(?=\\s*\\()',              // 6 name before "(" -- call or keyword
+  '(`[^`]*`|[A-Za-z.][A-Za-z0-9._]*)',                 // 7 identifier, backticked name, keyword
+  '(%[A-Za-z0-9._]*%)',                                // 8 %in%, %%, %*%
+  '([+\\-*/^$@!&|<>~?:,;=\\[\\]{}()%]+)'               // 9 operator
+].join('|'), 'g');
+
+// Tokenise the whole source in one pass rather than line by line, so a string
+// that spans lines is seen as a single token.
+function tokenize(src) {
+  const toks = [];
+  let last = 0, m;
+  R_TOKENS.lastIndex = 0;
+  while ((m = R_TOKENS.exec(src)) !== null) {
+    if (m.index > last) toks.push({ t: src.slice(last, m.index), cls: null });
+    const t = m[0];
+    let cls = null;
+    if (m[1]) cls = 'co';
+    else if (m[2]) cls = 'st';
+    else if (m[3]) cls = 'dv';
+    else if (m[4]) cls = 'ot';
+    else if (m[5]) cls = 'rx-blank';
+    // `if (`, `for (` and `function (` are keywords that happen to be followed
+    // by a paren, so check the keyword list before calling it a function.
+    else if (m[6]) cls = R_KEYWORDS.test(t) ? 'kw' : 'fu';
+    else if (m[7]) cls = R_KEYWORDS.test(t) ? 'kw' : null;
+    else if (m[8]) cls = 'sc';
+    else if (m[9]) cls = 'sc';
+    toks.push({ t, cls });
+    last = m.index + t.length;
+  }
+  if (last < src.length) toks.push({ t: src.slice(last), cls: null });
+  return toks;
+}
+
+// A blank can sit inside a string, as in file.path("____", ...). R reads one
+// string token there; the student still needs to see a blank.
+function renderToken(k) {
+  if (k.cls === 'st' && /_{2,}/.test(k.t)) {
+    return '<span class="st">' +
+           esc(k.t).replace(/(_{2,})/g, '<span class="rx-blank">$1</span>') +
+           '</span>';
+  }
+  return k.cls ? '<span class="' + k.cls + '">' + esc(k.t) + '</span>' : esc(k.t);
+}
+
+// Quarto wraps every source line in its own <span>, which makes token spans
+// grandchildren of <code>. Its stylesheet relies on that: `pre > code.sourceCode
+// > span` sets the default colour and, at specificity (0,1,3), outranks
+// `code span.dv`. Emitting tokens as direct children of <code> therefore paints
+// everything one colour. A token carrying newlines is split across line spans.
+function highlight(src) {
+  const lines = [[]];
+  for (const k of tokenize(src)) {
+    const parts = k.t.split('\n');
+    parts.forEach((part, i) => {
+      if (i > 0) lines.push([]);
+      if (part) lines[lines.length - 1].push({ t: part, cls: k.cls });
+    });
+  }
+  return lines.map(toks => '<span>' + toks.map(renderToken).join('') + '</span>').join('\n');
+}
+
+// Wraps a plain textarea in the highlight overlay and keeps the two in sync.
+function makeEditor(ta) {
+  const wrap = document.createElement('div');
+  wrap.className = 'rx-editor';
+  const pre = document.createElement('pre');
+  pre.className = 'sourceCode r rx-hl';
+  pre.setAttribute('aria-hidden', 'true');
+  const code = document.createElement('code');
+  code.className = 'sourceCode r';
+  pre.appendChild(code);
+  ta.parentNode.insertBefore(wrap, ta);
+  wrap.appendChild(pre);
+  wrap.appendChild(ta);
+  ta.removeAttribute('rows');
+
+  // The trailing newline gives the final (possibly empty) line height, so the
+  // box does not clip the last row as you type.
+  const paint = () => { code.innerHTML = highlight(ta.value) + '\n'; };
+  ta.addEventListener('input', paint);
+  ta.addEventListener('scroll', () => { pre.scrollTop = ta.scrollTop; pre.scrollLeft = ta.scrollLeft; });
+  // Tab should indent rather than leave the editor.
+  ta.addEventListener('keydown', e => {
+    if (e.key !== 'Tab' || e.shiftKey) return;
+    e.preventDefault();
+    const a = ta.selectionStart, b = ta.selectionEnd;
+    ta.value = ta.value.slice(0, a) + '  ' + ta.value.slice(b);
+    ta.selectionStart = ta.selectionEnd = a + 2;
+    paint();
+  });
+  ta.__paint = paint;
+  paint();
+}
+
+// --- progress, persisted per browser ---------------------------------------
+const store = {
+  read() {
+    try { return JSON.parse(localStorage.getItem(STORE)) || {}; }
+    catch { return {}; }           // private mode, blocked storage, bad JSON
+  },
+  write(v) { try { localStorage.setItem(STORE, JSON.stringify(v)); } catch {} }
+};
+let state = store.read();
+
+// --- webR boot --------------------------------------------------------------
+let webR = null, booting = null;
+
+function boot() {
+  if (booting) return booting;
+  booting = (async () => {
+    const { WebR } = await import(WEBR_URL);
+    const w = new WebR({ interactive: false });
+    await w.init();
+    try {
+      await w.FS.mkdir('/home/web_user/data');
+    } catch { /* already there on a repeat boot */ }
+    await w.FS.writeFile('/home/web_user/data/responses.csv', new TextEncoder().encode(CSV));
+    const sh = await new w.Shelter();
+    await sh.captureR('setwd("/home/web_user")');
+    await sh.purge();
+    webR = w;
+    return w;
+  })().catch(e => {
+    booting = null;                 // let a later click retry
+    throw e;
+  });
+  return booting;
+}
+
+// Run code in the shared session and return its printed output.
+async function runR(code) {
+  let w;
+  try {
+    w = await boot();
+  } catch {
+    return { out: "Couldn't start R in this browser. Check your connection and try again.", err: true };
+  }
+  const sh = await new w.Shelter();
+  try {
+    const res = await sh.captureR(code, {
+      withAutoprint: true, captureStreams: true, captureConditions: false
+    });
+    return { out: res.output.map(o => o.data).join('\n') };
+  } catch (e) {
+    return { out: String((e && e.message) || e), err: true };
+  } finally {
+    await sh.purge();
+  }
+}
+
+// A check is an R expression that must evaluate to TRUE. Printed rather than
+// returned so this relies only on captureR, which keeps it robust across webR
+// versions.
+async function checkR(expr) {
+  const r = await runR(`cat(isTRUE(tryCatch({${expr}}, error = function(e) FALSE)))`);
+  return !r.err && r.out.trim().endsWith('TRUE');
+}
+
+// --- progress bar -----------------------------------------------------------
+const all = () => Array.from(document.querySelectorAll('.rx'));
+
+// `firstPaint` suppresses the width transition on initial load: restored
+// progress should simply be there, not animate in. It also means the bar shows
+// the right width even where transitions are paused, as in a hidden tab.
+function refresh(firstPaint) {
+  const items = all();
+  const done = items.filter(el => state[el.dataset.id]).length;
+  const pct  = items.length ? (done / items.length) * 100 : 0;
+  const fill  = document.querySelector('.rx-fill');
+  const count = document.querySelector('.rx-count');
+  if (fill) {
+    if (firstPaint) {
+      fill.style.transition = 'none';
+      fill.style.width = pct + '%';
+      void fill.offsetWidth;               // flush, then let transitions resume
+      fill.style.transition = '';
+    } else {
+      fill.style.width = pct + '%';
+    }
+  }
+  if (count) count.textContent = `${done} of ${items.length} complete`;
+  items.forEach(el => el.classList.toggle('rx-done', !!state[el.dataset.id]));
+
+  const cert = document.querySelector('.rx-cert');
+  if (cert) {
+    const finished = items.length > 0 && done === items.length;
+    cert.dataset.state = finished ? 'done' : 'locked';
+    const lock = cert.querySelector('.rx-cert-lock');
+    if (lock && !finished) {
+      lock.textContent = `Finish all ${items.length} exercises to unlock your completion record. ${done} done so far.`;
+    }
+    if (finished) {
+      const d = cert.querySelector('.rx-cert-date');
+      if (d && !d.textContent) {
+        state._date = state._date || new Date().toLocaleDateString(undefined,
+          { year: 'numeric', month: 'long', day: 'numeric' });
+        store.write(state);
+        d.textContent = state._date;
+      }
+    }
+  }
+}
+
+// --- wire up each exercise --------------------------------------------------
+function wire(el) {
+  const code   = el.querySelector('.rx-code');
+  const out    = el.querySelector('.rx-out');
+  const status = el.querySelector('.rx-status');
+  const runBtn = el.querySelector('.rx-run');
+  const chkBtn = el.querySelector('.rx-check');
+  const hintBtn= el.querySelector('.rx-hint-btn');
+  const hint   = el.querySelector('.rx-hint');
+  const id     = el.dataset.id;
+
+  // Restore a passing answer so returning to the page keeps your work.
+  if (state[id] && state[id].code) {
+    code.value = state[id].code;
+    if (code.__paint) code.__paint();
+  }
+
+  const show = (text, isErr) => {
+    out.hidden = false;
+    out.textContent = text || '(no output)';
+    out.classList.toggle('err', !!isErr);
+  };
+
+  const busy = (on, label) => {
+    [runBtn, chkBtn].forEach(b => b.disabled = on);
+    if (on) status.textContent = label, status.className = 'rx-status';
+  };
+  // The first click has to fetch the R runtime, which is not instant. Say so in
+  // plain terms rather than naming the machinery.
+  const label = verb => webR ? verb : 'Getting set up\u2026 this takes a few seconds the first time';
+
+  runBtn.addEventListener('click', async () => {
+    busy(true, label('Running\u2026'));
+    try {
+      const r = await runR(code.value);
+      show(r.out, r.err);
+      status.textContent = r.err ? 'That raised an error — read it and adjust.' : '';
+      status.className = 'rx-status' + (r.err ? ' bad' : '');
+    } finally { busy(false); }
+  });
+
+  chkBtn.addEventListener('click', async () => {
+    busy(true, label('Checking\u2026'));
+    try {
+      const r = await runR(code.value);           // user's code defines things
+      show(r.out, r.err);
+      const pass = !r.err && await checkR(el.dataset.check);
+      if (pass) {
+        state[id] = { code: code.value };
+        store.write(state);
+        status.textContent = '✓ Correct';
+        status.className = 'rx-status ok';
+      } else {
+        status.textContent = r.err ? 'Fix the error above, then check again.'
+                                   : 'Not quite — try again.';
+        status.className = 'rx-status bad';
+      }
+      refresh();
+    } finally { busy(false); }
+  });
+
+  if (hintBtn && hint) {
+    hintBtn.addEventListener('click', () => {
+      const open = !hint.hidden;
+      hint.hidden = open;
+      hintBtn.textContent = open ? 'Show hint' : 'Hide hint';
+    });
+  }
+}
+
+// Illustrative examples: runnable, but not graded and not counted in progress.
+function wireDemo(el) {
+  const code   = el.querySelector('.rx-code');
+  const out    = el.querySelector('.rx-out');
+  const status = el.querySelector('.rx-status');
+  const runBtn = el.querySelector('.rx-run');
+  runBtn.addEventListener('click', async () => {
+    runBtn.disabled = true;
+    status.textContent = webR ? 'Running\u2026'
+                              : 'Getting set up\u2026 this takes a few seconds the first time';
+    status.className = 'rx-status';
+    try {
+      const r = await runR(code.value);
+      out.hidden = false;
+      out.textContent = r.out || '(no output)';
+      out.classList.toggle('err', !!r.err);
+      status.textContent = '';
+    } finally { runBtn.disabled = false; }
+  });
+}
+
+// --- certificate name -------------------------------------------------------
+function wireCert() {
+  const cert = document.querySelector('.rx-cert');
+  if (!cert) return;
+  const input = cert.querySelector('.rx-name');
+  const shown = cert.querySelector('.rx-cert-name');
+  if (!input || !shown) return;
+  const paint = () => { shown.textContent = input.value.trim() || ' '; };
+  input.value = state._name || '';
+  paint();
+  input.addEventListener('input', () => {
+    state._name = input.value;
+    store.write(state);
+    paint();
+  });
+  const reset = cert.querySelector('.rx-reset');
+  if (reset) reset.addEventListener('click', () => {
+    if (!confirm('Clear your saved progress for this tutorial?')) return;
+    state = {}; store.write(state);
+    document.querySelectorAll('.rx-status').forEach(s => { s.textContent=''; s.className='rx-status'; });
+    document.querySelectorAll('.rx-out').forEach(o => o.hidden = true);
+    input.value = ''; paint();
+    refresh();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Editors first: wire() repaints restored code through the overlay.
+  document.querySelectorAll('.rx-code').forEach(makeEditor);
+  all().forEach(wire);
+  document.querySelectorAll('.rx-demo').forEach(wireDemo);
+  wireCert();
+  refresh(true);
+});
+</script>

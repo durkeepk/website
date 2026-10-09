@@ -1,0 +1,302 @@
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------------------
+// Interactive R introduction. Layered on the editorial theme, so colours come
+// from $accent / $ink-muted / $rule / $paper and resolve per bundle: the same
+// rules compile light in bootstrap.min.css and dark in bootstrap-dark.min.css.
+// ---------------------------------------------------------------------------
+
+.rx-progress {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: $body-bg;
+  border-bottom: 1px solid $rule;
+  padding: 0.7rem 0 0.6rem 0;
+  margin-bottom: 2rem;
+
+  .rx-progress-row { display: flex; align-items: center; gap: 0.75rem; }
+
+  // Both are spans, so they need blockifying: an inline box ignores width and
+  // height, which left the fill rendering 0px wide however full it was.
+  .rx-track {
+    display: block;
+    flex: 1;
+    height: 4px;
+    background: $rule;
+    overflow: hidden;
+  }
+  .rx-fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: $link-color;
+    transition: width 0.35s ease;
+  }
+  .rx-count {
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    color: $ink-muted;
+    white-space: nowrap;
+  }
+}
+
+// An exercise. Quiet by default; the left rule is the only standing ornament.
+.rx {
+  border-left: 2px solid $rule;
+  padding: 0.1rem 0 0.1rem 1.1rem;
+  margin: 1.6rem 0 2rem 0;
+  transition: border-color 0.25s ease;
+
+  &.rx-done { border-left-color: $link-color; }
+
+  .rx-task { margin: 0 0 0.7rem 0; }
+
+
+  .rx-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.55rem;
+    flex-wrap: wrap;
+  }
+
+  .rx-status {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: $ink-muted;
+    &.ok   { color: $link-color; font-weight: 600; }
+    &.bad  { color: #a4452f; }
+  }
+
+  .rx-out {
+    font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    background: rgba($ink-muted, 0.06);
+    border: 0;
+    border-left: 2px solid $rule;
+    padding: 0.6rem 0.8rem;
+    margin: 0.6rem 0 0 0;
+    color: $body-color;
+    &.err { border-left-color: #a4452f; }
+  }
+
+  .rx-hint {
+    font-size: 0.86rem;
+    color: $ink-muted;
+    margin: 0.5rem 0 0 0;
+    p { margin: 0; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Editable code with live syntax highlighting.
+//
+// A highlighted <pre> renders the colours; a transparent <textarea> sits exactly
+// on top and does the real editing, so selection, caret and undo all behave
+// natively. The two layers must agree on every metric that affects where a glyph
+// lands, hence the shared mixin -- any divergence shows up as drifting text.
+// ---------------------------------------------------------------------------
+@mixin rx-code-metrics {
+  font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  letter-spacing: 0;
+  tab-size: 2;
+  padding: 0.7rem 0.8rem;
+  margin: 0;
+  border: 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.rx-editor {
+  position: relative;
+  background: rgba($ink-muted, 0.06);
+  border: 1px solid $rule;
+  border-radius: 0;
+
+  &:focus-within {
+    border-color: $link-color;
+    box-shadow: inset 0 0 0 1px $link-color;
+  }
+
+  pre.rx-hl, textarea.rx-code {
+    @include rx-code-metrics;
+    display: block;
+    width: 100%;
+    background: none;
+  }
+
+  // Outrank Quarto's own pre.sourceCode rules without touching its colours:
+  // the token spans inside still inherit the syntax stylesheet.
+  pre.rx-hl {
+    color: $body-color;
+    pointer-events: none;
+    overflow: hidden;
+    min-height: calc(1.55em + 1.4rem);
+
+    code, code.sourceCode {
+      @include rx-code-metrics;
+      padding: 0;
+      display: block;
+      background: none;
+      color: inherit;
+    }
+  }
+
+  textarea.rx-code {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    color: transparent;
+    -webkit-text-fill-color: transparent;   // Safari ignores `color` here
+    caret-color: $body-color;
+    resize: none;
+    overflow: hidden;
+    &:focus { outline: none; }
+    &::selection { background: rgba($link-color, 0.28); }
+  }
+}
+
+// The fill-in blank. Deliberately not a token colour: it was previously the
+// theme accent, which sits close enough to the function indigo that typing a
+// function name into a blank looked like nothing had changed. A muted fill with
+// a dashed rule reads as an empty slot instead, and the moment you type, the
+// text takes whatever colour its token actually deserves.
+.rx-editor .rx-blank {
+  color: $ink-muted;
+  background: rgba($ink-muted, 0.2);
+  border-bottom: 2px dashed rgba($ink-muted, 0.8);
+  font-weight: 600;
+}
+
+// Runnable illustrative examples: same editor, no checking, not counted.
+.rx-demo {
+  margin: 1.2rem 0 1.6rem 0;
+  .rx-bar { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
+  .rx-status {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: $ink-muted;
+  }
+  .rx-out {
+    font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    background: rgba($ink-muted, 0.06);
+    border: 0;
+    border-left: 2px solid $rule;
+    padding: 0.6rem 0.8rem;
+    margin: 0.6rem 0 0 0;
+    color: $body-color;
+    &.err { border-left-color: #a4452f; }
+  }
+}
+
+// Buttons: the same restrained outlined control as .btn-apply on the research
+// page, so the page does not introduce a second button language.
+.rx-btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: $font-family-sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 0.32rem 0.8rem;
+  border: 1px solid $link-color;
+  border-radius: 0;
+  background: none;
+  color: $link-color;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover:not(:disabled), &:focus:not(:disabled) {
+    background: $link-color;
+    color: $body-bg;
+    text-decoration: none;
+  }
+  &:focus-visible { outline: 2px solid $link-color; outline-offset: 2px; }
+  &:disabled { opacity: 0.45; cursor: default; }
+
+  &.rx-secondary {
+    border-color: $rule;
+    color: $ink-muted;
+    &:hover, &:focus { background: none; color: $link-color; border-color: $link-color; }
+  }
+}
+
+// A file-tree illustration for the paths section.
+.rx-tree {
+  font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.84rem;
+  line-height: 1.7;
+  background: rgba($ink-muted, 0.06);
+  border-left: 2px solid $rule;
+  padding: 0.8rem 1rem;
+  margin: 1.1rem 0;
+  white-space: pre;
+  overflow-x: auto;
+  color: $body-color;
+}
+
+// Completion. Locked until every exercise passes.
+.rx-cert {
+  border: 1px solid $rule;
+  padding: 1.8rem 1.6rem;
+  margin: 1.5rem 0;
+  text-align: center;
+
+  &[data-state="locked"] .rx-cert-body { display: none; }
+  &[data-state="done"]   .rx-cert-lock { display: none; }
+
+  .rx-cert-lock { color: $ink-muted; font-size: 0.92rem; margin: 0; }
+
+  .rx-cert-mark {
+    font-size: 2.6rem;
+    line-height: 1;
+    color: $link-color;
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    font-family: $font-family-serif;
+    font-size: 1.25rem;
+    margin: 0 0 0.3rem 0;
+  }
+  .rx-cert-name {
+    font-family: $font-family-serif;
+    font-size: 1.5rem;
+    border-bottom: 1px solid $rule;
+    display: inline-block;
+    padding: 0 0.6rem 0.2rem 0.6rem;
+    margin: 0.6rem 0;
+    min-width: 14rem;
+  }
+  .rx-cert-meta { font-size: 0.85rem; color: $ink-muted; margin: 0.4rem 0 0 0; }
+
+  input.rx-name {
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid $rule;
+    border-radius: 0;
+    background: $body-bg;
+    color: $body-color;
+    max-width: 18rem;
+    &:focus { outline: 2px solid $link-color; outline-offset: -1px; }
+  }
+}
+
+@media print {
+  .rx-progress, .rx, .rx-btn, .navbar, .nav-footer { display: none !important; }
+  .rx-cert { border-color: #999; }
+}
+
+@media (max-width: 575.98px) {
+  .rx { padding-left: 0.8rem; }
+  .rx-btn { font-size: 0.8rem; }
+}

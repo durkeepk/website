@@ -1,0 +1,22 @@
+---
+title: "(R)esources"
+description-meta: "R materials from Patrick Durkee: an interactive introduction to R, and the files for the lab's R workshop."
+---
+
+Materials for learning R and for the workshops I run. Everything here is free and
+open to anyone.
+
+## [Intro to R](r-intro.qmd)
+
+A short, hands-on introduction to the basics: running code, vectors, data frames,
+how folders and file paths work, and reading a data file into R. Real R runs in
+your browser, so there is nothing to install, and each section has a small
+exercise you edit and run yourself. About ten minutes.
+
+Students interested in joining my lab should work through this first.
+
+## [R Workshop Materials](r-workshop.qmd)
+
+The project folder for the workshop, as a single download: the RStudio project,
+the student workbook, and the dataset. Setup instructions are on the page, and
+we go through them together at the start of the session.
