@@ -1,9 +1,13 @@
 ---
 title: "R Workshop Materials"
-description-meta: "Download the project folder for Patrick Durkee's R workshop, with setup instructions for students."
+description-meta: "Downloads and setup instructions for Patrick Durkee's R workshop series."
 ---
 
-Download everything you'll need for the workshop using the download button below. We'll set it up together at the start of the session; the steps are written out here so you can find them again later.
+Materials for each workshop in the series. We set everything up together at the start of each session; the steps are written out here so you can find them again later.
+
+## Workshop 1: From Files to a Reproducible Report
+
+Download everything you'll need using the button below.
 
 ::: {.lab-apply}
 [Download the workshop folder (.zip)](files/r-workshop/r-workshop-1.zip){.btn-apply}
@@ -19,7 +23,7 @@ r-workshop-1/
     └── workshop1_survey.csv    the dataset (250 responses)
 ```
 
-## Setting it up
+### Setting it up
 
 We'll walk through this together, but here it is in writing.
 
@@ -29,6 +33,31 @@ We'll walk through this together, but here it is in writing.
 
 **3. Open it by double-clicking `R-Workshop-1.Rproj`.** Not the `.qmd` file. Opening the `.Rproj` is what tells RStudio which folder is the project, and that's what makes `data/workshop1_survey.csv` work as a path. If you open the workbook on its own, the data won't load.
 
-## Keep the folder together
+### Keep the folder together
 
 The three items have to stay in the same folder, arranged the way they arrived. The workbook asks R to read `data/workshop1_survey.csv`, which means "starting from the project folder, look inside `data` for that file."
+
+## Workshop 2: Visualizing and Describing Data
+
+One file this time. It uses the same dataset as Workshop 1, so there's nothing else to download.
+
+::: {.lab-apply}
+[Download the Workshop 2 workbook (.qmd)](files/r-workshop/workshop2_student.qmd){.btn-apply download="workshop2_student.qmd"}
+:::
+
+Put it in the same `r-workshop-1` folder you set up for Workshop 1, right next to `workshop1_student.qmd`:
+
+``` text
+r-workshop-1/
+├── R-Workshop-1.Rproj
+├── workshop1_student.qmd
+├── workshop2_student.qmd       ← the new file
+└── data/
+    └── workshop1_survey.csv
+```
+
+Open `R-Workshop-1.Rproj` as before, then open `workshop2_student.qmd` from RStudio's **Files** pane. If you put the file anywhere else, it won't find the data.
+
+## Workshop 3
+
+Coming soon.

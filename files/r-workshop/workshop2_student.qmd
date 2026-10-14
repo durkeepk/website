@@ -1,0 +1,511 @@
+---
+title: "R Workshop 2: Visualizing and Describing Data"
+subtitle: "Student workbook"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## What you will be able to do
+
+By the end of today, you will be able to:
+
+- use the native R pipe `|>` to organize a series of computations;
+- identify categorical and numeric variables;
+- choose a graph that matches the variables you want to study;
+- create bar charts, histograms, scatterplots, and boxplots with `ggplot2`;
+- calculate counts, proportions, and numerical descriptive statistics;
+- calculate grouped summaries and a descriptive correlation; and
+- combine graphs, statistics, and prose in a reproducible Quarto document.
+
+
+Demonstration chunks in this workbook run when the document renders. Practice chunks contain `#| eval: false`, so an unfinished exercise will not prevent the document from rendering. You can run practice code interactively with the Run button while you work.
+
+## 1. Reopen the project and import the data
+
+Open `R-Workshop-1.Rproj`, then open this file from RStudio’s **Files** pane. Opening the project gives R a stable starting point for relative paths.
+
+Load the tidyverse packages:
+
+```{r}
+library(tidyverse)
+```
+
+Import the CSV with a project-relative path:
+
+```{r}
+dat <- read_csv("data/workshop1_survey.csv")
+```
+
+Confirm that the data frame exists and inspect its structure:
+
+```{r}
+glimpse(dat)
+nrow(dat)
+ncol(dat)
+```
+
+One row represents one synthetic undergraduate participant. One column represents one variable.
+
+### Counts and the pipe
+
+The native R pipe `|>` passes the result on its left into the operation on the next line.
+
+```{r}
+dat |>
+  count(relationship_status)
+```
+
+Read this from top to bottom: “Take `dat`, then count the observations in each relationship-status category.” The `NA` row represents participants whose relationship status is missing.
+
+To insert `|>` in RStudio, use **Windows: Ctrl+Shift+M** or **Mac: Shift+Command+M**.
+
+### Your turn: copy and change one variable
+
+Copy the preceding pipeline into this chunk and change `relationship_status` to `gender`.
+
+```{r}
+#| eval: false
+
+```
+
+### Your turn: fill in the blank
+
+Count each value of `leadership_interest`. This is a numeric scale, so notice how many distinct values appear.
+
+```{r}
+#| eval: false
+dat |>
+  count(_____)
+```
+
+## 2. Variables determine the graph
+
+A **categorical variable** places observations into categories. Examples include `gender` and `relationship_status`.
+
+A **numeric variable** records quantities for which arithmetic is meaningful. Examples include `age`, `height_cm`, `extraversion`, and `social_confidence`.
+
+| Variables in the question | Useful first graph |
+|---|---|
+| One categorical variable | Bar chart |
+| One numeric variable | Histogram |
+| Two numeric variables | Scatterplot |
+| One categorical and one numeric variable | Boxplot |
+
+This table is a starting point, not a rule for every analysis.
+
+### Your turn: identify variable types
+
+For each variable, write **categorical** or **numeric**.
+
+- `relationship_status`: **[Write here]**
+- `openness`: **[Write here]**
+- `gender`: **[Write here]**
+- `number_close_friends`: **[Write here]**
+
+Which graph would you begin with for each question?
+
+1. How are participants distributed across relationship-status categories? **[Write here]**
+2. What does the distribution of openness scores look like? **[Write here]**
+3. How are extraversion and social confidence related? **[Write here]**
+
+## 3. Visualizing categorical variables
+
+### A bar chart
+
+`ggplot()` begins the graph. Inside `aes()`, we state which variables play which visual roles. A **geom** determines what kind of marks the graph uses.
+
+```{r}
+ggplot(data = dat, aes(x = relationship_status)) +
+  geom_bar() +
+  labs(
+    title = "Relationship status in the synthetic sample",
+    x = "Relationship status",
+    y = "Number of participants"
+  ) +
+  theme_minimal()
+```
+
+Layers in a `ggplot` are joined with `+`. This is different from the pipe used to pass data through a sequence of operations.
+
+Before calculating anything, describe the graph:
+
+- Which category appears most common? **[Write here]**
+- Is any information missing? **[Write here]**
+- Approximately how many participants are in the smallest observed category? **[Write here]**
+
+### Your turn: copy, paste, and adapt
+
+Copy the bar-chart code and make a bar chart of `gender`. Add `coord_flip()` after `theme_minimal()` so the longer category labels are readable. Give the graph an accurate title and axis labels.
+
+```{r}
+#| eval: false
+
+```
+
+### Your turn: fill in the blanks
+
+Create another relationship-status bar chart.
+
+```{r}
+#| eval: false
+ggplot(data = dat, aes(x = _____)) +
+  geom_bar() +
+  labs(
+    title = "_____",
+    x = "_____",
+    y = "_____"
+  ) +
+  theme_minimal()
+```
+
+## 4. Visualizing a numeric variable
+
+### A histogram
+
+A histogram divides a numeric variable into intervals called **bins** and shows how many observations fall in each interval.
+
+```{r}
+ggplot(data = dat, aes(x = social_confidence)) +
+  geom_histogram(
+    binwidth = 0.5,
+    boundary = 1,
+    color = "white",
+    fill = "steelblue"
+  ) +
+  scale_x_continuous(breaks = 1:7) +
+  labs(
+    title = "Distribution of social confidence",
+    x = "Social confidence (1–7)",
+    y = "Number of participants"
+  ) +
+  theme_minimal()
+```
+
+Look at the histogram before calculating statistics.
+
+- Where is the approximate center of the distribution? **[Write here]**
+- Does the distribution appear roughly symmetric or noticeably skewed? **[Write here]**
+- What values describe its approximate range? **[Write here]**
+
+Some values are missing. The histogram uses the available observations.
+
+```{r}
+sum(is.na(dat$social_confidence))
+```
+
+### Your turn: change the variable
+
+Copy the histogram code and make a histogram of `openness`. Openness also uses a 1–7 scale, so most of the existing settings can remain unchanged.
+
+```{r}
+#| eval: false
+
+```
+
+### Your turn: explore bin width
+
+Copy the social-confidence histogram and change `binwidth` from `0.5` to `1`. How does the graph change? Neither graph invents different data; the bin width changes how much detail is displayed.
+
+```{r}
+#| eval: false
+
+```
+
+**What changed? [Write 1–2 sentences here.]**
+
+## 5. Visualizing relationships
+
+### Two numeric variables: a scatterplot
+
+Each point in a scatterplot represents one observation. Its horizontal and vertical positions show two numeric values for that observation.
+
+```{r}
+ggplot(data = dat, aes(x = extraversion, y = social_confidence)) +
+  geom_point(alpha = 0.6, color = "steelblue", na.rm = TRUE) +
+  labs(
+    title = "Extraversion and social confidence",
+    x = "Extraversion (1–7)",
+    y = "Social confidence (1–7)"
+  ) +
+  theme_minimal()
+```
+
+Describe the **direction**, **form**, and **strength** of the relationship. Also look for unusual observations.
+
+- Is the direction positive, negative, or neither? **[Write here]**
+- Does a straight-line pattern seem reasonable? **[Write here]**
+- Would you describe the relationship as weak, moderate, or strong? **[Write here]**
+
+This is a descriptive pattern. The graph does not show that one trait causes the other.
+
+### Your turn: transfer the pattern
+
+Create a scatterplot with `dominance` on the horizontal axis and `self_perceived_status` on the vertical axis.
+
+```{r}
+#| eval: false
+ggplot(data = dat, aes(x = _____, y = _____)) +
+  geom_point(alpha = 0.6, color = "darkorange", na.rm = TRUE) +
+  labs(
+    title = "_____",
+    x = "_____",
+    y = "_____"
+  ) +
+  theme_minimal()
+```
+
+### One categorical and one numeric variable: a boxplot
+
+A boxplot provides a compact view of the center, spread, and possible unusual values of a numeric variable within categories.
+
+```{r}
+ggplot(data = dat, aes(x = relationship_status, y = social_confidence)) +
+  geom_boxplot(na.rm = TRUE, fill = "skyblue") +
+  labs(
+    title = "Social confidence by relationship status",
+    x = "Relationship status",
+    y = "Social confidence (1–7)"
+  ) +
+  theme_minimal()
+```
+
+Use the graph to compare medians, spreads, and overlap. Do not treat a visible difference as proof of a population difference; inference belongs in Workshop 3.
+
+### Your turn: adapt the boxplot
+
+Copy the boxplot code and display `leadership_interest` by `relationship_status`.
+
+```{r}
+#| eval: false
+
+```
+
+## 6. Numerical descriptive statistics
+
+Graphs preserve features of a distribution that a few numbers cannot. Numerical statistics then give us precise summaries of selected features.
+
+### Center, spread, and sample size
+
+```{r}
+dat |>
+  summarize(
+    n = sum(!is.na(social_confidence)),
+    mean = mean(social_confidence, na.rm = TRUE),
+    median = median(social_confidence, na.rm = TRUE),
+    sd = sd(social_confidence, na.rm = TRUE),
+    iqr = IQR(social_confidence, na.rm = TRUE),
+    minimum = min(social_confidence, na.rm = TRUE),
+    maximum = max(social_confidence, na.rm = TRUE)
+  )
+```
+
+- The **mean** and **median** summarize center.
+- The **standard deviation (SD)** and **interquartile range (IQR)** summarize spread in different ways.
+- The minimum and maximum describe the observed range.
+- `n` records how many nonmissing observations contributed.
+
+The mean and SD are affected more by extreme values and skew than the median and IQR. Always look at the graph before choosing how to describe the distribution.
+
+### Your turn: summarize the graph you made
+
+Calculate the sample size, mean, median, SD, and IQR of `openness`.
+
+```{r}
+#| eval: false
+dat |>
+  summarize(
+    n = sum(!is.na(_____)),
+    mean = mean(_____, na.rm = TRUE),
+    median = median(_____, na.rm = TRUE),
+    sd = sd(_____, na.rm = TRUE),
+    iqr = IQR(_____, na.rm = TRUE)
+  )
+```
+
+Compare these numbers with the openness histogram. Do the mean and median agree with your visual estimate of the center? **[Write here]**
+
+### Counts and proportions
+
+For a categorical variable, counts and proportions usually make more sense than means and standard deviations.
+
+```{r}
+dat |>
+  count(relationship_status) |>
+  mutate(percent = 100 * n / sum(n))
+```
+
+The percentages include the missing category because the count includes all 250 rows.
+
+### Your turn: categorical summaries
+
+Copy the preceding pipeline and calculate counts and percentages for `gender`.
+
+```{r}
+#| eval: false
+
+```
+
+## 7. Grouped summaries and correlation
+
+### Summaries within categories
+
+`group_by()` tells R to calculate subsequent summaries separately for each category.
+
+```{r}
+dat |>
+  group_by(relationship_status) |>
+  summarize(
+    n = sum(!is.na(social_confidence)),
+    mean_social_confidence = mean(social_confidence, na.rm = TRUE),
+    median_social_confidence = median(social_confidence, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+The `NA` row describes participants whose relationship status is missing. Group sizes matter: summaries based on fewer observations are less stable.
+
+### Your turn: modify a grouped summary
+
+Calculate the sample size, mean, and median of `leadership_interest` within each relationship-status category.
+
+```{r}
+#| eval: false
+dat |>
+  group_by(_____) |>
+  summarize(
+    n = sum(!is.na(_____)),
+    mean_leadership = mean(_____, na.rm = TRUE),
+    median_leadership = median(_____, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+### A descriptive correlation
+
+A correlation summarizes the direction and strength of a linear relationship between two numeric variables. It ranges from −1 to +1.
+
+```{r}
+cor(
+  dat$extraversion,
+  dat$social_confidence,
+  use = "complete.obs"
+)
+```
+
+- A positive value describes a positive linear relationship.
+- A negative value describes a negative linear relationship.
+- A value near zero describes little linear relationship.
+
+Correlation does not establish causation, and a correlation can hide patterns that are visible in the scatterplot. Always use the graph and the correlation together.
+
+### Your turn: summarize a second scatterplot
+
+Calculate the correlation between `dominance` and `self_perceived_status`.
+
+```{r}
+#| eval: false
+cor(
+  dat$_____,
+  dat$_____,
+  use = "complete.obs"
+)
+```
+
+Does the correlation agree with the direction and strength you saw in the scatterplot? **[Write here]**
+
+## 8. Final activity: a visual and descriptive report
+
+Create a short report that combines graphs, numerical summaries, and prose. The practice chunks remain non-evaluating so unfinished code cannot break the distributed workbook. Run each chunk interactively while working.
+
+### A. Confirm the data
+
+Use `glimpse()` and report the number of rows and columns.
+
+```{r}
+#| eval: false
+# Write your inspection code here.
+```
+
+### B. Describe one numeric variable
+
+Choose one variable:
+
+- `openness`
+- `prestige`
+- `social_confidence`
+- `leadership_interest`
+
+Create a labeled histogram.
+
+```{r}
+#| eval: false
+# Write your histogram code here.
+```
+
+Calculate its nonmissing sample size, mean, median, SD, and IQR.
+
+```{r}
+#| eval: false
+# Write your summarize() pipeline here.
+```
+
+In 2–3 sentences, describe the distribution and connect the numerical summaries to what appears in the graph.
+
+**[Write here.]**
+
+### C. Describe one relationship
+
+Choose one pair:
+
+- `extraversion` and `social_confidence`
+- `dominance` and `self_perceived_status`
+- `height_cm` and `grip_strength_kg`
+
+Create a labeled scatterplot.
+
+```{r}
+#| eval: false
+# Write your scatterplot code here.
+```
+
+Calculate the descriptive correlation.
+
+```{r}
+#| eval: false
+# Write your cor() code here.
+```
+
+In 2–3 sentences, describe the direction, form, and strength of the relationship. State explicitly that the result is descriptive and does not demonstrate causation.
+
+**[Write here.]**
+
+### D. Describe one categorical variable
+
+Choose `gender` or `relationship_status`. Create a labeled bar chart, then calculate counts and percentages.
+
+```{r}
+#| eval: false
+# Write your bar-chart code here.
+```
+
+```{r}
+#| eval: false
+# Write your count-and-percentage pipeline here.
+```
+
+Write one sentence identifying the most common category and any missing values or very small categories that affect interpretation.
+
+**[Write here.]**
+
+### E. Render
+
+Save with **Windows: Ctrl+S** or **Mac: Command+S**. Render with the **Render** button or **Windows: Ctrl+Shift+K** / **Mac: Shift+Command+K**.
+
+Double click on`workshop2_student.html` that appears in the project folder to view if it doesn't pop up automatically.
+
